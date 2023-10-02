@@ -36,6 +36,9 @@ if (true) {
 
 console.log(score);
 
-const x = 100;
+// const x = 100;
+// x = 200;
 
-x = 200;
+const arr = [1, 2, 3, 4];
+
+arr = [1, 2, 3, 4, 5];
