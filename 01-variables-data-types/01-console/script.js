@@ -13,3 +13,7 @@ console.warn("Warning");
 console.groupEnd();
 
 console.table({ name: "Jordan", email: "itsjordanmuller@gmail.com" });
+
+const styles = "padding: 10px; background-color: white; color: green";
+
+console.log("%cStyled Console Text", styles);
