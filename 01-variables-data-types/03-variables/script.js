@@ -15,8 +15,7 @@
 let firstName = "Jordan";
 let lastName = "Muller";
 
-console.log(firstName, lastName, age);
-
 let age = 30;
 
+console.log(firstName, lastName, age);
 console.log(age);
