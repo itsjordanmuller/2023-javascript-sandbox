@@ -35,3 +35,7 @@ if (true) {
 }
 
 console.log(score);
+
+const x = 100;
+
+x = 200;
