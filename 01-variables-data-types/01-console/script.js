@@ -6,3 +6,6 @@ console.log(20, "Hello", true);
 
 const x = 500;
 console.log(x);
+
+console.error("Alert");
+console.warn("Warning");
