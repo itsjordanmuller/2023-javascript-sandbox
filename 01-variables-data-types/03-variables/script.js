@@ -41,4 +41,6 @@ console.log(score);
 
 const arr = [1, 2, 3, 4];
 
-arr = [1, 2, 3, 4, 5];
+arr.push(5);
+
+console.log(arr);
