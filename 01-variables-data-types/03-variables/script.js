@@ -19,3 +19,7 @@ let age = 30;
 
 console.log(firstName, lastName, age);
 console.log(age);
+
+// Re-assigning Variables
+age = 31;
+console.log(age);
