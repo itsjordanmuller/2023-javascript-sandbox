@@ -9,3 +9,5 @@ console.log(x);
 
 console.error("Alert");
 console.warn("Warning");
+
+console.table({ name: "Jordan", email: "itsjordanmuller@gmail.com" });
