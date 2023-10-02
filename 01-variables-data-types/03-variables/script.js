@@ -44,3 +44,12 @@ const arr = [1, 2, 3, 4];
 arr.push(5);
 
 console.log(arr);
+
+const person = {
+  name: "John",
+};
+
+person.name = "Jordan";
+person.email = "itsjordanmuller@gmail.com";
+
+console.log(person);
