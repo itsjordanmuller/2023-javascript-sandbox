@@ -11,3 +11,12 @@
 // FirstName     PascalCase
 // firstname     lowercase
 // FIRSTNAME     UPPERCASE
+
+let firstName = "Jordan";
+let lastName = "Muller";
+
+console.log(firstName, lastName, age);
+
+let age = 30;
+
+console.log(age);
