@@ -21,6 +21,14 @@ const id = Symbol("id");
 // BigInt
 const n = 9007199254740991n;
 
-const output = n;
+// Reference Types
+// Type: Object
+const numbers = [1, 2, 3, 4];
+
+const person = {
+  name: "Jordan",
+};
+
+const output = person;
 
 console.log(output, typeof output);
