@@ -53,3 +53,12 @@ person.name = "Jordan";
 person.email = "itsjordanmuller@gmail.com";
 
 console.log(person);
+
+// Declare Multiple Values at Once
+let a, b, c;
+
+const d = 10,
+  e = 20,
+  f = 30;
+
+console.log(a, b, c, d, e, f);
