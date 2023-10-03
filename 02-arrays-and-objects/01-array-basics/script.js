@@ -14,9 +14,13 @@ x = numbers.length;
 
 // Set Value at a Specific Index in an Array
 fruits[2] = "Strawberry";
-x = fruits;
 
 // Set Length to Cut Off Array
 // fruits.length = 2;
+
+// Ways to Append a Value to an Array at Index
+fruits[3] = "Peach";
+fruits[fruits.length] = "Blueberry";
+x = fruits;
 
 console.log(x);
