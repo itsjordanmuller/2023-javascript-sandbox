@@ -11,6 +11,10 @@ const hasKids = false;
 // Null (Type Shows as Object)
 const aptNumber = null;
 
-const output = aptNumber;
+// Undefined
+// let score;
+const score = undefined;
+
+const output = score;
 
 console.log(output, typeof output);
