@@ -8,6 +8,9 @@ const temp = 98.9;
 // Boolean
 const hasKids = false;
 
-const output = hasKids;
+// Null (Type Shows as Object)
+const aptNumber = null;
+
+const output = aptNumber;
 
 console.log(output, typeof output);
