@@ -1,12 +1,15 @@
-let amount = 100;
+let amount = "99.5";
 
-// Change String to Number
+// Convert String to Number
 // amount = parseInt(amount);
 // amount = +amount;
 // amount = Number(amount);
 
-// Change a Number to a String
+// Convert a Number to a String
 // amount = amount.toString();
 // amount = String(amount);
+
+// Convert a String to Decimal
+amount = parseFloat(amount);
 
 console.log(amount, typeof amount);
