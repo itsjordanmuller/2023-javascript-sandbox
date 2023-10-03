@@ -1,4 +1,4 @@
-let amount = "99.5";
+let amount = 1;
 
 // Convert String to Number
 // amount = parseInt(amount);
@@ -10,6 +10,9 @@ let amount = "99.5";
 // amount = String(amount);
 
 // Convert a String to Decimal
-amount = parseFloat(amount);
+// amount = parseFloat(amount);
+
+// Convert a Number to a Boolean
+amount = Boolean(amount);
 
 console.log(amount, typeof amount);
