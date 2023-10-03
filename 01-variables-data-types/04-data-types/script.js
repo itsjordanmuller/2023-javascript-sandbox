@@ -18,6 +18,9 @@ const score = undefined;
 // Symbol
 const id = Symbol("id");
 
-const output = id;
+// BigInt
+const n = 9007199254740991n;
+
+const output = n;
 
 console.log(output, typeof output);
