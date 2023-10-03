@@ -23,8 +23,16 @@ x = 1;
 // x = x - 1;
 x--;
 
-console.log(x);
-
 // 2. Assignment Operators
+x = 10;
+
+x += 5;
+x -= 5;
+x *= 5;
+x /= 5;
+x %= 5;
+x **= 5;
+
+console.log(x);
 
 // 3. Comparison Operators
