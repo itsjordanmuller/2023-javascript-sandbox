@@ -15,6 +15,9 @@ const aptNumber = null;
 // let score;
 const score = undefined;
 
-const output = score;
+// Symbol
+const id = Symbol("id");
+
+const output = id;
 
 console.log(output, typeof output);
