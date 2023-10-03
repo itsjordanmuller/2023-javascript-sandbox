@@ -29,6 +29,11 @@ const person = {
   name: "Jordan",
 };
 
-const output = person;
+// Type: Function
+function sayHello() {
+  console.log("Hello!");
+}
+
+const output = sayHello;
 
 console.log(output, typeof output);
