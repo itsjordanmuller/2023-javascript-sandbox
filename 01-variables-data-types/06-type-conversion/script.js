@@ -1,7 +1,7 @@
-let amount = 1;
+let amount = "Hello";
 
 // Convert String to Number
-// amount = parseInt(amount);
+amount = parseInt(amount);
 // amount = +amount;
 // amount = Number(amount);
 
@@ -13,6 +13,6 @@ let amount = 1;
 // amount = parseFloat(amount);
 
 // Convert a Number to a Boolean
-amount = Boolean(amount);
+// amount = Boolean(amount);
 
 console.log(amount, typeof amount);
