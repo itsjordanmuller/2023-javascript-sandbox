@@ -5,6 +5,9 @@ const firstName = "Jordan";
 const age = 23;
 const temp = 98.9;
 
-const output = temp;
+// Boolean
+const hasKids = false;
+
+const output = hasKids;
 
 console.log(output, typeof output);
