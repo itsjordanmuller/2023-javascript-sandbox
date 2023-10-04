@@ -42,6 +42,11 @@ person.greet = function () {
 // Call a Function from an Object
 person.greet();
 
-x = person;
+const person2 = {
+  "first name": "Jordan",
+  "last name": "Muller",
+};
+
+x = person2["first name"];
 
 console.log(x);
