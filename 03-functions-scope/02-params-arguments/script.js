@@ -15,3 +15,10 @@ console.log(registerUser("Jordan"));
 
 // Undefined Value When no Arguments are Passed
 console.log(registerUser());
+
+// Rest Parameters
+function sum(...numbers) {
+  return numbers;
+}
+
+console.log(sum(1, 2, 3, 4, 5));
