@@ -6,7 +6,12 @@ const person = {
 };
 
 // Log Entire Object
-console.log(person);
+// console.log(person);
 
 // Log Specific Property from an Object
-console.log(person.name);
+// console.log(person.name);
+
+x = person.age;
+x = person["age"];
+
+console.log(x);
