@@ -19,4 +19,12 @@ const person = {
 
 x = person.address.coords.lat;
 
+const obj1 = { a: 1, b: 2 };
+const obj2 = { c: 3, d: 4 };
+
+// Utilize Spread to Get Both Objects Out of Nested Structure
+const obj3 = { ...obj1, ...obj2 };
+
+x = obj3;
+
 console.log(x);
