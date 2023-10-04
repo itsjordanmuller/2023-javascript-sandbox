@@ -27,6 +27,13 @@ const obj3 = { ...obj1, ...obj2 };
 // Use Assign to Achieve the Same Result
 const obj4 = Object.assign({}, obj1, obj2);
 
-x = obj4;
+// Create an Array of Objects
+const todos = [
+  { id: 1, name: "Buy Milk" },
+  { id: 1, name: "Pickup Kids From School" },
+  { id: 1, name: "Take Out the Trash" },
+];
+
+x = todos[0].name;
 
 console.log(x);
