@@ -18,4 +18,7 @@ x = allFruits[1][2];
 // Concatenate the Values of an Array onto Another Array
 x = fruits.concat(berries);
 
+// Spread Operator (...)
+x = [...fruits, ...berries];
+
 console.log(x);
