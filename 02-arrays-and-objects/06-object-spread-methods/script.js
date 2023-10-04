@@ -36,4 +36,10 @@ const todos = [
 
 x = todos[0].name;
 
+// Get All Keys from an Object and Put Them Into an Array
+x = Object.keys(todo);
+
+// Get Length of the Properties of an Object
+x = Object.keys(todo).length;
+
 console.log(x);
