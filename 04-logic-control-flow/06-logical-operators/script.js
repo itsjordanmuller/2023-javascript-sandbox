@@ -32,3 +32,16 @@ b = 0 || 20;
 b = 0 || null || undefined;
 
 console.log(b);
+
+// ?? Returns the right side operand when the left is null or undefined - Known as a Nullish Coalescing Operator
+let c;
+
+// Returns Left Side Since Left Side is Not Null or Undefined
+c = 10 ?? 20;
+c = "" ?? 30;
+
+// Returns the Right Side Since Left is Null/Undefined
+c = null ?? 20;
+c = undefined ?? 30;
+
+console.log(c);
