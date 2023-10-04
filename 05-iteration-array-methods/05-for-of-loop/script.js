@@ -12,6 +12,22 @@ const users = [{ name: "Jordan" }, { name: "Kate" }, { name: "Steve" }];
 // }
 
 // Access a Specific Property in An Array
-for (const user of users) {
-  console.log(user.name);
+// for (const user of users) {
+//   console.log(user.name);
+// }
+
+// Loop Over Strings
+const str = "Hello World!";
+
+for (const letter of str) {
+  console.log(letter);
+}
+
+// Loop Over Maps
+const map = new Map();
+map.set("name", "Jordan");
+map.set("age", 23);
+
+for (const [key, value] of map) {
+  console.log(key, value);
 }
