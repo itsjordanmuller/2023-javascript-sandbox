@@ -29,3 +29,21 @@ function sum(...numbers) {
 }
 
 console.log(sum(1, 2, 3, 4, 5));
+
+// Objects as Parameters
+function loginUser(user) {
+  return `The user ${user.name} with the id of ${user.id} is logged in`;
+}
+
+const user = {
+  id: 1,
+  name: "Jordan",
+};
+
+console.log(loginUser(user));
+console.log(
+  loginUser({
+    id: 2,
+    name: "John",
+  })
+);
