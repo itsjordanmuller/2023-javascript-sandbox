@@ -34,4 +34,10 @@ const companies = [
 const retailCompanies = companies.filter(
   (company) => company.category === "Retail"
 );
-console.log(retailCompanies);
+console.log("Retail Companies: ", retailCompanies);
+
+// Get Only Companies Started in or After 1980 and Ended in or Before 2005
+const earlyCompanies = companies.filter(
+  (company) => company.start >= 1980 && company.end <= 2005
+);
+console.log("Early Companies: ", earlyCompanies);
