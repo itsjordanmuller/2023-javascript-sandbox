@@ -24,4 +24,12 @@ x = person.address.city;
 x = person["address"]["city"];
 x = person.hobbies[2];
 
+// Set a Value of a Property
+person.name = "Jordan Muller";
+person.isAdmin = false;
+
+delete person.address;
+
+x = person;
+
 console.log(x);
