@@ -21,4 +21,8 @@ x = fruits.concat(berries);
 // Spread Operator (...)
 x = [...fruits, ...berries];
 
+// Flatten Arrays
+const arr = [1, 2, [3, 4], 5, [6, 7], 8];
+x = arr.flat();
+
 console.log(x);
