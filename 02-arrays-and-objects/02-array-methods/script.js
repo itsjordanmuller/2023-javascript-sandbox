@@ -28,6 +28,9 @@ x = arr.slice(1);
 x = arr.slice(1, 4);
 
 // Splice an Array Starts at 1st, Goes for 2nd
-x = arr.splice(1, 4);
+// x = arr.splice(1, 4);
+
+// Use Multiple Methods, Building on One Another
+x = arr.splice(1, 4).reverse().toString().charAt(0);
 
 console.log(x);
