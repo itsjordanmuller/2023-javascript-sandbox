@@ -14,8 +14,7 @@ const person2 = {
   age,
 };
 
-// Destructuring
-
+// Destructuring Objects
 const todo = {
   id: 1,
   title: "Take Out the Trash",
@@ -31,4 +30,8 @@ const {
   user: { name },
 } = todo;
 
-console.log(todoId);
+// Destructuring Arrays
+const numbers = [23, 67, 33, 49];
+const [first, second, ...rest] = numbers;
+
+console.log(first, second, rest);
