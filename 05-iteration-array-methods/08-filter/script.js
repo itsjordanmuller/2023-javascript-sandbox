@@ -6,6 +6,14 @@ const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 // });
 
 // Shorter Version with Arrow Function & No Brackets
-const evenNumbers = numbers.filter((number) => number % 2 === 0);
+// const evenNumbers = numbers.filter((number) => number % 2 === 0);
+
+// Same But Much Longer with forEach
+const evenNumbers = [];
+numbers.forEach((number) => {
+  if (number % 2 === 0) {
+    evenNumbers.push(number);
+  }
+});
 
 console.log(evenNumbers);
