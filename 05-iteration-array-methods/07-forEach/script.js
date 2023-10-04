@@ -21,8 +21,19 @@ const socials = ["LinkedIn", "Facebook", "Instagram", "TikTok"];
 // );
 
 // Pass a Function into forEach
-function logSocials(social) {
-  console.log(social);
-}
+// function logSocials(social) {
+//   console.log(social);
+// }
 
-socials.forEach(logSocials);
+// socials.forEach(logSocials);
+
+// forEach Method Used on an Object
+const socialObjs = [
+  { name: "LinkedIn", url: "https://linkedin.com/" },
+  { name: "Facebook", url: "https://facebook.com/" },
+  { name: "Instagram", url: "https://instagram.com/" },
+  { name: "TikTok", url: "https://tiktok.com/" },
+];
+
+// Get a Specific Property from the Object Using Dot Notation
+socialObjs.forEach((social) => console.log(social.url));
