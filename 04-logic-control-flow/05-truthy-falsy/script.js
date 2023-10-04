@@ -31,3 +31,41 @@ if (email) {
 }
 
 console.log(Boolean(email));
+
+// Truthy and False Caveats
+const children = 0;
+
+// Evaluates as False, Since 0 is Falsy
+// if (children) {
+// Possible Workaround By Checking If Not Equal to Undefined
+// if (children !== undefined) {
+// Another Workaround For This Issue
+if (!isNaN(children)) {
+  console.log(`You have ${children} children`);
+} else {
+  console.log("Please enter a number of children");
+}
+
+// Checking for Empty Arrays
+const posts = [];
+
+// No Posts Is Never Shown Since Empty Array Isn't Falsy
+// if (posts) {
+// Workaround for Checking Empty Array
+if (posts.length > 0) {
+  console.log("List Posts");
+} else {
+  console.log("No Posts");
+}
+
+// Checking for Empty Objects
+const user = {};
+
+// Empty Object Always Evaluates as Truthy
+// if (user) {
+// Workaround for Checking Empty Objects
+if (Object.keys(user).length > 0) {
+  console.log("List User");
+} else {
+  console.log("No User");
+}
