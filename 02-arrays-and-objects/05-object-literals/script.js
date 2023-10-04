@@ -28,7 +28,11 @@ x = person.hobbies[2];
 person.name = "Jordan Muller";
 person.isAdmin = false;
 
+// Delete an Entire Property
 delete person.address;
+
+// Create a New Property and Set It's Value
+person.hasChildren = false;
 
 x = person;
 
