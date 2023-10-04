@@ -69,3 +69,13 @@ if (Object.keys(user).length > 0) {
 } else {
   console.log("No User");
 }
+
+// Loose Equality (==)
+console.log(false == 0);
+console.log("" == 0);
+console.log(null == undefined);
+
+// Equal To (Including Type) (===)
+console.log(false === 0);
+console.log("" === 0);
+console.log(null === undefined);
