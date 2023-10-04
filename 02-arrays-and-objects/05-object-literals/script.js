@@ -34,6 +34,14 @@ delete person.address;
 // Create a New Property and Set It's Value
 person.hasChildren = false;
 
+// Assign a Function to a Property in an Object
+person.greet = function () {
+  console.log(`Hello, my name is ${this.name}`);
+};
+
+// Call a Function from an Object
+person.greet();
+
 x = person;
 
 console.log(x);
