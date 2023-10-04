@@ -24,7 +24,9 @@ const obj2 = { c: 3, d: 4 };
 
 // Utilize Spread to Get Both Objects Out of Nested Structure
 const obj3 = { ...obj1, ...obj2 };
+// Use Assign to Achieve the Same Result
+const obj4 = Object.assign({}, obj1, obj2);
 
-x = obj3;
+x = obj4;
 
 console.log(x);
