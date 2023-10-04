@@ -16,9 +16,16 @@ console.log(registerUser("Jordan"));
 // Undefined Value When no Arguments are Passed
 console.log(registerUser());
 
-// Rest Parameters
+// Rest Parameters Create an Array
 function sum(...numbers) {
-  return numbers;
+  let total = 0;
+
+  // Loop to Sum all Numbers in an Array
+  for (const num of numbers) {
+    total += num;
+  }
+
+  return total;
 }
 
 console.log(sum(1, 2, 3, 4, 5));
