@@ -42,4 +42,14 @@ x = Object.keys(todo);
 // Get Length of the Properties of an Object
 x = Object.keys(todo).length;
 
+// Get All Values from an Object and Put Them Into an Array
+x = Object.values(todo);
+
+// Get an Array of the Key Value Pairs
+x = Object.entries(todo);
+
+// Check if an Object Has a Specific Property
+x = todo.hasOwnProperty("name");
+x = todo.hasOwnProperty("age");
+
 console.log(x);
