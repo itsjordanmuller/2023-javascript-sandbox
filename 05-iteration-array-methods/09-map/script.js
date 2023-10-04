@@ -47,3 +47,19 @@ const companyYears = companies.map((company) => {
   };
 });
 console.log(companyYears);
+
+// Chain map Methods
+const squareAndDouble = numbers
+  .map((number) => Math.sqrt(number))
+  .map((sqrt) => sqrt * 2);
+console.log(squareAndDouble);
+
+// Longer Version of Above
+const squareAndDouble2 = numbers
+  .map(function (number) {
+    return Math.sqrt(number);
+  })
+  .map(function (sqrt) {
+    return sqrt * 2;
+  });
+console.log(squareAndDouble2);
