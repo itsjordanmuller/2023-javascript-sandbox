@@ -12,4 +12,7 @@ arr.unshift(60);
 // Shift a Value Off the Front of an Array
 arr.shift(60);
 
+// Reverse the Order of the Array
+arr.reverse();
+
 console.log(arr);
