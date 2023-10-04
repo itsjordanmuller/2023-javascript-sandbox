@@ -1,6 +1,10 @@
+let x;
+
 const fruits = ["Apple", "Orange", "Peach"];
 const berries = ["Strawberry", "Blueberry", "Raspberry"];
 
 fruits.push(berries);
 
-console.log(fruits);
+x = fruits[3][1];
+
+console.log(x);
