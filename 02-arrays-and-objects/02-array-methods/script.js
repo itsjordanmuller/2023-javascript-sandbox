@@ -23,4 +23,11 @@ x = arr.includes(30);
 // Check the Index of a Value
 x = arr.indexOf(10);
 
+// Slice an Array from 1st to 2nd
+x = arr.slice(1);
+x = arr.slice(1, 4);
+
+// Splice an Array Starts at 1st, Goes for 2nd
+x = arr.splice(1, 4);
+
 console.log(x);
