@@ -7,5 +7,5 @@ const colorObj = {
 
 // Get Keys in Color Object using For In Loop
 for (const key in colorObj) {
-  console.log(key);
+  console.log(key, colorObj[key]);
 }
