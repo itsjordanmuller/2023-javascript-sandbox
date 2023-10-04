@@ -14,4 +14,21 @@ const person2 = {
   age,
 };
 
-console.log(person);
+// Destructuring
+
+const todo = {
+  id: 1,
+  title: "Take Out the Trash",
+  user: {
+    name: "Jordan",
+  },
+};
+
+// const id = todo.id;
+const {
+  id: todoId,
+  title,
+  user: { name },
+} = todo;
+
+console.log(todoId);
