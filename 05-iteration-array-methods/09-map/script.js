@@ -1,4 +1,4 @@
-const numbers = [1, 2, 3, 4, 5];
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
 // Loop Through Array with map
 const doubleNumbers = numbers.map((number) => number * 2);
@@ -28,6 +28,7 @@ const companies = [
 
 // Create an Array of Company Names
 const companyNames = companies.map((company) => company.name);
+
 console.log(companyNames);
 
 // Create an Array with Just Company & Category
@@ -37,6 +38,7 @@ const companyAndCategory = companies.map((company) => {
     category: company.category,
   };
 });
+
 console.log(companyAndCategory);
 
 // Create an Array of the Name & Length of Each Company in Years
@@ -46,12 +48,14 @@ const companyYears = companies.map((company) => {
     length: company.end - company.start,
   };
 });
+
 console.log(companyYears);
 
 // Chain map Methods
 const squareAndDouble = numbers
   .map((number) => Math.sqrt(number))
   .map((sqrt) => sqrt * 2);
+
 console.log(squareAndDouble);
 
 // Longer Version of Above
@@ -62,4 +66,12 @@ const squareAndDouble2 = numbers
   .map(function (sqrt) {
     return sqrt * 2;
   });
+
 console.log(squareAndDouble2);
+
+// Chaining Different Methods
+const evenDouble = numbers
+  .filter((number) => number % 2 === 0)
+  .map((evenNumber) => evenNumber * 2);
+
+console.log(evenDouble);
