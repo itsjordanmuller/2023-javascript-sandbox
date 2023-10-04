@@ -20,6 +20,9 @@ console.log(x, "in global");
 
 // Block Scope
 if (true) {
+  // Variable Shadowing
+  const x = 25;
   const z = 75;
   console.log(z, "in block");
+  console.log(z + x);
 }
