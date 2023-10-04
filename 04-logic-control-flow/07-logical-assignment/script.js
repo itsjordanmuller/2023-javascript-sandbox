@@ -30,3 +30,19 @@ b = b && 30;
 b &&= 30;
 
 console.log(b);
+
+// ??= Assigns the Right Side Value Only if the Left is null or Undefined
+
+let c = null;
+
+if (c === null || c === undefined) {
+  c = 20;
+}
+
+// Compact Using ??
+c = c ?? 30;
+
+// Even Smaller Using ??=
+b ??= 30;
+
+console.log(c);
