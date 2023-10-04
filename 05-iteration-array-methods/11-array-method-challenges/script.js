@@ -49,3 +49,11 @@ console.log(youngPeople);
 
 // Challenge 2
 const numbers = [2, -30, 50, 20, -12, -9, 7];
+
+const sumPositive = numbers
+  .filter((number) => number > 0)
+  .reduce(function (accumulator, currentValue) {
+    return accumulator + currentValue;
+  }, 0);
+
+console.log(sumPositive);
