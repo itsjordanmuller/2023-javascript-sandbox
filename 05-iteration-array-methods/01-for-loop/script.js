@@ -16,10 +16,21 @@
 // }
 
 // Nested Loops
-for (let i = 1; i <= 10; i++) {
-  console.log(`Number: ${i}`);
+// for (let i = 1; i <= 10; i++) {
+//   console.log(`Number: ${i}`);
 
-  for (let j = 1; j <= 5; j++) {
-    console.log(`${i} * ${j} = ${i * j}`);
+//   for (let j = 1; j <= 5; j++) {
+//     console.log(`${i} * ${j} = ${i * j}`);
+//   }
+// }
+
+// Looping Through an Array
+const names = ["Jordan", "John", "Jane", "Tim", "Tom"];
+
+for (let i = 0; i < names.length; i++) {
+  if (names[i] === "Jordan") {
+    console.log(`${names[i]} is the best!`);
+  } else {
+    console.log(names[i]);
   }
 }
