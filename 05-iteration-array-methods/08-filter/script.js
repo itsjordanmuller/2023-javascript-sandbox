@@ -41,3 +41,9 @@ const earlyCompanies = companies.filter(
   (company) => company.start >= 1980 && company.end <= 2005
 );
 console.log("Early Companies: ", earlyCompanies);
+
+// Get Only Companies That Lasted 10 Years or More
+const longCompanies = companies.filter(
+  (company) => company.end - company.start >= 10
+);
+console.log("Long Companies: ", longCompanies);
