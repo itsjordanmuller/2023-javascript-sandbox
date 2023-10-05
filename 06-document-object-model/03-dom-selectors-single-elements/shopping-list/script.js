@@ -43,3 +43,10 @@ console.log(document.querySelector("li:nth-child(2)").innerText);
 const secondItem = document.querySelector("li:nth-child(2)");
 secondItem.innerText = "Apple Juice";
 secondItem.style.color = "red";
+
+// Use these Methods on Other Elements
+const list = document.querySelector("ul");
+console.log(list);
+// Get's the First li inside of Our Current Location, ul
+const firstItem = list.querySelector("li");
+firstItem.style.color = "blue";
