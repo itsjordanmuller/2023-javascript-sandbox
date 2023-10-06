@@ -48,9 +48,12 @@ function createIcon(classes) {
 
 function removeItem(e) {
   if (e.target.parentElement.classList.contains("remove-item")) {
-    e.target.parentElement.parentElement.remove();
+    if (confirm("Are you sure you want to delete?")) {
+      e.target.parentElement.parentElement.remove();
+
+      checkUI();
+    }
   }
-  checkUI();
 }
 
 function clearItems() {
