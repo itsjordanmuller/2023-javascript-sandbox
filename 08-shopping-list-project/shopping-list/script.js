@@ -4,9 +4,10 @@ const itemList = document.getElementById("item-list");
 
 function addItem(e) {
   e.preventDefault();
+  const newItem = itemInput.value;
 
   // Validate Input
-  if (itemInput.value === "") {
+  if (newItem === "") {
     alert("Item Input is Empty! Please add an item!");
     return;
   }
