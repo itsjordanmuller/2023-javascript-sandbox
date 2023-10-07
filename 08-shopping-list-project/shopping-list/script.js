@@ -64,9 +64,17 @@ function clearItems() {
 }
 
 function filterItems(e) {
+  const items = itemList.querySelectorAll("li");
+
   const text = e.target.value.toLowerCase();
 
   console.log(text);
+
+  items.forEach((item) => {
+    const itemName = item.firstChild.textContent.toLowerCase();
+
+    console.log(itemName);
+  });
 }
 
 function checkUI() {
