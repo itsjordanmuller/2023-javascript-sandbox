@@ -20,6 +20,9 @@ function onAddItemSubmit(e) {
   // Add Item to DOM
   addItemToDOM(newItem);
 
+  // Add Item to Local Storage
+  addItemToStorage(newItem);
+
   // Check UI
   checkUI();
 
@@ -36,6 +39,21 @@ function addItemToDOM(item) {
 
   // Add li to the DOM
   itemList.appendChild(li);
+}
+
+function addItemToStorage(item) {
+  let itemsFromStorage;
+
+  if (localStorage.getItem("items") === null) {
+    itemsFromStorage = [];
+  } else {
+    itemsFromStorage = JSON.parse(localStorage.getItem("items"));
+  }
+
+  itemsFromStorage.push(item);
+
+  // Convert to JSON String and set to Local Storage
+  localStorage.setItem("items", JSON.stringify(itemsFromStorage));
 }
 
 function createButton(classes) {
