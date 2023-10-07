@@ -63,6 +63,12 @@ function clearItems() {
   checkUI();
 }
 
+function filterItems(e) {
+  const text = e.target.value.toLowerCase();
+
+  console.log(text);
+}
+
 function checkUI() {
   const items = itemList.querySelectorAll("li");
   if (items.length === 0) {
@@ -77,5 +83,6 @@ function checkUI() {
 itemForm.addEventListener("submit", addItem);
 itemList.addEventListener("click", removeItem);
 clearBtn.addEventListener("click", clearItems);
+itemFilter.addEventListener("input", filterItems);
 
 checkUI();
