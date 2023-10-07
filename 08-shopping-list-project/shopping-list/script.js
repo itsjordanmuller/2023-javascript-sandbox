@@ -62,7 +62,7 @@ function createIcon(classes) {
 }
 
 function addItemToStorage(item) {
-  const itemsFromStorage = getItemsFromStorage();
+  let itemsFromStorage = getItemsFromStorage();
 
   if (localStorage.getItem("items") === null) {
     itemsFromStorage = [];
@@ -97,8 +97,20 @@ function removeItem(item) {
     // Remove Item from DOM
     item.remove();
 
+    // Remove Item from Storage
+    removeItemFromStorage(item.textContent);
     checkUI();
   }
+}
+
+function removeItemFromStorage(item) {
+  let itemsFromStorage = getItemsFromStorage();
+
+  // Filter Out Item to Be Removed
+  itemsFromStorage = itemsFromStorage.filter((i) => i !== item);
+
+  // Re-set to Local Storage
+  localStorage.setItem("items", JSON.stringify(itemsFromStorage));
 }
 
 function clearItems() {
