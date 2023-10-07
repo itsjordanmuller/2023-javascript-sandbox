@@ -41,8 +41,22 @@ function addItemToDOM(item) {
   itemList.appendChild(li);
 }
 
+function createButton(classes) {
+  const button = document.createElement("button");
+  button.className = classes;
+  const icon = createIcon("fa-solid fa-xmark");
+  button.appendChild(icon);
+  return button;
+}
+
+function createIcon(classes) {
+  const icon = document.createElement("i");
+  icon.className = classes;
+  return icon;
+}
+
 function addItemToStorage(item) {
-  let itemsFromStorage;
+  const itemsFromStorage = getItemsFromStorage();
 
   if (localStorage.getItem("items") === null) {
     itemsFromStorage = [];
@@ -56,18 +70,14 @@ function addItemToStorage(item) {
   localStorage.setItem("items", JSON.stringify(itemsFromStorage));
 }
 
-function createButton(classes) {
-  const button = document.createElement("button");
-  button.className = classes;
-  const icon = createIcon("fa-solid fa-xmark");
-  button.appendChild(icon);
-  return button;
-}
+function getItemsFromStorage() {
+  if (localStorage.getItem("items") === null) {
+    itemsFromStorage = [];
+  } else {
+    itemsFromStorage = JSON.parse(localStorage.getItem("items"));
+  }
 
-function createIcon(classes) {
-  const icon = document.createElement("i");
-  icon.className = classes;
-  return icon;
+  return itemsFromStorage;
 }
 
 function removeItem(e) {
