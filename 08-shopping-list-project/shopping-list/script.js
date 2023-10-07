@@ -25,6 +25,16 @@ function onAddItemSubmit(e) {
   // Check to Ensure Filled Inputs are Detected
   // console.log("Success!");
 
+  // Check for Edit Mode
+  if (isEditMode) {
+    const itemToEdit = itemList.querySelector(".edit-mode");
+
+    removeItemFromStorage(itemToEdit.textContent);
+    itemToEdit.classList.remove("edit-mode");
+    itemToEdit.remove();
+    isEditMode = false;
+  }
+
   // Add Item to DOM
   addItemToDOM(newItem);
 
