@@ -4,8 +4,9 @@ const itemList = document.getElementById("item-list");
 const clearBtn = document.getElementById("clear");
 const itemFilter = document.getElementById("filter");
 
-function addItem(e) {
+function onAddItemSubmit(e) {
   e.preventDefault();
+
   const newItem = itemInput.value;
 
   // Validate Input
@@ -16,20 +17,25 @@ function addItem(e) {
   // Check to Ensure Filled Inputs are Detected
   // console.log("Success!");
 
+  // Add Item to DOM
+  addItemToDOM(newItem);
+
+  // Check UI
+  checkUI();
+
+  itemInput.value = "";
+}
+
+function addItemToDOM(item) {
   // Create List item
   const li = document.createElement("li");
-  li.appendChild(document.createTextNode(newItem));
+  li.appendChild(document.createTextNode(item));
 
   const button = createButton("remove-item btn-link text-red");
   li.appendChild(button);
 
   // Add li to the DOM
   itemList.appendChild(li);
-
-  // Check UI
-  checkUI();
-
-  itemInput.value = "";
 }
 
 function createButton(classes) {
@@ -94,7 +100,7 @@ function checkUI() {
   }
 }
 
-itemForm.addEventListener("submit", addItem);
+itemForm.addEventListener("submit", onAddItemSubmit);
 itemList.addEventListener("click", removeItem);
 clearBtn.addEventListener("click", clearItems);
 itemFilter.addEventListener("input", filterItems);
