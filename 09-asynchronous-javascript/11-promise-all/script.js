@@ -21,10 +21,12 @@ function getData(endpoint) {
 }
 
 const moviesPromise = getData("./movies.json");
-const actorsPromise = getData("./actors.json");
+const actorsPromise = getData("./actors1.json");
 const directorsPromise = getData("./directors.json");
 
 // Use Promise All to Request Data in an Array
-Promise.all([moviesPromise, actorsPromise, directorsPromise]).then((data) => {
-  console.log(data);
-});
+Promise.all([moviesPromise, actorsPromise, directorsPromise])
+  .then((data) => {
+    console.log(data);
+  })
+  .catch((error) => console.log(error));
