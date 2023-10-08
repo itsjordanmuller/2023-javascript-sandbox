@@ -31,4 +31,5 @@ getData("./movies.json")
   })
   .then((directors) => {
     console.log(directors);
-  });
+  })
+  .catch((error) => console.log(error));
