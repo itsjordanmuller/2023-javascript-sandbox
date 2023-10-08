@@ -3,9 +3,9 @@ const promise = new Promise((resolve, reject) => {
     let error = false;
 
     if (!error) {
-      resolve({ name: 'John', age: 30 });
+      resolve({ name: "John", age: 30 });
     } else {
-      reject('Error: Something went wrong');
+      reject("Error: Something went wrong");
     }
   }, 1000);
 });
@@ -13,5 +13,15 @@ const promise = new Promise((resolve, reject) => {
 promise
   .then((user) => {
     console.log(user);
+    // Return to Another Then
+    return user.name;
   })
-  .catch((error) => console.log(error))
+  // Get Returned Name and Log to Console
+  .then((name) => {
+    console.log(name);
+    return name.length;
+  })
+  .then((nameLength) => {
+    console.log(nameLength);
+  })
+  .catch((error) => console.log(error));
