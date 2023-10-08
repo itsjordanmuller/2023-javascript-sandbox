@@ -11,6 +11,12 @@ const posts = [
   { title: "Post 2", body: "This is post two" },
 ];
 
+function createPost(post) {
+  setTimeout(() => {
+    posts.push(post);
+  }, 3000);
+}
+
 function getPosts() {
   setTimeout(function () {
     posts.forEach((post) => {
@@ -20,5 +26,7 @@ function getPosts() {
     });
   }, 2000);
 }
+
+createPost({ title: "Post 3", body: "This is post two" });
 
 getPosts();
