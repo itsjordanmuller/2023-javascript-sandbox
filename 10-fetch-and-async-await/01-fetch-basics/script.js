@@ -14,6 +14,12 @@
 //   });
 
 // Shorter Way of Writing
+// Fetching a JSON File using .json()
 fetch("./movies.json")
   .then((response) => response.json())
+  .then((data) => console.log(data));
+
+// Fetching a Text File using .text()
+fetch("./test.txt")
+  .then((response) => response.text())
   .then((data) => console.log(data));
