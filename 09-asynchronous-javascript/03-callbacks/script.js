@@ -1,6 +1,24 @@
-function toggle(e) {
-  console.log('callback ran');
-  e.target.classList.toggle('danger');
+// Toggle a Class on Button Using Callback
+// function toggle(e) {
+//   console.log("callback ran");
+//   e.target.classList.toggle("danger");
+// }
+
+// document.querySelector("button").addEventListener("click", toggle);
+
+const posts = [
+  { title: "Post 1", body: "This is post one" },
+  { title: "Post 2", body: "This is post two" },
+];
+
+function getPosts() {
+  setTimeout(function () {
+    posts.forEach((post) => {
+      const div = document.createElement("div");
+      div.innerHTML = `<strong>${post.title}</strong> - ${post.body}`;
+      document.querySelector("#posts").appendChild(div);
+    });
+  }, 2000);
 }
 
-document.querySelector('button').addEventListener('click', toggle);
+getPosts();
