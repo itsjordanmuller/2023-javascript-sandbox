@@ -19,3 +19,16 @@ function getData(endpoint) {
     }, Math.floor(Math.random() * 3000) + 1000);
   });
 }
+
+getData("./movies.json")
+  .then((movies) => {
+    console.log(movies);
+    return getData("./actors.json");
+  })
+  .then((actors) => {
+    console.log(actors);
+    return getData("./directors.json");
+  })
+  .then((directors) => {
+    console.log(directors);
+  });
