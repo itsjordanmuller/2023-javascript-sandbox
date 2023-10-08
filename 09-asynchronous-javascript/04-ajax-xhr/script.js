@@ -2,7 +2,10 @@
 const xhr = new XMLHttpRequest();
 
 // Initializing the request. The 'GET' method is used to retrieve data from the JSON file
-xhr.open("GET", "./movies.json");
+// xhr.open("GET", "./movies.json");
+
+// Make an API Request
+xhr.open("GET", "https:api.github.com/users/itsjordanmuller/repos");
 
 // readyState has 5 Possible States
 // - 0: request not initialized
@@ -17,9 +20,9 @@ xhr.onreadystatechange = function () {
     // console.log(JSON.parse(this.responseText));
     const data = JSON.parse(this.responseText);
 
-    data.forEach((movie) => {
+    data.forEach((repo) => {
       const li = document.createElement("li");
-      li.innerHTML = `<strong>${movie.title}</strong> - ${movie.year}`;
+      li.innerHTML = `<strong>${repo.name}</strong> - ${repo.description}`;
       document.querySelector("#results").appendChild(li);
     });
   }
