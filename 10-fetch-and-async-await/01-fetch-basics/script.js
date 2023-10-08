@@ -16,6 +16,4 @@
 // Shorter Way of Writing
 fetch("./movies.json")
   .then((response) => response.json())
-  .then((data) => {
-    console.log(data);
-  });
+  .then((data) => console.log(data));
