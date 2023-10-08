@@ -6,7 +6,7 @@ const posts = [
 function createPost(post) {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
-      let error = true;
+      let error = false;
 
       if (!error) {
         posts.push(post);
