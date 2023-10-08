@@ -14,7 +14,7 @@ const promise = new Promise((resolve, reject) => {
 
 const getUser = new Promise((resolve, reject) => {
   setTimeout(() => {
-    let error = true;
+    let error = false;
 
     if (!error) {
       resolve({ name: "John", age: 30 });
@@ -25,7 +25,10 @@ const getUser = new Promise((resolve, reject) => {
   }, 1000);
 });
 
-getUser.then((user) => console.log(user)).catch((error) => console.log(error));
+getUser
+  .then((user) => console.log(user))
+  .catch((error) => console.log(error))
+  .finally(() => console.log("The promise has been resolved or rejected"));
 
 // Runs Before Rest, Due to Global Scope
 console.log("Hello from global scope!");
