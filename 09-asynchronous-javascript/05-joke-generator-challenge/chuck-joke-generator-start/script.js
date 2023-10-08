@@ -11,6 +11,8 @@ function getJoke() {
       // console.log(JSON.parse(this.responseText));
       const data = JSON.parse(this.responseText);
       jokeText.innerText = data.value;
+    } else {
+      jokeText.innerText = "Something went wrong... couldn't load a joke...";
     }
   };
 
