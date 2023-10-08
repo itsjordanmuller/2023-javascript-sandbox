@@ -23,3 +23,9 @@ fetch("./movies.json")
 fetch("./test.txt")
   .then((response) => response.text())
   .then((data) => console.log(data));
+
+// Fetching from an API
+fetch("https://api.github.com/users/itsjordanmuller")
+  // fetch("https://api.github.com/users/itsjordanmuller/repos")
+  .then((response) => response.json())
+  .then((data) => (document.querySelector("h1").textContent = data.login));
