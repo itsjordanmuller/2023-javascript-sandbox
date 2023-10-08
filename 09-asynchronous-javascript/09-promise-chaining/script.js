@@ -1,6 +1,6 @@
 const promise = new Promise((resolve, reject) => {
   setTimeout(() => {
-    let error = false;
+    let error = true;
 
     if (!error) {
       resolve({ name: "John", age: 30 });
@@ -24,4 +24,8 @@ promise
   .then((nameLength) => {
     console.log(nameLength);
   })
-  .catch((error) => console.log(error));
+  .catch((error) => {
+    console.log(error);
+    return 123;
+  })
+  .then((x) => console.log("This will log no matter what!", x));
