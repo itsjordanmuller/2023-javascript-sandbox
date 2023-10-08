@@ -11,9 +11,10 @@ const posts = [
   { title: "Post 2", body: "This is post two" },
 ];
 
-function createPost(post) {
+function createPost(post, cb) {
   setTimeout(() => {
     posts.push(post);
+    cb();
   }, 3000);
 }
 
@@ -27,6 +28,4 @@ function getPosts() {
   }, 2000);
 }
 
-createPost({ title: "Post 3", body: "This is post two" });
-
-getPosts();
+createPost({ title: "Post 3", body: "This is post two" }, getPosts);
