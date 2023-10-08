@@ -8,16 +8,24 @@ const promise = new Promise((resolve, reject) => {
 });
 
 // After Promise, Run This Code
-promise.then(() => {
-  console.log("Promise 1 consumed...");
+// promise.then(() => {
+//   console.log("Promise 1 consumed...");
+// });
+
+const getUser = new Promise((resolve, reject) => {
+  setTimeout(() => {
+    let error = true;
+
+    if (!error) {
+      resolve({ name: "John", age: 30 });
+    } else {
+      reject("Error. Something went wrong!");
+    }
+    // console.log("Async task 2 complete");
+  }, 1000);
 });
 
-new Promise((resolve, reject) => {
-  setTimeout(() => {
-    // console.log("Async task 2 complete");
-    resolve({ name: "John", age: 30 });
-  }, 1000);
-}).then((user) => console.log(user));
+getUser.then((user) => console.log(user)).catch((error) => console.log(error));
 
 // Runs Before Rest, Due to Global Scope
 console.log("Hello from global scope!");
