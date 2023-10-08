@@ -12,4 +12,8 @@ xhr.open("GET", "./movies.json");
 // - 4: request finished and response is ready
 
 // Function will be called whenever the state of the request changes.
-xhr.onreadystatechange = function () {};
+xhr.onreadystatechange = function () {
+  console.log(this.readyState);
+};
+
+xhr.send();
