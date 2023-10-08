@@ -6,8 +6,14 @@ const posts = [
 function createPost(post) {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
-      posts.push(post);
-      resolve();
+      let error = true;
+
+      if (!error) {
+        posts.push(post);
+        resolve();
+      } else {
+        reject("Something went wrong!");
+      }
     }, 2000);
   });
 }
@@ -22,4 +28,12 @@ function getPosts() {
   }, 1000);
 }
 
-createPost({ title: "Post Three", body: "This is post" }).then(getPosts);
+function showError(error) {
+  const h3 = document.createElement("h3");
+  h3.innerHTML = `<strong>${error}</strong>`;
+  document.getElementById("posts").appendChild(h3);
+}
+
+createPost({ title: "Post Three", body: "This is post" })
+  .then(getPosts)
+  .catch(showError);
