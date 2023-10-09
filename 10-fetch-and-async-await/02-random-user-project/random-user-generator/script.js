@@ -15,6 +15,14 @@ function fetchUser() {
       const { city, state } = location;
       const { age } = dob;
 
+      if (gender === "male") {
+        bodyEl.style.backgroundColor = "steelblue";
+      } else if (gender === "female") {
+        bodyEl.style.backgroundColor = "rebeccapurple";
+      } else {
+        bodyEl.style.backgroundColor = "gray-800";
+      }
+
       nameEl.innerHTML = `
         <span class="font-bold">Name: </span>${first} ${last}
       `;
