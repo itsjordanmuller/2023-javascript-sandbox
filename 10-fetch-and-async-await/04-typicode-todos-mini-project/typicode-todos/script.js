@@ -3,7 +3,7 @@ const list = document.getElementById("todo-list");
 const apiURL = "https://jsonplaceholder.typicode.com/todos";
 
 const getTodos = () => {
-  fetch(apiURL + "?_limit=5")
+  fetch(apiURL + "?_limit=10")
     .then((res) => res.json())
     .then((data) => {
       console.log(data);
@@ -13,6 +13,7 @@ const getTodos = () => {
 
 const addTodoToDOM = (todo) => {
   const todoItem = document.createElement("div");
+  todoItem.classList.add("todo");
   todoItem.innerText = todo.title;
   todoItem.setAttribute("data-id", todo.id);
 
@@ -43,9 +44,32 @@ const createTodo = (e) => {
     .then((data) => addTodoToDOM(data));
 };
 
+const toggleCompleted = (e) => {
+  //   console.log(e.target.contains("todo"));
+  if (e.target.classList.contains("todo")) {
+    e.target.classList.toggle("done");
+
+    updateTodo(e.target.dataset.id, e.target.classList.contains("done"));
+  }
+};
+
+const updateTodo = (id, completed) => {
+  // console.log(id, completed);
+  fetch(`${apiURL}/${id}`, {
+    method: "PUT",
+    body: JSON.stringify({ completed }),
+    headers: {
+      "Content-Type": "application/json",
+    },
+  })
+    .then((res) => res.json())
+    .then((data) => console.log(data));
+};
+
 const init = () => {
   document.addEventListener("DOMContentLoaded", getTodos);
   document.querySelector("#todo-form").addEventListener("submit", createTodo);
+  list.addEventListener("click", toggleCompleted);
 };
 
 init();
