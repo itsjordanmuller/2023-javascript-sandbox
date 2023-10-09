@@ -4,16 +4,19 @@ const emailEl = document.getElementById("email");
 const phoneEl = document.getElementById("phone");
 const locationEl = document.getElementById("location");
 const ageEl = document.getElementById("age");
+const img = document.getElementById("user-img");
 const bodyEl = document.body;
 
 function fetchUser() {
   fetch("https://randomuser.me/api/")
     .then((res) => res.json())
     .then((data) => {
-      const { name, email, phone, location, dob, gender } = data.results[0];
+      const { name, email, phone, location, dob, gender, picture } =
+        data.results[0];
       const { first, last } = name;
       const { city, state } = location;
       const { age } = dob;
+      const { large } = picture;
 
       if (gender === "male") {
         bodyEl.style.backgroundColor = "steelblue";
@@ -22,7 +25,9 @@ function fetchUser() {
       } else {
         bodyEl.style.backgroundColor = "gray-800";
       }
-
+      img.src = `
+        ${large}
+      `;
       nameEl.innerHTML = `
         <span class="font-bold">Name: </span>${first} ${last}
       `;
