@@ -16,15 +16,36 @@ const addTodoToDOM = (todo) => {
   todoItem.innerText = todo.title;
   todoItem.setAttribute("data-id", todo.id);
 
-  if (todo.completed == false) {
+  if (todo.completed == true) {
     todoItem.classList.add("done");
   }
 
   list.appendChild(todoItem);
 };
 
+const createTodo = (e) => {
+  e.preventDefault();
+  // console.log(e.target.firstElementChild.value);
+
+  const newTodo = {
+    title: e.target.firstElementChild.value,
+    completed: false,
+  };
+
+  fetch(apiURL, {
+    method: "POST",
+    body: JSON.stringify(newTodo),
+    headers: {
+      "Content-Type": "application/json",
+    },
+  })
+    .then((res) => res.json())
+    .then((data) => addTodoToDOM(data));
+};
+
 const init = () => {
   document.addEventListener("DOMContentLoaded", getTodos);
+  document.querySelector("#todo-form").addEventListener("submit", createTodo);
 };
 
 init();
