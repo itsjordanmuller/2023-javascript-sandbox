@@ -46,4 +46,4 @@ function fetchUser() {
     });
 }
 
-fetchUser();
+generateBtn.addEventListener("click", fetchUser);
