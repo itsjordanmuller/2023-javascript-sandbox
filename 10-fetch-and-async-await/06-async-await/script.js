@@ -24,3 +24,12 @@ async function getUsers() {
 }
 
 getUsers();
+
+// Same Function Using then instead of async and await
+function getUsers2() {
+  fetch("https://jsonplaceholder.typicode.com/users")
+    .then((res) => res.json())
+    .then((data) => console.log(data));
+}
+
+getUsers2();
