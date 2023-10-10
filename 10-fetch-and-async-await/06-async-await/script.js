@@ -5,4 +5,12 @@ const promise = new Promise((resolve, reject) => {
 });
 
 // Consume Promise with then Log Data to Console
-promise.then((data) => console.log(data));
+// promise.then((data) => console.log(data));
+
+// Asynchronous Function Using Async Await
+async function getPromise() {
+  const response = await promise;
+  console.log(response);
+}
+
+getPromise();
