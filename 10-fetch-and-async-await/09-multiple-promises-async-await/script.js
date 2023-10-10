@@ -35,11 +35,15 @@ function getData(endpoint) {
 
 async function getAllData() {
   const movies = await getData("./movies.json");
-  console.log(movies);
+  // console.log(movies);
   const actors = await getData("./actors.json");
-  console.log(actors);
+  // console.log(actors);
   const directors = await getData("./directors.json");
-  console.log(directors);
+  // console.log(directors);
+  console.log(movies, actors, directors);
+  console.log("Hello from function!");
 }
 
 getAllData();
+
+console.log("Hello from global!");
