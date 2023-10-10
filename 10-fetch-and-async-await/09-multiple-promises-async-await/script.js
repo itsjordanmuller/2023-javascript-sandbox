@@ -73,9 +73,9 @@ async function getAllDataPromiseAll() {
   ]);
 
   // Without Await, We Will Get 3 Pending Promises
-  const movies = moviesRes.json();
-  const actors = actorsRes.json();
-  const directors = directorsRes.json();
+  const movies = await moviesRes.json();
+  const actors = await actorsRes.json();
+  const directors = await directorsRes.json();
 
   console.log(movies, actors, directors);
 }
