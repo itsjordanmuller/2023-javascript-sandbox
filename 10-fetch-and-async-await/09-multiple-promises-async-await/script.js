@@ -41,9 +41,25 @@ async function getAllData() {
   const directors = await getData("./directors.json");
   // console.log(directors);
   console.log(movies, actors, directors);
-  console.log("Hello from function!");
+  // console.log("Hello from function!");
 }
 
-getAllData();
+// getAllData();
 
-console.log("Hello from global!");
+// console.log("Hello from global!");
+
+// Use Fetch Instead of Custom XHR Fetch Function
+async function getAllDataWithFetch() {
+  const moviesRes = await fetch("./movies.json");
+  const movies = await moviesRes.json();
+
+  const actorsRes = await fetch("./actors.json");
+  const actors = await actorsRes.json();
+
+  const directorsRes = await fetch("./directors.json");
+  const directors = await directorsRes.json();
+
+  console.log(movies, actors, directors);
+}
+
+getAllDataWithFetch();
