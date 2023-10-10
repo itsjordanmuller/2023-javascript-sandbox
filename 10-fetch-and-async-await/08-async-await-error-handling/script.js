@@ -7,7 +7,7 @@ const getUsers = async () => {
       throw new Error("Request Failed");
     }
 
-    const data = await response.json();
+    const data = await response.text();
 
     console.log(data);
   } catch (error) {
@@ -15,4 +15,19 @@ const getUsers = async () => {
   }
 };
 
-getUsers();
+// getUsers();
+
+const getPosts = async () => {
+  //   const response = await fetch("https://jsonplaceholder.typicode.com/posts");
+  const response = await fetch("https://httpstat.us/500");
+
+  if (!response.ok) {
+    throw new Error("Request Failed");
+  }
+
+  const data = await response.text();
+
+  console.log(data);
+};
+
+getPosts().catch((error) => console.log(error));
