@@ -62,4 +62,22 @@ async function getAllDataWithFetch() {
   console.log(movies, actors, directors);
 }
 
-getAllDataWithFetch();
+// getAllDataWithFetch();
+
+// Get All Data Using Promise.all()
+async function getAllDataPromiseAll() {
+  const [moviesRes, actorsRes, directorsRes] = await Promise.all([
+    fetch("./movies.json"),
+    fetch("./actors.json"),
+    fetch("./directors.json"),
+  ]);
+
+  // Without Await, We Will Get 3 Pending Promises
+  const movies = moviesRes.json();
+  const actors = actorsRes.json();
+  const directors = directorsRes.json();
+
+  console.log(movies, actors, directors);
+}
+
+getAllDataPromiseAll();
