@@ -13,4 +13,14 @@ async function getPromise() {
   console.log(response);
 }
 
-getPromise();
+// getPromise();
+
+// Asynchronous Fetch Request
+async function getUsers() {
+  const res = await fetch("https://jsonplaceholder.typicode.com/users");
+  const data = await res.json();
+
+  console.log(data);
+}
+
+getUsers();
