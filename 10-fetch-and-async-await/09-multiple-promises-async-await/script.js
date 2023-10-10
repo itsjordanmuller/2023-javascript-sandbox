@@ -80,4 +80,17 @@ async function getAllDataPromiseAll() {
   console.log(movies, actors, directors);
 }
 
-getAllDataPromiseAll();
+// getAllDataPromiseAll();
+
+// Using then
+async function getAllDataPromiseAll2() {
+  const [movies, actors, directors] = await Promise.all([
+    fetch("./movies.json").then((res) => res.json()),
+    fetch("./actors.json").then((res) => res.json()),
+    fetch("./directors.json").then((res) => res.json()),
+  ]);
+
+  console.log(movies, actors, directors);
+}
+
+getAllDataPromiseAll2();
