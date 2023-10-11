@@ -58,6 +58,12 @@ async function displayPopularShows() {
   });
 }
 
+// Display Specific Movie Details
+async function displayMovieDetails() {
+  const movieID = window.location.search;
+  console.log(movieID);
+}
+
 // Fetch Data from TMDB API
 async function fetchAPIData(endpoint) {
   const API_KEY = secrets.api_key;
@@ -115,7 +121,8 @@ function init() {
       console.log("TV Details");
       break;
     case "/movie-details.html":
-      console.log("Movie Details");
+      displayMovieDetails();
+      // console.log("Movie Details");
       break;
   }
 
