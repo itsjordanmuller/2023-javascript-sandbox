@@ -60,7 +60,7 @@ async function displayPopularShows() {
 
 // Display Specific Movie Details
 async function displayMovieDetails() {
-  const movieID = window.location.search;
+  const movieID = window.location.search.split("=")[1];
   console.log(movieID);
 }
 
