@@ -2,7 +2,15 @@ const global = {
   currentPage: window.location.pathname,
 };
 
-console.log(global.currentPage);
+// Highlight Active Link
+function highlightActiveLink() {
+  const links = document.querySelectorAll(".nav-link");
+  links.forEach((link) => {
+    if (link.getAttribute("href") === global.currentPage) {
+      link.classList.add("active");
+    }
+  });
+}
 
 // Initialize App
 function init() {
@@ -24,6 +32,8 @@ function init() {
       console.log("Movie Details");
       break;
   }
+
+  highlightActiveLink();
 }
 
 document.addEventListener("DOMContentLoaded", init);
