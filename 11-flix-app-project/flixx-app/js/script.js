@@ -5,6 +5,28 @@ const global = {
 async function displayPopularMovies() {
   const { results } = await fetchAPIData("movie/popular");
   console.log(results);
+  results.forEach((movie) => {
+    const movieEl = document.createElement("div");
+    movieEl.classList.add("card");
+    movieEl.innerHTML = `
+        <a href="movie-details.html?id=${movie.id}">
+        ${
+          movie.poster_path
+            ? `<img src="https://image.tmdb.org/t/p/w500${movie.poster_path}" class="card-img-top" alt="${movie.title}"/>`
+            : `<img src="images/no-image.jpg" class="card-img-top" alt="${movie.title}" />
+            `
+        }
+        </a>
+        <div class="card-body">
+          <h5 class="card-title">${movie.title}</h5>
+          <p class="card-text">
+            <small class="text-muted">Release: ${movie.release_date}</small>
+          </p>
+        </div>
+        `;
+
+    document.getElementById("popular-movies").appendChild(movieEl);
+  });
 }
 
 // Fetch Data from TMDB API
