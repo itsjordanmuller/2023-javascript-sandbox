@@ -206,11 +206,57 @@ async function search() {
   global.search.term = urlParams.get("search-term");
 
   if (global.search.term !== "" && global.search.term !== null) {
-    const results = await searchAPIData();
-    console.log(results);
+    const { results, totalPages, page } = await searchAPIData();
+    // console.log(results);
+    if (results.length === 0) {
+      showAlert("No results found.", "error");
+      return;
+    }
+
+    displaySearchResults(results);
+
+    document.getElementById("search-term").value = "";
   } else {
-    showAlert("Please enter a search term.");
+    showAlert("Please enter a search term.", "error");
   }
+}
+
+// Display Search Results
+function displaySearchResults(results) {
+  results.forEach((result) => {
+    const searchEl = document.createElement("div");
+    searchEl.classList.add("card");
+    searchEl.innerHTML = `
+          <a href="${global.search.type}-details.html?id=${result.id}">
+          ${
+            result.poster_path
+              ? `<img src="https://image.tmdb.org/t/p/w500${
+                  result.poster_path
+                }" class="card-img-top" alt="${
+                  global.search.type === "movie" ? result.title : result.name
+                }"/>`
+              : `<img src="images/no-image.jpg" class="card-img-top" alt="${
+                  global.search.type === "movie" ? result.title : result.name
+                }" />
+              `
+          }
+          </a>
+          <div class="card-body">
+            <h5 class="card-title">${
+              global.search.type === "movie" ? result.title : result.name
+            }</h5>
+            <p class="card-text">
+              <small class="text-muted">Release: ${
+                global.search.type === "movie"
+                  ? result.release_date
+                  : result.first_air_date
+              }</small>
+            </p>
+          </div>
+          `;
+
+    document.getElementById("search-results").appendChild(searchEl);
+  });
 }
 
 // Display Slider
