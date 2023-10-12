@@ -6,6 +6,10 @@ const global = {
     page: 1,
     totalPages: 1,
   },
+  api: {
+    API_KEY: secrets.api_key,
+    API_URL: "https://api.themoviedb.org/3/",
+  },
 };
 
 // Display 20 Most Popular Movies
@@ -202,7 +206,8 @@ async function search() {
   global.search.term = urlParams.get("search-term");
 
   if (global.search.term !== "" && global.search.term !== null) {
-    console.log(urlParams.get("search-term"));
+    const results = await searchAPIData();
+    console.log(results);
   } else {
     showAlert("Please enter a search term.");
   }
@@ -295,13 +300,31 @@ function displayBackgroundImage(type, backgroundPath) {
 
 // Fetch Data from TMDB API
 async function fetchAPIData(endpoint) {
-  const API_KEY = secrets.api_key;
-  const API_URL = "https://api.themoviedb.org/3/";
+  const API_KEY = global.api.API_KEY;
+  const API_URL = global.api.API_URL;
 
   showSpinner();
 
   const response = await fetch(
     `${API_URL}${endpoint}?api_key=${API_KEY}&language=en-US`
+  );
+
+  const data = await response.json();
+
+  hideSpinner();
+
+  return data;
+}
+
+// Make Request to Search Data in TMDB API
+async function searchAPIData() {
+  const API_KEY = global.api.API_KEY;
+  const API_URL = global.api.API_URL;
+
+  showSpinner();
+
+  const response = await fetch(
+    `${API_URL}/search/${global.search.type}?api_key=${API_KEY}&language=en-US&query=${global.search.term}`
   );
 
   const data = await response.json();
