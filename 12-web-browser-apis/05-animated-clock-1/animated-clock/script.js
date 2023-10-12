@@ -84,6 +84,23 @@ function clock() {
   ctx.stroke();
   ctx.restore();
 
+  // Draw Second Hand
+  ctx.save();
+  ctx.rotate((Math.PI / 30) * sec);
+  ctx.strokeStyle = "#ff7f50";
+  ctx.fillStyle = "#ff7f50";
+  ctx.lineWidth = 3;
+  ctx.beginPath();
+  ctx.moveTo(-30, 0);
+  ctx.lineTo(100, 0);
+  ctx.stroke();
+  ctx.beginPath();
+  ctx.strokeStyle = "#ffd64f";
+  ctx.fillStyle = "#ffd64f";
+  ctx.arc(0, 0, 5, 0, Math.PI * 2, true); // Draw Center Circle to Connect All Hands
+  ctx.fill();
+  ctx.restore();
+
   ctx.restore(); // Restore Default State
 }
 
