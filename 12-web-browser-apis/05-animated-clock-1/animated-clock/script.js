@@ -73,6 +73,17 @@ function clock() {
   ctx.stroke();
   ctx.restore();
 
+  // Draw Minute Hand
+  ctx.save();
+  ctx.rotate((Math.PI / 30) * min + (Math.PI / 1800) * sec);
+  ctx.strokeStyle = "#000000";
+  ctx.lineWidth = 7;
+  ctx.beginPath();
+  ctx.moveTo(-28, 0);
+  ctx.lineTo(112, 0);
+  ctx.stroke();
+  ctx.restore();
+
   ctx.restore(); // Restore Default State
 }
 
