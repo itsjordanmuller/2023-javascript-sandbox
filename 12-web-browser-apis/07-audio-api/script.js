@@ -18,6 +18,8 @@ stop.addEventListener("click", () => {
   updateTime();
 });
 
+volume.addEventListener("change", () => (audio.volume = volume.value));
+
 function formatTime(time) {
   const minutes = Math.floor(time / 60);
   const seconds = Math.floor(time % 60);
