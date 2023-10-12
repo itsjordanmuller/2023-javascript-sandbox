@@ -4,7 +4,8 @@ const global = {
     term: "",
     type: "",
     page: 1,
-    totalPages: 1,
+    total_pages: 1,
+    total_results: 0,
   },
   api: {
     API_KEY: secrets.api_key,
@@ -206,7 +207,12 @@ async function search() {
   global.search.term = urlParams.get("search-term");
 
   if (global.search.term !== "" && global.search.term !== null) {
-    const { results, totalPages, page } = await searchAPIData();
+    const { results, total_pages, page, total_results } = await searchAPIData();
+
+    global.search.page = page;
+    global.search.total_pages = total_pages;
+    global.search.total_results = total_results;
+
     // console.log(results);
     if (results.length === 0) {
       showAlert("No results found.", "error");
@@ -255,8 +261,27 @@ function displaySearchResults(results) {
           </div>
           `;
 
+    document.getElementById(
+      "search-results-heading"
+    ).innerHTML = `<h2>${results.length} of ${global.search.total_results} Results for ${global.search.term}</h2>`;
+
     document.getElementById("search-results").appendChild(searchEl);
   });
+
+  displayPagination();
+}
+
+// Create & Display Pagination for Search Results
+function displayPagination() {
+  const paginationEl = document.createElement("div");
+  paginationEl.classList.add("pagination");
+  paginationEl.innerHTML = `
+    <button class="btn btn-primary" id="prev">Prev</button>
+    <button class="btn btn-primary" id="next">Next</button>
+    <div class="page-counter">Page ${global.search.page} of ${global.search.total_pages}</div>
+  `;
+
+  document.getElementById("pagination").appendChild(paginationEl);
 }
 
 // Display Slider
