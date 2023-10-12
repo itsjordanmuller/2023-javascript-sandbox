@@ -1,68 +1,80 @@
+const faceColor = document.getElementById("face-color");
+const borderColor = document.getElementById("border-color");
+const hourLinesColor = document.getElementById("hour-line-color");
+const minuteLinesColor = document.getElementById("minute-line-color");
+const hourHandColor = document.getElementById("hour-hand-color");
+const minuteHandColor = document.getElementById("minute-hand-color");
+const secondHandColor = document.getElementById("second-hand-color");
+const accentCapColor = document.getElementById("second-hand-color");
+
 function clock() {
   const now = new Date();
-  const canvas = document.getElementById('canvas');
-  const ctx = canvas.getContext('2d');
+  const canvas = document.getElementById("canvas");
+  const ctx = canvas.getContext("2d");
 
-  // Setup canvas
-  ctx.save(); // save the default state
-  ctx.clearRect(0, 0, 500, 500);
-  ctx.translate(250, 250); // Put 0,0 in the middle
+  // Setup Canvas
+  ctx.save();
+
+  ctx.clearRect(0, 0, 500, 500); // Clear Entire Canvas Area
+  ctx.translate(250, 250); // Center the (0, 0) Origin of the Canvas
   ctx.rotate(-Math.PI / 2); // Rotate clock -90deg
 
-  // Set default styles
-  ctx.strokeStyle = '#000000';
-  ctx.fillStyle = '#f4f4f4';
-  ctx.lineWidth = 5;
-  ctx.lineCap = 'round';
+  // Set Default Styles
 
-  // Draw clock face/border
+  ctx.strokeStyle = "#000000";
+  ctx.fillStyle = "#f4f4f4";
+  ctx.lineWidth = 5;
+  ctx.lineCap = "round";
+
+  // Draw Clock Face/Border
   ctx.save();
   ctx.beginPath();
   ctx.lineWidth = 14;
-  ctx.strokeStyle = '#800000';
+  ctx.strokeStyle = "#800000";
   ctx.arc(0, 0, 142, 0, Math.PI * 2, true);
   ctx.stroke();
   ctx.fill();
   ctx.restore();
 
-  // Draw hour lines
+  // Draw Hour Lines
   ctx.save();
+  ctx.lineWidth = 4;
   for (let i = 0; i < 12; i++) {
     ctx.beginPath();
-    ctx.rotate(Math.PI / 6);
+    ctx.rotate(Math.PI / 6); // Double The Divisor for 12 Lines
     ctx.moveTo(100, 0);
     ctx.lineTo(120, 0);
     ctx.stroke();
   }
   ctx.restore();
 
-  // Draw minute lines
+  // Draw Minute Lines
   ctx.save();
-  ctx.lineWidth = 4;
+  ctx.lineWidth = 1;
   for (let i = 0; i < 60; i++) {
     if (i % 5 !== 0) {
       ctx.beginPath();
-      ctx.moveTo(117, 0);
+      ctx.moveTo(110, 0);
       ctx.lineTo(120, 0);
       ctx.stroke();
     }
-    ctx.rotate(Math.PI / 30);
+    ctx.rotate(Math.PI / 30); // Double The Divisor for 12 Lines
   }
   ctx.restore();
 
-  // Get current time
+  // Get Current Time
   const hr = now.getHours() % 12;
   const min = now.getMinutes();
   const sec = now.getSeconds();
 
-  // console.log(`${hr}:${min}:${sec}`);
+  //   console.log(`${hr}:${min}:${sec}`);
 
-  // Draw hour hand
+  // Draw Hour Hand
   ctx.save();
   ctx.rotate(
     (Math.PI / 6) * hr + (Math.PI / 360) * min + (Math.PI / 21600) * sec
   );
-  ctx.strokeStyle = '#800000';
+  ctx.strokeStyle = "#800000";
   ctx.lineWidth = 14;
   ctx.beginPath();
   ctx.moveTo(-20, 0);
@@ -70,33 +82,35 @@ function clock() {
   ctx.stroke();
   ctx.restore();
 
-  // Draw min hand
+  // Draw Minute Hand
   ctx.save();
   ctx.rotate((Math.PI / 30) * min + (Math.PI / 1800) * sec);
-  ctx.strokeStyle = '#800000';
-  ctx.lineWidth = 10;
+  ctx.strokeStyle = "#3f3f3f";
+  ctx.lineWidth = 7;
   ctx.beginPath();
   ctx.moveTo(-28, 0);
   ctx.lineTo(112, 0);
   ctx.stroke();
   ctx.restore();
 
-  // Draw sec hand
+  // Draw Second Hand
   ctx.save();
-  ctx.rotate((sec * Math.PI) / 30);
-  ctx.strokeStyle = '#FF7F50';
-  ctx.fillStyle = '#FF7F50';
-  ctx.lineWidth = 6;
+  ctx.rotate((Math.PI / 30) * sec);
+  ctx.strokeStyle = "#ff7f50";
+  ctx.fillStyle = "#ff7f50";
+  ctx.lineWidth = 3;
   ctx.beginPath();
   ctx.moveTo(-30, 0);
   ctx.lineTo(100, 0);
   ctx.stroke();
   ctx.beginPath();
-  ctx.arc(0, 0, 10, 0, Math.PI * 2, true);
+  ctx.strokeStyle = "#ffd64f";
+  ctx.fillStyle = "#ffd64f";
+  ctx.arc(0, 0, 5, 0, Math.PI * 2, true); // Draw Center Circle to Connect All Hands
   ctx.fill();
   ctx.restore();
 
-  ctx.restore(); // restore default state
+  ctx.restore(); // Restore Default State
 
   requestAnimationFrame(clock);
 }
