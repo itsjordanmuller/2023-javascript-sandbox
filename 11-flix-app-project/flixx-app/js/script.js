@@ -229,6 +229,11 @@ async function search() {
 
 // Display Search Results
 function displaySearchResults(results) {
+  // Clear Previous Results
+  document.getElementById("search-results").innerHTML = "";
+  document.getElementById("search-results-heading").innerHTML = "";
+  document.getElementById("pagination").innerHTML = "";
+
   results.forEach((result) => {
     const searchEl = document.createElement("div");
     searchEl.classList.add("card");
@@ -292,6 +297,21 @@ function displayPagination() {
   if (global.search.page === global.search.total_pages) {
     document.getElementById("next").disabled = true;
   }
+
+  // Next Page API Request
+  document.getElementById("next").addEventListener("click", async () => {
+    global.search.page++;
+    const { results, total_pages } = await searchAPIData();
+    displaySearchResults(results);
+    window.scrollTo(0, 0);
+  });
+
+  // Prev Page API Request
+  document.getElementById("prev").addEventListener("click", async () => {
+    global.search.page--;
+    const { results, total_pages } = await searchAPIData();
+    displaySearchResults(results);
+  });
 }
 
 // Display Slider
@@ -405,7 +425,7 @@ async function searchAPIData() {
   showSpinner();
 
   const response = await fetch(
-    `${API_URL}/search/${global.search.type}?api_key=${API_KEY}&language=en-US&query=${global.search.term}`
+    `${API_URL}/search/${global.search.type}?api_key=${API_KEY}&language=en-US&query=${global.search.term}&page=${global.search.page}`
   );
 
   const data = await response.json();
