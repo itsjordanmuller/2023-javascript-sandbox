@@ -1,3 +1,4 @@
+const canvas = document.getElementById("canvas");
 const faceColor = document.getElementById("face-color");
 const borderColor = document.getElementById("border-color");
 const hourLinesColor = document.getElementById("hour-line-color");
@@ -9,7 +10,6 @@ const accentCapColor = document.getElementById("accent-cap-color");
 
 function clock() {
   const now = new Date();
-  const canvas = document.getElementById("canvas");
   const ctx = canvas.getContext("2d");
 
   // Setup Canvas
@@ -118,3 +118,11 @@ function clock() {
 }
 
 requestAnimationFrame(clock);
+
+document.getElementById("save-btn").addEventListener("click", () => {
+  const dataURL = canvas.toDataURL("image/png");
+  const link = document.createElement("a");
+  link.download = "clock.png";
+  link.href = dataURL;
+  link.click();
+});
