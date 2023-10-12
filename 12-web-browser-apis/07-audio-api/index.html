@@ -6,8 +6,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="script.js" defer></script>
     <title>Audio API</title>
+    <style>
+      body {
+        display: flex;
+        font-family: sans-serif;
+      }
+      #audio-player {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-color: rgb(221, 221, 221);
+        border: 5px solid rgb(107, 107, 107);
+        padding: 15px;
+        border-radius: 15px;
+      }
+      #controls {
+        display: flex;
+        direction: row;
+        gap: 10px;
+        margin-bottom: 15px;
+      }
+      #current-time {
+        font-size: 24px;
+        margin-bottom: 6px;
+      }
+      button {
+        padding: 10px;
+        color: #fff;
+        border: 0;
+        border-radius: 15px;
+        font-weight: bold;
+        border: 2px solid black;
+      }
+      #play {
+        background-color: rgb(54, 231, 63);
+      }
+      #pause {
+        background-color: rgb(231, 104, 54);
+      }
+      #stop {
+        background-color: rgb(231, 54, 54);
+      }
+    </style>
   </head>
   <body>
-    <h1>Audio API</h1>
+    <audio src="summer.mp3"></audio>
+    <div id="audio-player">
+      <div id="controls">
+        <button id="play">Play</button>
+        <button id="pause">Pause</button>
+        <button id="stop">Stop</button>
+      </div>
+      <div id="current-time">00:00</div>
+      <input type="range" id="volume" min="0" max="1" step="0.01" value="1" />
+    </div>
   </body>
 </html>
