@@ -29,12 +29,27 @@ function clock() {
 
   // Draw Hour Lines
   ctx.save();
+  ctx.lineWidth = 4;
   for (let i = 0; i < 12; i++) {
     ctx.beginPath();
     ctx.rotate(Math.PI / 6); // Double The Divisor for 12 Lines
     ctx.moveTo(100, 0);
     ctx.lineTo(120, 0);
     ctx.stroke();
+  }
+  ctx.restore();
+
+  // Draw Minute Lines
+  ctx.save();
+  ctx.lineWidth = 1;
+  for (let i = 0; i < 60; i++) {
+    if (i % 5 !== 0) {
+      ctx.beginPath();
+      ctx.moveTo(110, 0);
+      ctx.lineTo(120, 0);
+      ctx.stroke();
+    }
+    ctx.rotate(Math.PI / 30); // Double The Divisor for 12 Lines
   }
   ctx.restore();
 
