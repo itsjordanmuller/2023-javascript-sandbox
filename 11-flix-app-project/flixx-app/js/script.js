@@ -282,6 +282,16 @@ function displayPagination() {
   `;
 
   document.getElementById("pagination").appendChild(paginationEl);
+
+  // Disable Prev Button if On First Page
+  if (global.search.page === 1) {
+    document.getElementById("prev").disabled = true;
+  }
+
+  // Disable Next Button if On Last Page
+  if (global.search.page === global.search.total_pages) {
+    document.getElementById("next").disabled = true;
+  }
 }
 
 // Display Slider
