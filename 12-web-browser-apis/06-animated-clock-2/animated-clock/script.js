@@ -5,7 +5,7 @@ const minuteLinesColor = document.getElementById("minute-line-color");
 const hourHandColor = document.getElementById("hour-hand-color");
 const minuteHandColor = document.getElementById("minute-hand-color");
 const secondHandColor = document.getElementById("second-hand-color");
-const accentCapColor = document.getElementById("second-hand-color");
+const accentCapColor = document.getElementById("accent-cap-color");
 
 function clock() {
   const now = new Date();
@@ -22,7 +22,7 @@ function clock() {
   // Set Default Styles
 
   ctx.strokeStyle = "#000000";
-  ctx.fillStyle = "#f4f4f4";
+  ctx.fillStyle = faceColor.value;
   ctx.lineWidth = 5;
   ctx.lineCap = "round";
 
@@ -30,7 +30,7 @@ function clock() {
   ctx.save();
   ctx.beginPath();
   ctx.lineWidth = 14;
-  ctx.strokeStyle = "#800000";
+  ctx.strokeStyle = borderColor.value;
   ctx.arc(0, 0, 142, 0, Math.PI * 2, true);
   ctx.stroke();
   ctx.fill();
@@ -39,6 +39,7 @@ function clock() {
   // Draw Hour Lines
   ctx.save();
   ctx.lineWidth = 4;
+  ctx.strokeStyle = hourLinesColor.value;
   for (let i = 0; i < 12; i++) {
     ctx.beginPath();
     ctx.rotate(Math.PI / 6); // Double The Divisor for 12 Lines
@@ -51,6 +52,7 @@ function clock() {
   // Draw Minute Lines
   ctx.save();
   ctx.lineWidth = 1;
+  ctx.strokeStyle = minuteLinesColor.value;
   for (let i = 0; i < 60; i++) {
     if (i % 5 !== 0) {
       ctx.beginPath();
@@ -74,7 +76,7 @@ function clock() {
   ctx.rotate(
     (Math.PI / 6) * hr + (Math.PI / 360) * min + (Math.PI / 21600) * sec
   );
-  ctx.strokeStyle = "#800000";
+  ctx.strokeStyle = hourHandColor.value;
   ctx.lineWidth = 14;
   ctx.beginPath();
   ctx.moveTo(-20, 0);
@@ -85,7 +87,7 @@ function clock() {
   // Draw Minute Hand
   ctx.save();
   ctx.rotate((Math.PI / 30) * min + (Math.PI / 1800) * sec);
-  ctx.strokeStyle = "#3f3f3f";
+  ctx.strokeStyle = minuteHandColor.value;
   ctx.lineWidth = 7;
   ctx.beginPath();
   ctx.moveTo(-28, 0);
@@ -96,16 +98,16 @@ function clock() {
   // Draw Second Hand
   ctx.save();
   ctx.rotate((Math.PI / 30) * sec);
-  ctx.strokeStyle = "#ff7f50";
-  ctx.fillStyle = "#ff7f50";
+  ctx.strokeStyle = secondHandColor.value;
+  ctx.fillStyle = secondHandColor.value;
   ctx.lineWidth = 3;
   ctx.beginPath();
   ctx.moveTo(-30, 0);
   ctx.lineTo(100, 0);
   ctx.stroke();
   ctx.beginPath();
-  ctx.strokeStyle = "#ffd64f";
-  ctx.fillStyle = "#ffd64f";
+  ctx.strokeStyle = accentCapColor.value;
+  ctx.fillStyle = accentCapColor.value;
   ctx.arc(0, 0, 5, 0, Math.PI * 2, true); // Draw Center Circle to Connect All Hands
   ctx.fill();
   ctx.restore();
