@@ -47,3 +47,27 @@ playBtn.addEventListener("click", () => {
     playSong();
   }
 });
+
+nextBtn.addEventListener("click", () => {
+  audio.pause();
+  audio.currentTime = 0;
+  if (songIndex === songs.length - 1) {
+    songIndex = 0;
+  } else {
+    songIndex++;
+  }
+  loadSong(songs[songIndex]);
+  audio.play();
+});
+
+prevBtn.addEventListener("click", () => {
+  audio.pause();
+  audio.currentTime = 0;
+  if (songIndex === 0) {
+    songIndex = songs.length - 1;
+  } else {
+    songIndex--;
+  }
+  loadSong(songs[songIndex]);
+  audio.play();
+});
