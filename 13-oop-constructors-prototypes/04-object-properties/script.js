@@ -38,3 +38,8 @@ console.log("--- DELETE A PROPERTY ---");
 console.log("Before Deleting Method", rect2);
 delete rect2.perimeter;
 console.warn("After Deleting Method", rect2);
+
+// Check for a Property
+console.log("--- CHECK FOR A PROPERTY ---");
+console.log("Rect1 has color: ", rect1.hasOwnProperty("color"));
+console.log("Rect2 has color: ", rect2.hasOwnProperty("color"));
