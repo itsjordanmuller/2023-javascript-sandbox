@@ -28,3 +28,6 @@ console.log(arr);
 // String Constructor Used, String Methods Available via Prototype
 const string = new String("Hello World!");
 console.log(string);
+
+// Get the Prototype of a Specific Object by Calling Method from Object Constructor
+console.log(Object.getPrototypeOf(rect));
