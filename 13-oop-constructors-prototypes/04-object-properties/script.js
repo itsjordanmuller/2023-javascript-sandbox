@@ -58,3 +58,19 @@ console.log("--- LOOP THROUGH ENTRIES ---");
 for (let [key, value] of Object.entries(rect1)) {
   console.log(`${key} - ${value}`);
 }
+
+// Loop Through All Properties in Entries
+console.log("--- ENTRIES OF PROPERTIES ONLY ---");
+for (let [key, value] of Object.entries(rect1)) {
+  if (typeof value !== "function") {
+    console.log(`${key} - ${value}`);
+  }
+}
+
+// Loop Through All Methods in Entries
+console.log("--- ENTRIES OF METHODS ONLY ---");
+for (let [key, value] of Object.entries(rect1)) {
+  if (typeof value === "function") {
+    console.log(`${key} - ${value}`);
+  }
+}
