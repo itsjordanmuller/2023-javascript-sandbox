@@ -43,3 +43,18 @@ console.warn("After Deleting Method", rect2);
 console.log("--- CHECK FOR A PROPERTY ---");
 console.log("Rect1 has color: ", rect1.hasOwnProperty("color"));
 console.log("Rect2 has color: ", rect2.hasOwnProperty("color"));
+
+// Get Keys, Values & Entries
+console.log("--- GET KEYS, VALUES & ENTRIES ---");
+// Keys
+console.log("Keys: ", Object.keys(rect1));
+// Values
+console.log("Values: ", Object.keys(rect1));
+// Entries (Array of Keys and Values)
+console.log("Entries: ", Object.entries(rect1));
+
+// Loop Through All Entries in an Object
+console.log("--- LOOP THROUGH ENTRIES ---");
+for (let [key, value] of Object.entries(rect1)) {
+  console.log(`${key} - ${value}`);
+}
