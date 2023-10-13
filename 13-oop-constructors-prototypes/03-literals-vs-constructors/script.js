@@ -1,3 +1,5 @@
+console.log("--- STRINGS ---");
+
 const strLit = "Hello";
 const strObj = new String("Hello");
 
@@ -19,3 +21,24 @@ console.log(strObj.constructor);
 console.log(strLit instanceof String);
 // True - String Constructor Used to Create
 console.log(strObj instanceof String);
+
+console.log("--- OTHER TYPES ---");
+
+// Other Types
+const numLit = 20;
+const numObj = new Number(20);
+
+console.log(numLit, typeof numLit);
+console.log(numObj, typeof numObj);
+
+const boolLit = true;
+const boolObj = new Boolean(true);
+
+console.log(boolLit, typeof boolLit);
+console.log(boolObj, typeof boolObj);
+
+const arrLit = [1, 2, 3, 4, 5];
+const arrObj = new Array(1, 2, 3, 4, 5);
+
+console.log(arrLit, typeof arrLit);
+console.log(arrObj, typeof arrObj);
