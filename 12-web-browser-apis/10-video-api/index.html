@@ -9,6 +9,29 @@
     <script src="script.js" defer></script>
   </head>
   <body>
-    <h1>Video API</h1>
+    <video
+      id="video"
+      src="media/clouds.mov"
+      width="500"
+      poster="media/poster.png"
+      loop
+      autoplay
+      muted
+    ></video>
+
+    <div>
+      <button id="play">Play</button>
+      <button id="pause">Pause</button>
+      <button id="stop">Stop</button>
+      <div id="current-time">00:00</div>
+      <input
+        type="range"
+        class="range"
+        id="seeker"
+        min="0"
+        step="1"
+        value="0"
+      />
+    </div>
   </body>
 </html>
