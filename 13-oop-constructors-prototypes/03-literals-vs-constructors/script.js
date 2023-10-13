@@ -42,3 +42,30 @@ const arrObj = new Array(1, 2, 3, 4, 5);
 
 console.log(arrLit, typeof arrLit);
 console.log(arrObj, typeof arrObj);
+
+console.log("--- FUNCTION & OBJECT CONSTRUCTORS ---");
+
+// Function & Object Constructors
+
+// Regular Function
+const funcLit = function (x) {
+  return x * x;
+};
+
+console.log(funcLit, typeof funcLit);
+console.log(funcLit(5));
+
+// Constructor Function
+const funcObj = new Function("x", "return x * x");
+
+console.log(funcObj, typeof funcObj);
+console.log(funcObj(3));
+
+// Objects
+const obj1 = {};
+// This does the same thing behind the scenes
+const obj2 = new Object();
+
+// Check to See Same Data & Type
+console.log(obj1, typeof obj1);
+console.log(obj2, typeof obj2);
