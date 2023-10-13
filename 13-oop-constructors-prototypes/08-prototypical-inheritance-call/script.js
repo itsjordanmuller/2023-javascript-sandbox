@@ -17,6 +17,11 @@ function Rectangle(name, width, height) {
 // Inherit Prototypes from Shape
 Rectangle.prototype = Object.create(Shape.prototype);
 
+// Example of Polymorphism
+Rectangle.prototype.logName = function () {
+  console.log(`Rectangle Name: ${this.name}`);
+};
+
 // Set Prototype Constructors
 Rectangle.prototype.constructor = Rectangle;
 
