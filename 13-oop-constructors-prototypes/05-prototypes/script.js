@@ -18,3 +18,13 @@ console.log(rect);
 // 4. Continue Failing to Find Until it Gets to the Nested Prototype Object with the toString Method
 // 5. Call the toString method that was just found
 console.log(rect.toString());
+
+// When Array is Created, It Inherits Array Methods via the Prototype Object that Gets Added
+// Uses the Array Constructor
+const arr = [];
+console.log(arr);
+// The Prototype Object is what lets us use pop, push, unshift, shift, toString, etc.
+
+// String Constructor Used, String Methods Available via Prototype
+const string = new String("Hello World!");
+console.log(string);
