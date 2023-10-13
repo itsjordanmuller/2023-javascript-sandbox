@@ -16,7 +16,7 @@ body {
 }
 
 #ball {
-  animation: roll infinite 3s linear;
+  /* animation: roll infinite 3s linear; */
   color: white;
   width: 25%;
   position: absolute;
@@ -53,7 +53,7 @@ button:hover {
   background: blue;
 }
 
-@keyframes roll {
+/* @keyframes roll {
   0% {
     transform: rotate(0) translate3D(-50%, -50%, 0);
     color: white;
@@ -65,4 +65,4 @@ button:hover {
     transform: rotate(360deg) translate3D(-50%, -50%, 0);
     color: white;
   }
-}
+} */
