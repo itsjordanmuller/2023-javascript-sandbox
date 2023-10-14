@@ -8,7 +8,6 @@ Math.PI = 4;
 console.log(Math.PI);
 
 let descriptor = Object.getOwnPropertyDescriptor(Math, "PI");
-// console.log(descriptor);
 
 const rectObj = {
   name: "Rect1",
@@ -16,5 +15,27 @@ const rectObj = {
   height: 10,
 };
 
+Object.defineProperty(rectObj, "name", {
+  writable: false,
+  configurable: false,
+  enumerable: false,
+});
+
 descriptor = Object.getOwnPropertyDescriptor(rectObj, "name");
-console.log(descriptor);
+// console.log(descriptor);
+
+// Name Will Not Change When writeable = false
+rectObj.name = "New Name";
+// console.log(rectObj);
+
+// Loop Through and Get Keys/Values (Won't Show name if enumerable = false)
+for (let [key, value] of Object.entries(rectObj)) {
+  console.log(`${key}: ${value}`);
+}
+
+// Flags Not Set on Height and Width, So They Are Writeable by Default
+delete rectObj.height;
+delete rectObj.width;
+// console.log(rectObj);
+
+console.log(Object.getOwnPropertyDescriptors(rectObj));
