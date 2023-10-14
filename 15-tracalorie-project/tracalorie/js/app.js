@@ -8,6 +8,7 @@ class CalorieTracker {
     this._displayCaloriesTotal();
     this._displayCaloriesLimit();
     this._displayCaloriesConsumed();
+    this._displayCaloriesBurned();
   }
 
   // Public Methods/API //
@@ -47,9 +48,21 @@ class CalorieTracker {
     caloriesConsumedEl.innerHTML = consumed;
   }
 
+  _displayCaloriesBurned() {
+    const caloriesBurnedEl = document.getElementById("calories-burned");
+
+    const burned = this._workouts.reduce(
+      (total, workout) => total + workout.calories,
+      0
+    );
+
+    caloriesBurnedEl.innerHTML = burned;
+  }
+
   _render() {
     this._displayCaloriesTotal();
     this._displayCaloriesConsumed();
+    this._displayCaloriesBurned();
   }
 }
 
@@ -76,7 +89,7 @@ const lunch = new Meal("Lunch", 600);
 tracker.addMeal(breakfast);
 tracker.addMeal(lunch);
 
-const run = new Workout("Morning Run", 300);
+const run = new Workout("Morning Run", 500);
 tracker.addWorkout(run);
 
 console.log(tracker);
