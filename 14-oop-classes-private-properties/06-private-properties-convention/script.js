@@ -5,6 +5,7 @@ class Wallet {
   }
 
   deposit(amount) {
+    this._processDeposit(amount);
     this._balance += amount;
   }
 
@@ -13,7 +14,26 @@ class Wallet {
       console.log("Not Enough Funds");
       return;
     }
+    this._processWithdraw(amount);
     this._balance -= amount;
+  }
+
+  _processDeposit(amount) {
+    console.log(`Depositing: ${amount}`);
+
+    this._transactions.push({
+      type: "deposit",
+      amount,
+    });
+  }
+
+  _processWithdraw(amount) {
+    console.log(`Withdrawing: ${amount}`);
+
+    this._transactions.push({
+      type: "withdraw",
+      amount,
+    });
   }
 
   //   getBalance() {
