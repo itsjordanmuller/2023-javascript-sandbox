@@ -24,3 +24,19 @@ delete rectObj.name;
 rectObj.width = 20;
 
 console.log(rectObj);
+
+const circObj = {
+  name: "circ 1",
+  radius: 15,
+};
+
+// Freeze Writeable to False on All Properties
+Object.freeze(circObj);
+
+descriptors = Object.getOwnPropertyDescriptors(circObj);
+
+circObj.color = "blue";
+delete circObj.name;
+circObj.name = "New Name";
+
+console.log("After Freeze: ", descriptors);
