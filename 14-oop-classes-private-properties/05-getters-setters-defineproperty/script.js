@@ -35,5 +35,35 @@ Person.prototype.capitalizeFirst = function (value) {
 };
 
 const person1 = new Person("john", "doe");
-console.log(person1.firstName, person1.lastName);
+// console.log(person1.firstName, person1.lastName);
 console.log(person1.fullName);
+
+// Object Literal
+const PersonObj = {
+  _fName: "jane",
+  _lName: "doe",
+
+  get fName() {
+    return Person.prototype.capitalizeFirst(this._fName);
+  },
+
+  set fName(value) {
+    this._fName = value;
+  },
+
+  get lName() {
+    return Person.prototype.capitalizeFirst(this._lName);
+  },
+
+  set lName(value) {
+    this._lName = value;
+  },
+
+  get full() {
+    return this.fName + " " + this.lName;
+  },
+};
+
+const person2 = Object.create(PersonObj);
+// console.log(person2.fName, person2.lName);
+console.log(person2.full);
