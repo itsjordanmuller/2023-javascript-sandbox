@@ -25,8 +25,6 @@ class Meal {
   }
 }
 
-console.log(`M-${Date.now()}`);
-
 class Workout {
   constructor(name, calories) {
     this.id = `W-${Date.now()}`;
@@ -34,3 +32,13 @@ class Workout {
     this.calories = calories;
   }
 }
+
+const tracker = new CalorieTracker();
+
+const breakfast = new Meal("Breakfast", 400);
+tracker.addMeal(breakfast);
+
+const run = new Workout("Morning Run", 300);
+tracker.addWorkout(run);
+
+console.log(tracker);
