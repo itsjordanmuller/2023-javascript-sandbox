@@ -153,6 +153,11 @@ class App {
 
     name.value = "";
     calories.value = "";
+
+    const collapseMeal = document.getElementById("collapse-meal");
+    const bsCollapse = new bootstrap.Collapse(collapseMeal, {
+      toggle: true,
+    });
   }
 
   _newWorkout(e) {
@@ -173,6 +178,11 @@ class App {
 
     name.value = "";
     calories.value = "";
+
+    const collapseWorkout = document.getElementById("collapse-workout");
+    const bsCollapse = new bootstrap.Collapse(collapseWorkout, {
+      toggle: true,
+    });
   }
 }
 
