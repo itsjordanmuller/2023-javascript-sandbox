@@ -16,3 +16,21 @@ class CalorieTracker {
     this._totalCalories -= workout.calories;
   }
 }
+
+class Meal {
+  constructor(name, calories) {
+    this.id = `M-${Date.now()}`;
+    this.name = name;
+    this.calories = calories;
+  }
+}
+
+console.log(`M-${Date.now()}`);
+
+class Workout {
+  constructor(name, calories) {
+    this.id = `W-${Date.now()}`;
+    this.name = name;
+    this.calories = calories;
+  }
+}
