@@ -29,8 +29,29 @@ class Rectangle {
     this.width = width;
     this.height = height;
   }
+
+  area() {
+    return this.width * this.height;
+  }
+
+  perimeter() {
+    return 2 * (this.width + this.height);
+  }
+
+  isSquare() {
+    return this.width === this.height;
+  }
+
+  logArea() {
+    console.log(`Rectangle Area: ${this.area()}`);
+  }
 }
 
 const square = new Rectangle("Square", 20, 20);
 const square2 = new Rectangle("Square", 20, 20);
+
 console.log(square);
+console.log(square2.area());
+console.log(square2.perimeter());
+console.log(square2.isSquare());
+square.logArea();
