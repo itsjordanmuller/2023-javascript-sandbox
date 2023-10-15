@@ -40,6 +40,17 @@ class CalorieTracker {
     }
   }
 
+  removeWorkout(id) {
+    const index = this._workouts.findIndex((workout) => workout.id === id);
+
+    if (index !== -1) {
+      const workout = this._workouts[index];
+      this._totalCalories += workout.calories;
+      this._workouts.splice(index, 1);
+      this._render();
+    }
+  }
+
   // Private Methods //
 
   _displayCaloriesTotal() {
@@ -200,6 +211,10 @@ class App {
     document
       .getElementById("meal-items")
       .addEventListener("click", this._removeItem.bind(this, "meal"));
+
+    document
+      .getElementById("workout-items")
+      .addEventListener("click", this._removeItem.bind(this, "workout"));
   }
 
   _newItem(type, e) {
