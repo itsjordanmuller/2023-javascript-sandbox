@@ -70,6 +70,10 @@ class CalorieTracker {
     this._render();
   }
 
+  loadItems() {
+    this._meals.forEach((meal) => this._displayNewMeal(meal));
+  }
+
   // Private Methods //
 
   _displayCaloriesTotal() {
@@ -296,6 +300,8 @@ class App {
     document
       .getElementById("limit-form")
       .addEventListener("submit", this._setLimit.bind(this));
+
+    this._tracker.loadItems();
   }
 
   _newItem(type, e) {
