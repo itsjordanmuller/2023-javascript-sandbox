@@ -1,1 +1,7 @@
 secrets.js
+node_modules
+dist
+package-lock.json
+webpack.config.js
+.env
+.vscode/
