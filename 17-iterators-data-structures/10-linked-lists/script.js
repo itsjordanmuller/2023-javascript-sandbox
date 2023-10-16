@@ -109,6 +109,12 @@ class LinkedList {
 
     this._length--;
   }
+
+  // Clear List
+  clearList() {
+    this._head = null;
+    this._length = 0;
+  }
 }
 
 const list = new LinkedList();
@@ -132,3 +138,8 @@ list.printListData();
 
 // Get Value at an Index
 list.getAt(2);
+
+// Clear All Data in Linked List
+list.clearList();
+
+console.log(list);
