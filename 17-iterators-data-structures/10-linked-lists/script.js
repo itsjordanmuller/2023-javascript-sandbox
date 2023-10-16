@@ -45,7 +45,7 @@ class LinkedList {
     console.log(list);
   }
 
-  // Insert at Index
+  // Insert Value at Index in Linked List
   insertAt(value, index) {
     if (index > this._length) {
       return;
@@ -71,6 +71,20 @@ class LinkedList {
     previous.next = newNode;
     this._length++;
   }
+
+  // Get at Index
+  getAt(index) {
+    let current = this._head;
+    let count = 0;
+    while (current) {
+      if (count === index) {
+        console.log(current._value);
+      }
+      count++;
+      current = current.next;
+    }
+    return null;
+  }
 }
 
 const list = new LinkedList();
@@ -86,5 +100,8 @@ list.insertLast(50);
 // Insert an Item at an Index
 list.insertAt(500, 2);
 
-// console.log(list);
+//  Print out Items in List
 list.printListData();
+
+// Get Value at an Index
+list.getAt(2);
