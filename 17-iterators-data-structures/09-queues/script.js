@@ -24,6 +24,18 @@ class Queue {
     return item;
   }
 
+  peek() {
+    if (this.isEmpty()) {
+      return "No items in queue";
+    }
+
+    return this._items[this._front];
+  }
+
+  length() {
+    return this._count - this._front;
+  }
+
   isEmpty() {
     return this._count === 0;
   }
@@ -40,3 +52,9 @@ queue.enqueue("Item 3");
 queue.dequeue();
 
 console.log(queue);
+
+// Peek at the Front Most Item in the Queue
+console.log("Front Most Item:", queue.peek());
+
+// Check the Length of the Queue
+console.log("Length of Queue:", queue.length());
