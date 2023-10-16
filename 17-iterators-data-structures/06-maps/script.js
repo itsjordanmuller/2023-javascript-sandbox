@@ -8,3 +8,6 @@ myMap.set(2, "red");
 console.log(myMap.get("name"));
 console.log(myMap.get(1));
 console.log(myMap.get(2));
+
+// Get Size of a Map
+console.log(myMap.size);
