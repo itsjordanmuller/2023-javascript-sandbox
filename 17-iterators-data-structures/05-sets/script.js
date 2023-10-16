@@ -34,3 +34,7 @@ console.log(iterator.next());
 console.log(iterator.next());
 console.log(iterator.next());
 console.log(iterator.next());
+
+console.log("--- Clear Set ---");
+set.clear();
+console.log(set);
