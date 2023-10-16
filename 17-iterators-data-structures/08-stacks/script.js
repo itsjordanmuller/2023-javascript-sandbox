@@ -24,6 +24,14 @@ class Stack {
     this._items.length = this._count;
   }
 
+  peek() {
+    if (this.isEmpty()) {
+      return "No items in stack";
+    }
+
+    return this._items[this._count - 1];
+  }
+
   isEmpty() {
     return this._count === 0;
   }
@@ -40,3 +48,6 @@ stack.push("Item 3");
 stack.pop();
 
 console.log(stack);
+
+// Peek at Top of Stack
+console.log("Item on Top of Stack:", stack.peek());
