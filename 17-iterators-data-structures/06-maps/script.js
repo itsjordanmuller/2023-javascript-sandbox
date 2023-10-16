@@ -33,3 +33,11 @@ console.log(peopleMap.keys());
 console.log(peopleMap.values());
 // Get Entries
 console.log(peopleMap.entries());
+
+// Iterate through Map
+const iterator = peopleMap.values();
+
+console.log(iterator.next());
+console.log(iterator.next());
+console.log(iterator.next());
+console.log(iterator.next());
