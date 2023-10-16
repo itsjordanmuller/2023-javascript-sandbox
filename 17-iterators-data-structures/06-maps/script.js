@@ -36,8 +36,11 @@ console.log(peopleMap.entries());
 
 // Iterate through Map
 const iterator = peopleMap.values();
+console.log(iterator.next());
+console.log(iterator.next());
+console.log(iterator.next());
+console.log(iterator.next());
 
-console.log(iterator.next());
-console.log(iterator.next());
-console.log(iterator.next());
-console.log(iterator.next());
+// Create an Array from the People in Map
+const peopleArray = Array.from(peopleMap);
+console.log(peopleArray);
