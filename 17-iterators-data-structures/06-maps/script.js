@@ -15,3 +15,7 @@ console.log(myMap.size);
 // Check if a Map Has Keys
 console.log(myMap.has(1));
 console.log(myMap.has(3));
+
+// Delete a Key/Value from the Map by the Key
+myMap.delete(2);
+console.log("After Deleting Key 2:", myMap);
