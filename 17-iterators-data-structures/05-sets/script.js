@@ -15,3 +15,7 @@ console.log("After Deleting 5:", set);
 // Check if a Set Has a Value
 console.log("Set has 3?:", set.has(3));
 console.log("Set has 6?:", set.has(6));
+
+// Create an Array from a Set Using .from
+const setArray = Array.from(set);
+console.log("Array made from Set:", setArray);
