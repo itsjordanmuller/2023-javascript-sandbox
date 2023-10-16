@@ -17,6 +17,14 @@ const iterator = createTeamIterator(teams);
 // console.log(iterator.next());
 // console.log(iterator.next());
 
-for (const team of createTeamIterator(teams)) {
-  console.log(team);
-}
+// for (const team of createTeamIterator(teams)) {
+//   console.log(team);
+// }
+
+// Use Spread Operator ... to Create an Array of Teams
+console.log([...createTeamIterator(teams)]);
+
+// Use Destructuring with Iterator/Generator
+const [first, second, third, fourth] = createTeamIterator(teams);
+
+console.log(first, second, third, fourth);
