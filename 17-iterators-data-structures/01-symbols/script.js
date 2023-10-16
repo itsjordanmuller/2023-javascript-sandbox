@@ -10,3 +10,6 @@ console.log(typeof sym);
 console.log(sym1.description);
 // Undefined - sym has No Description
 console.log(sym.description);
+
+// Returns false Symbols are Always Unique
+console.log(Symbol("sym") === Symbol("sym"));
