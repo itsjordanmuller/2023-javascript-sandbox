@@ -46,23 +46,45 @@ class LinkedList {
   }
 
   // Insert at Index
+  insertAt(value, index) {
+    if (index > this._length) {
+      return;
+    }
 
-  // Get at Index
+    if (index === 0) {
+      this.insertFirst(value);
+      return;
+    }
 
-  // Remove at Index
+    const newNode = new Node(value);
+    let current, previous;
+    current = this._head;
+    let count = 0;
 
-  // Clear List
+    while (count < index) {
+      previous = current;
+      current = current.next;
+      count++;
+    }
+
+    newNode.next = current;
+    previous.next = newNode;
+    this._length++;
+  }
 }
 
 const list = new LinkedList();
 
-// Insert Items as First Node
+// Create Items as First Nodes
 list.insertFirst(100);
 list.insertFirst(200);
 list.insertFirst(300);
 
-// Insert an Item as the Last Node
+// Create an Item as the Last Node
 list.insertLast(50);
+
+// Insert an Item at an Index
+list.insertAt(500, 2);
 
 // console.log(list);
 list.printListData();
