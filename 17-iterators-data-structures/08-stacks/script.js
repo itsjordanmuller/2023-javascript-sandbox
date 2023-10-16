@@ -39,6 +39,11 @@ class Stack {
   length() {
     return this._count;
   }
+
+  clear() {
+    this._items = [];
+    this._count = 0;
+  }
 }
 
 const stack = new Stack();
@@ -55,6 +60,9 @@ console.log(stack);
 
 // Peek at Top of Stack
 console.log("Item on Top of Stack:", stack.peek());
+
+// Clear Stack
+console.log("Clear Stack:", stack.clear());
 
 // Check the Count of Items in the Stack
 console.log("Items in Stack:", stack.length());
