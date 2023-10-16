@@ -35,6 +35,10 @@ class Stack {
   isEmpty() {
     return this._count === 0;
   }
+
+  length() {
+    return this._count;
+  }
 }
 
 const stack = new Stack();
@@ -51,3 +55,6 @@ console.log(stack);
 
 // Peek at Top of Stack
 console.log("Item on Top of Stack:", stack.peek());
+
+// Check the Count of Items in the Stack
+console.log("Items in Stack:", stack.length());
