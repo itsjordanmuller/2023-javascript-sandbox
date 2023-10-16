@@ -18,12 +18,29 @@ class LinkedList {
     this._head = newNode;
     this._length++;
   }
+
+  // Insert Last Node (Tail)
+  insertLast(value) {
+    const newNode = new Node(value);
+    let current = this._head;
+
+    while (current.next) {
+      current = current.next;
+    }
+
+    current.next = newNode;
+    this._length++;
+  }
 }
 
 const list = new LinkedList();
 
+// Insert Items as First Node
 list.insertFirst(100);
 list.insertFirst(200);
 list.insertFirst(300);
+
+// Insert an Item as the Last Node
+list.insertLast(50);
 
 console.log(list);
