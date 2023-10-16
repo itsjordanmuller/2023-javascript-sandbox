@@ -45,3 +45,13 @@ console.log(sym3 === sym4);
 console.log(Symbol.keyFor(sym3));
 // Shows as Undefined Since .for Wasn't Used
 console.log(Symbol.keyFor(sym1));
+
+// Convert Symbol to String
+console.log("String:", sym1.toString());
+console.log("String:", sym2.toString());
+console.log("String:", sym.toString());
+
+// Get Value of Symbol
+console.log("Value:", sym1.valueOf());
+console.log("Value:", sym2.valueOf());
+console.log("Value:", sym.valueOf());
