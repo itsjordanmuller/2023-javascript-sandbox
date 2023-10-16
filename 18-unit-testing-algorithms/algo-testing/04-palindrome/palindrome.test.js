@@ -1,25 +1,25 @@
-const isPalindrome = require("./palindrome");
+const palindrome = require("./palindrome");
 
 describe("Check if Palindrome", () => {
   it("should be a function", () => {
-    expect(typeof isPalindrome).toEqual("function");
+    expect(typeof palindrome).toEqual("function");
   });
 
   it("should return a boolean", () => {
-    expect(typeof isPalindrome("hello")).toEqual("boolean");
+    expect(typeof palindrome("hello")).toEqual("boolean");
   });
 
   it("should return true if palindrome", () => {
-    expect(isPalindrome("wow")).toBeTruthy();
-    expect(isPalindrome("racecar")).toBeTruthy();
-    expect(isPalindrome("radar")).toBeTruthy();
-    expect(isPalindrome("rotator")).toBeTruthy();
+    expect(palindrome("wow")).toBeTruthy();
+    expect(palindrome("racecar")).toBeTruthy();
+    expect(palindrome("radar")).toBeTruthy();
+    expect(palindrome("rotator")).toBeTruthy();
   });
 
   it("should return false spaces are added to end", () => {
-    expect(isPalindrome("wow ")).toBeFalsy();
-    expect(isPalindrome("   racecar ")).toBeFalsy();
-    expect(isPalindrome("radar  ")).toBeFalsy();
-    expect(isPalindrome("  rotator")).toBeFalsy();
+    expect(palindrome("wow ")).toBeFalsy();
+    expect(palindrome("   racecar ")).toBeFalsy();
+    expect(palindrome("radar  ")).toBeFalsy();
+    expect(palindrome("  rotator")).toBeFalsy();
   });
 });
