@@ -85,6 +85,30 @@ class LinkedList {
     }
     return null;
   }
+
+  // Remove at Index
+  removeAt(index) {
+    if (index > this._length) {
+      return;
+    }
+
+    let current = this._head;
+    let previous;
+    let count = 0;
+
+    if (index === 0) {
+      this._head = current.next;
+    } else {
+      while (count < index) {
+        count++;
+        previous = current;
+        current = current.next;
+      }
+      previous.next = current.next;
+    }
+
+    this._length--;
+  }
 }
 
 const list = new LinkedList();
@@ -99,6 +123,9 @@ list.insertLast(50);
 
 // Insert an Item at an Index
 list.insertAt(500, 2);
+
+// Delete a Item at an Index
+list.removeAt(1);
 
 //  Print out Items in List
 list.printListData();
