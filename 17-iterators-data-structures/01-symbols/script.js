@@ -34,3 +34,14 @@ for (let key in user) {
 
 // getOwnPropertySymbols to Get [Symbol(id)]
 console.log(Object.getOwnPropertySymbols(user));
+
+// Symbol.for() - .for Uses Global Registry
+const sym3 = Symbol.for("foo");
+const sym4 = Symbol.for("foo");
+
+// Returns true since .for was used making the values accessible
+console.log(sym3 === sym4);
+
+console.log(Symbol.keyFor(sym3));
+// Shows as Undefined Since .for Wasn't Used
+console.log(Symbol.keyFor(sym1));
