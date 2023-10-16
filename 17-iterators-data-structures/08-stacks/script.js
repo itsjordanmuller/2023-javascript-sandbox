@@ -10,7 +10,7 @@ class Stack {
   }
 
   pop() {
-    if (this._count === 0) {
+    if (this.isEmpty()) {
       return "Underflow";
     }
 
@@ -22,6 +22,10 @@ class Stack {
     }
 
     this._items.length = this._count;
+  }
+
+  isEmpty() {
+    return this._count === 0;
   }
 }
 
