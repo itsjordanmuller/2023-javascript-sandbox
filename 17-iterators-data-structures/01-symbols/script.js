@@ -5,3 +5,8 @@ const sym2 = Symbol("bar");
 console.log(sym, sym1, sym2);
 
 console.log(typeof sym);
+
+// Returns foo
+console.log(sym1.description);
+// Undefined - sym has No Description
+console.log(sym.description);
