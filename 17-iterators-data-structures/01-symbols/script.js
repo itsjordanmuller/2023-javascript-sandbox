@@ -31,3 +31,6 @@ console.log(Object.values(user));
 for (let key in user) {
   console.log(key);
 }
+
+// getOwnPropertySymbols to Get [Symbol(id)]
+console.log(Object.getOwnPropertySymbols(user));
