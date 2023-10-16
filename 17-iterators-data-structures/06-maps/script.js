@@ -11,3 +11,7 @@ console.log(myMap.get(2));
 
 // Get Size of a Map
 console.log(myMap.size);
+
+// Check if a Map Has Keys
+console.log(myMap.has(1));
+console.log(myMap.has(3));
