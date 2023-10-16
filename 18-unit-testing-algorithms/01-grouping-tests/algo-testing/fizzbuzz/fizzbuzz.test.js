@@ -17,4 +17,11 @@ describe("FizzBuzz", () => {
     expect(fizzBuzz(9)).toEqual("Fizz");
     expect(fizzBuzz(12)).toEqual("Fizz");
   });
+
+  it("should return 'Buzz' if divisible by 5", () => {
+    expect(fizzBuzz(5)).toEqual("Buzz");
+    expect(fizzBuzz(10)).toEqual("Buzz");
+    expect(fizzBuzz(20)).toEqual("Buzz");
+    expect(fizzBuzz(25)).toEqual("Buzz");
+  });
 });
