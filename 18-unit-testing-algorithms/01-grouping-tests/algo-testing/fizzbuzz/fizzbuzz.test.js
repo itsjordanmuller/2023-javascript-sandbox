@@ -6,8 +6,8 @@ describe("FizzBuzz", () => {
   });
 
   it("should return the number if not divisible by 3 or 5", () => {
-    expect(1).toEqual(1);
-    expect(13).toEqual(13);
-    expect(17).toEqual(17);
+    expect(fizzBuzz(1)).toEqual(1);
+    expect(fizzBuzz(13)).toEqual(13);
+    expect(fizzBuzz(17)).toEqual(17);
   });
 });
