@@ -19,3 +19,18 @@ console.log("Set has 6?:", set.has(6));
 // Create an Array from a Set Using .from
 const setArray = Array.from(set);
 console.log("Array made from Set:", setArray);
+
+// Iterate Through a Set
+console.log("--- Iterate Through Set Using Loop ---");
+for (let item of set) {
+  console.log(item);
+}
+
+console.log("--- Iterator from Values of Set Using .next() ---");
+
+const iterator = set.values();
+console.log(iterator.next());
+console.log(iterator.next());
+console.log(iterator.next());
+console.log(iterator.next());
+console.log(iterator.next());
