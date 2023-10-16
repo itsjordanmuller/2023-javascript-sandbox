@@ -1,7 +1,7 @@
 class Node {
   constructor(value) {
     this._value = value;
-    this._next = null;
+    this.next = null;
   }
 }
 
@@ -10,8 +10,20 @@ class LinkedList {
     this._head = null;
     this._length = 0;
   }
+
+  // Insert First Node (head)
+  insertFirst(value) {
+    const newNode = new Node(value);
+    newNode.next = this._head;
+    this._head = newNode;
+    this._length++;
+  }
 }
 
 const list = new LinkedList();
+
+list.insertFirst(100);
+list.insertFirst(200);
+list.insertFirst(300);
 
 console.log(list);
