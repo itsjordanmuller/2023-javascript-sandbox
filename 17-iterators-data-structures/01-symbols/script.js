@@ -55,3 +55,6 @@ console.log("String:", sym.toString());
 console.log("Value:", sym1.valueOf());
 console.log("Value:", sym2.valueOf());
 console.log("Value:", sym.valueOf());
+
+// getOwnPropertyNames from Symbol
+console.log(Object.getOwnPropertyNames(Symbol));
