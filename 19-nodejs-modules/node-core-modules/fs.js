@@ -70,4 +70,16 @@ async function renameFile(old_filename, new_filename) {
   }
 }
 
-renameFile("file1.txt", "file.txt");
+// renameFile("file1.txt", "file.txt");
+
+// Create a Folder
+async function createFolder(folderName) {
+  try {
+    await fsp.mkdir(folderName);
+    console.log(`Created directory: ${folderName}`);
+  } catch (error) {
+    console.log(error);
+  }
+}
+
+createFolder("fs-files");
