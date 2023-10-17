@@ -19,3 +19,8 @@ console.log(ext);
 // Dir with Subdirectories - "subfolder/anotherfolder"
 const dir = path.dirname(myFilePath);
 console.log(dir);
+
+// join()
+// Joins Text to Create Path - "subfolder/anotherfolder/index.js"
+const myPath = path.join("subfolder", "anotherfolder", "index.js");
+console.log(myPath);
