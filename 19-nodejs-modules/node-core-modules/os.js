@@ -33,3 +33,7 @@ console.log(`Free Memory: ${os.freemem() / 1024 / 1024 / 1024} GB`);
 // Amount of Total Memory on the System
 console.log(os.totalmem());
 console.log(`Total Memory: ${os.totalmem() / 1024 / 1024 / 1024} GB`);
+
+// homedir
+// Get User's Home Directory
+console.log(os.homedir());
