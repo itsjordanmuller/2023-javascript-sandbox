@@ -11,7 +11,7 @@ const IdeaSchema = new mongoose.Schema({
   username: {
     type: String,
   },
-  tag: {
+  date: {
     type: Date,
     default: Date.now,
   },

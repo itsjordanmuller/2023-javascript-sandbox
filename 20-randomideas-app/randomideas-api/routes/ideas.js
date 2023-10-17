@@ -33,7 +33,8 @@ router.get("/", async (req, res) => {
     const ideas = await Idea.find();
     res.json({ success: true, data: ideas });
   } catch (error) {
-    res.status(500).json({ success: false, error: "Something ent wrong" });
+    console.log(error);
+    res.status(500).json({ success: false, error: "Something went wrong" });
   }
 });
 
@@ -52,18 +53,20 @@ router.get("/:id", (req, res) => {
 });
 
 // Add an Idea Using POST
-router.post("/", (req, res) => {
-  const idea = {
-    id: ideas.length + 1,
+router.post("/", async (req, res) => {
+  const idea = new Idea({
     text: req.body.text,
     tag: req.body.tag,
     username: req.body.username,
-    date: new Date().toISOString().slice(0, 10),
-  };
+  });
 
-  ideas.push(idea);
-
-  res.json({ success: true, data: idea });
+  try {
+    const savedIdea = await idea.save();
+    res.json({ success: true, data: savedIdea });
+  } catch (error) {
+    console.log(error);
+    res.status(500).json({ success: false, error: "Something ent wrong" });
+  }
   // res.send("Post Success");
 });
 
