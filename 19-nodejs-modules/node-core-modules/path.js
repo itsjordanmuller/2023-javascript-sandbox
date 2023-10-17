@@ -29,3 +29,11 @@ console.log(myPath);
 // Creates Absolute Path - "/home/itsjordanmuller/repos/2023-javascript-sandbox/19-nodejs-modules/node-core-modules/subfolder/anotherfolder/index.js"
 const myPath2 = path.resolve("subfolder", "anotherfolder", "index.js");
 console.log(myPath2);
+
+// __dirname
+// Absolute Path to Project Folder - "/home/itsjordanmuller/repos/2023-javascript-sandbox/19-nodejs-modules/node-core-modules"
+console.log(__dirname);
+
+// __filename
+// Asbolute Path to Current Filename in Project Folder - "/home/itsjordanmuller/repos/2023-javascript-sandbox/19-nodejs-modules/node-core-modules/path.js"
+console.log(__filename);
