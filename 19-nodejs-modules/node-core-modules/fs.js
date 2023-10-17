@@ -29,4 +29,20 @@ async function createFile(filename, content) {
   }
 }
 
-createFile("file4.txt", "Hello World 4!");
+// createFile("file4.txt", "Hello World 4!");
+
+// Read from a File
+
+async function readFile(filename) {
+  try {
+    const data = await fsp.readFile(filename, "utf8");
+    console.log(data);
+  } catch (error) {
+    console.log(error);
+  }
+}
+
+readFile("file1.txt");
+readFile("file2.txt");
+readFile("file3.txt");
+readFile("file4.txt");
