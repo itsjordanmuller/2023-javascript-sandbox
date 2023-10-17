@@ -34,6 +34,20 @@ console.log(`Free Memory: ${os.freemem() / 1024 / 1024 / 1024} GB`);
 console.log(os.totalmem());
 console.log(`Total Memory: ${os.totalmem() / 1024 / 1024 / 1024} GB`);
 
-// homedir
+// homedir()
 // Get User's Home Directory
 console.log(os.homedir());
+
+// uptime()
+// Get Current System Uptime
+console.log(os.uptime());
+
+const uptime = os.uptime();
+const days = Math.floor(uptime / 60 / 60 / 24);
+const hours = Math.floor(uptime / 60 / 60) % 24;
+const mins = Math.floor(uptime / 60) % 60;
+const seconds = Math.floor(uptime) % 60;
+
+console.log(
+  `Uptime: ${days} days, ${hours} hours, ${mins} minutes, ${seconds} seconds`
+);
