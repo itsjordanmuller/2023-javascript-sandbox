@@ -23,3 +23,13 @@ if (os.platform() === "darwin") {
 // Returns Information About All CPU Cores, Including:
 // Model, Speed, and Times Object with Various Times
 console.log(os.cpus());
+
+// freemem()
+// Amount of Free Memory on the System
+console.log(os.freemem());
+console.log(`Free Memory: ${os.freemem() / 1024 / 1024 / 1024} GB`);
+
+// totalmem()
+// Amount of Total Memory on the System
+console.log(os.totalmem());
+console.log(`Total Memory: ${os.totalmem() / 1024 / 1024 / 1024} GB`);
