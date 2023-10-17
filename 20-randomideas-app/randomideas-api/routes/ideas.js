@@ -39,17 +39,14 @@ router.get("/", async (req, res) => {
 });
 
 // Get Idea with Specific ID
-router.get("/:id", (req, res) => {
-  const idea = ideas.find((idea) => idea.id === +req.params.id);
-
-  if (!idea) {
-    return res.status(404).json({
-      success: false,
-      error: "404 Not Found - Idea with that ID not found",
-    });
+router.get("/:id", async (req, res) => {
+  try {
+    const idea = await Idea.findById(req.params.id);
+    res.json({ success: true, data: idea });
+  } catch (error) {
+    console.log(error);
+    res.status(500).json({ success: false, error: "Something went wrong" });
   }
-
-  res.json({ success: true, data: idea });
 });
 
 // Add an Idea Using POST
