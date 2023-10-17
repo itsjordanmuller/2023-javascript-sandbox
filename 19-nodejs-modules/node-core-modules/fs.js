@@ -1,6 +1,6 @@
 // const fs = require("fs");
 
-// Write to a File
+// Other Methods to Write to a File
 
 // Callback Version
 // fs.writeFile("file1.txt", "Hello World!", (err) => {
@@ -9,6 +9,7 @@
 // });
 
 // Promise Version
+const { rename } = require("fs");
 const fsp = require("fs/promises");
 
 // fsp.writeFile("file2.txt", "Hello World 2!")
@@ -20,6 +21,7 @@ const fsp = require("fs/promises");
 // console.log("File Created!");
 
 // Async/Await
+// Write to a File
 async function createFile(filename, content) {
   try {
     await fsp.writeFile(filename, content);
@@ -32,7 +34,6 @@ async function createFile(filename, content) {
 // createFile("file4.txt", "Hello World 4!");
 
 // Read from a File
-
 async function readFile(filename) {
   try {
     const data = await fsp.readFile(filename, "utf8");
@@ -48,7 +49,6 @@ async function readFile(filename) {
 // readFile("file4.txt");
 
 // Delete a File
-
 async function deleteFile(filename) {
   try {
     await fsp.unlink(filename);
@@ -58,4 +58,16 @@ async function deleteFile(filename) {
   }
 }
 
-deleteFile("file4.txt");
+// deleteFile("file4.txt");
+
+// Rename a File
+async function renameFile(old_filename, new_filename) {
+  try {
+    await fsp.rename(old_filename, new_filename);
+    console.log(`File ${old_filename} renamed to ${new_filename}`);
+  } catch (error) {
+    console.log(error);
+  }
+}
+
+renameFile("file1.txt", "file.txt");
