@@ -24,3 +24,8 @@ console.log(dir);
 // Joins Text to Create Path - "subfolder/anotherfolder/index.js"
 const myPath = path.join("subfolder", "anotherfolder", "index.js");
 console.log(myPath);
+
+// resolve()
+// Creates Absolute Path - "/home/itsjordanmuller/repos/2023-javascript-sandbox/19-nodejs-modules/node-core-modules/subfolder/anotherfolder/index.js"
+const myPath2 = path.resolve("subfolder", "anotherfolder", "index.js");
+console.log(myPath2);
