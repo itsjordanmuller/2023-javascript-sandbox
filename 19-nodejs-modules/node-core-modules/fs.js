@@ -1,5 +1,4 @@
-// const fs = require("fs");
-const fs = require("fs/promises");
+const fs = require("fs");
 
 // Write to a File
 
@@ -10,6 +9,12 @@ const fs = require("fs/promises");
 // });
 
 // Promise Version
-fs.writeFile("file2.txt", "Hello World 2!")
-  .then(() => console.log("File Created"))
-  .catch((err) => console.log(err));
+// const fsp = require("fs/promises");
+
+// fsp.writeFile("file2.txt", "Hello World 2!")
+//   .then(() => console.log("File Created"))
+//   .catch((err) => console.log(err));
+
+// Sync Version
+fs.writeFileSync("file3.txt", "Hello World 3!");
+console.log("File Created!");
