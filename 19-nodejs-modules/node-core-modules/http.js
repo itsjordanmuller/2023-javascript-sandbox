@@ -2,6 +2,10 @@ const http = require("http");
 
 // Create Simple Server Using http
 const server = http.createServer((request, response) => {
+  const url = request.url;
+
+  console.log(url);
+
   response.end("Hello World!");
 });
 
