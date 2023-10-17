@@ -88,20 +88,14 @@ router.put("/:id", async (req, res) => {
 });
 
 // Delete an Idea Using DELETE
-router.delete("/:id", (req, res) => {
-  const idea = ideas.find((idea) => idea.id === +req.params.id);
-
-  if (!idea) {
-    return res.status(404).json({
-      success: false,
-      error: "404 Not Found - Idea with that ID not found",
-    });
+router.delete("/:id", async (req, res) => {
+  try {
+    await Idea.findByIdAndDelete(req.params.id);
+    res.json({ success: true, data: {} });
+  } catch (error) {
+    console.log(error);
+    res.status(500).json({ success: false, error: "Something ent wrong" });
   }
-
-  const index = ideas.indexOf(idea);
-  ideas.splice(index, 1);
-
-  res.json({ success: true, data: {} });
 });
 
 module.exports = router;
