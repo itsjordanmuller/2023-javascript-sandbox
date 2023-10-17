@@ -18,3 +18,8 @@ if (os.platform() === "darwin") {
 } else {
   console.log("You are on some other type of system.");
 }
+
+// cpus()
+// Returns Information About All CPU Cores, Including:
+// Model, Speed, and Times Object with Various Times
+console.log(os.cpus());
