@@ -42,7 +42,20 @@ async function readFile(filename) {
   }
 }
 
-readFile("file1.txt");
-readFile("file2.txt");
-readFile("file3.txt");
-readFile("file4.txt");
+// readFile("file1.txt");
+// readFile("file2.txt");
+// readFile("file3.txt");
+// readFile("file4.txt");
+
+// Delete a File
+
+async function deleteFile(filename) {
+  try {
+    await fsp.unlink(filename);
+    console.log(`File ${filename} deleted`);
+  } catch (error) {
+    console.log(error);
+  }
+}
+
+deleteFile("file4.txt");
