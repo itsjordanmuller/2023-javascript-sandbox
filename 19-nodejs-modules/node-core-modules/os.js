@@ -51,3 +51,7 @@ const seconds = Math.floor(uptime) % 60;
 console.log(
   `Uptime: ${days} days, ${hours} hours, ${mins} minutes, ${seconds} seconds`
 );
+
+// hostname()
+// Gets the Computer's Hostname
+console.log(os.hostname());
