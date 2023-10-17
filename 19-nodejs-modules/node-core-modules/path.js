@@ -35,5 +35,5 @@ console.log(myPath2);
 console.log(__dirname);
 
 // __filename
-// Asbolute Path to Current Filename in Project Folder - "/home/itsjordanmuller/repos/2023-javascript-sandbox/19-nodejs-modules/node-core-modules/path.js"
+// Absolute Path to Current Filename in Project Folder - "/home/itsjordanmuller/repos/2023-javascript-sandbox/19-nodejs-modules/node-core-modules/path.js"
 console.log(__filename);
