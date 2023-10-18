@@ -10,7 +10,17 @@ class IdeaForm {
   handleSubmit(e) {
     e.preventDefault();
 
-    console.log("SUBMIT");
+    const idea = {
+      text: this._form.elements.text.value,
+      tag: this._form.elements.tag.value,
+      username: this._form.elements.username.value,
+    };
+
+    this._form.elements.text.value = "";
+    this._form.elements.tag.value = "";
+    this._form.elements.username.value = "";
+
+    document.dispatchEvent(new Event("closemodal"));
   }
 
   render() {
