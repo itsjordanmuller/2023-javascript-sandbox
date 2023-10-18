@@ -1,8 +1,10 @@
 import IdeasAPI from "../services/IdeasAPI";
+import IdeaList from "./IdeaList";
 
 class IdeaForm {
   constructor() {
     this._formModal = document.getElementById("form-modal");
+    this._ideaList = new IdeaList();
   }
 
   addEventListeners() {
@@ -18,7 +20,11 @@ class IdeaForm {
       username: this._form.elements.username.value,
     };
 
+    // Add Idea to Server
     const newIdea = await IdeasAPI.createIdea(idea);
+
+    // Add Idea to List
+    this._ideaList.addIdeaToList(newIdea.data.data);
 
     this._form.elements.text.value = "";
     this._form.elements.tag.value = "";
