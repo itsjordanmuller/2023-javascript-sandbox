@@ -3,6 +3,16 @@ class IdeaForm {
     this._formModal = document.getElementById("form-modal");
   }
 
+  addEventListeners() {
+    this._form.addEventListener("submit", this.handleSubmit.bind(this));
+  }
+
+  handleSubmit(e) {
+    e.preventDefault();
+
+    console.log("SUBMIT");
+  }
+
   render() {
     this._formModal.innerHTML = `
         <form id="idea-form">
@@ -21,6 +31,8 @@ class IdeaForm {
           <button class="btn" type="submit" id="submit">Submit</button>
         </form>
         `;
+    this._form = document.getElementById("idea-form");
+    this.addEventListeners();
   }
 }
 
