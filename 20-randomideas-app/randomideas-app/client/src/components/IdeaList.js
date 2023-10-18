@@ -15,14 +15,35 @@ class IdeaList {
     this._validTags.add("inventions");
   }
 
+  addEventListeners() {
+    this._ideaListEl.addEventListener("click", (e) => {
+      if (e.target.classList.contains("fa-times")) {
+        e.stopImmediatePropagation();
+        const ideaID = e.target.parentElement.parentElement.dataset.id;
+        this.deleteIdea(ideaID);
+      }
+    });
+  }
+
   async getIdeas() {
     try {
       const res = await IdeasAPI.getIdeas();
       this._ideas = res.data.data;
       this.render();
-      console.log(this._ideas);
+      // console.log(this._ideas);
     } catch (error) {
       console.log(error);
+    }
+  }
+
+  async deleteIdea(ideaID) {
+    try {
+      // Delete From Server
+      const res = await IdeasAPI.deleteIdea(ideaID);
+      this._ideas.filter((idea) => idea._id !== ideaID);
+      this.getIdeas();
+    } catch (error) {
+      alert("You can not delete this resource");
     }
   }
 
@@ -47,7 +68,7 @@ class IdeaList {
       .map((idea) => {
         const tagClass = this.getTagClass(idea.tag);
         return `
-        <div class="card">
+        <div class="card" data-id=${idea._id}>
           <button class="delete"><i class="fas fa-times"></i></button>
           <h3>
             ${idea.text}
@@ -61,6 +82,7 @@ class IdeaList {
         `;
       })
       .join("");
+    this.addEventListeners();
   }
 }
 
