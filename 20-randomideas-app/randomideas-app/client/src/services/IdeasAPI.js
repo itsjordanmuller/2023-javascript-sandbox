@@ -2,7 +2,10 @@ import axios from "axios";
 
 class IdeasAPI {
   constructor() {
+    // Development
     this._apiURL = "http://localhost:5000/api/ideas";
+    // Production - Must use "npm run build" to set
+    // this._apiURL = "/api/ideas";
   }
 
   getIdeas() {
