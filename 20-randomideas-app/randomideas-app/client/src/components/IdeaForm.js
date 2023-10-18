@@ -14,17 +14,30 @@ class IdeaForm {
   async handleSubmit(e) {
     e.preventDefault();
 
+    if (
+      !this._form.elements.text.value ||
+      !this._form.elements.tag.value ||
+      !this._form.elements.username.value
+    ) {
+      alert("Please enter all fields.");
+      return;
+    }
+
     const idea = {
       text: this._form.elements.text.value,
       tag: this._form.elements.tag.value,
       username: this._form.elements.username.value,
     };
 
-    // Add Idea to Server
-    const newIdea = await IdeasAPI.createIdea(idea);
+    try {
+      // Add Idea to Server
+      const newIdea = await IdeasAPI.createIdea(idea);
 
-    // Add Idea to List
-    this._ideaList.addIdeaToList(newIdea.data.data);
+      // Add Idea to List
+      this._ideaList.addIdeaToList(newIdea.data.data);
+    } catch (error) {
+      console.error(error);
+    }
 
     this._form.elements.text.value = "";
     this._form.elements.tag.value = "";
