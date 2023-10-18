@@ -1,29 +1,11 @@
+import IdeasAPI from "../services/IdeasAPI";
+
 class IdeaList {
   constructor() {
     this._ideaListEl = document.getElementById("idea-list");
-    this._ideas = [
-      {
-        id: 1,
-        text: "Positive NewsLetter, a newsletter that only shares positive, uplifting news",
-        tag: "Technology",
-        username: "Tony Stark",
-        date: "01/01/2023",
-      },
-      {
-        id: 2,
-        text: "Milk cartons that turn a different color the older that your milk is getting",
-        tag: "Inventions",
-        username: "Steve Rogers",
-        date: "01/02/2023",
-      },
-      {
-        id: 3,
-        text: "ATM location app which lets you know where the closest ATM is and if it is in service",
-        tag: "Software",
-        username: "Bruce Banner",
-        date: "01/03/2023",
-      },
-    ];
+    this._ideas = [];
+    this.getIdeas();
+
     this._validTags = new Set();
     this._validTags.add("technology");
     this._validTags.add("software");
@@ -31,6 +13,17 @@ class IdeaList {
     this._validTags.add("education");
     this._validTags.add("health");
     this._validTags.add("inventions");
+  }
+
+  async getIdeas() {
+    try {
+      const res = await IdeasAPI.getIdeas();
+      this._ideas = res.data.data;
+      this.render();
+      console.log(this._ideas);
+    } catch (error) {
+      console.log(error);
+    }
   }
 
   getTagClass(tag) {
