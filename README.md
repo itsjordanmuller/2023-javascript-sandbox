@@ -43,5 +43,7 @@ Self-Paced Learning Sandbox for JavaScript with HTML & CSS
 
 ## [4. Logic & Control Flow](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/04-logic-control-flow)
 
+## [5. Iteration & Array Methods](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/05-iteration-array-methods)
+
 ## Sources & Credits
 Guided Exercises by [Brad Traversy](https://github.com/bradtraversy)
