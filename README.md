@@ -51,7 +51,8 @@ Self-Paced Learning Sandbox for JavaScript with Node.js, Jest, Webpack, HTML & C
 ### [8. JSON Introduction](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/02-arrays-and-objects/08-json-intro)
 ### [9. Object Challenge](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/02-arrays-and-objects/09-object-challenge)
 
-## [3. Functions Scope](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/03-functions-scope)
+## [3. Functions & Scope](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/03-functions-scope)
+### [1. Function Basics](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/03-functions-scope/01-function-basics)
 
 ## [4. Logic & Control Flow](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/04-logic-control-flow)
 
