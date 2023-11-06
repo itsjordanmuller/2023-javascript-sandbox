@@ -158,6 +158,8 @@ Self-Paced Learning Sandbox for JavaScript with Node.js, Jest, Webpack, HTML & C
 
 ## [7. Events](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/07-events)
 
+### [A. Event Listeners](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/07-events/01-event-listeners/shopping-list)
+
 ## [8. Shopping List Project](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/08-shopping-list-project/shopping-list)
 
 ## [9. Asynchronous JavaScript](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/09-asynchronous-javascript)
