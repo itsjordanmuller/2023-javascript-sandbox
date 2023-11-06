@@ -35,5 +35,7 @@ Self-Paced Learning Sandbox for JavaScript with HTML & CSS
 
 ### [14. Dates & Times](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/01-variables-data-types/14-dates-and-times)
 
+### [15. Date Object Methods](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/01-variables-data-types/15-date-object-methods)
+
 ## Sources & Credits
 Guided Exercises by [Brad Traversy](https://github.com/bradtraversy)
