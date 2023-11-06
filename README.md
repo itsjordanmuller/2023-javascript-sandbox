@@ -39,5 +39,7 @@ Self-Paced Learning Sandbox for JavaScript with HTML & CSS
 
 ## [2. Arrays & Objects](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/02-arrays-and-objects)
 
+## [3. Functions Scope](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/03-functions-scope)
+
 ## Sources & Credits
 Guided Exercises by [Brad Traversy](https://github.com/bradtraversy)
