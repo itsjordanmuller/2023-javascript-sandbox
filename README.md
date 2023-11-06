@@ -63,5 +63,7 @@ Self-Paced Learning Sandbox for JavaScript with HTML & CSS
 
 ## [14. Classes & Private Properties - Object Oriented Programming](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/14-oop-classes-private-properties)
 
+## [15. Tracalorie Project](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/15-tracalorie-project/tracalorie)
+
 ## Sources & Credits
 Guided Exercises by [Brad Traversy](https://github.com/bradtraversy)
