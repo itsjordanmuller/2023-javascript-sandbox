@@ -47,5 +47,7 @@ Self-Paced Learning Sandbox for JavaScript with HTML & CSS
 
 ## [6. Document Object Model](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/06-document-object-model)
 
+## [7. Events](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/07-events)
+
 ## Sources & Credits
 Guided Exercises by [Brad Traversy](https://github.com/bradtraversy)
