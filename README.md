@@ -128,6 +128,8 @@ Self-Paced Learning Sandbox for JavaScript with Node.js, Jest, Webpack, HTML & C
 
 ## [6. Document Object Model](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/06-document-object-model)
 
+### [A. DOM (Document Object Model) Introduction](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/06-document-object-model/01-dom-intro)
+
 ## [7. Events](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/07-events)
 
 ## [8. Shopping List Project](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/08-shopping-list-project/shopping-list)
