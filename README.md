@@ -59,5 +59,7 @@ Self-Paced Learning Sandbox for JavaScript with HTML & CSS
 
 ## [12. Web Browser APIs](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/12-web-browser-apis)
 
+## [13. Object Oriented Programming (OOP) - Constructors & Prototypes](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/13-oop-constructors-prototypes)
+
 ## Sources & Credits
 Guided Exercises by [Brad Traversy](https://github.com/bradtraversy)
