@@ -108,6 +108,8 @@ Self-Paced Learning Sandbox for JavaScript with Node.js, Jest, Webpack, HTML & C
 
 ### [B. Break & Continue](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/05-iteration-array-methods/02-break-and-continue)
 
+### [C. While & Do While](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/05-iteration-array-methods/03-while-do-while)
+
 ## [6. Document Object Model](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/06-document-object-model)
 
 ## [7. Events](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/07-events)
