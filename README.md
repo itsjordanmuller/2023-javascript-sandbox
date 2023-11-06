@@ -53,5 +53,7 @@ Self-Paced Learning Sandbox for JavaScript with HTML & CSS
 
 ## [9. Asynchronous JavaScript](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/09-asynchronous-javascript)
 
+## [10. Fetch & Async Await](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/10-fetch-and-async-await)
+
 ## Sources & Credits
 Guided Exercises by [Brad Traversy](https://github.com/bradtraversy)
