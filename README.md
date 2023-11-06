@@ -33,5 +33,7 @@ Self-Paced Learning Sandbox for JavaScript with HTML & CSS
 
 ### [13. Number Challenge](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/01-variables-data-types/13-number-challenge)
 
+### [14. Dates & Times](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/01-variables-data-types/14-dates-and-times)
+
 ## Sources & Credits
 Guided Exercises by [Brad Traversy](https://github.com/bradtraversy)
