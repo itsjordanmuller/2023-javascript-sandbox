@@ -14,7 +14,9 @@ Self-Paced Learning Sandbox for JavaScript with Node.js, Jest, Webpack, HTML & C
 
 ![Console Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/01-variables-data-types/01-console/01-console.png)
 
-In this exercise, I created a simple page using HTML boilerplate and JavaScript to learn about variables and data types. The HTML file, [index.html](#), established a basic webpage structure and linked to a JavaScript file named [script.js](#). This setup allowed me to observe the output of my JavaScript code in the browser's console.
+In this exercise, I created a simple page using HTML boilerplate and JavaScript to learn about variables and data types. 
+
+The HTML file, [index.html](#), established a basic webpage structure and linked to a JavaScript file named [script.js](#). This setup allowed me to observe the output of my JavaScript code in the browser's console.
 
 > ![Emmet](https://img.shields.io/badge/Emmet-Visual%20Studio%20Code-007ACC.svg?style=for-the-badge&logo=Visual-Studio-Code&logoColor=white)
 > 
@@ -32,7 +34,7 @@ I also experimented with grouping console messages using `console.group`, `conso
 
 Additionally, I learned to display objects in a table format using `console.table` and applied CSS styles to console messages.
 
-This exercise provided a fundamental understanding of JavaScript variables, console methods, and data output formatting. It was an effective introduction to basic JavaScript features and the versatility of the console for testing and debugging.
+This exercise provided a fundamental understanding of JavaScript variables, console methods, and data output formatting.
 
 <details>
 <summary>View HTML Code - index.html - A - Console</summary>
