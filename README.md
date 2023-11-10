@@ -12,6 +12,26 @@ Self-Paced Learning Sandbox for JavaScript with Node.js, Jest, Webpack, HTML & C
 
 ### [A. Console](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/01-variables-data-types/01-console)
 
+In this exercise, I created a simple page using HTML boilerplate and JavaScript to learn about variables and data types. The HTML file, [index.html](#), established a basic webpage structure and linked to a JavaScript file named [script.js](#). This setup allowed me to observe the output of my JavaScript code in the browser's console.
+
+> ![Emmet](https://img.shields.io/badge/Emmet-Visual%20Studio%20Code-007ACC.svg?style=for-the-badge&logo=Visual-Studio-Code&logoColor=white)
+> 
+> #### CREATING HTML BOILERPLATE WITH [EMMET](https://code.visualstudio.com/docs/editor/emmet) IN [VISUAL STUDIO CODE](https://code.visualstudio.com/)
+> 
+> I was able to quickly generate HTML boilerplate code using [Emmet](https://code.visualstudio.com/docs/editor/emmet) Snippets in [Visual Studio Code](https://code.visualstudio.com/):
+> 1. Create Empty `index.html` document
+> 2. Begin to Type `!` and Look for Auto-Completion
+> 3. Press `Tab` or `Enter` key to Use the Snippet
+> 4. Your HTML boilerplate code should be ready!
+
+In [script.js](#), I practiced using **console.log** to display various types of data, including **strings**, **numbers**, and **booleans**.
+
+I also experimented with grouping console messages using **console.group**, **console.error**, **console.warn**, and **console.groupEnd**. 
+
+Additionally, I learned to display objects in a table format using **console.table** and applied CSS styles to console messages.
+
+This exercise provided a fundamental understanding of JavaScript variables, console methods, and data output formatting. It was an effective introduction to basic JavaScript features and the versatility of the console for testing and debugging.
+
 ### [B. Comments & Shortcuts](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/01-variables-data-types/02-comments-shortcuts)
 
 ### [C. Variables](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/01-variables-data-types/03-variables)
