@@ -140,6 +140,90 @@ console.log("%cStyled Console Text", styles);
 
 ### [C. Variables](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/01-variables-data-types/03-variables)
 
+![Variables Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/01-variables-data-types/03-variables/03-variables.png)
+
+In this exercise, I focused on variable declaration and naming conventions in JavaScript. I learned about different ways to declare variables using `var`, `let`, and `const`, each having their own use cases and **scope**.
+
+I followed specific naming conventions for variables, which include using only letters, numbers, underscores, and dollar signs, and not starting a name with a number. I explored different naming formats like **camelCase**, **underscore**, **PascalCase**, **lowercase**, and **UPPERCASE** through examples like `firstName`, `first_name`, `FirstName`, `FIRSTNAME`, etc.
+
+I practiced declaring and initializing variables with `let` and `const`, understanding the difference between them. While `let` allows re-assignment, as I demonstrated by changing the value of `age`, `const` does not permit re-assigning to a new **primitive value**, illustrated by the commented-out code showing an error when trying to reassign a `const` variable. However, I learned that `const` can be used with **mutable data types** like arrays and objects, as seen when I modified the `arr` **array** and `person` **object**.
+
+Lastly, I practiced declaring multiple variables at once, both uninitialized and with initial values, as well as showcased the flexibility and syntax variations in JavaScript variable declaration. This helped to enhance my understanding of variable usage, scope, and best practices in naming.
+
+<details>
+<summary>View JS Code - script.js - C - Variables</summary>
+<br>
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
+
+```javascript
+// Ways to declare a variable
+// var, let, const
+
+// Naming Conventions
+// - Only letters, numbers, underscores and dollar signs
+// - Can't start with a number
+
+// Multi-Word Formatting
+// firstName     camelCase
+// first_name    underscore
+// FirstName     PascalCase
+// firstname     lowercase
+// FIRSTNAME     UPPERCASE
+
+let firstName = "Jordan";
+let lastName = "Muller";
+
+let age = 30;
+
+console.log(firstName, lastName, age);
+console.log(age);
+
+// Re-assigning Variables
+age = 31;
+console.log(age);
+
+let score;
+
+score = 1;
+
+console.log(score);
+
+if (true) {
+  score = score + 1;
+}
+
+console.log(score);
+
+// const x = 100;
+// x = 200;
+
+const arr = [1, 2, 3, 4];
+
+arr.push(5);
+
+console.log(arr);
+
+const person = {
+  name: "John",
+};
+
+person.name = "Jordan";
+person.email = "itsjordanmuller@gmail.com";
+
+console.log(person);
+
+// Declare Multiple Values at Once
+let a, b, c;
+
+const d = 10,
+  e = 20,
+  f = 30;
+
+console.log(a, b, c, d, e, f);
+```
+</details>
+
 ### [D. Data Types](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/01-variables-data-types/04-data-types)
 
 ### [E. Stack Heap](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/01-variables-data-types/05-stack-heap)
