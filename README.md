@@ -26,16 +26,16 @@ In this exercise, I created a simple page using HTML boilerplate and JavaScript 
 > 3. Press `Tab` or `Enter` key to Use the Snippet
 > 4. Your HTML boilerplate code should be ready!
 
-In [script.js](#), I practiced using **console.log** to display various types of data, including **strings**, **numbers**, and **booleans**.
+In [script.js](#), I practiced using `console.log` to display various types of data, including `strings`, `numbers`, and `booleans`.
 
-I also experimented with grouping console messages using **console.group**, **console.error**, **console.warn**, and **console.groupEnd**. 
+I also experimented with grouping console messages using `console.group`, `console.error`, `console.warn`, and `console.groupEnd`. 
 
-Additionally, I learned to display objects in a table format using **console.table** and applied CSS styles to console messages.
+Additionally, I learned to display objects in a table format using `console.table` and applied CSS styles to console messages.
 
 This exercise provided a fundamental understanding of JavaScript variables, console methods, and data output formatting. It was an effective introduction to basic JavaScript features and the versatility of the console for testing and debugging.
 
 <details>
-<summary>View HTML Code - index.html - #1 - Console</summary>
+<summary>View HTML Code - <span style="color:#FFFFFF; background-color: #E34F26; padding: 2px 6px; border-radius: 5px;">index.html</span> - A - Console</summary>
 <br>
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=HTML5&logoColor=white)
@@ -58,10 +58,8 @@ This exercise provided a fundamental understanding of JavaScript variables, cons
 ```
 </details>
 
-<br>
-
 <details>
-<summary>View JS Code - script.js - #1 - Console</summary>
+<summary>View JS Code - <span style="color:#000000; background-color: #F7DF1E; padding: 2px 6px; border-radius: 5px;">script.js</span> - A - Console</summary>
 <br>
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
@@ -87,14 +85,15 @@ const styles = "padding: 10px; background-color: white; color: green";
 
 console.log("%cStyled Console Text", styles);
 ```
-
 </details>
+
+---
 
 ### [B. Comments & Shortcuts](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/01-variables-data-types/02-comments-shortcuts)
 
 ![Comments & Shortcuts Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/01-variables-data-types/02-comments-shortcuts/02-comments-shortcuts.png)
 
-In this exercise, I practiced using **comments** in JavaScript. I applied these to comment out several **console.log** statements and a variable declaration.
+In this exercise, I practiced using `comments` in JavaScript. I applied these to comment out several `console.log` statements and a variable declaration.
 
 #### Single-line Comments
 > Marked with //, useful for brief notes or disabling a single line of code. 
@@ -102,10 +101,10 @@ In this exercise, I practiced using **comments** in JavaScript. I applied these 
 #### Multi-line Comments
 > Enclosed in /* and */, great for longer explanations or commenting out blocks of code. 
 
-Additionally, I practiced organizing console messages with **console.group**, **console.error**, **console.warn**, and **console.groupEnd**. I also displayed an object in a table format using console.table and styled a **console.log** message with CSS. This exercise helped me understand how to use comments in JavaScript & reinforced my skills in output formatting in the console.
+Additionally, I practiced organizing console messages with `console.group`, `console.error`, `console.warn`, and `console.groupEnd`. I also displayed an object in a table format using `console.table` and styled a `console.log` message with CSS. This exercise helped me understand how to use comments in JavaScript & reinforced my skills in output formatting in the console.
 
 <details>
-<summary>View JS Code - script.js - #2 - Comments & Shortcuts</summary>
+<summary>View JS Code - <span style="color:#000000; background-color: #F7DF1E; padding: 2px 6px; border-radius: 5px;">script.js</span> - B - Comments & Shortcuts</summary>
 <br>
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
@@ -136,6 +135,8 @@ const styles = "padding: 10px; background-color: white; color: green";
 console.log("%cStyled Console Text", styles);
 ```
 </details>
+
+---
 
 ### [C. Variables](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/01-variables-data-types/03-variables)
 
