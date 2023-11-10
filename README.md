@@ -16,7 +16,7 @@ Self-Paced Learning Sandbox for JavaScript with Node.js, Jest, Webpack, HTML & C
 
 In this exercise, I created a simple page using HTML boilerplate and JavaScript to learn about variables and data types. 
 
-The HTML file, [index.html](#), established a basic webpage structure and linked to a JavaScript file named [script.js](#). This setup allowed me to observe the output of my JavaScript code in the browser's console.
+The HTML file, `index.html` established a basic webpage structure and linked to a JavaScript file named `script.js`. This setup allowed me to observe the output of my JavaScript code in the browser's console.
 
 > ![Emmet](https://img.shields.io/badge/Emmet-Visual%20Studio%20Code-007ACC.svg?style=for-the-badge&logo=Visual-Studio-Code&logoColor=white)
 > 
@@ -28,7 +28,7 @@ The HTML file, [index.html](#), established a basic webpage structure and linked
 > 3. Press `Tab` or `Enter` key to Use the Snippet
 > 4. Your HTML boilerplate code should be ready!
 
-In [script.js](#), I practiced using `console.log` to display various types of data, including `strings`, `numbers`, and `booleans`.
+I practiced using `console.log` to display various types of data, including `strings`, `numbers`, and `booleans`.
 
 I also experimented with grouping console messages using `console.group`, `console.error`, `console.warn`, and `console.groupEnd`. 
 
