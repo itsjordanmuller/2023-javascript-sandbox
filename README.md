@@ -18,7 +18,7 @@ In this exercise, I created a simple page using HTML boilerplate and JavaScript 
 
 > ![Emmet](https://img.shields.io/badge/Emmet-Visual%20Studio%20Code-007ACC.svg?style=for-the-badge&logo=Visual-Studio-Code&logoColor=white)
 > 
-> #### CREATING HTML BOILERPLATE WITH [EMMET](https://code.visualstudio.com/docs/editor/emmet) IN [VISUAL STUDIO CODE](https://code.visualstudio.com/)
+> #### Creating HTML Boilerplate with [Emmet](https://code.visualstudio.com/docs/editor/emmet) in [Visual Studio Code](https://code.visualstudio.com/)
 > 
 > I was able to quickly generate HTML boilerplate code using [Emmet](https://code.visualstudio.com/docs/editor/emmet) Snippets in [Visual Studio Code](https://code.visualstudio.com/):
 > 1. Create Empty `index.html` document
@@ -34,7 +34,108 @@ Additionally, I learned to display objects in a table format using **console.tab
 
 This exercise provided a fundamental understanding of JavaScript variables, console methods, and data output formatting. It was an effective introduction to basic JavaScript features and the versatility of the console for testing and debugging.
 
+<details>
+<summary>View HTML Code - index.html - #1 - Console</summary>
+<br>
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=HTML5&logoColor=white)
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Console</title>
+  </head>
+  <body>
+    <h1>Console</h1>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+```
+</details>
+
+<br>
+
+<details>
+<summary>View JS Code - script.js - #1 - Console</summary>
+<br>
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
+
+```javascript
+console.log("Hello World!");
+
+console.log(100);
+
+console.log(20, "Hello", true);
+
+const x = 500;
+console.log(x);
+
+console.group("Simple");
+console.error("Alert");
+console.warn("Warning");
+console.groupEnd();
+
+console.table({ name: "Jordan", email: "itsjordanmuller@gmail.com" });
+
+const styles = "padding: 10px; background-color: white; color: green";
+
+console.log("%cStyled Console Text", styles);
+```
+
+</details>
+
 ### [B. Comments & Shortcuts](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/01-variables-data-types/02-comments-shortcuts)
+
+![Comments & Shortcuts Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/01-variables-data-types/02-comments-shortcuts/02-comments-shortcuts.png)
+
+In this exercise, I practiced using **comments** in JavaScript. I applied these to comment out several **console.log** statements and a variable declaration.
+
+#### Single-line Comments
+> Marked with //, useful for brief notes or disabling a single line of code. 
+
+#### Multi-line Comments
+> Enclosed in /* and */, great for longer explanations or commenting out blocks of code. 
+
+Additionally, I practiced organizing console messages with **console.group**, **console.error**, **console.warn**, and **console.groupEnd**. I also displayed an object in a table format using console.table and styled a **console.log** message with CSS. This exercise helped me understand how to use comments in JavaScript & reinforced my skills in output formatting in the console.
+
+<details>
+<summary>View JS Code - script.js - #2 - Comments & Shortcuts</summary>
+<br>
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
+
+```javascript
+// This is a Single-Line Comment
+
+/* This is a Multi-Line Comment
+console.log("Hello World!");
+
+console.log(100);
+
+console.log(20, "Hello", true);
+
+const x = 500;
+console.log(x);
+*/
+
+console.group("Simple");
+console.error("Alert");
+console.warn("Warning");
+console.groupEnd();
+
+console.table({ name: "Jordan", email: "itsjordanmuller@gmail.com" });
+
+const styles = "padding: 10px; background-color: white; color: green";
+
+console.log("%cStyled Console Text", styles);
+```
+</details>
 
 ### [C. Variables](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/01-variables-data-types/03-variables)
 
