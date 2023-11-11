@@ -657,6 +657,51 @@ console.log(x);
 
 ### [M. Number Challenge](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/01-variables-data-types/13-number-challenge)
 
+![Number Challenge Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/01-variables-data-types/13-number-challenge/13-number-challenge.png)
+
+In this exercise, I applied JavaScript's Math functions and arithmetic operators to better understand basic mathematical operations and string interpolation. The script involved generating random numbers and performing various calculations with them.
+
+The challenge began by generating two random numbers, `x` and `y`, where `x` is a random number between 1 and 100, and `y` is a random number between 1 and 50. This was achieved using `Math.floor(Math.random() * 100 + 1)` and `Math.floor(Math.random() * 50 + 1)`.
+
+I then performed and displayed the results of five basic arithmetic operations: addition (`sum`), subtraction (`difference`), multiplication (`product`), division (`quotient`), and modulus (`remainder`). Each operation was accompanied by an output string, like `sumOutput = \`${x} + ${y} = ${sum}\``, which not only provided the calculation results but also neatly presented the operands and the operation performed.
+
+This exercise was effective in demonstrating the use of arithmetic operators, string interpolation using template literals, and generating random numbers. It enhanced my understanding of how to combine these elements to create informative and readable outputs, a skill useful in various programming tasks.
+
+<details>
+<summary>View JS Code - script.js - M - Number Challenge</summary>
+<br>
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
+
+```javascript
+let x, y;
+
+x = Math.floor(Math.random() * 100 + 1);
+y = Math.floor(Math.random() * 50 + 1);
+
+sum = x + y;
+sumOutput = `${x} + ${y} = ${sum}`;
+
+difference = x - y;
+differenceOutput = `${x} - ${y} = ${difference}`;
+
+product = x * y;
+productOutput = `${x} * ${y} = ${product}`;
+
+quotient = x / y;
+quotientOutput = `${x} / ${y} = ${quotient}`;
+
+remainder = x % y;
+remainderOutput = `${x} % ${y} = ${remainder}`;
+
+console.log(sumOutput);
+console.log(differenceOutput);
+console.log(productOutput);
+console.log(quotientOutput);
+console.log(remainderOutput);
+```
+</details>
+
 ### [N. Dates & Times](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/01-variables-data-types/14-dates-and-times)
 
 ### [O. Date Object Methods](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/01-variables-data-types/15-date-object-methods)
