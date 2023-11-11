@@ -535,11 +535,37 @@ x = s.valueOf();
 x = s.split(" ");
 
 console.log(x);
-
 ```
 </details>
 
 ### [J. Capitalize Challenge](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/01-variables-data-types/10-capitalize-challenge)
+
+![Capitalize Challenge Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/01-variables-data-types/10-capitalize-challenge/10-capitalize-challenge.png)
+
+In this exercise, I tackled a JavaScript challenge focused on string manipulation, specifically capitalizing the first letter of a given string. The task involved creating a new string `myNewString` with the capitalized form of the word held in `myString`.
+
+The process began by declaring `myString` with the value "developer". The challenge was to transform this string into "Developer". To achieve this, I used a combination of string methods and properties. The first letter of `myString` was capitalized using `toUpperCase()`, and then the rest of the string was appended using `slice(1, myString.length)`. This approach efficiently combined the first capitalized character with the remaining lowercase characters of the original string.
+
+The solution `myNewString = myString[0].toUpperCase() + myString.slice(1, myString.length)` elegantly showcased the power of string manipulation in JavaScript. It demonstrated how to modify parts of a string and concatenate them to form a new string. This exercise was a practical example of how to handle common string operations in JavaScript, enhancing my understanding of string methods and their applications in real-world scenarios.
+
+<details>
+<summary>View JS Code - script.js - J - Capitalize Challenge</summary>
+<br>
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
+
+```javascript
+// Create a new string called "myNewString" that holds the value of "Developer", using the value from "myString"
+const myString = "developer";
+
+console.log(myString);
+
+const myNewString =
+  myString[0].toUpperCase() + myString.slice(1, myString.length);
+
+console.log(myNewString);
+```
+</details>
 
 ### [K. Numbers](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/01-variables-data-types/11-numbers)
 
