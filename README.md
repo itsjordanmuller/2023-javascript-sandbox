@@ -746,6 +746,67 @@ console.log(d);
 
 ### [O. Date Object Methods](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/01-variables-data-types/15-date-object-methods)
 
+![Date Object Methods Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/01-variables-data-types/15-date-object-methods/15-date-object-methods.png)
+
+In this exercise, I focused on the diverse methods available in the JavaScript `Date` object for retrieving and formatting date and time information. This exploration is crucial for handling temporal data in web and software development.
+
+The script started with creating a new `Date` object `d`, representing the current date and time. I then used methods like `getTime()` and `valueOf()` to get the numeric timestamp of the date object, representing the number of milliseconds since the Unix Epoch.
+
+Next, I explored methods to retrieve individual components of the date object, such as `getFullYear()`, `getMonth()`, `getDate()`, `getDay()` (for the day of the week), `getHours()`, `getMinutes()`, `getSeconds()`, and `getMilliseconds()`. This helped in understanding how to access specific parts of a date.
+
+The exercise also included formatting the date into a custom string using template literals, and utilizing the `Intl.DateTimeFormat` object to format the date according to different locales (`en-US`, `en-GB`, and the system's default locale). Additionally, I experimented with customizing the output format, such as displaying only the month name using `{ month: "long" }` or `{ month: "short" }`.
+
+Finally, I used `toLocaleString()` with various options to format the date and time in a more detailed and localized manner, specifying aspects like the weekday, year, month, day, time, and even the time zone.
+
+<details>
+<summary>View JS Code - script.js - O - Dates Object Methods</summary>
+<br>
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
+
+```javascript
+let x;
+let d = new Date();
+
+x = d.getTime();
+x = d.valueOf();
+
+x = d.getFullYear();
+x = d.getMonth() + 1;
+x = d.getDate();
+
+x = d.getDay();
+
+x = d.getHours();
+x = d.getMinutes();
+x = d.getSeconds();
+x = d.getMilliseconds();
+
+x = `${d.getFullYear()}-${d.getMonth() + 1}-${d.getDate()}`;
+
+x = Intl.DateTimeFormat("en-US").format(d);
+x = Intl.DateTimeFormat("en-GB").format(d);
+x = Intl.DateTimeFormat("default").format(d);
+
+x = Intl.DateTimeFormat("default", { month: "long" }).format(d);
+
+x = d.toLocaleString("default", { month: "short" });
+
+x = d.toLocaleString("default", {
+  weekday: "long",
+  year: "numeric",
+  month: "long",
+  day: "numeric",
+  hour: "numeric",
+  minute: "numeric",
+  second: "numeric",
+  timeZone: "America/Los_Angeles",
+});
+
+console.log(x);
+```
+</details>
+
 ## [2. Arrays & Objects](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/02-arrays-and-objects)
 
 ### [A. Array Basics](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/02-arrays-and-objects/01-array-basics)
