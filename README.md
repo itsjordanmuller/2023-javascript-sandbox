@@ -665,8 +665,6 @@ The challenge began by generating two random numbers, `x` and `y`, where `x` is 
 
 I then performed and displayed the results of five basic arithmetic operations: addition (`sum`), subtraction (`difference`), multiplication (`product`), division (`quotient`), and modulus (`remainder`). Each operation was accompanied by an output string, like `sumOutput = \`${x} + ${y} = ${sum}\``, which not only provided the calculation results but also neatly presented the operands and the operation performed.
 
-This exercise was effective in demonstrating the use of arithmetic operators, string interpolation using template literals, and generating random numbers. It enhanced my understanding of how to combine these elements to create informative and readable outputs, a skill useful in various programming tasks.
-
 <details>
 <summary>View JS Code - script.js - M - Number Challenge</summary>
 <br>
@@ -703,6 +701,48 @@ console.log(remainderOutput);
 </details>
 
 ### [N. Dates & Times](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/01-variables-data-types/14-dates-and-times)
+
+![Dates & Times Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/01-variables-data-types/14-dates-and-times/14-dates-and-times.png)
+
+In this exercise, I delved into handling dates and times in JavaScript, a crucial aspect for any application that needs to track or manipulate temporal data. The script covered various ways of creating, formatting, and manipulating date objects using JavaScript's built-in `Date` object.
+
+The exercise began with creating a new `Date` object representing the current date and time, which was then converted to a string using `toString()`. Following this, I explored creating `Date` objects with specific dates and times, using different formats and constructors. Examples included `new Date(2021, 5, 10, 12, 30, 0)`, `new Date("2021-07-10T12:30:00")`, and `new Date("07/10/2021 12:30:00")`. These examples demonstrated the flexibility of the `Date` constructor in accepting various date and time formats.
+
+I also worked with the static method `Date.now()` to get the current date and time in milliseconds since the Unix Epoch. Then, I used the `getTime()` and `valueOf()` methods on a `Date` object to obtain its numeric representation in milliseconds. 
+
+Another interesting aspect was creating a `Date` object from a specific timestamp (milliseconds), shown with `new Date(1625945400000)`, and converting the current time to Unix time (seconds since the Unix Epoch) using `Math.floor(Date.now() / 1000)`.
+
+<details>
+<summary>View JS Code - script.js - N - Dates & Times</summary>
+<br>
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
+
+```javascript
+let d;
+
+d = new Date();
+
+d = d.toString();
+
+d = new Date(2021, 5, 10, 12, 30, 0);
+
+d = new Date("2021-07-10T12:30:00");
+d = new Date("07/10/2021 12:30:00");
+
+d = Date.now();
+
+d = new Date("07-10-2021 12:30:00");
+d = d.getTime();
+d = d.valueOf();
+
+d = new Date(1625945400000);
+
+d = Math.floor(Date.now() / 1000);
+
+console.log(d);
+```
+</details>
 
 ### [O. Date Object Methods](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/01-variables-data-types/15-date-object-methods)
 
