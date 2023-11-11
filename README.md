@@ -323,6 +323,44 @@ console.log(person, newPerson);
 
 ### [F. Type Conversion](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/01-variables-data-types/06-type-conversion)
 
+![Type Conversion Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/01-variables-data-types/06-type-conversion/06-type-conversion.png)
+
+In this exercise, I explored the topic of type conversion in JavaScript, a fundamental concept for effectively managing and manipulating different types of data. The script began with a string variable `amount` initially assigned the value "Hello".
+
+The first demonstration was converting a string to a number, using various methods like `parseInt()`, unary plus (`+amount`), and `Number()`. Each of these methods can transform a string into a numeric format, though their behavior varies slightly with different inputs.
+
+The script also included commented-out examples to show other conversion methods, such as turning a number into a string using `amount.toString()` or `String(amount)`. Additionally, converting a string to a decimal number was illustrated with `parseFloat()`, and converting a number to a boolean was shown using `Boolean(amount)`.
+
+Through this exercise, I gained a deeper understanding of how JavaScript handles type conversions, and the nuances of converting between strings, numbers, decimals, and booleans. This knowledge is crucial for data manipulation and ensuring correct data types are used in various operations.
+
+<details>
+<summary>View JS Code - script.js - F - Type Conversion</summary>
+<br>
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
+
+```javascript
+let amount = "Hello";
+
+// Convert String to Number
+amount = parseInt(amount);
+// amount = +amount;
+// amount = Number(amount);
+
+// Convert a Number to a String
+// amount = amount.toString();
+// amount = String(amount);
+
+// Convert a String to Decimal
+// amount = parseFloat(amount);
+
+// Convert a Number to a Boolean
+// amount = Boolean(amount);
+
+console.log(amount, typeof amount);
+```
+</details>
+
 ### [G. Operators](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/01-variables-data-types/07-operators)
 
 ### [H. Type Coercion](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/01-variables-data-types/08-type-coercion)
