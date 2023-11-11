@@ -569,6 +569,48 @@ console.log(myNewString);
 
 ### [K. Numbers](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/01-variables-data-types/11-numbers)
 
+![Numbers Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/01-variables-data-types/11-numbers/11-numbers.png)
+
+In this JavaScript exercise, I explored the various methods and properties related to the `Number` object, enhancing my understanding of how to work with numerical data. The script demonstrated different ways to manipulate and format numbers, an essential skill in many programming tasks.
+
+The exercise began with creating a `Number` object `num` with the value `5.4567`. I then explored various methods like `toString()`, which converts a number to a string, and examined the length of this string representation. To format the number to a fixed number of decimal places, I used `toFixed(2)`, which rounds the number to two decimal places.
+
+Further, the script included `toPrecision(3)`, which formats the number to a specified precision, and `toExponential(2)`, which represents the number in exponential notation. I also used `toLocaleString("en-US")` to format the number according to U.S. locale conventions. Additionally, `valueOf()` was used to retrieve the primitive value of the `Number` object.
+
+Towards the end, I delved into the properties of the `Number` object, such as `Number.MAX_VALUE` and `Number.MIN_VALUE`, to understand the range of values that JavaScript numbers can represent.
+
+<details>
+<summary>View JS Code - script.js - K - Numbers</summary>
+<br>
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
+
+```javascript
+let x;
+
+const num = new Number(5.4567);
+
+x = num.toString();
+
+x = num.toString().length;
+
+x = num.toFixed(2);
+
+x = num.toPrecision(3);
+
+x = num.toExponential(2);
+
+x = num.toLocaleString("en-US");
+
+x = num.valueOf();
+
+x = Number.MAX_VALUE;
+x = Number.MIN_VALUE;
+
+console.log(x);
+```
+</details>
+
 ### [L. Math Object](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/01-variables-data-types/12-math-object)
 
 ### [M. Number Challenge](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/01-variables-data-types/13-number-challenge)
