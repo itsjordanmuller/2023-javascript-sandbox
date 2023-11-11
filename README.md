@@ -228,7 +228,7 @@ console.log(a, b, c, d, e, f);
 
 ### [D. Data Types](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/01-variables-data-types/04-data-types)
 
-![Variables Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/01-variables-data-types/04-data-types/04-data-types.png)
+![Data Types Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/01-variables-data-types/04-data-types/04-data-types.png)
 
 In this exercise, I explored various data types in JavaScript, essential for understanding how to store and manipulate information in programming. I started with the `String` data type, demonstrated by the variable `firstName` set to "Jordan". Then, I moved on to `Number`, exemplified by variables like `age` and `temp`, which hold integer and floating-point numbers respectively.
 
@@ -286,6 +286,40 @@ console.log(output, typeof output);
 </details>
 
 ### [E. Stack Heap](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/01-variables-data-types/05-stack-heap)
+
+![Stack Heap Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/01-variables-data-types/05-stack-heap/05-stack-heap.png)
+
+This exercise provided an understanding of stack and heap memory in JavaScript. Primitive types like `String` and `Number`, exemplified by `name` and `age`, are stored on the stack. In contrast, reference types like `Object`, shown with `person`, are stored on the heap. 
+
+The script highlighted the difference between these storage types through variable assignments. For primitives, such as `newName`, changes do not impact the original variable, demonstrating value copying. However, for reference types like `newPerson`, modifications directly affect the original object, illustrating reference copying. This concise example clarified the fundamental memory allocation concepts in JavaScript.
+
+<details>
+<summary>View JS Code - script.js - E - Stack Heap</summary>
+<br>
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
+
+```javascript
+// Values are Stored on the Stack
+const name = "Jordan";
+const age = 23;
+
+// Reference Values are Stored on the Heap
+const person = {
+  name: "John",
+  age: 23,
+};
+
+let newName = name;
+newName = "Jordan";
+
+let newPerson = person;
+newPerson.name = "Jordan";
+
+console.log(name, newName);
+console.log(person, newPerson);
+```
+</details>
 
 ### [F. Type Conversion](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/01-variables-data-types/06-type-conversion)
 
