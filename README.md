@@ -613,6 +613,48 @@ console.log(x);
 
 ### [L. Math Object](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/01-variables-data-types/12-math-object)
 
+![Math Object Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/01-variables-data-types/12-math-object/12-math-object.png)
+
+In this JavaScript exercise, I explored the capabilities of the `Math` object, a built-in object that has properties and methods for mathematical constants and functions. This is a fundamental aspect of JavaScript for performing various mathematical operations.
+
+The exercise started with `Math.sqrt(9)`, demonstrating how to calculate the square root of a number. Next, I used `Math.abs(-5)` to find the absolute value, turning a negative number into a positive one. For rounding numbers, I applied `Math.round(4.6)` for standard rounding, `Math.ceil(4.2)` to always round up, and `Math.floor(4.7)` to always round down.
+
+Additionally, I worked with `Math.pow(2, 3)` to raise a number to a certain power and used `Math.min(4, 5)` and `Math.max(4, 5)` to find the smallest and largest numbers among the given arguments, respectively. 
+
+The script also included `Math.random()`, a method to generate a random number between 0 and 1. To make this more practical, I combined it with `Math.floor(Math.random() * 100 + 1)` to generate a random integer between 1 and 100.
+
+<details>
+<summary>View JS Code - script.js - L - Math Object</summary>
+<br>
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
+
+```javascript
+let x;
+
+x = Math.sqrt(9);
+
+x = Math.abs(-5);
+
+x = Math.round(4.6);
+
+x = Math.ceil(4.2);
+
+x = Math.floor(4.7);
+
+x = Math.pow(2, 3);
+
+x = Math.min(4, 5);
+x = Math.max(4, 5);
+
+x = Math.random();
+
+x = Math.floor(Math.random() * 100 + 1);
+
+console.log(x);
+```
+</details>
+
 ### [M. Number Challenge](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/01-variables-data-types/13-number-challenge)
 
 ### [N. Dates & Times](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/01-variables-data-types/14-dates-and-times)
