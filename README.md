@@ -435,6 +435,14 @@ console.log(x);
 
 ![Type Coercion Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/01-variables-data-types/08-type-coercion/08-type-coercion.png)
 
+In this exercise, I explored the concept of type coercion in JavaScript, which involves automatic or implicit conversion of values from one data type to another. The script primarily focused on numeric and string types, demonstrating how JavaScript handles the conversion of different types when they are used together in operations.
+
+The exercise started with basic examples like adding a number and a string (`5 + "5"`), which JavaScript coerces into a string concatenation. Then, it showed how to explicitly convert a string to a number using `Number("5")`, followed by multiplication, which also involves type coercion but results in a numeric output due to the nature of the operation (`5 * "5"`).
+
+Further, the script included examples with `null`, `true`, `false`, and `undefined`. These involved adding or converting these types to numbers. For instance, `5 + null` and `Number(null)` demonstrate how `null` is treated in arithmetic operations and explicit conversions. Similarly, the exercise showed the numeric conversion of boolean values (`true` and `false`) and their effect when used in arithmetic operations with numbers.
+
+The final part included an example of adding a number to `undefined`, showcasing how JavaScript treats such operations. The exercise was instrumental in understanding how JavaScript implicitly or explicitly converts data types during operations, a key aspect of writing effective and error-free code.
+
 <details>
 <summary>View JS Code - script.js - H - Type Coercion</summary>
 <br>
@@ -465,6 +473,71 @@ console.log(x, typeof x);
 </details>
 
 ### [I. Strings](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/01-variables-data-types/09-strings)
+
+![Strings Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/01-variables-data-types/09-strings/09-strings.png)
+
+In this exercise, I focused on strings, an essential data type for storing and manipulating textual data. The script covered different aspects of string handling, including concatenation, template literals, properties, methods, and more.
+
+Initially, I experimented with string concatenation using the `+` operator and then transitioned to template literals for a cleaner syntax. Template literals, as shown in the example with `name` and `age`, allow embedding variables directly within a string using `${}` syntax.
+
+The exercise then delved into string properties and methods. I learned about the `String` object, its properties like `length`, and methods such as `toUpperCase()`, `toLowerCase()`, `charAt()`, `indexOf()`, `substring()`, `slice()`, `trim()`, `replace()`, `includes()`, `valueOf()`, and `split()`. Each method served a specific purpose, like changing case, accessing characters, finding substrings, trimming whitespace, replacing content, checking for presence of a substring, converting to a primitive string, and splitting a string into an array.
+
+An interesting aspect was accessing a string's prototype properties using `.__proto__`. This part of the script highlighted the underlying object-oriented nature of JavaScript strings.
+
+<details>
+<summary>View JS Code - script.js - I - Strings</summary>
+<br>
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
+
+```javascript
+let x;
+
+const name = "Jordan";
+const age = 23;
+
+// x = "Hello, my name is " + name + " and I am " + age + " years old";
+
+// Template Literals
+x = `Hello, my name is ${name} and I am ${age} years old`;
+
+// String Properties and Methods
+const s = new String("Hello World!");
+
+x = typeof s;
+x = s.length;
+
+// Access Value by Key
+x = s[0];
+
+x = s.__proto__;
+
+x = s.toUpperCase();
+x = s.toLowerCase();
+
+x = s.charAt(0);
+
+x = s.indexOf("d");
+
+x = s.substring(0, 5);
+x = s.substring(6);
+
+x = s.slice(-12, -7);
+
+x = x.trim();
+
+x = s.replace("World", "Jordan");
+
+x = s.includes("Hello");
+
+x = s.valueOf();
+
+x = s.split(" ");
+
+console.log(x);
+
+```
+</details>
 
 ### [J. Capitalize Challenge](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/01-variables-data-types/10-capitalize-challenge)
 
