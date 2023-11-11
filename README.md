@@ -363,6 +363,74 @@ console.log(amount, typeof amount);
 
 ### [G. Operators](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/01-variables-data-types/07-operators)
 
+![Operators Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/01-variables-data-types/07-operators/07-operators.png)
+
+In this exercise, I delved into the various operators in JavaScript, which are fundamental for performing calculations, assigning values, and comparing data. The script was structured to cover three main categories of operators: Arithmetic, Assignment, and Comparison.
+
+For Arithmetic Operators, I worked with basic math operations like addition (`+`), subtraction (`-`), multiplication (`*`), division (`/`), and modulus (`%`). The exercise also included string concatenation using the `+` operator, demonstrating its versatility. Furthermore, I explored the exponentiation operator (`**`) and increment (`++`) and decrement (`--`) operators, which are shorthand for adding or subtracting one from a variable.
+
+Next, I focused on Assignment Operators, demonstrating how to combine arithmetic operations with assignment. This included operators like `+=`, `-=`, `*=`, `/=`, `%=`, and `**=`, which are shortcuts for updating a variable's value based on its current value.
+
+Finally, the script highlighted Comparison Operators, essential for logical operations. This included `==` and `===` for equality, `!=` and `!==` for inequality, and `>`, `<`, `<=`, and `>=` for greater than and less than comparisons. The exercise clarified the difference between `==` (equality without type checking) and `===` (strict equality with type checking).
+
+<details>
+<summary>View JS Code - script.js - G - Operators</summary>
+<br>
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
+
+```javascript
+// 1. Arithmetic Operators
+let x;
+
+x = 5 + 5;
+x = 5 - 5;
+x = 5 * 5;
+x = 5 / 5;
+x = 7 % 2;
+
+// Concatenation
+x = "Hello" + " " + "World!";
+
+// Exponent
+x = 2 ** 3;
+
+// Increment
+x = 1;
+// x = x + 1;
+x++;
+
+// Decrement
+x = 1;
+// x = x - 1;
+x--;
+
+// 2. Assignment Operators
+x = 10;
+
+x += 5;
+x -= 5;
+x *= 5;
+x /= 5;
+x %= 5;
+x **= 5;
+
+// 3. Comparison Operators
+x = 2 == "2";
+x = 2 === "2";
+
+x = 2 != "2";
+x = 2 !== 2;
+
+x = 10 > 5;
+x = 10 < 5;
+x = 10 <= 5;
+x = 10 >= 5;
+
+console.log(x);
+```
+</details>
+
 ### [H. Type Coercion](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/01-variables-data-types/08-type-coercion)
 
 ### [I. Strings](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/01-variables-data-types/09-strings)
