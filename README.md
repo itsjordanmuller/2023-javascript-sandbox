@@ -228,6 +228,63 @@ console.log(a, b, c, d, e, f);
 
 ### [D. Data Types](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/01-variables-data-types/04-data-types)
 
+![Variables Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/01-variables-data-types/04-data-types/04-data-types.png)
+
+In this exercise, I explored various data types in JavaScript, essential for understanding how to store and manipulate information in programming. I started with the `String` data type, demonstrated by the variable `firstName` set to "Jordan". Then, I moved on to `Number`, exemplified by variables like `age` and `temp`, which hold integer and floating-point numbers respectively.
+
+The script also covered `Boolean` with a variable `hasKids` set to `false`, representing true/false values. The `Null` and `Undefined` types were showcased with `aptNumber` and `score`, demonstrating how `null` explicitly means "no value", while `undefined` typically means a variable has been declared but not assigned a value yet. Additionally, the exercise included more advanced data types: `Symbol`, represented by `id`, unique and immutable, and `BigInt`, as seen with the variable `n`, used for very large integers.
+
+For reference types, I worked with an `Object`, using an array `numbers` and an object `person`, and a `Function`, using `sayHello`. It was interesting to note that functions in JavaScript are also treated as objects, as demonstrated by assigning `sayHello` to `output` and logging its type. This exercise provided a comprehensive overview of JavaScript's data types, enhancing my understanding of how different types of data can be handled and the nuances of each type in JavaScript.
+
+<details>
+<summary>View JS Code - script.js - D - Data Types</summary>
+<br>
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
+
+```javascript
+// String
+const firstName = "Jordan";
+
+// Number
+const age = 23;
+const temp = 98.9;
+
+// Boolean
+const hasKids = false;
+
+// Null (Type Shows as Object)
+const aptNumber = null;
+
+// Undefined
+// let score;
+const score = undefined;
+
+// Symbol
+const id = Symbol("id");
+
+// BigInt
+const n = 9007199254740991n;
+
+// Reference Types
+// Type: Object
+const numbers = [1, 2, 3, 4];
+
+const person = {
+  name: "Jordan",
+};
+
+// Type: Function
+function sayHello() {
+  console.log("Hello!");
+}
+
+const output = sayHello;
+
+console.log(output, typeof output);
+```
+</details>
+
 ### [E. Stack Heap](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/01-variables-data-types/05-stack-heap)
 
 ### [F. Type Conversion](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/01-variables-data-types/06-type-conversion)
