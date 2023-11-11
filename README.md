@@ -433,6 +433,37 @@ console.log(x);
 
 ### [H. Type Coercion](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/01-variables-data-types/08-type-coercion)
 
+![Type Coercion Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/01-variables-data-types/08-type-coercion/08-type-coercion.png)
+
+<details>
+<summary>View JS Code - script.js - H - Type Coercion</summary>
+<br>
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
+
+```javascript
+let x;
+
+x = 5 + "5";
+
+x = 5 + Number("5");
+x = 5 * "5";
+
+x = 5 + null;
+x = Number(null);
+
+x = Number(true);
+x = Number(false);
+
+x = 5 + true;
+x = 5 + false;
+
+x = 5 + undefined;
+
+console.log(x, typeof x);
+```
+</details>
+
 ### [I. Strings](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/01-variables-data-types/09-strings)
 
 ### [J. Capitalize Challenge](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/01-variables-data-types/10-capitalize-challenge)
