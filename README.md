@@ -2921,6 +2921,51 @@ for (const [key, value] of map) {
 
 ### [F. For In Loop](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/05-iteration-array-methods/06-for-in-loop)
 
+![For In Loop - Console Output Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/05-iteration-array-methods/06-for-in-loop/06-for-in-loop.png)
+
+This exercise introduced the `for...in` loop in JavaScript, a specialized loop statement used for enumerating over the properties of an object, including inherited enumerable properties. It's particularly useful for objects where keys are not necessarily known beforehand or are dynamic.
+
+#### Iterating Over Object Properties
+The first part of the exercise demonstrated iterating over the properties of an object using the `for...in` loop. For an object `colorObj` containing color properties, the loop iterated over each property (key), and the corresponding value was accessed using `colorObj[key]`. This method is commonly used to retrieve both keys and values of an object, showcasing the `for...in` loop's effectiveness in handling objects.
+
+#### Iterating Over Array Indices
+The exercise also demonstrated how the `for...in` loop could be used with arrays. Although less common than using a `for...of` loop for arrays, `for...in` can iterate over array indices as keys. In the example with the `colorArr` array, the loop printed the value of each array element. However, it's essential to note that `for...in` will iterate over all enumerable properties, including those on the prototype chain, which is not typically desired when working with arrays.
+
+#### Key Points
+- The `for...in` loop is ideal for iterating over object properties.
+- It can also be used for arrays, but it's less preferred compared to `for...of` because it includes all enumerable properties, not just the array's indices.
+- This loop offers a convenient way to explore objects with unknown or dynamic property names.
+
+This exercise effectively demonstrates the utility of the `for...in` loop in JavaScript, particularly in scenarios involving object property enumeration.
+
+<details>
+<summary>View JS Code - script.js - F - For In Loop</summary>
+<br>
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
+
+```javascript
+const colorObj = {
+  color1: "red",
+  color2: "orange",
+  color3: "yellow",
+  color4: "green",
+};
+
+// Get Keys & Values in an Object Using a For In Loop
+for (const key in colorObj) {
+  console.log(key, colorObj[key]);
+}
+
+const colorArr = ["red", "orange", "yellow", "green"];
+
+// Get Keys in an Array Using a For In Loop
+for (const key in colorArr) {
+  console.log(colorArr[key]);
+}
+```
+</details>
+
 ### [G. forEach](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/05-iteration-array-methods/07-forEach)
 
 ### [H. Filter](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/05-iteration-array-methods/08-filter)
