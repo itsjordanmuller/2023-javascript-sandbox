@@ -2215,6 +2215,58 @@ switch (true) {
 
 ### [D. Calculator Challenge](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/04-logic-control-flow/04-calculator-challenge)
 
+![Calculator Challenge - Console Output Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/04-logic-control-flow/04-calculator-challenge/04-calculator-challenge.png)
+
+In the "Calculator Challenge", I implemented a simple calculator function in JavaScript using a `switch` statement to handle different arithmetic operations based on the provided operator.
+
+#### Function Overview
+- The function `calculator` takes three parameters: `num1`, `num2`, and `operator`.
+- The `switch` statement within the function assesses the `operator` to determine the operation to perform.
+
+#### Handling Different Operations
+- For each case (`"+"`, `"-"`, `"*"`, `"/"`), the function performs the corresponding arithmetic operation on `num1` and `num2`.
+- After the operation, it immediately returns the result, eliminating the need for a `break` statement (though included for clarity).
+- The `default` case handles invalid operators, returning an error message.
+
+#### Test Cases
+- The function is tested with different sets of inputs and operators (`+`, `-`, `*`, `/`, and an invalid operator `&`), demonstrating its versatility and error-handling capability.
+
+This exercise demonstrated the practical use of `switch` statements in creating a function that can handle multiple scenarios. It also showcased how to build a basic calculator function in JavaScript that is both flexible and user-friendly, with clear error messages for unsupported operations.
+
+<details>
+<summary>View JS Code - script.js - D - Calculator Challenge</summary>
+<br>
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
+
+```javascript
+function calculator(num1, num2, operator) {
+  switch (operator) {
+    case "+":
+      return num1 + num2;
+      break;
+    case "-":
+      return num1 - num2;
+      break;
+    case "*":
+      return num1 * num2;
+      break;
+    case "/":
+      return num1 / num2;
+      break;
+    default:
+      return "Error, Operator Not Found\nPlease use +, -, *, or /";
+  }
+}
+
+console.log(calculator(5, 2, "+"));
+console.log(calculator(5, 2, "-"));
+console.log(calculator(5, 2, "*"));
+console.log(calculator(5, 2, "/"));
+console.log(calculator(5, 2, "&"));
+```
+</details>
+
 ### [E. Truthy & Falsy Values](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/04-logic-control-flow/05-truthy-falsy)
 
 ### [F. Logical Operators](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/04-logic-control-flow/06-logical-operators)
