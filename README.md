@@ -2158,6 +2158,61 @@ if (hour === 6 || hour === 20) {
 
 ### [C. Switches](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/04-logic-control-flow/03-switches)
 
+![Switches - Console Output Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/04-logic-control-flow/03-switches/03-switches.png)
+
+In this exercise, I focused on understanding and using the `switch` statement in JavaScript, a useful alternative to multiple `if` statements when dealing with multiple cases based on a single value.
+
+#### Using Switch with a Variable
+I started by using a `Date` object to determine the current month. The `switch` statement was then used to match the `month` variable against various cases:
+- For each month (January, February, March), a corresponding message was logged.
+- The `default` case was used to handle all other months, logging "It is not Jan, Feb, or Mar".
+
+#### Switch with a Boolean Expression
+Next, I demonstrated an interesting use of the `switch` statement with a boolean expression. Instead of matching against a specific value, the cases were conditions:
+- `case hour < 12`: This checked if it was morning and displayed "Good morning!".
+- `case hour < 18`: This checked for afternoon times to display "Good afternoon!".
+- The `default` case covered all remaining hours, outputting "Good night!".
+
+This exercise helped me understand how `switch` statements offer a clean and readable way to handle multiple conditional branches in JavaScript. It also showed the versatility of `switch` by using it both with standard value matching and with boolean expressions for more dynamic condition checking.
+
+<details>
+<summary>View JS Code - script.js - C - Switches</summary>
+<br>
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
+
+```javascript
+const d = new Date(2022, 4, 10, 8, 0, 0);
+const month = d.getMonth();
+const hour = d.getHours();
+
+switch (month) {
+  case 1:
+    console.log("It is January");
+    break;
+  case 2:
+    console.log("It is February");
+    break;
+  case 3:
+    console.log("It is March");
+    break;
+  default:
+    console.log("It is not Jan, Feb, or Mar");
+}
+
+switch (true) {
+  case hour < 12:
+    console.log("Good morning!");
+    break;
+  case hour < 18:
+    console.log("Good afternoon!");
+    break;
+  default:
+    console.log("Good night!");
+}
+```
+</details>
+
 ### [D. Calculator Challenge](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/04-logic-control-flow/04-calculator-challenge)
 
 ### [E. Truthy & Falsy Values](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/04-logic-control-flow/05-truthy-falsy)
