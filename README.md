@@ -1549,6 +1549,58 @@ getRandom([1, 2, 3, 4, 5]);
 
 ### [C. Global Scope](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/03-functions-scope/03-global-function-scope)
 
+![Global Scope Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/03-functions-scope/03-global-scope/03-global-scope.png)
+
+In this JavaScript exercise, I focused on understanding global function scope, specifically examining the behavior of the global scope, function scope, block scope, and the concept of variable shadowing.
+
+The exercise began with a demonstration of window methods. The `window.alert()` function is a method of the global `window` object in browsers, showing how JavaScript interacts with the browser environment. It also highlighted that methods of the `window` object can be called directly without referencing `window`, as seen with the `alert()` function.
+
+I then introduced a variable `x` in the global scope with a value of 100. This part of the exercise served to establish the presence of a globally scoped variable that can be accessed anywhere in the script.
+
+The `run` function demonstrated the concept of function scope and how properties of the `window` object can be accessed within a function. I logged the `innerWidth` property of the `window` object, both directly and via the `window` reference, to show their equivalence. Within the `run` function, I also declared a function-scoped constant `y`, illustrating that variables defined within a function are limited to that function's scope.
+
+After calling `run()`, I logged the globally scoped variable `x`, reinforcing the idea that global variables are accessible throughout the script.
+
+The exercise concluded with an exploration of block scope within an `if` statement. I declared a new constant `x` and another constant `z` inside the block. This showcased variable shadowing, where the inner `x` shadows the global `x`, and block-scoped variables like `z` that are only accessible within the block.
+
+<details>
+<summary>View JS Code - script.js - C - Global Scope</summary>
+<br>
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
+
+```javascript
+// Window Methods
+// window.alert("Hello");
+// alert("World!");
+
+const x = 100;
+
+// Function with Window Properties
+function run() {
+  console.log(window.innerWidth);
+  console.log(innerWidth);
+  // Function Scope
+  const y = 50;
+  console.log(y, "in function");
+}
+
+run();
+
+// Global Scope
+console.log(x, "in global");
+
+// Block Scope
+if (true) {
+  // Variable Shadowing
+  const x = 25;
+  const z = 75;
+  console.log(z, "in block");
+  console.log(z + x);
+}
+```
+</details>
+
 ### [D. Block Scope](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/03-functions-scope/04-block-scope)
 
 ### [E. Nested Scope](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/03-functions-scope/05-nested-scope)
