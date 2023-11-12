@@ -2715,6 +2715,46 @@ for (let i = 0; i < names.length; i++) {
 
 ### [B. Break & Continue](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/05-iteration-array-methods/02-break-and-continue)
 
+![Break & Continue - Console Output Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/05-iteration-array-methods/02-break-and-continue/02-break-and-continue.png)
+
+In this section, the exercise delved into the use of `break` and `continue` statements in JavaScript loops, specifically focusing on the `for` loop. These statements are crucial for controlling the flow of loops.
+
+#### Using `break` in a Loop
+The first part of the exercise demonstrated the use of the `break` statement. In a for loop iterating from 0 to 20, when the loop counter (`i`) reached 15, the loop execution was halted using `break`. Before breaking out of the loop, the script printed "Breaking..." to indicate the action. This example showcased how `break` can be used to exit a loop prematurely when a specific condition is met, avoiding the complete traversal of the loop.
+
+#### Using `continue` in a Loop
+The second part focused on the `continue` statement. In a similar loop, when the counter reached 13, the script executed a `continue` statement after printing "Skipping 13...". The `continue` statement caused the loop to immediately start the next iteration, effectively skipping all remaining statements in the current iteration. This example highlighted how `continue` is used to skip the current loop iteration and proceed to the next one, based on a certain condition.
+
+Overall, this exercise illustrated the practical applications of `break` and `continue` in controlling loop behavior, which is a valuable aspect of writing efficient and flexible code in JavaScript.
+
+<details>
+<summary>View JS Code - script.js - B - Break & Continue</summary>
+<br>
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
+
+```javascript
+// Break Out of a Loop
+// for (let i = 0; i <= 20; i++) {
+//   if (i === 15) {
+//     console.log("Breaking...");
+//     break;
+//   }
+//   console.log(i);
+// }
+
+// Continue to Skip Current Iteration and Move to Next Iteration
+for (let i = 0; i <= 20; i++) {
+  if (i === 13) {
+    console.log("Skipping 13...");
+    continue;
+  }
+
+  console.log(i);
+}
+```
+</details>
+
 ### [C. While & Do While](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/05-iteration-array-methods/03-while-do-while)
 
 ### [D. Fizzbuzz Challenge](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/05-iteration-array-methods/04-fizzbuzz-challenge)
