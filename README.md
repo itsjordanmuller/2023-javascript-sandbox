@@ -861,6 +861,68 @@ console.log(x);
 
 ### [B. Array Methods](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/02-arrays-and-objects/02-array-methods)
 
+![Array Methods Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/02-arrays-and-objects/02-array-methods/02-array-methods.png)
+
+In this portion, the focus was on exploring various array methods in JavaScript, demonstrating how they can manipulate and interrogate array data. The script began with a basic array declaration, `const arr = [50, 40, 30, 20, 10];`, and then delved into various methods that modify or inspect the array.
+
+1. **Adding and Removing Elements**: The `.push()` method was used to add a value to the end of the array, while `.pop()` was utilized to remove the last element. Similarly, `.unshift()` and `.shift()` were demonstrated to add and remove elements from the beginning of the array, respectively.
+
+2. **Reversing the Array**: The `.reverse()` method was used to reverse the order of the array elements, showcasing how to manipulate the array's sequence.
+
+3. **Checking for Values**: The script showed how to use `.includes()` to check if a specific value is present in the array. This is useful for conditional statements and validations within array operations.
+
+4. **Finding Element Index**: The `.indexOf()` method was used to find the index of a particular element, demonstrating how to locate the position of a value within an array.
+
+5. **Slicing and Splicing**: The exercise went through `.slice()` and `.splice()` methods. While `.slice()` was used to create a new array from a portion of the existing array, `.splice()` was shown in a commented-out section, indicating its use for removing or replacing elements in the array.
+
+6. **Combining Methods**: The script concluded with an example of chaining multiple array methods. It used `.splice()` to remove elements, followed by `.reverse()` to reverse the order, then converted the result to a string with `.toString()`, and finally used `.charAt(0)` to get the first character of that string.
+
+<details>
+<summary>View JS Code - script.js - B - Array Methods</summary>
+<br>
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
+
+```javascript
+let x;
+const arr = [50, 40, 30, 20, 10];
+
+// Push a Value Onto the End of an Array
+arr.push(0);
+
+// Pop a Value Off the End of an Array
+arr.pop(0);
+
+// Unshift a Value Onto the Front of an Array
+arr.unshift(60);
+
+// Shift a Value Off the Front of an Array
+arr.shift(60);
+
+// Reverse the Order of the Array
+arr.reverse();
+
+// Check if an Array Includes Values
+x = arr.includes(100);
+x = arr.includes(30);
+
+// Check the Index of a Value
+x = arr.indexOf(10);
+
+// Slice an Array from 1st to 2nd
+x = arr.slice(1);
+x = arr.slice(1, 4);
+
+// Splice an Array Starts at 1st, Goes for 2nd
+// x = arr.splice(1, 4);
+
+// Use Multiple Methods, Building on One Another
+x = arr.splice(1, 4).reverse().toString().charAt(0);
+
+console.log(x);
+```
+</details>
+
 ### [C. Array Nesting, Concatenation & Spread](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/02-arrays-and-objects/03-array-nesting-concat-spread)
 
 ### [D. Array Challenge](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/02-arrays-and-objects/04-array-challenge)
