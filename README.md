@@ -3040,6 +3040,83 @@ socialObjs.forEach((social) => console.log(social.url));
 
 ### [H. Filter](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/05-iteration-array-methods/08-filter)
 
+![Filter - Console Output Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/05-iteration-array-methods/08-filter/08-filter.png)
+
+In this exercise, the focus was on using the `filter` method in JavaScript, a powerful array method that creates a new array with all elements that pass the test implemented by the provided function. This method is particularly useful for extracting a subset of elements based on certain criteria from an array.
+
+#### Filtering Even Numbers
+The exercise began with a simple example of filtering even numbers from an array. It showed how to use the `filter` method with a standard function, an arrow function, and compared this approach to achieving the same result with a `forEach` loop. This comparison highlighted the conciseness and efficiency of using `filter` over manually iterating and pushing elements into a new array.
+
+#### Filtering Specific Categories of Companies
+Next, the exercise demonstrated filtering objects from an array of company objects based on specific property values. One example filtered companies in the "Retail" category. This illustrated how `filter` can be effectively used to select items from an array of objects based on the value of a certain property.
+
+#### Filtering Based on Multiple Conditions
+The exercise also included examples of more complex filters, such as finding companies that started in or after 1980 and ended in or before 2005, and companies that lasted 10 years or more. These examples showed how `filter` can handle multiple conditions within its callback function to yield precise subsets of array elements.
+
+#### Filter - Key Points
+- The `filter` method offers a succinct way to create new arrays based on specific conditions.
+- It can be used with both simple data types and objects, making it versatile for various use cases.
+- `filter` increases readability and efficiency in code, especially when compared to manual iteration methods.
+
+<details>
+<summary>View JS Code - script.js - H - Filter</summary>
+<br>
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
+
+```javascript
+// const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// Default Way of Writing Filter with Function
+// const evenNumbers = numbers.filter(function (number) {
+//   return number % 2 === 0;
+// });
+
+// Shorter Version with Arrow Function & No Brackets
+// const evenNumbers = numbers.filter((number) => number % 2 === 0);
+
+// Same But Much Longer with forEach
+// const evenNumbers = [];
+// numbers.forEach((number) => {
+//   if (number % 2 === 0) {
+//     evenNumbers.push(number);
+//   }
+// });
+
+// console.log(evenNumbers);
+
+const companies = [
+  { name: "Company 1", category: "Finance", start: 1981, end: 2004 },
+  { name: "Company 2", category: "Retail", start: 1992, end: 2008 },
+  { name: "Company 3", category: "Auto", start: 1999, end: 2007 },
+  { name: "Company 4", category: "Retail", start: 1989, end: 2010 },
+  { name: "Company 5", category: "Technology", start: 2009, end: 2014 },
+  { name: "Company 6", category: "Finance", start: 1987, end: 2010 },
+  { name: "Company 7", category: "Auto", start: 1986, end: 1996 },
+  { name: "Company 8", category: "Technology", start: 2011, end: 2016 },
+  { name: "Company 9", category: "Retail", start: 1981, end: 1989 },
+];
+
+// Get Only Retail Companies
+const retailCompanies = companies.filter(
+  (company) => company.category === "Retail"
+);
+console.log("Retail Companies: ", retailCompanies);
+
+// Get Only Companies Started in or After 1980 and Ended in or Before 2005
+const earlyCompanies = companies.filter(
+  (company) => company.start >= 1980 && company.end <= 2005
+);
+console.log("Early Companies: ", earlyCompanies);
+
+// Get Only Companies That Lasted 10 Years or More
+const longCompanies = companies.filter(
+  (company) => company.end - company.start >= 10
+);
+console.log("Long Companies: ", longCompanies);
+```
+</details>
+
 ### [I. Map](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/05-iteration-array-methods/09-map)
 
 ### [J. Reduce](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/05-iteration-array-methods/10-reduce)
