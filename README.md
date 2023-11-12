@@ -997,7 +997,54 @@ console.log(x);
 ```
 </details>
 
-### [D. Array Challenge](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/02-arrays-and-objects/04-array-challenge)
+### [D. Array Challenges](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/02-arrays-and-objects/04-array-challenge)
+
+![Array Challenges Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/02-arrays-and-objects/04-array-challenges/04-array-challenges.png)
+
+### Challenge 1
+The first challenge involved a series of operations on an array `arr = [1, 2, 3, 4, 5]`. The task was to:
+1. Add `0` to the beginning of the array using `.unshift(0)`.
+2. Append `6` to the end of the array with `.push(6)`.
+3. Reverse the order of the array using `.reverse()`.
+
+The expected result was `[6, 5, 4, 3, 2, 1, 0]`, and the exercise provided a clear demonstration of how combining these array methods can effectively transform an array's structure and content.
+
+### Challenge 2
+The second challenge required more complex operations involving two arrays, `arr1 = [1, 2, 3, 4, 5]` and `arr2 = [5, 6, 7, 8, 9, 10]`. The task was to:
+1. Create a new array by slicing the first four elements of `arr1`.
+2. Combine this sliced array with `arr2` to form a single array.
+3. Flatten the resulting array to ensure it was a single-level array.
+
+To achieve this, the solution used `Array.of(arr1.slice(0, 4), arr2).flat()`, creating a nested array with the sliced `arr1` and `arr2`, and then flattening it to achieve the desired result: `[1, 2, 3, 4, 5, 6, 7, 8, 9, 10]`.
+
+<details>
+<summary>View JS Code - script.js - D - Array Challenges</summary>
+<br>
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
+
+```javascript
+// Challenge 1
+const arr = [1, 2, 3, 4, 5];
+
+arr.unshift(0);
+arr.push(6);
+arr.reverse();
+
+console.log(arr);
+// Expected Result: [6, 5, 4, 3, 2, 1, 0];
+
+// Challenge 2
+
+const arr1 = [1, 2, 3, 4, 5];
+const arr2 = [5, 6, 7, 8, 9, 10];
+
+arr3 = Array.of(arr1.slice(0, 4), arr2).flat();
+
+console.log(arr3);
+// Expected Result: [1,2,3,4,5,6,7,8,9,10]
+```
+</details>
 
 ### [E. Object Literals](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/02-arrays-and-objects/05-object-literals)
 
