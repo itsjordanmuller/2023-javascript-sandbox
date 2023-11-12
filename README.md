@@ -2029,6 +2029,66 @@ first();
 
 ### [A. If Statements](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/04-logic-control-flow/01-if-statements)
 
+![Comparison Operators Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/04-logic-control-flow/01-if-statements/comparison-operators.png)
+
+![If Statements Console Output](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/04-logic-control-flow/01-if-statements/01-if-statements.png)
+
+In this exercise, I explored the use of `if` statements in JavaScript, which are fundamental for controlling the flow of code based on certain conditions.
+
+#### Basic `if` Statements
+I began with simple `if` statements to understand their basic structure. In these examples, I used `if (true)` and `if (false)` to demonstrate how the code block within an `if` statement executes only when the condition is true.
+
+#### Comparing Variables
+Next, I compared two variables, `x` and `y`, using relational operators:
+- `x > y`: This condition was true, so the corresponding console message was displayed.
+- `x === y`: This condition was false, hence the code inside this block did not execute.
+- `x !== y`: As this condition was true, the code block executed and displayed the message.
+
+#### Shorthand Syntax
+Finally, I experimented with a shorthand syntax for an `if` statement. While it's a compact way to write conditions, it's not typically recommended for clarity and maintainability of code. This section helped me understand the importance of `if` statements in decision-making within a JavaScript program and highlighted best practices in writing clear and maintainable conditional statements.
+
+<details>
+<summary>View JS Code - script.js - A - If Statements</summary>
+<br>
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
+
+```javascript
+// If True, Then Run The Following Code
+if (true) {
+  console.log("This is true!");
+}
+
+// Will Not Run Because Expression is False
+if (false) {
+  console.log("This is not true!");
+}
+
+const x = 10;
+const y = 5;
+
+// x > y is true, so it runs
+if (x > y) {
+  console.log(`${x} is greater than ${y}`);
+}
+
+// x === y is false, so it doesn't run
+if (x === y) {
+  console.log(`${x} is equal to ${y}`);
+}
+
+// x !== y is true, so it runs
+if (x !== y) {
+  console.log(`${x} is NOT equal to ${y}`);
+}
+
+// Shorthand If Statement Not The Best Syntax
+if (x > y)
+  console.log(`${x} is greater than ${y}`), console.log("This is also true");
+else console.log("Else this");
+```
+</details>
+
 ### [B. Else If Nesting](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/04-logic-control-flow/02-else-if-nesting)
 
 ### [C. Switches](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/04-logic-control-flow/03-switches)
