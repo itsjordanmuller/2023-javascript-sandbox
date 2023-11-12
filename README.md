@@ -2269,6 +2269,127 @@ console.log(calculator(5, 2, "&"));
 
 ### [E. Truthy & Falsy Values](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/04-logic-control-flow/05-truthy-falsy)
 
+![Truthy & Falsy Values - Console Output Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/04-logic-control-flow/05-truthy-falsy/05-truthy-falsy.png)
+
+This exercise focused on understanding the concepts of `truthy` and `falsy` values in JavaScript. These values play a crucial role in conditionals and type coercion.
+
+#### Falsy Values
+Falsy values in JavaScript include:
+- `false`
+- `0`
+- Empty strings (`""` or `''`)
+- `null`
+- `undefined`
+- `NaN` (Not a Number)
+
+These values are considered false when encountered in a boolean context, as demonstrated by the conditional check using `const x = false`. The `else` block executes because `x` is falsy.
+
+#### Truthy Values
+Truthy values are essentially everything that is not falsy. This includes:
+- `true`
+- Non-empty strings, like `"0"`, `" "`, or `"false"`
+- Empty arrays (`[]`) and objects (`{}`)
+- Empty functions
+
+For instance, the non-empty string `email` is truthy, leading to the execution of the corresponding `if` block.
+
+#### Handling Special Cases
+Special attention was given to handling edge cases like `0` and empty arrays or objects. For example, a workaround for zero (falsy) being treated as having no children is using `!isNaN(children)`, and for empty arrays and objects, checking their length (`posts.length > 0`) or key count (`Object.keys(user).length > 0`) respectively.
+
+#### Loose vs Strict Equality
+Lastly, the exercise demonstrated the difference between loose equality (`==`) and strict equality (`===`). Loose equality allows for type coercion, leading to `false == 0`, `"" == 0`, and `null == undefined` being true. In contrast, strict equality checks for both value and type equality, rendering all these comparisons false.
+
+<details>
+<summary>View JS Code - script.js - E - Truthy & Falsy Values</summary>
+<br>
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
+
+```javascript
+// Falsy Values:
+// - false
+// - 0
+// - "" or '' (Empty String)
+// - null
+// - undefined
+// - NaN
+
+const x = false;
+
+if (x) {
+  console.log("This is truthy");
+} else {
+  console.log("This is falsy");
+}
+
+// Truthy Values:
+// - Everything else that is not falsy
+// - true
+// - "0" (0 as a string)
+// - " " (Space in a String)
+// - "false" (False in a String)
+// - [] (Empty Array)
+// - {} (Empty Object)
+// - function () {} (Empty Function)
+
+const email = "test@test.com";
+
+if (email) {
+  console.log("You passed in an email");
+}
+
+console.log(Boolean(email));
+
+// Truthy and False Caveats
+const children = 0;
+
+// Evaluates as False, Since 0 is Falsy
+// if (children) {
+// Possible Workaround By Checking If Not Equal to Undefined
+// if (children !== undefined) {
+// Another Workaround For This Issue
+if (!isNaN(children)) {
+  console.log(`You have ${children} children`);
+} else {
+  console.log("Please enter a number of children");
+}
+
+// Checking for Empty Arrays
+const posts = [];
+
+// No Posts Is Never Shown Since Empty Array Isn't Falsy
+// if (posts) {
+// Workaround for Checking Empty Array
+if (posts.length > 0) {
+  console.log("List Posts");
+} else {
+  console.log("No Posts");
+}
+
+// Checking for Empty Objects
+const user = {};
+
+// Empty Object Always Evaluates as Truthy
+// if (user) {
+// Workaround for Checking Empty Objects
+if (Object.keys(user).length > 0) {
+  console.log("List User");
+} else {
+  console.log("No User");
+}
+
+// Loose Equality (==)
+console.log(false == 0);
+console.log("" == 0);
+console.log(null == undefined);
+
+// Equal To (Including Type) (===)
+console.log(false === 0);
+console.log("" === 0);
+console.log(null === undefined);
+```
+</details>
+
 ### [F. Logical Operators](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/04-logic-control-flow/06-logical-operators)
 
 ### [G. Logical Assignment](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/04-logic-control-flow/07-logical-assignment)
