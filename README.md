@@ -1761,6 +1761,65 @@ const addPlusSign = function (value) {
 
 ### [G. Arrow Functions](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/03-functions-scope/07-arrow-functions)
 
+![Arrow Functions Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/03-functions-scope/07-arrow-functions/07-arrow-functions.png)
+
+In this exercise, I delved into arrow functions in JavaScript, a concise and modern way to write functions introduced in ES6. Arrow functions are especially suited for anonymous functions and offer a more succinct syntax compared to traditional function expressions.
+
+The exercise began with a comparison between the traditional function declaration and the arrow function syntax. I converted a function named `add`, initially written in the traditional format, into an arrow function. This function demonstrates the basic structure of an arrow function, taking two parameters and returning their sum. Following this, I explored the compact arrow function syntax with implicit return, as seen in the `subtract` function, which omits curly braces and the `return` keyword for single-expression functions.
+
+I also explored single-parameter arrow functions, where parentheses around the parameter can be omitted, as illustrated in the `double` function. Another interesting aspect was returning object literals directly from arrow functions. This requires enclosing the object brackets with parentheses to differentiate the object from the function's body, demonstrated in the `createObj` function.
+
+Finally, I applied arrow functions in array methods. I replaced a traditional function in the `forEach` method with an arrow function for more concise and readable code. This practical application highlighted the utility of arrow functions in enhancing code readability and efficiency, especially in callback scenarios.
+
+<details>
+<summary>View JS Code - script.js - G - Arrow Functions</summary>
+<br>
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
+
+```javascript
+// Function Declaration Syntax
+// function add(a, b) {
+//   return a + b;
+// }
+
+// Arrow Function Syntax
+const add = (a, b) => {
+  return a + b;
+};
+
+console.log(add(1, 2));
+
+// Compact Arrow Function Syntax with Implicit Return
+const subtract = (a, b) => a - b;
+
+console.log(subtract(10, 5));
+
+// Single Parameter Arrow Function
+const double = (a) => a * 2;
+
+console.log(double(10));
+
+// Returning an Object
+// Surround Brackets with Parenthesis
+const createObj = () => ({
+  name: "Jordan",
+});
+
+console.log(createObj());
+
+const numbers = [1, 2, 3, 4, 5];
+
+// Passing Function into forEach Method
+numbers.forEach(function (n) {
+  console.log(n);
+});
+
+// Compact Arrow Function into Callback
+numbers.forEach((n) => console.log(n));
+```
+</details>
+
 ### [H. IIFE - (Immediately Invoked Function Expression)](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/03-functions-scope/08-iife)
 
 ### [I. Function Challenges](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/03-functions-scope/09-function-challenges)
