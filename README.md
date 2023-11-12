@@ -2968,6 +2968,76 @@ for (const key in colorArr) {
 
 ### [G. forEach](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/05-iteration-array-methods/07-forEach)
 
+![forEach - Console Output Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/05-iteration-array-methods/07-forEach/07-forEach.png)
+
+In this exercise, the focus was on understanding and using the `forEach` method in JavaScript, which is an array method that provides a simple way to iterate over array elements. It's particularly useful for executing a function on each array element.
+
+#### Basic `forEach` Usage
+The exercise started with basic examples of using `forEach` on an array of social media platforms. It demonstrated three different syntax variations:
+1. Standard function syntax.
+2. Arrow function syntax, which provides a more concise way of writing functions.
+3. An even shorter arrow function syntax without curly braces for single-statement functions.
+
+These examples illustrated the flexibility of `forEach` in accommodating different function syntaxes while iterating over array elements.
+
+#### Advanced `forEach` Features
+The exercise also explored the use of `forEach` with additional parameters. The `forEach` method not only passes the current element to the callback function but also provides the index of the current element and the entire array. This was exemplified by printing the index along with the element.
+
+#### Passing a Defined Function to `forEach`
+Additionally, the exercise showed how to pass a predefined function to `forEach`. This approach can make the code more modular and reusable.
+
+#### Using `forEach` on Array of Objects
+The final part of the exercise involved using `forEach` on an array of objects, demonstrating how to access specific properties (like `url`) of objects within an array. This is a common use case in real-world applications where data is often structured as arrays of objects.
+
+<details>
+<summary>View JS Code - script.js - G - forEach</summary>
+<br>
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
+
+```javascript
+const socials = ["LinkedIn", "Facebook", "Instagram", "TikTok"];
+
+// console.log(socials.__proto__);
+
+// Use a forEach Loop
+// socials.forEach(function (social) {
+//   console.log(social);
+// });
+
+// Shorter Version With Arrow Function
+// socials.forEach((social) => {
+//   console.log(social);
+// });
+
+// Even Shorter Version with No Curly Braces
+// socials.forEach((social) => console.log(social));
+
+// Pass Index and Array into forEach
+// socials.forEach((social, index, arr) =>
+//   console.log(`${index} - ${social}`, arr)
+// );
+
+// Pass a Function into forEach
+// function logSocials(social) {
+//   console.log(social);
+// }
+
+// socials.forEach(logSocials);
+
+// forEach Method Used on an Object
+const socialObjs = [
+  { name: "LinkedIn", url: "https://linkedin.com/" },
+  { name: "Facebook", url: "https://facebook.com/" },
+  { name: "Instagram", url: "https://instagram.com/" },
+  { name: "TikTok", url: "https://tiktok.com/" },
+];
+
+// Get a Specific Property from the Object Using Dot Notation
+socialObjs.forEach((social) => console.log(social.url));
+```
+</details>
+
 ### [H. Filter](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/05-iteration-array-methods/08-filter)
 
 ### [I. Map](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/05-iteration-array-methods/09-map)
