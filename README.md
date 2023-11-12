@@ -1048,6 +1048,86 @@ console.log(arr3);
 
 ### [E. Object Literals](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/02-arrays-and-objects/05-object-literals)
 
+![Object Literals Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/02-arrays-and-objects/05-object-literals/05-object-literals.png)
+
+This exercise explored the use and manipulation of **object literals** in JavaScript. An object literal is a collection of **key-value pairs**, and it's a fundamental part of JavaScript for organizing and storing data.
+
+1. **Creating an Object**: The exercise started by creating an object `person` with various properties, including nested objects and arrays. This demonstrated the flexibility of object literals in holding different types of data.
+
+2. **Accessing Object Properties**: Various ways to access object properties were illustrated, such as using dot notation (`person.age`) and bracket notation (`person["age"]`). This also included accessing nested properties like `person.address.city` and elements of an array within an object (`person.hobbies[2]`).
+
+3. **Modifying Object Properties**: The script showed how to modify existing properties, such as updating `person.name` to "Jordan Muller" and changing `person.isAdmin` to `false`. This highlighted how objects in JavaScript are mutable.
+
+4. **Deleting Properties**: It demonstrated the deletion of properties using the `delete` keyword, as shown by removing the `address` property from the `person` object.
+
+5. **Adding New Properties**: The exercise included adding a new property (`hasChildren`) and setting its value, showcasing the dynamic nature of JavaScript objects.
+
+6. **Function as a Property**: The script also assigned a function to a property in the object (`person.greet`). This function, when called, used the `this` keyword to access the object's properties, reinforcing the concept of methods in objects.
+
+7. **Handling Unconventional Property Names**: The example with `person2` illustrated how to handle property names that aren't valid identifiers (like "first name"), requiring bracket notation for access (`person2["first name"]`).
+
+<details>
+<summary>View JS Code - script.js - E - Object Literals</summary>
+<br>
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
+
+```javascript
+// Create an Object
+const person = {
+  name: "Jordan",
+  age: 23,
+  isAdmin: true,
+  address: {
+    street: "123 Main St.",
+    city: "San Francisco",
+    state: "CA",
+  },
+  hobbies: ["Music", "Cooking", "Coding"],
+};
+
+// Log Entire Object
+// console.log(person);
+
+// Log Specific Property from an Object
+// console.log(person.name);
+
+x = person.age;
+x = person["age"];
+
+x = person.address.city;
+x = person["address"]["city"];
+x = person.hobbies[2];
+
+// Set a Value of a Property
+person.name = "Jordan Muller";
+person.isAdmin = false;
+
+// Delete an Entire Property
+delete person.address;
+
+// Create a New Property and Set It's Value
+person.hasChildren = false;
+
+// Assign a Function to a Property in an Object
+person.greet = function () {
+  console.log(`Hello, my name is ${this.name}`);
+};
+
+// Call a Function from an Object
+person.greet();
+
+const person2 = {
+  "first name": "Jordan",
+  "last name": "Muller",
+};
+
+x = person2["first name"];
+
+console.log(x);
+```
+</details>
+
 ### [F. Object Spread Methods](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/02-arrays-and-objects/06-object-spread-methods)
 
 ### [G. Destructuring & Naming](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/02-arrays-and-objects/07-destructuring-naming)
