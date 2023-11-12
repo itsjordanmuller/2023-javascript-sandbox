@@ -2031,7 +2031,7 @@ first();
 
 ![Comparison Operators Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/04-logic-control-flow/01-if-statements/comparison-operators.png)
 
-![If Statements Console Output](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/04-logic-control-flow/01-if-statements/01-if-statements.png)
+![If Statements - Console Output Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/04-logic-control-flow/01-if-statements/01-if-statements.png)
 
 In this exercise, I explored the use of `if` statements in JavaScript, which are fundamental for controlling the flow of code based on certain conditions.
 
@@ -2090,6 +2090,71 @@ else console.log("Else this");
 </details>
 
 ### [B. Else If Nesting](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/04-logic-control-flow/02-else-if-nesting)
+
+![Else If Nesting - Console Output Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/04-logic-control-flow/02-else-if-nesting/02-else-if-nesting.png)
+
+This exercise went into the concepts of `else if` nesting and using multiple conditions in `if` statements in JavaScript, showcasing how to create more complex decision-making structures.
+
+#### Else If and Nested If Statements
+I used a `Date` object to get the current hour and then implemented a series of `if`, `else if`, and `else` statements to display different messages based on the time of day. This included:
+- Greetings like "Good morning!" or "Good night!" based on the time.
+- Additional nested `if` statements to execute more specific tasks, like "Wake Up!" at 6 AM or "Time for Bed!" after 8 PM.
+
+#### Multiple Conditions in If Statements
+Furthermore, I explored how to incorporate multiple conditions within a single `if` statement using logical operators:
+- **AND (`&&`)**: Used to check if it is work time (between 7 AM and 3 PM).
+- **OR (`||`)**: Used to remind to brush teeth at 6 AM or 8 PM.
+
+This exercise helped me understand how to use `else if` and nested `if` statements to handle multiple conditions and create more complex logical flows in JavaScript. It also highlighted the effectiveness of logical operators for combining multiple conditions in a single statement.
+
+<details>
+<summary>View JS Code - script.js - B - Else If Nesting</summary>
+<br>
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
+
+```javascript
+const d = new Date(10, 30, 2022, 20, 0, 0);
+const hour = d.getHours();
+
+// If, Else If, and Else
+// if (hour < 12) {
+//   console.log("Good morning!");
+// } else if (hour < 18) {
+//   console.log("Good afternoon!");
+// } else {
+//   console.log("Good night!");
+// }
+
+// Nested If
+if (hour < 12) {
+  console.log("Good morning!");
+
+  if (hour === 6) {
+    console.log("Wake Up!");
+  }
+} else if (hour < 18) {
+  console.log("Good afternoon!");
+} else {
+  console.log("Good night!");
+
+  if (hour >= 20) {
+    console.log("Time for Bed!");
+  }
+}
+
+// Multiple Conditions in an If Statement
+// AND
+if (hour >= 7 && hour < 15) {
+  console.log("It is work time!");
+}
+
+// OR
+if (hour === 6 || hour === 20) {
+  console.log("Brush your teeth!");
+}
+```
+</details>
 
 ### [C. Switches](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/04-logic-control-flow/03-switches)
 
