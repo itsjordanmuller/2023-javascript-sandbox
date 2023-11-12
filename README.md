@@ -1833,7 +1833,7 @@ I also experimented with passing arguments to an IIFE. In another example, I pas
 In the `otherscript.js` file, I declared the `user` variable again, but this time in the global scope, outside any IIFE. This helped me understand the significance of IIFEs in avoiding variable naming conflicts and scope-related issues in larger applications. 
 
 <details>
-<summary>View JS Code - script.js - I - Immediately Invoked Function Expression</summary>
+<summary>View JS Code - script.js - H - Immediately Invoked Function Expression</summary>
 <br>
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
@@ -1874,6 +1874,61 @@ console.log(user);
 </details>
 
 ### [I. Function Challenges](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/03-functions-scope/09-function-challenges)
+
+![Function Challenges Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/03-functions-scope/09-function-challenges/09-function-challenges.png)
+
+In this section, I tackled a series of function challenges in JavaScript, each designed to test and enhance my understanding of function creation, arrow function syntax, and their practical applications.
+
+**Challenge 1** focused on temperature conversion from Fahrenheit to Celsius. I first created a traditional function named `getCelsius` that takes a Fahrenheit temperature and returns its Celsius equivalent. Then, I rewrote this function using arrow function syntax as `getC`, demonstrating the more concise format. Finally, I combined this with another arrow function, `toTempC`, which adds the Celsius symbol to the output, illustrating the composability of functions in JavaScript.
+
+**Challenge 2** dealt with finding the minimum and maximum values in an array. I wrote a function named `minMax` that takes an array of numbers and uses the `Math.min()` and `Math.max()` functions along with the spread operator to determine the smallest and largest values, respectively. This function returns an object containing both values, showcasing how functions can return complex data types like objects.
+
+**Challenge 3** involved an Immediately Invoked Function Expression (IIFE). This IIFE calculates the area of a rectangle, taking length and width as parameters. The function immediately executes with the provided dimensions (10 and 5), and outputs a formatted string describing the area of the rectangle. This challenge illustrated the use of IIFEs for encapsulating functionality and executing it on the spot, without the need for calling the function separately.
+
+Through these challenges, I gained a deeper understanding of different ways to define and use functions in JavaScript, including traditional functions, arrow functions, and IIFEs. Each challenge provided insight into how these different forms can be applied in various scenarios, enhancing my ability to write versatile and effective JavaScript code.
+
+<details>
+<summary>View JS Code - script.js - I - Function Challenges</summary>
+<br>
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
+
+```javascript
+// Challenge 1
+function getCelsius(tempFahrenheit) {
+  return (5 / 9) * (tempFahrenheit - 32);
+}
+console.log(getCelsius(32));
+
+const getC = (tempF) => (5 / 9) * (tempF - 32);
+console.log(getC(212));
+
+const toTempC = (num) => num + "\xB0C";
+console.log(toTempC(getC(100)));
+
+// Challenge 2
+function minMax(array) {
+  const min = Math.min(...array);
+  const max = Math.max(...array);
+
+  return {
+    min,
+    max,
+  };
+}
+
+console.log(minMax([1, 2, 3, 4, 5]));
+
+// Challenge 3
+((length, width) => {
+  const area = length * width;
+
+  const output = `Area of Rectangle with Width ${width} and Length ${length} is ${area}`;
+
+  console.log(output);
+})(10, 5);
+```
+</details>
 
 ### [J. Execution Context in Action](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/03-functions-scope/10-execution-context-in-action)
 
