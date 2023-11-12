@@ -1673,6 +1673,55 @@ console.log(window.bar);
 
 ### [E. Nested Scope](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/03-functions-scope/05-nested-scope)
 
+![Nested Scope Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/03-functions-scope/05-nested-scope/05-nested-scope.png)
+
+In this exercise, I delved into nested scopes, examining how scopes interact within functions and blocks, and the accessibility of variables in different levels of nesting.
+
+The exercise began with the `first` function, which contains a nested function `second`. Within `first`, I declared a constant `x` with a value of 100. Inside `second`, I declared another constant `y` with a value of 200. By logging the sum of `x` and `y` inside `second`, I demonstrated how inner functions can access variables from their parent scopes. However, trying to access `y` from the outer function `first` results in an error, as inner scope variables are not accessible in outer scopes.
+
+The `first` function also showcased the need to call the inner function `second` explicitly for it to execute. This part of the exercise emphasized the concept of function invocation within nested function structures.
+
+The script then explored nested scopes within block statements. I declared a constant `x` within an `if` block, and nested another `if` block inside it, where I declared a constant `y`. In this nested block, I was able to access both `x` and `y`, demonstrating how block scopes work similarly to function scopes in terms of variable accessibility. The nested block structure also reinforced that variables declared in an inner scope are not accessible in the outer scope.
+
+Throughout this exercise, I illustrated the principle of lexical scoping in JavaScript, where the accessibility of variables is determined by their position within nested blocks or functions. Which helped me with understanding how variables interact across different levels of scope in JavaScript.
+
+<details>
+<summary>View JS Code - script.js - E - Nested Scope</summary>
+<br>
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
+
+```javascript
+function first() {
+  const x = 100;
+
+  function second() {
+    const y = 200;
+    console.log(x + y);
+  }
+
+  // Can't Access Nested Scopes, Only Parent Scopes
+  // console.log(y);
+
+  // First Wont Run Without Second Being Called Inside
+  second();
+}
+
+first();
+
+if (true) {
+  const x = 100;
+
+  if (x === 100) {
+    const y = 200;
+    console.log(x + y);
+  }
+
+  // console.log(x + y);
+}
+```
+</details>
+
 ### [F. Declaration vs. Expression](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/03-functions-scope/06-declaration-vs-expression)
 
 ### [G. Arrow Functions](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/03-functions-scope/07-arrow-functions)
