@@ -2822,7 +2822,41 @@ do {
 ```
 </details>
 
-### [D. Fizzbuzz Challenge](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/05-iteration-array-methods/04-fizzbuzz-challenge)
+### [D. FizzBuzz Challenge](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/05-iteration-array-methods/04-fizzbuzz-challenge)
+
+![FizzBuzz Challenge - Console Head Output Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/05-iteration-array-methods/04-fizzbuzz-challenge/04-fizzbuzz-challenge-head.png)
+
+![FizzBuzz Challenge - Console Tail Output Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/05-iteration-array-methods/04-fizzbuzz-challenge/04-fizzbuzz-challenge-tail.png)
+
+This exercise tackled the classic "FizzBuzz" challenge, a popular programming task often used in coding interviews and practice sessions. The challenge involves printing numbers from 1 to 100, but with a twist: for multiples of 3, print "Fizz" instead of the number, for multiples of 5, print "Buzz", and for multiples of both 3 and 5, print "FizzBuzz".
+
+#### FizzBuzz Logic
+- The loop begins with `i` set to 1 and increments `i` until it reaches 100.
+- The first condition checked is whether `i` is a multiple of both 3 and 5 (`i % 15 === 0`). If so, "FizzBuzz" is printed. This condition is checked first to ensure that numbers like 15, 30, etc., are correctly identified as multiples of both 3 and 5.
+- If the first condition isn't met, the loop then checks if `i` is a multiple of 3 (`i % 3 === 0`). If true, it prints "Fizz".
+- Next, it checks if `i` is a multiple of 5 (`i % 5 === 0`). If true, "Buzz" is printed.
+- If none of these conditions are met, the loop simply prints the number `i`.
+
+<details>
+<summary>View JS Code - script.js - D - FizzBuzz Challenge</summary>
+<br>
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
+
+```javascript
+for (i = 1; i <= 100; i++) {
+  if (i % 15 === 0) {
+    console.log("FizzBuzz");
+  } else if (i % 3 === 0) {
+    console.log("Fizz");
+  } else if (i % 5 === 0) {
+    console.log("Buzz");
+  } else {
+    console.log(i);
+  }
+}
+```
+</details>
 
 ### [E. For Of Loop](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/05-iteration-array-methods/05-for-of-loop)
 
