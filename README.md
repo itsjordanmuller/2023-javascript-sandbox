@@ -1130,6 +1130,89 @@ console.log(x);
 
 ### [F. Object Spread Methods](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/02-arrays-and-objects/06-object-spread-methods)
 
+![Object Spread Methods Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/02-arrays-and-objects/06-object-spread-methods/06-object-spread-methods.png)
+
+This exercise went into more advanced aspects of working with objects in JavaScript, particularly focusing on the object spread syntax, object methods, and handling arrays of objects.
+
+1. **Object Creation and Property Assignment**: The script began by creating an object `todo` using the `new Object()` syntax and then adding properties to it (`id`, `name`, `completed`). This approach demonstrates an alternative way of creating objects in JavaScript.
+
+2. **Accessing Nested Object Properties**: It showed how to access deeply nested properties, like `person.address.coords.lat`, highlighting the process of drilling down into nested objects.
+
+3. **Spread Syntax for Object Merging**: The exercise introduced the object spread syntax (`{ ...obj1, ...obj2 }`) to merge `obj1` and `obj2` into a new object `obj3`. This ES6 feature provides a concise and readable way to combine objects.
+
+4. **Object.assign for Merging**: In contrast, `Object.assign({}, obj1, obj2)` was used to achieve a similar result as the spread syntax, merging `obj1` and `obj2` into `obj4`. This method offers more flexibility and is part of older JavaScript versions.
+
+5. **Array of Objects**: The script included an array `todos` containing multiple objects, each representing a todo item. Accessing properties of these objects, like `todos[0].name`, was demonstrated, which is common in JavaScript for handling collections of similar objects.
+
+6. **Object.keys, Object.values, Object.entries**: The exercise utilized `Object.keys(todo)`, `Object.values(todo)`, and `Object.entries(todo)` to extract keys, values, and key-value pairs from an object, respectively. These methods are crucial for iterating over objects and manipulating their data.
+
+7. **Checking Property Existence**: The use of `todo.hasOwnProperty("name")` and `todo.hasOwnProperty("age")` showed how to check if an object contains a specific property, which is a common requirement in conditional logic and data validation.
+
+<details>
+<summary>View JS Code - script.js - F - Object Spread Methods</summary>
+<br>
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
+
+```javascript
+let x;
+
+const todo = new Object();
+
+todo.id = 1;
+todo.name = "Buy Milk";
+todo.completed = false;
+
+x = todo;
+
+const person = {
+  address: {
+    coords: {
+      lat: 42.9384,
+      lng: -71.3232,
+    },
+  },
+};
+
+x = person.address.coords.lat;
+
+const obj1 = { a: 1, b: 2 };
+const obj2 = { c: 3, d: 4 };
+
+// Utilize Spread to Get Both Objects Out of Nested Structure
+const obj3 = { ...obj1, ...obj2 };
+// Use Assign to Achieve the Same Result
+const obj4 = Object.assign({}, obj1, obj2);
+
+// Create an Array of Objects
+const todos = [
+  { id: 1, name: "Buy Milk" },
+  { id: 1, name: "Pickup Kids From School" },
+  { id: 1, name: "Take Out the Trash" },
+];
+
+x = todos[0].name;
+
+// Get All Keys from an Object and Put Them Into an Array
+x = Object.keys(todo);
+
+// Get Length of the Properties of an Object
+x = Object.keys(todo).length;
+
+// Get All Values from an Object and Put Them Into an Array
+x = Object.values(todo);
+
+// Get an Array of the Key Value Pairs
+x = Object.entries(todo);
+
+// Check if an Object Has a Specific Property
+x = todo.hasOwnProperty("name");
+x = todo.hasOwnProperty("age");
+
+console.log(x);
+```
+</details>
+
 ### [G. Destructuring & Naming](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/02-arrays-and-objects/07-destructuring-naming)
 
 ### [H. JSON Introduction](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/02-arrays-and-objects/08-json-intro)
