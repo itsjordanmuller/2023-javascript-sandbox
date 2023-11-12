@@ -2477,6 +2477,94 @@ console.log(c);
 
 ### [G. Logical Assignment](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/04-logic-control-flow/07-logical-assignment)
 
+![Logical Assignment - Console Output Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/04-logic-control-flow/07-logical-assignment/07-logical-assignment.png)
+
+In this exercise, the focus was on understanding and implementing the logical assignment operators in JavaScript: `||=`, `&&=`, and `??=`. These operators provide a more concise way of writing certain types of conditional assignments.
+
+#### Logical OR Assignment (`||=`)
+- **Usage**: Assigns the right-hand value to the variable if the variable's current value is falsy.
+- **Example**: 
+  - Traditional method: Using an `if` statement to assign `10` to `a` if `a` is falsy.
+  - Simplified method: `a = a || 10`.
+  - Most compact form: `a ||= 10`.
+- In the example, `a` is initially `false` (a falsy value), so using `||=` assigns `10` to `a`.
+
+#### Logical AND Assignment (`&&=`)
+- **Usage**: Assigns the right-hand value to the variable if the variable's current value is truthy.
+- **Example**:
+  - Traditional method: Using an `if` statement to assign `30` to `b` if `b` is truthy.
+  - Simplified method: `b = b && 30`.
+  - Most compact form: `b &&= 30`.
+- Here, `b` starts as `20` (a truthy value), so using `&&=` updates `b` to `30`.
+
+#### Nullish Coalescing Assignment (`??=`)
+- **Usage**: Assigns the right-hand value to the variable if the variable's current value is `null` or `undefined`.
+- **Example**:
+  - Traditional method: Using an `if` statement to assign `20` to `c` if `c` is `null` or `undefined`.
+  - Simplified method: `c = c ?? 30`.
+  - Most compact form: `c ??= 30`.
+- In this case, `c` is initially `null`, so `??=` assigns `20` to `c`.
+
+Overall, this exercise demonstrated the efficiency and readability benefits of using logical assignment operators. These operators provide a more concise and expressive way to write conditional assignments, reducing the need for more verbose conditional statements.
+
+<details>
+<summary>View JS Code - script.js - -</summary>
+<br>
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
+
+```javascript
+// ||= Assigns the Right Side Value Only if the Left is a Falsy Value
+
+let a = false;
+
+// Normal If Statement
+if (!a) {
+  a = 10;
+}
+
+// Compact Using ||
+a = a || 10;
+
+// Even Smaller Using ||=
+a ||= 10;
+
+console.log(a);
+
+// &&= Assigns the Right Side Value Only if the Left is a Truthy Value
+
+let b = 20;
+
+if (b) {
+  b = 30;
+}
+
+// Compact Using &&
+b = b && 30;
+
+// Even Smaller Using &&=
+b &&= 30;
+
+console.log(b);
+
+// ??= Assigns the Right Side Value Only if the Left is null or Undefined
+
+let c = null;
+
+if (c === null || c === undefined) {
+  c = 20;
+}
+
+// Compact Using ??
+c = c ?? 30;
+
+// Even Smaller Using ??=
+b ??= 30;
+
+console.log(c);
+```
+</details>
+
 ### [H. Ternary Operator](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/04-logic-control-flow/08-ternary-operator)
 
 ## [5. Iteration & Array Methods](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/05-iteration-array-methods)
