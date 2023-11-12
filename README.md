@@ -1415,6 +1415,52 @@ console.log(library);
 
 ### [A. Function Basics](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/03-functions-scope/01-function-basics)
 
+![Function Basics Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/03-functions-scope/01-function-basics/01-function-basics.png)
+
+In this exercise, I explored the basics of functions in JavaScript, focusing on creation, invocation, parameters, and return values.
+
+I started by defining a basic function, `sayHello`, which simply logs "Hello World!" to the console. This function does not take any parameters and serves as an introduction to the syntax of function declaration. Then, I moved on to functions with parameters. I created a function `add` that takes two numbers as parameters and logs their sum. This function demonstrates how to pass arguments to a function and use them within its scope.
+
+I then covered the important concept of return values in functions. The `subtract` function returns the result of subtracting two numbers. This is a key aspect of functions, showing how they can return data to the place where they are called. It also illustrates that any code after the `return` statement in a function does not execute, as seen with the `console.log` statement after the return.
+
+Finally, I demonstrated how to store the returned value from a function in a variable. I did this by assigning the result of `subtract(10, 2)` to a constant `result`, and then logging it alongside another invocation of `subtract(20, 5)`. This part of the exercise underscores the practical application of functions in storing and manipulating data.
+
+<details>
+<summary>View JS Code - script.js - A - Function Basics</summary>
+<br>
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
+
+```javascript
+// Basic Function
+function sayHello() {
+  console.log("Hello World!");
+}
+
+// Invoke Function
+sayHello();
+
+// Function with Parameters
+function add(num1, num2) {
+  console.log(num1 + num2);
+}
+
+// Invoke Function by Passing Arguments
+add(5, 10);
+
+// Return Result Instead of Logging
+function subtract(num1, num2) {
+  return num1 - num2;
+  // Nothing After the Return Will Run
+  console.log("After the return");
+}
+
+// Set a Variable to the Returned Value of the Function
+const result = subtract(10, 2);
+console.log(result, subtract(20, 5));
+```
+</details>
+
 ### [B. Parameters & Arguments](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/03-functions-scope/02-params-arguments)
 
 ### [C. Global Scope](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/03-functions-scope/03-global-function-scope)
