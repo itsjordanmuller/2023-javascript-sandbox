@@ -2392,6 +2392,89 @@ console.log(null === undefined);
 
 ### [F. Logical Operators](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/04-logic-control-flow/06-logical-operators)
 
+![Logical Operators - Console Output Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/04-logic-control-flow/06-logical-operators/06-logical-operators.png)
+
+This exercise delves into the use of logical operators in JavaScript, specifically focusing on the `AND (&&)`, `OR (||)`, and `Nullish Coalescing (??)` operators. Each operator has distinct behavior that influences how expressions are evaluated.
+
+#### AND Operator (`&&`)
+- **General Rule**: Returns the first falsy value encountered, or the last value if all are truthy.
+- **Example Use**: `console.log(10 > 20 && 30 > 15 && 40 > 30)` evaluates to `false` because the first condition is false.
+- **Returning Last Truthy Value**: In the cases of `10 && 20` and `10 && 20 && 30`, since all values are truthy, `a` is assigned the last value (20 and 30, respectively).
+- **Returning First Falsy Value**: For `10 && "" && 0 && 30`, `a` is assigned `""` (the first falsy value).
+
+#### OR Operator (`||`)
+- **General Rule**: Returns the first truthy value encountered, or the last value if all are falsy.
+- **Example Use**: `console.log(10 > 20 || 30 > 15)` outputs `true` because at least one condition is true.
+- **Returning First Truthy Value**: In `10 || 20` and `0 || 20`, `b` is assigned 10 and 20 respectively.
+- **Returning Last Value**: For `0 || null || undefined`, `b` is assigned `undefined`, the last value in the chain.
+
+#### Nullish Coalescing Operator (`??`)
+- **Function**: Returns the right-side operand if the left-side operand is `null` or `undefined`.
+- **Returning Left Side**: In `10 ?? 20` and `"" ?? 30`, `c` is assigned the left-side operand as it's neither `null` nor `undefined`.
+- **Returning Right Side**: For `null ?? 20` and `undefined ?? 30`, `c` is assigned the right-side operand due to the left being `null` or `undefined`.
+
+#### Practical Application
+- **AND in Conditional Rendering**: The pattern `posts.length > 0 && console.log(posts[0])` demonstrates using `&&` for conditional rendering. Since `posts.length > 0` is true, the second expression executes.
+
+In summary, this exercise provided a comprehensive understanding of how JavaScript evaluates expressions with logical operators, highlighting the importance of understanding operator precedence and the nuances of each operator for effective coding.
+
+<details>
+<summary>View JS Code - script.js - F - Logical Operators</summary>
+<br>
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
+
+```javascript
+// AND - First Isn't True, So the Whole Thing is False
+console.log(10 > 20 && 30 > 15 && 40 > 30);
+
+// OR - Only One Needs to Be True
+console.log(10 > 20 || 30 > 15);
+
+// && will return first falsy value or the last value
+let a;
+
+// Returns Last Value
+a = 10 && 20;
+a = 10 && 20 && 30;
+
+// Returns First Falsy Value
+a = 10 && "" && 0 && 30;
+a = 10 && 0 && 30;
+
+console.log(a);
+
+const posts = ["Post 1", "Post 2"];
+// Common Way of Using && Operator, Returns Last Value Since Expression Evaluates to False
+posts.length > 0 && console.log(posts[0]);
+
+// || Will return the first truthy value or the last value
+let b;
+
+// Returns First Truthy Value
+b = 10 || 20;
+b = 0 || 20;
+
+// Returns the Last Value
+b = 0 || null || undefined;
+
+console.log(b);
+
+// ?? Returns the right side operand when the left is null or undefined - Known as a Nullish Coalescing Operator
+let c;
+
+// Returns Left Side Since Left Side is Not Null or Undefined
+c = 10 ?? 20;
+c = "" ?? 30;
+
+// Returns the Right Side Since Left is Null/Undefined
+c = null ?? 20;
+c = undefined ?? 30;
+
+console.log(c);
+```
+</details>
+
 ### [G. Logical Assignment](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/04-logic-control-flow/07-logical-assignment)
 
 ### [H. Ternary Operator](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/04-logic-control-flow/08-ternary-operator)
