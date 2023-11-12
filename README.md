@@ -1724,6 +1724,41 @@ if (true) {
 
 ### [F. Declaration vs. Expression](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/03-functions-scope/06-declaration-vs-expression)
 
+![Declaration vs. Expression Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/03-functions-scope/06-declaration-vs-expression/06-declaration-vs-expression.png)
+
+In this example, I delved into the difference between `function declarations` and `function expressions` in JavaScript, focusing particularly on the concept of **hoisting**.
+
+I discovered that regular function declarations are hoisted, meaning they can be called before they are defined in the code. This was demonstrated with the `addDollarSign` function, where I successfully called the function before its declaration in the script. This function, when called, simply concatenates a dollar sign (`"$"`) to the passed value.
+
+On the other hand, function expressions are not hoisted. This means they cannot be used before they are set in the script. This concept was illustrated by the commented-out call to `addPlusSign`, a function expression. If this line were to be uncommented and executed, it would result in an error because the function expression is not available until after it is defined. The `addPlusSign` function, similar to `addDollarSign`, appends a plus sign (`"+"`) to the provided value.
+
+Through this exercise, I gained a clearer understanding of how JavaScript treats function declarations and expressions differently, especially regarding their availability in code due to hoisting. This knowledge is crucial for writing error-free and predictable JavaScript code, especially in scenarios where the order of function definition and usage is important.
+
+<details>
+<summary>View JS Code - script.js - F - Declaration vs. Expression</summary>
+<br>
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
+
+```javascript
+// Hoisting Allows A Regular Function Declaration to Be Used Before the Function is Defined In Code
+console.log(addDollarSign(10));
+
+// Function Declaration
+function addDollarSign(value) {
+  return "$" + value;
+}
+
+// Expressions Are Not Available Until Set
+// console.log(addPlusSign(50));
+
+// Function Expression
+const addPlusSign = function (value) {
+  return "+" + value;
+};
+```
+</details>
+
 ### [G. Arrow Functions](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/03-functions-scope/07-arrow-functions)
 
 ### [H. IIFE - (Immediately Invoked Function Expression)](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/03-functions-scope/08-iife)
