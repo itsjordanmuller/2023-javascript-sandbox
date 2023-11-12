@@ -1932,6 +1932,40 @@ console.log(minMax([1, 2, 3, 4, 5]));
 
 ### [J. Execution Context in Action](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/03-functions-scope/10-execution-context-in-action)
 
+![Execution Context in Action Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/03-functions-scope/10-execution-context-in-action/10-execution-context-in-action.png)
+
+In this example, I explored the concept of execution context in JavaScript through a simple program involving variables and a function. Execution context refers to the environment in which a JavaScript code is executed, including information about the variables, functions, and this keyword.
+
+The script starts by declaring two constants, `x` and `y`, with values 100 and 50, respectively. These constants are stored in the global execution context, which is the base level context in which all JavaScript code initially runs.
+
+The focus then shifts to a function named `getSum`, which takes two parameters, `n1` and `n2`. Within this function, a new execution context is created. This context is specific to each call of the `getSum` function and contains its own set of variables. In this case, the variable `sum` is declared, which is the result of adding `n1` and `n2`. The function then returns this sum.
+
+Two different calls to the `getSum` function are made. The first call passes `x` and `y` as arguments, resulting in a sum of 150. The second call directly passes the numbers 10 and 5, resulting in a sum of 15. Each call creates its own execution context, independent of the other. The results of these calls are stored in `sum1` and `sum2`, both of which exist in the global execution context.
+
+By logging `sum1` and `sum2`, the script demonstrates the final outcome of these separate execution contexts interacting within the global context. The console output shows the two different sums calculated by separate calls to the `getSum` function.
+
+<details>
+<summary>View JS Code - script.js - J - Execution Context in Action</summary>
+<br>
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
+
+```javascript
+const x = 100;
+const y = 50;
+
+function getSum(n1, n2) {
+  const sum = n1 + n2;
+  return sum;
+}
+
+const sum1 = getSum(x, y);
+const sum2 = getSum(10, 5);
+
+console.log(sum1, sum2);
+```
+</details>
+
 ### [K. Call Stack](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/03-functions-scope/11-call-stack)
 
 ## [4. Logic & Control Flow](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/04-logic-control-flow)
