@@ -1968,6 +1968,63 @@ console.log(sum1, sum2);
 
 ### [K. Call Stack](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/03-functions-scope/11-call-stack)
 
+![Call Stack Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/03-functions-scope/11-call-stack/11-call-stack.png)
+
+In this JavaScript example, I delved into the concept of the call stack, an essential component of JavaScript's execution model. The call stack follows the Last In, First Out (LIFO) principle, meaning that the last function that gets pushed onto the stack is the first to be popped off once it completes its execution.
+
+The exercise began by defining three functions: `first`, `second`, and `third`. Each function, when called, logs a message indicating its name. Initially, these functions were called sequentially: `first()`, followed by `second()`, and finally `third()`. In this setup, each function completes its execution before the next one begins, demonstrating a simple, linear call stack operation.
+
+The script was then modified to illustrate a more complex call stack scenario. In the new version, the `first` function calls `second` within it, and `second` in turn calls `third`. This nesting of function calls demonstrates how the call stack accumulates frames.
+
+When `first()` is called, it's pushed onto the stack and starts executing. Inside `first`, `second()` is called, pausing `first`'s execution and pushing `second` onto the stack. The same happens when `second` calls `third`. The `third` function is pushed onto the stack, executes and logs its message, and then is popped off the stack. The process then continues with `second` and finally `first`, each completing their execution and being removed from the stack in reverse order.
+
+This demonstration of nested function calls shows how the call stack works in JavaScript. Each function call creates a new frame on the stack, and as each function completes its execution, its frame is removed from the stack.
+
+<details>
+<summary>View JS Code - script.js - K - Call Stack</summary>
+<br>
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
+
+```javascript
+// Stacks are LIFO: Last in First Out
+
+// One at a Time on the Stack
+function first() {
+  console.log("first...");
+}
+
+function second() {
+  console.log("second...");
+}
+
+function third() {
+  console.log("third...");
+}
+
+first();
+second();
+third();
+
+// First Stays Open While Second and Third are Being Used
+function first() {
+  console.log("first...");
+  second();
+}
+
+function second() {
+  console.log("second...");
+  third();
+}
+
+function third() {
+  console.log("third...");
+}
+
+first();
+```
+</details>
+
 ## [4. Logic & Control Flow](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/04-logic-control-flow)
 
 ### [A. If Statements](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/04-logic-control-flow/01-if-statements)
