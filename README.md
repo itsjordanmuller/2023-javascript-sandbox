@@ -925,6 +925,78 @@ console.log(x);
 
 ### [C. Array Nesting, Concatenation & Spread](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/02-arrays-and-objects/03-array-nesting-concat-spread)
 
+![Array Nesting, Concatenation & Spread Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/02-arrays-and-objects/03-array-nesting-concat-spread/03-array-nesting-concat-spread.png)
+
+This exercise delved into more advanced array manipulation techniques in JavaScript, focusing on array nesting, concatenation, the spread operator, and some static methods on array objects.
+
+1. **Nesting Arrays**: The script initially explored nesting arrays within other arrays. Although the code for pushing an array (`berries`) into another (`fruits`) to create a nested array was commented out, it set the stage for understanding multi-dimensional arrays.
+
+2. **Accessing Nested Array Elements**: The script demonstrated how to access elements in nested arrays, such as `allFruits[1][2]`, which navigates through the nested structure to retrieve a specific value.
+
+3. **Concatenating Arrays**: The exercise showcased the `.concat()` method to combine `fruits` and `berries` into a new array. This method is essential for merging arrays without altering the original arrays.
+
+4. **Spread Operator**: The script introduced the use of the spread operator (`...`), a more modern way to concatenate or expand arrays. It was used to combine `fruits` and `berries` into a single array, demonstrating a concise and powerful feature of ES6.
+
+5. **Flattening Arrays**: The `.flat()` method was used on a nested array `arr` to flatten it, converting the array from multi-level to a single-level array, thereby simplifying the structure for easier manipulation.
+
+6. **Static Methods on Array Objects**:
+   - `Array.isArray()`: This method was used to check if a given value is an array, an essential check in many programming scenarios.
+   - `Array.from()`: Demonstrated to create an array from an array-like or iterable object, like converting a string `"12345"` into an array of its characters.
+   - `Array.of()`: This method was used to create an array from a set of values, providing a simple way to convert individual values into an array format.
+
+<details>
+<summary>View JS Code - script.js - C - Array Nesting, Concatenation & Spread</summary>
+<br>
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
+
+```javascript
+let x;
+
+const fruits = ["Apple", "Orange", "Peach"];
+const berries = ["Strawberry", "Blueberry", "Raspberry"];
+
+// Push an Array into Another Array to Nest It
+// fruits.push(berries);
+
+// Get a Value from a Nested Array By Going Another Level Down
+// x = fruits[3][1];
+
+// Create a New Array with Two Arrays
+const allFruits = [fruits, berries];
+
+// Get a Value from the Nested Arrays
+x = allFruits[1][2];
+
+// Concatenate the Values of an Array onto Another Array
+x = fruits.concat(berries);
+
+// Spread Operator (...)
+x = [...fruits, ...berries];
+
+// Flatten Arrays
+const arr = [1, 2, [3, 4], 5, [6, 7], 8];
+x = arr.flat();
+
+// Static Methods on Array Objects
+
+// Check if Something is an Array
+x = Array.isArray("Hello");
+
+// Create an Array from an Array Like Value
+x = Array.from("12345");
+
+const a = 1;
+const b = 2;
+const c = 3;
+
+// Another Way of Creating Arrays from Values
+x = Array.of(a, b, c);
+
+console.log(x);
+```
+</details>
+
 ### [D. Array Challenge](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/02-arrays-and-objects/04-array-challenge)
 
 ### [E. Object Literals](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/02-arrays-and-objects/05-object-literals)
