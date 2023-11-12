@@ -811,6 +811,54 @@ console.log(x);
 
 ### [A. Array Basics](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/02-arrays-and-objects/01-array-basics)
 
+![Array Basics Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/02-arrays-and-objects/01-array-basics/01-array-basics.png)
+
+This exercise focuses on the fundamentals of arrays in JavaScript. It starts with creating arrays using two different methods: the array literal and the array constructor. The array literal method is demonstrated with `const numbers = [10, 20, 30, 40, 50]`, and the array constructor is shown through `const fruits = new Array("Apple", "Watermelon", "Orange")`. 
+
+The exercise then explores accessing and manipulating array elements. It shows how to access the value at a specific index, such as `numbers[0]` or `fruits[1]`, and even combining values from different indices. For example, `x = numbers[0] + numbers[3]` adds the first and fourth elements of the `numbers` array.
+
+Another key aspect covered is determining the length of an array using the `.length` property, which is crucial for understanding the size and iterating over arrays.
+
+Modifying arrays is another focal point. The script demonstrates how to replace an existing element, like changing the third fruit from "Orange" to "Strawberry". Additionally, it touches on setting the length of an array to truncate it, though this part is commented out.
+
+Appending new elements to an array is illustrated in two ways: by directly setting a value at a specific index (`fruits[3] = "Peach"`) and by using the `.length` property to append at the end (`fruits[fruits.length] = "Blueberry"`).
+
+<details>
+<summary>View JS Code - script.js - A - Array Basics</summary>
+<br>
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
+
+```javascript
+// Array Literal
+const numbers = [10, 20, 30, 40, 50];
+
+// Array Constructor
+const fruits = new Array("Apple", "Watermelon", "Orange");
+
+// Value at a Specific Index
+x = numbers[0];
+x = numbers[0] + numbers[3];
+x = `My favorite fruit is the: ${fruits[1]}`;
+
+// Get Length of an Array
+x = numbers.length;
+
+// Set Value at a Specific Index in an Array
+fruits[2] = "Strawberry";
+
+// Set Length to Cut Off Array
+// fruits.length = 2;
+
+// Ways to Append a Value to an Array at Index
+fruits[3] = "Peach";
+fruits[fruits.length] = "Blueberry";
+x = fruits;
+
+console.log(x);
+```
+</details>
+
 ### [B. Array Methods](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/02-arrays-and-objects/02-array-methods)
 
 ### [C. Array Nesting, Concatenation & Spread](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/02-arrays-and-objects/03-array-nesting-concat-spread)
