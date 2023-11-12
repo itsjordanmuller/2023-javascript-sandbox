@@ -2860,6 +2860,65 @@ for (i = 1; i <= 100; i++) {
 
 ### [E. For Of Loop](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/05-iteration-array-methods/05-for-of-loop)
 
+![For Of Loop - Console Output Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/05-iteration-array-methods/05-for-of-loop/05-for-of-loop.png)
+
+This exercise focused on the `for...of` loop in JavaScript, a modern loop statement introduced in ES6 that simplifies the process of iterating over iterable objects such as arrays, strings, and maps.
+
+#### Iterating Over Arrays
+Initially, the exercise compared the traditional `for` loop with the `for...of` loop for iterating over arrays. The traditional method involves a counter and accessing array elements by their index. In contrast, the `for...of` loop directly retrieves the value of each element in the array, making the code more concise and readable.
+
+#### Accessing Object Properties in Arrays
+The exercise also demonstrated how the `for...of` loop could be used to iterate through an array of objects, conveniently accessing each object's properties. This was exemplified with an array of user objects, where the name property of each user was printed.
+
+#### Looping Over Strings
+In addition to arrays, the `for...of` loop can iterate over strings. The exercise showed how each character of a string can be accessed sequentially, which is useful in scenarios where string manipulation or analysis is required.
+
+#### Looping Over Maps
+Finally, the exercise introduced iterating over Maps using the `for...of` loop. Maps in JavaScript are key-value pairs, and the loop conveniently allowed access to both the key and value in each iteration. This demonstrated the versatility of the `for...of` loop in handling various data structures.
+
+<details>
+<summary>View JS Code - script.js - E - For Of Loop</summary>
+<br>
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
+
+```javascript
+const items = ["Book", "Table", "Chair", "Kite"];
+const users = [{ name: "Jordan" }, { name: "Kate" }, { name: "Steve" }];
+
+// Default Way to Loop Through Array with For Loop
+// for (let i = 0; i < items.length; i++) {
+//   console.log(items[i]);
+// }
+
+// Does the Same Thing, But Shorter
+// for (const item of items) {
+//   console.log(item);
+// }
+
+// Access a Specific Property in An Array
+// for (const user of users) {
+//   console.log(user.name);
+// }
+
+// Loop Over Strings
+const str = "Hello World!";
+
+for (const letter of str) {
+  console.log(letter);
+}
+
+// Loop Over Maps
+const map = new Map();
+map.set("name", "Jordan");
+map.set("age", 23);
+
+for (const [key, value] of map) {
+  console.log(key, value);
+}
+```
+</details>
+
 ### [F. For In Loop](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/05-iteration-array-methods/06-for-in-loop)
 
 ### [G. forEach](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/05-iteration-array-methods/07-forEach)
