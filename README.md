@@ -3283,6 +3283,87 @@ console.log(total);
 
 ### [K. Array Method Challenges](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/05-iteration-array-methods/11-array-method-challenges)
 
+![Array Method Challenges - Console Output Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/05-iteration-array-methods/11-array-method-challenges/11-array-method-challenges.png)
+
+In this exercise, I tackled two challenges that involved using different JavaScript array methods to manipulate and process data. These challenges helped me understand how to combine methods like `filter`, `map`, and `reduce` for more complex operations.
+
+### Challenge 1: Filtering and Mapping Data
+The first challenge involved processing an array of people objects. The task was to filter out individuals who are 25 years old or younger and then map their data into a new array. This new array only contains their full name and email address. By chaining `filter` and `map`, I efficiently processed the array in a single, readable statement. The `filter` method isolated the young individuals, and the `map` method transformed each selected object into the required format.
+
+### Challenge 2: Summing Positive Numbers
+The second challenge focused on an array of numbers where the goal was to calculate the sum of all positive numbers. Here, I combined `filter` and `reduce`: first, `filter` was used to remove negative numbers, and then `reduce` aggregated the remaining positive numbers into their total sum. This exercise showcased how `reduce` can be effectively paired with `filter` to compute cumulative values based on conditional criteria.
+
+These challenges deepened my understanding of how array methods can be combined to effectively manipulate and analyze data in JavaScript.
+
+<details>
+<summary>View JS Code - script.js - K - Array Method Challenges</summary>
+<br>
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
+
+```javascript
+// Challenge 1
+const people = [
+  {
+    firstName: "John",
+    lastName: "Doe",
+    email: "john@gmail.com",
+    phone: "111-111-1111",
+    age: 30,
+  },
+  {
+    firstName: "Jane",
+    lastName: "Poe",
+    email: "jane@gmail.com",
+    phone: "222-222-2222",
+    age: 25,
+  },
+  {
+    firstName: "Bob",
+    lastName: "Foe",
+    email: "bob@gmail.com",
+    phone: "333-333-3333",
+    age: 45,
+  },
+  {
+    firstName: "Sara",
+    lastName: "Soe",
+    email: "Sara@gmail.com",
+    phone: "444-444-4444",
+    age: 19,
+  },
+  {
+    firstName: "Jose",
+    lastName: "Koe",
+    email: "jose@gmail.com",
+    phone: "555-555-5555",
+    age: 23,
+  },
+];
+
+const youngPeople = people
+  .filter((person) => person.age <= 25)
+  .map((person) => {
+    return {
+      name: `${person.firstName} ${person.lastName}`,
+      email: person.email,
+    };
+  });
+console.log(youngPeople);
+
+// Challenge 2
+const numbers = [2, -30, 50, 20, -12, -9, 7];
+
+const sumPositive = numbers
+  .filter((number) => number > 0)
+  .reduce(function (accumulator, currentValue) {
+    return accumulator + currentValue;
+  }, 0);
+
+console.log(sumPositive);
+```
+</details>
+
 ## [6. Document Object Model](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/06-document-object-model)
 
 ### [A. DOM (Document Object Model) Introduction](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/06-document-object-model/01-dom-intro)
