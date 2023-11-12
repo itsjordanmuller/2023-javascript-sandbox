@@ -1,10 +1,11 @@
 # JavaScript Sandbox
-Self-Paced Learning Sandbox for JavaScript with Node.js, Jest, Webpack, HTML & CSS
+Self-Paced Learning Sandbox for JavaScript with Node.js, Jest, Webpack, JSON, HTML & CSS
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
 ![Node.js](https://img.shields.io/badge/Node.js-339933.svg?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Jest](https://img.shields.io/badge/Jest-C21325.svg?style=for-the-badge&logo=Jest&logoColor=white)
 ![Webpack](https://img.shields.io/badge/Webpack-8DD6F9.svg?style=for-the-badge&logo=Webpack&logoColor=black)
+![JSON](https://img.shields.io/badge/JSON-000000.svg?style=for-the-badge&logo=JSON&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=HTML5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6.svg?style=for-the-badge&logo=CSS3&logoColor=white)
 
@@ -1273,6 +1274,76 @@ console.log(first, second, rest);
 </details>
 
 ### [H. JSON Introduction](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/02-arrays-and-objects/08-json-intro)
+
+![JSON Introduction Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/02-arrays-and-objects/08-json-intro/08-json-intro.png)
+
+This JavaScript exercise introduced the basics of working with JSON (JavaScript Object Notation), a lightweight data-interchange format commonly used for data storage and communication in web applications.
+
+**JavaScript Object to JSON String**: The script started with a JavaScript object `post`, containing properties like `id`, `title`, and `body`. It demonstrated how to convert this object into a JSON string using `JSON.stringify(post)`. This process, known as serialization, is essential for transmitting data in a text format that can be easily sent over a network or stored in a file.
+
+**Parse JSON String to JavaScript Object**: The next part of the exercise involved parsing the JSON string back into a JavaScript object. This was achieved using `JSON.parse(str)`, where `str` is the JSON string representation of the `post` object. Parsing is crucial for converting data received as JSON back into a usable JavaScript object.
+
+**Array of Objects and JSON**: The script also handled an array of objects `posts`, each representing a blog post. It showcased the conversion of this array into a JSON string using `JSON.stringify(posts)`. This example highlighted JSON's ability to represent more complex data structures, including arrays and nested objects.
+
+**External JSON Data (todo.json)**: Additionally, an external JSON file `todo.json` was referenced, containing a simple array of todo items. This part of the exercise underlined how JSON is used in real-world scenarios, where data is often stored and exchanged in JSON format between different parts of an application or between different applications.
+
+<details>
+<summary>View JSON File - todo.json - H - JSON Introduction</summary>
+<br>
+
+![JSON](https://img.shields.io/badge/JSON-000000.svg?style=for-the-badge&logo=JSON&logoColor=white)
+
+```json
+[
+  {
+    "id": "1",
+    "title": "Take out trash"
+  }
+]
+```
+</details>
+
+<details>
+<summary>View JS Code - script.js - G - Destructuring & Naming</summary>
+<br>
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
+
+```javascript
+const post = {
+  id: 1,
+  title: "Post One",
+  body: "This is the body of the post!",
+};
+
+// Convert a JavaScript Object to JSON String
+const str = JSON.stringify(post);
+x = post;
+
+// Parse JSON
+const obj = JSON.parse(str);
+x = obj;
+
+const posts = [
+  {
+    id: 1,
+    title: "Post One",
+    body: "This is the body of the post!",
+  },
+  {
+    id: 2,
+    title: "Post Two",
+    body: "This is the body of the post!",
+  },
+];
+x = posts;
+
+const str2 = JSON.stringify(posts);
+x = str2;
+
+console.log(x);
+```
+</details>
 
 ### [I. Object Challenge](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/02-arrays-and-objects/09-object-challenge)
 
