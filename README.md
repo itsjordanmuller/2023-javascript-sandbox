@@ -3218,6 +3218,69 @@ console.log(evenDouble);
 
 ### [J. Reduce](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/05-iteration-array-methods/10-reduce)
 
+![Reduce - Console Output Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/05-iteration-array-methods/10-reduce/10-reduce.png)
+
+In this section, I learned about the `reduce` method in JavaScript, a powerful array function that simplifies an array to a single value. This method is particularly useful for aggregating array elements into a cumulative result.
+
+### Basic Summation with Reduce
+I started by summing an array of numbers using `reduce`. The `reduce` function takes two parameters: a callback function and an initial value. In the full version, I defined the callback with a function keyword, which accumulates the sum of the array elements. The initial value is set to 0. 
+
+### Refactoring with Arrow Functions
+To make the code more concise, I refactored the sum calculation using an arrow function. This shorter version accomplishes the same task with less syntax.
+
+### Alternative Approach: For Loop
+For comparison, I implemented the same summation using a traditional for loop, highlighting the efficiency and readability of the `reduce` method.
+
+### Practical Application: Calculating Total Price
+Finally, I applied `reduce` to a more practical example: calculating the total price of items in a shopping cart. Each item in the cart array has a `price` property, and `reduce` accumulates these values to find the total price.
+
+This exercise enhanced my understanding of the `reduce` method, illustrating its versatility in array manipulation and data aggregation in JavaScript.
+
+<details>
+<summary>View JS Code - script.js - J - Reduce</summary>
+<br>
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
+
+```javascript
+// Reduce an Array to a Single Value
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// Full Version of Sum with Reduce
+const sum = numbers.reduce(function (accumulator, currentValue) {
+  return accumulator + currentValue;
+}, 0);
+
+console.log(sum);
+
+// Shorter Version with Arrow Function
+const sum2 = numbers.reduce((acc, cur) => acc + cur, 0);
+
+console.log(sum2);
+
+// Using a For Loop
+const sum3 = () => {
+  let acc = 0;
+  for (const cur of numbers) {
+    acc += cur;
+  }
+  return acc;
+};
+
+console.log(sum3());
+
+const cart = [
+  { id: 1, name: "Product 1", price: 130 },
+  { id: 2, name: "Product 2", price: 150 },
+  { id: 3, name: "Product 3", price: 170 },
+];
+
+const total = cart.reduce((acc, product) => acc + product.price, 0);
+
+console.log(total);
+```
+</details>
+
 ### [K. Array Method Challenges](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/05-iteration-array-methods/11-array-method-challenges)
 
 ## [6. Document Object Model](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/06-document-object-model)
