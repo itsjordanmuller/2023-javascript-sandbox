@@ -2508,7 +2508,7 @@ In this exercise, the focus was on understanding and implementing the logical as
 Overall, this exercise demonstrated the efficiency and readability benefits of using logical assignment operators. These operators provide a more concise and expressive way to write conditional assignments, reducing the need for more verbose conditional statements.
 
 <details>
-<summary>View JS Code - script.js - -</summary>
+<summary>View JS Code - script.js - G - Logical Assignment</summary>
 <br>
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
@@ -2566,6 +2566,89 @@ console.log(c);
 </details>
 
 ### [H. Ternary Operator](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/04-logic-control-flow/08-ternary-operator)
+
+![Ternary Operator - Console Output Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/04-logic-control-flow/08-ternary-operator/08-ternary-operator.png)
+
+This exercise explored the use of the ternary operator in JavaScript, a concise way to perform conditional operations. The ternary operator is often used as a more compact alternative to the `if-else` statement, especially for simple conditional logic and assignments.
+
+#### Basic Ternary Operator
+- **Structure**: `condition ? exprIfTrue : exprIfFalse`.
+- **Example**: The code compares an `age` variable to determine voting eligibility. The ternary operator succinctly replaces the traditional `if-else` statement, providing a more streamlined syntax.
+  
+#### Ternary Operator for Variable Assignment
+- **Usage**: To assign values to variables based on a condition.
+- **Example**: `const canVote1 = age >= 18 ? true : false;` assigns a boolean value based on the age condition, and `const canVote2 = age >= 18 ? "You Can Vote!" : "You Can't Vote Yet...";` assigns a string message.
+
+#### Ternary with Multiple Statements
+- **Functionality**: The ternary operator can execute multiple statements. This is done by enclosing statements in parentheses and separating them with commas.
+- **Example**: The `auth` variable is used to either display a welcome message and set the `redirect` variable to "/dashboard" if `auth` is true, or show an access denied message and set `redirect` to "/login" if `auth` is false.
+
+#### Logical AND as an Alternative
+- For scenarios where an action should only happen if a condition is true, and there's no alternative action for the false case, `&&` can be used as an alternative. For example, `auth && console.log("Welcome to the Dashboard")` only logs the message if `auth` is true.
+
+#### Using `alert()` with the Ternary Operator
+- **Scenario**: The exercise demonstrated using `alert()` within a ternary operation to provide immediate feedback based on the `auth` variable.
+- **Example**: 
+  - If `auth` is `true`, the user sees "Welcome to the Dashboard!" in an alert box, and `redirect` is set to "/dashboard".
+  - If `auth` is `false`, the user sees "Access Denied" in an alert box, and `redirect` is set to "/login".
+- **Syntax**: `const redirect = auth ? (alert("Welcome to the Dashboard"), "/dashboard") : (alert("Access Denied"), "/login");`.
+- This approach combines the conditional logic and user interaction within a single line, showcasing how ternary operators can effectively streamline code that includes browser-specific functions like `alert()`.
+
+![Ternary Operator - Browser Alert Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/04-logic-control-flow/08-ternary-operator/08-ternary-operator-alert.png)
+
+The use of `alert()` within a ternary operator is a clear example of how JavaScript can interact with the browser environment to create dynamic and responsive web applications. This method is particularly useful for scenarios where immediate user feedback is crucial, such as authentication processes or form submissions.
+
+<details>
+<summary>View JS Code - script.js - H - Ternary Operator</summary>
+<br>
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
+
+```javascript
+const age = 17;
+
+// Using an If Statement
+if (age >= 18) {
+  console.log("You Can Vote!");
+} else {
+  console.log("You Can't Vote Yet...");
+}
+
+// Using a Ternary Operator
+age >= 18 ? console.log("You Can Vote!") : console.log("You Can't Vote Yet...");
+
+// Assigning a Conditional Value to a Variable
+const canVote1 = age >= 18 ? true : false;
+const canVote2 = age >= 18 ? "You Can Vote!" : "You Can't Vote Yet...";
+
+console.log(canVote1);
+console.log(canVote2);
+
+// Multiple Statements
+
+const auth = true;
+// let redirect;
+
+// if (auth) {
+//   alert("Welcome to the Dashboard!");
+//   redirect = "/dashboard";
+// } else {
+//   alert("Access Denied");
+//   redirect = "/login";
+// }
+
+// Does The Same As Above Code, Just Shorter
+const redirect = auth
+  ? (alert("Welcome to the Dashboard"), "/dashboard")
+  : (alert("Access Denied"), "/login");
+
+console.log(redirect);
+
+// auth ? console.log("Welcome to the Dashboard") : null;
+// Instead You Can Use:
+auth && console.log("Welcome to the Dashboard");
+```
+</details>
 
 ## [5. Iteration & Array Methods](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/05-iteration-array-methods)
 
