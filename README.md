@@ -1304,7 +1304,7 @@ This JavaScript exercise introduced the basics of working with JSON (JavaScript 
 </details>
 
 <details>
-<summary>View JS Code - script.js - G - Destructuring & Naming</summary>
+<summary>View JS Code - script.js - H - JSON Introduction</summary>
 <br>
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
@@ -1346,6 +1346,70 @@ console.log(x);
 </details>
 
 ### [I. Object Challenge](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/02-arrays-and-objects/09-object-challenge)
+
+![Object Challenge Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/02-arrays-and-objects/09-object-challenge/09-object-challenge.png)
+
+In this challenge, I tackled a challenge involving object manipulation and JSON conversion in JavaScript, centered around a library database scenario.
+
+**Setting Up the Library Database**: The script began by creating an array `library`, consisting of book objects. Each book object contained properties such as `title`, `author`, and a nested `status` object with boolean flags (`own`, `reading`, `read`).
+
+**Updating Status Properties**: The next step involved modifying the `status` property of each book. Specifically, the `read` status of all books in the library was updated to `true`, illustrating how to access and modify properties of objects within an array.
+
+**Destructuring and Accessing Data**: The script then demonstrated object destructuring with the first book in the library. The line `const { title: firstBook } = library[0]` extracted the `title` property from the first book object and assigned it to a new variable `firstBook`. This approach provides an efficient way to retrieve specific properties from objects.
+
+**Converting to JSON**: The final part of the exercise showcased the conversion of the updated `library` array into a JSON string using `JSON.stringify(library)`. This process is essential when preparing data for storage or transmission as it converts the JavaScript array into a standardized, text-based format.
+
+Overall, this challenge highlighted essential skills in JavaScript object manipulation and JSON handling. It provided a practical scenario of managing a library database, demonstrating how to update object properties, retrieve specific data using destructuring, and convert data structures into a JSON format.
+
+<details>
+<summary>View JS Code - script.js - I - Object Challenge</summary>
+<br>
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
+
+```javascript
+library = [
+  {
+    title: "Title 1",
+    author: "Author 1",
+    status: {
+      own: true,
+      reading: false,
+      read: false,
+    },
+  },
+  {
+    title: "Title 2",
+    author: "Author 2",
+    status: {
+      own: true,
+      reading: false,
+      read: false,
+    },
+  },
+  {
+    title: "Title 3",
+    author: "Author 3",
+    status: {
+      own: true,
+      reading: false,
+      read: false,
+    },
+  },
+];
+
+library[0].status.read = true;
+library[1].status.read = true;
+library[2].status.read = true;
+
+const { title: firstBook } = library[0];
+console.log(firstBook);
+
+library = JSON.stringify(library);
+
+console.log(library);
+```
+</details>
 
 ## [3. Functions & Scope](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/03-functions-scope)
 
