@@ -1215,6 +1215,63 @@ console.log(x);
 
 ### [G. Destructuring & Naming](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/02-arrays-and-objects/07-destructuring-naming)
 
+![Destructuring & Naming Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/02-arrays-and-objects/07-destructuring-naming/07-destructuring-naming.png)
+
+In this JavaScript exercise, I explored the concepts of object property shorthand, object destructuring, and array destructuring, which are ES6 features enhancing code conciseness and readability.
+
+**Object Property Shorthand**: The exercise started with basic variable definitions for `firstName`, `lastName`, and `age`. It then demonstrated two approaches to construct an object: the traditional key-value assignment in `person`, and the ES6 property shorthand in `person2`. The shorthand syntax, used in `person2`, is more efficient, especially when the property names are the same as the variable names.
+
+**Destructuring Objects**: The script then focused on object destructuring using a `todo` object. This technique allows for extracting multiple properties from an object into separate variables in a single line. In the provided example, properties `id`, `title`, and `name` from the `user` object within `todo` are destructured. Notably, the destructuring syntax also facilitates renaming properties during assignment, as seen with `id` being renamed to `todoId`.
+
+**Destructuring Arrays**: The exercise included array destructuring as well, using the `numbers` array. This method enables the assignment of array elements to individual variables in a succinct manner. For instance, the first two elements are assigned to `first` and `second`, while the rest of the elements are gathered into an array named `rest`. This approach is particularly useful for easily accessing specific elements and managing the remaining elements.
+
+<details>
+<summary>View JS Code - script.js - G - Destructuring & Naming</summary>
+<br>
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
+
+```javascript
+const firstName = "Jordan";
+const lastName = "Muller";
+const age = 30;
+
+const person = {
+  firstName: firstName,
+  lastName: lastName,
+  age: age,
+};
+
+const person2 = {
+  firstName,
+  lastName,
+  age,
+};
+
+// Destructuring Objects
+const todo = {
+  id: 1,
+  title: "Take Out the Trash",
+  user: {
+    name: "Jordan",
+  },
+};
+
+// const id = todo.id;
+const {
+  id: todoId,
+  title,
+  user: { name },
+} = todo;
+
+// Destructuring Arrays
+const numbers = [23, 67, 33, 49];
+const [first, second, ...rest] = numbers;
+
+console.log(first, second, rest);
+```
+</details>
+
 ### [H. JSON Introduction](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/02-arrays-and-objects/08-json-intro)
 
 ### [I. Object Challenge](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/02-arrays-and-objects/09-object-challenge)
