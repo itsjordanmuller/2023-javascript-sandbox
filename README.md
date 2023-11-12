@@ -1463,6 +1463,90 @@ console.log(result, subtract(20, 5));
 
 ### [B. Parameters & Arguments](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/03-functions-scope/02-params-arguments)
 
+![Parameters & Arguments Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/03-functions-scope/02-params-arguments/02-params-arguments.png)
+
+In this JavaScript exercise, I explored the nuances of parameters and arguments, covering default values, rest parameters, and passing objects and arrays as arguments.
+
+The exercise began with exploring functions with default parameter values. In the `registerUser` function, a default value of `"User"` is set for the `user` parameter. This demonstrates how to handle scenarios where a function might be called without an argument, ensuring the function still operates correctly by providing a fallback value.
+
+Next, I examined the concept of function scope, specifically in the context of variables. I noted that variables defined within a function, like `user` in `registerUser`, are not accessible outside of the function, as seen in the commented-out `console.log(user)` line.
+
+The exercise then introduced rest parameters with the `sum` function. Rest parameters allow functions to accept an indefinite number of arguments as an array, providing flexibility in how functions are invoked. I demonstrated this by summing a series of numbers passed as individual arguments.
+
+Passing objects as parameters was another key concept covered. The `loginUser` function takes a `user` object as a parameter and returns a string containing the user's name and ID. This part highlighted how objects can be used to group related data and pass it to functions.
+
+Similarly, I explored passing arrays to functions with the `getRandom` function, which selects a random element from an array. This example showed the utility of arrays in functions, especially when dealing with a collection of items.
+
+<details>
+<summary>View JS Code - script.js - B - Parameters & Arguments</summary>
+<br>
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
+
+```javascript
+// Function with No Default Value for Parameter
+// function registerUser(user) {
+//   return user + " is registered";
+// }
+
+// Function with Default Value Set for Parameter
+function registerUser(user = "User") {
+  return user + " is registered";
+}
+
+// User is Not Defined Due to Scope
+// console.log(user);
+
+console.log(registerUser("Jordan"));
+
+// Undefined Value When no Arguments are Passed
+console.log(registerUser());
+
+// Rest Parameters Create an Array
+function sum(...numbers) {
+  let total = 0;
+
+  // Loop to Sum all Numbers in an Array
+  for (const num of numbers) {
+    total += num;
+  }
+
+  return total;
+}
+
+console.log(sum(1, 2, 3, 4, 5));
+
+// Objects as Parameters
+function loginUser(user) {
+  return `The user ${user.name} with the id of ${user.id} is logged in`;
+}
+
+const user = {
+  id: 1,
+  name: "Jordan",
+};
+
+console.log(loginUser(user));
+console.log(
+  loginUser({
+    id: 2,
+    name: "John",
+  })
+);
+
+// Arrays as Parameters
+function getRandom(arr) {
+  const randomIndex = Math.floor(Math.random() * arr.length);
+
+  const item = arr[randomIndex];
+
+  console.log(item);
+}
+
+getRandom([1, 2, 3, 4, 5]);
+```
+</details>
+
 ### [C. Global Scope](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/03-functions-scope/03-global-function-scope)
 
 ### [D. Block Scope](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/03-functions-scope/04-block-scope)
