@@ -1822,6 +1822,57 @@ numbers.forEach((n) => console.log(n));
 
 ### [H. IIFE - (Immediately Invoked Function Expression)](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/03-functions-scope/08-iife)
 
+![Immediately Invoked Function Expression Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/03-functions-scope/08-iife/08-iife.png)
+
+In this example, I explored the concept of **Immediately Invoked Function Expressions** (IIFE) in JavaScript. IIFEs are functions that are executed as soon as they are defined, providing a powerful tool for encapsulating code and managing scope.
+
+The first part of the exercise involved defining a function that declares a `user` variable and a `hello` function within an IIFE. By wrapping these declarations in an IIFE, I ensured that they do not pollute the global scope. The `user` variable and `hello` function were thus confined to the scope of the IIFE, demonstrated by the fact that calling `hello()` outside the IIFE resulted in a `ReferenceError`.
+
+I also experimented with passing arguments to an IIFE. In another example, I passed the string `"Jordan"` to an IIFE, which then concatenated this string with `"Hello "` and logged the result. This showcased how IIFEs can be used not just for isolating code but also for executing code with specific arguments immediately.
+
+In the `otherscript.js` file, I declared the `user` variable again, but this time in the global scope, outside any IIFE. This helped me understand the significance of IIFEs in avoiding variable naming conflicts and scope-related issues in larger applications. 
+
+<details>
+<summary>View JS Code - script.js - I - Immediately Invoked Function Expression</summary>
+<br>
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
+
+```javascript
+// SyntaxError: user has already been declared
+// const user = "John";
+
+// Immediately Invoked Function Expressions
+(function () {
+  const user = "John";
+  console.log(user);
+
+  const hello = () => console.log("Hello World!");
+  hello();
+})();
+
+// ReferenceError: hello is not defined at this scope
+// hello();
+
+(function (name) {
+  console.log("Hello " + name);
+})("Jordan");
+```
+</details>
+
+<details>
+<summary>View JS Code - otherscript.js - H - Immediately Invoked Function Expression</summary>
+<br>
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
+
+```javascript
+const user = "Jordan";
+console.log(user);
+
+```
+</details>
+
 ### [I. Function Challenges](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/03-functions-scope/09-function-challenges)
 
 ### [J. Execution Context in Action](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/03-functions-scope/10-execution-context-in-action)
