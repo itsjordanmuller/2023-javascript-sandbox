@@ -2757,6 +2757,71 @@ for (let i = 0; i <= 20; i++) {
 
 ### [C. While & Do While](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/05-iteration-array-methods/03-while-do-while)
 
+![While & Do While - Console Output Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/05-iteration-array-methods/03-while-do-while/03-while-do-while.png)
+
+This exercise focused on understanding and implementing `while` and `do-while` loops in JavaScript. These loops are essential for situations where the number of iterations isn't known beforehand and are based on a condition.
+
+#### While Loop
+Initially, the exercise demonstrated a basic `while` loop. The loop started with a counter `i` set to 0 and ran as long as `i` was less than or equal to 20. In each iteration, it printed the current number and then incremented `i`. This showcased how a `while` loop continues to execute as long as the specified condition is true.
+
+#### Looping Over Arrays with While
+The exercise also showed how to use a `while` loop to iterate over an array. Starting with `i` at 0, the loop ran until `i` was less than the length of the array. Each iteration printed an element of the array and then incremented `i`. This example highlighted the utility of `while` loops for array traversal when the end condition is based on array length.
+
+#### Nesting While Loops
+Next, the exercise covered nested `while` loops. An outer loop ran from 1 to 5, and within it, an inner loop also ran from 1 to 5. The inner loop multiplied the counters of both loops, demonstrating how nested `while` loops can be used for more complex iterations, like generating a multiplication table.
+
+#### Do-While Loop
+Lastly, the `do-while` loop was introduced. Unlike the `while` loop, the `do-while` loop executes its block of code at least once before checking the condition. In the example, `i` was initially set to 21, and even though the condition `i <= 20` was false, the loop executed once, printing "Number: 21". This illustrates the unique characteristic of the `do-while` loop: it guarantees that the loop's body is executed at least once.
+
+Through these examples, the exercise provided a comprehensive understanding of how and when to use `while` and `do-while` loops in JavaScript, emphasizing their differences and specific use cases.
+
+<details>
+<summary>View JS Code - script.js - C - While & Do While</summary>
+<br>
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
+
+```javascript
+// While Loop
+// let i = 0;
+
+// while (i <= 20) {
+//   console.log(`Number ${i}`);
+//   i++;
+// }
+
+// Loop Over Arrays
+// const arr = [10, 20, 30, 40];
+
+// while (i < arr.length) {
+//   console.log(arr[i]);
+//   i++;
+// }
+
+// Nesting While Loops
+// let i = 1;
+
+// while (i <= 5) {
+//   console.log(`Number: ${i}`);
+
+//   let j = 1;
+//   while (j <= 5) {
+//     console.log(`${i} * ${j} = ${i * j}`);
+//     j++;
+//   }
+
+//   i++;
+// }
+
+// Do While Loop (Code in Do Is Executed Once No Matter What, Then Again While True)
+let i = 21;
+do {
+  console.log(`Number: ${i}`);
+  i++;
+} while (i <= 20);
+```
+</details>
+
 ### [D. Fizzbuzz Challenge](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/05-iteration-array-methods/04-fizzbuzz-challenge)
 
 ### [E. For Of Loop](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/05-iteration-array-methods/05-for-of-loop)
