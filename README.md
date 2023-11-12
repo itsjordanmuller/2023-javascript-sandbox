@@ -1547,7 +1547,7 @@ getRandom([1, 2, 3, 4, 5]);
 ```
 </details>
 
-### [C. Global Scope](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/03-functions-scope/03-global-function-scope)
+### [C. Global Scope](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/03-functions-scope/03-global-scope)
 
 ![Global Scope Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/03-functions-scope/03-global-scope/03-global-scope.png)
 
@@ -1602,6 +1602,74 @@ if (true) {
 </details>
 
 ### [D. Block Scope](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/03-functions-scope/04-block-scope)
+
+![Block Scope Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/03-functions-scope/04-block-scope/04-block-scope.png)
+
+In this section, I explored the intricacies of block scope and the differences in variable declaration using `const`, `let`, and `var`. The exercise highlighted how the scope of variables affects their accessibility in different parts of a script.
+
+The exercise started by defining a constant `x` in the global scope with a value of 100. This set the stage for understanding the accessibility of global variables within block scopes.
+
+Within an `if` block, I declared another constant `y` with a value of 200. I demonstrated that variables declared within a block (like `y`) are accessible within that block, as evidenced by logging the sum of `x` and `y`. However, trying to access `y` outside its block scope results in a ReferenceError, reinforcing the concept of block-level scope.
+
+The script also included a `for` loop where I declared a variable `i` with `let`. This showed that variables declared with `let` within loops are also block-scoped and are not accessible outside their block.
+
+I further illustrated block scope with another `if` block where I declared variables `a`, `b`, and `c` using `const`, `let`, and `var` respectively. Here, I demonstrated that while `const` and `let` maintain block-level scope, `var` does not, as `c` was accessible outside its block.
+
+The function `run` was used to demonstrate function-level scope, particularly for variables declared with `var`. The variable `d`, declared with `var` inside `run`, was not accessible outside the function, showing that `var` has function scope when used inside functions.
+
+Lastly, I examined the accessibility of variables declared with `const` and `var` in relation to the `window` object. The exercise concluded by highlighting that `const` variables are not properties of the `window` object and thus not accessible via `window`, whereas `var` variables are.
+
+<details>
+<summary>View JS Code - script.js - D - Block Scope</summary>
+<br>
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
+
+```javascript
+const x = 100;
+
+if (true) {
+  const y = 200;
+  console.log(x + y);
+}
+
+// Reference Error: y is not defined at this scope
+// console.log(x + y);
+
+for (let i = 0; i <= 10; i++) {
+  console.log(i);
+}
+
+// Reference Error: i is not defined at this scope
+// console.log(i);
+
+if (true) {
+  const a = 500;
+  let b = 600;
+  var c = 700;
+}
+
+// Accessible When var is Used at a Block Level
+console.log(c);
+
+function run() {
+  var d = 100;
+  console.log(d);
+}
+
+// Not Accessible When var is Used at a Function Level
+// Reference Error: d is not defined at this scope
+// console.log(d);
+
+const foo = 1;
+var bar = 2;
+
+// Const is Not Accessible from Window Object
+console.log(window.foo);
+// Var Is Accessible from Window Object
+console.log(window.bar);
+```
+</details>
 
 ### [E. Nested Scope](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/03-functions-scope/05-nested-scope)
 
