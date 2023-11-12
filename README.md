@@ -2654,6 +2654,65 @@ auth && console.log("Welcome to the Dashboard");
 
 ### [A. For Loops](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/05-iteration-array-methods/01-for-loop)
 
+![For Loops - Console Output Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/05-iteration-array-methods/01-for-loop/01-for-loop.png)
+
+In this JavaScript exercise, the focus was on mastering the `for` loop, a fundamental control flow statement used for iteration. The for loop is structured with an initial expression, a condition, an increment expression, and a statement to execute.
+
+#### For Loop Basics
+The exercise started with the basic syntax of a for loop, which includes initializing a counter (`let i = 0`), setting a condition (`i <= 10`), and defining an increment expression (`i++`). In the example, a simple if-else block checked if the current number was 7 and outputted a special message if true, or printed the number otherwise.
+
+#### Nested Loops
+Next, the exercise explored nested loops, demonstrating how a for loop can be placed inside another. The outer loop iterated from 1 to 10, and for each iteration, the inner loop ran five times, multiplying the outer loop's counter (`i`) by the inner loop's counter (`j`).
+
+#### Looping Through an Array
+Finally, the lesson included an example of iterating over an array. The loop went through each element of the `names` array, printing a unique message if the name was "Jordan" or simply outputting the name for all other elements.
+
+<details>
+<summary>View JS Code - script.js - A - For Loop</summary>
+<br>
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
+
+```javascript
+// For Loop Syntax
+// for ([initialExpression]; [conditionExpression]; [incrementExpression])
+//   statement;
+
+// INITIAL EXPRESSION - Initializes a variable/counter
+// CONDITION EXPRESSION - Condition that the loop will continue to run as long as it is met or until the condition is false
+// INCREMENT EXPRESSION - Expression that will be executed after each iteration of the loop. Usually increments the variable
+// STATEMENT - Code that will be executed each time the loop is run. To execute a `block` of code, use the `{}` syntax
+
+// for (let i = 0; i <= 10; i++) {
+//   if (i === 7) {
+//     console.log("7 is my lucky number");
+//   } else {
+//     console.log(`Number: ${i}`);
+//   }
+// }
+
+// Nested Loops
+// for (let i = 1; i <= 10; i++) {
+//   console.log(`Number: ${i}`);
+
+//   for (let j = 1; j <= 5; j++) {
+//     console.log(`${i} * ${j} = ${i * j}`);
+//   }
+// }
+
+// Looping Through an Array
+const names = ["Jordan", "John", "Jane", "Tim", "Tom"];
+
+for (let i = 0; i < names.length; i++) {
+  if (names[i] === "Jordan") {
+    console.log(`${names[i]} is the best!`);
+  } else {
+    console.log(names[i]);
+  }
+}
+```
+</details>
+
 ### [B. Break & Continue](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/05-iteration-array-methods/02-break-and-continue)
 
 ### [C. While & Do While](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/05-iteration-array-methods/03-while-do-while)
