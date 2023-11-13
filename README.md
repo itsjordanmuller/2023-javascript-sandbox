@@ -3368,6 +3368,59 @@ console.log(sumPositive);
 
 ### [A. DOM (Document Object Model) Introduction](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/06-document-object-model/01-dom-intro)
 
+![DOM (Document Object Model) Introduction - Console Output Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/06-document-object-model/01-dom-intro/01-dom-intro.png)
+
+In this introductory section, I explored the basics of the Document Object Model (DOM) in JavaScript, which is a crucial concept for web development. The DOM allows JavaScript to interact with and manipulate the HTML and CSS of a webpage, enabling dynamic content and user interactivity.
+
+### Understanding the `document` Object
+The exercise began with understanding the `document` object, a central part of the DOM that represents the entire HTML document. By logging `window.document` and using `console.dir(document)`, I examined the properties and methods available on the `document` object. This helped me understand how JavaScript can access and manipulate different parts of a web page.
+
+### Targeting Specific Elements
+I then moved on to targeting specific portions of the document, such as `document.body`, to access and manipulate the body of the HTML document. The `innerHTML` and `innerText` properties were used to check and manipulate the content of these elements. Additionally, I explored accessing links through `document.links`.
+
+### Manipulating HTML Content
+The exercise also covered how to replace or insert HTML content. I learned that `document.body.innerHTML` can change the entire HTML content of the body element, and `document.write` can insert new content into the document.
+
+### Element Selection Techniques
+Lastly, I practiced selecting HTML elements using their ID with `document.getElementById` and the more versatile `document.querySelector`. These methods are fundamental for targeting and manipulating specific elements on a page.
+
+This introduction to the DOM was a fundamental step in understanding how JavaScript interacts with web pages, forming the basis for dynamic and interactive web development.
+
+<details>
+<summary>View JS Code - script.js - A - Document Object Model Introduction</summary>
+<br>
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
+
+```javascript
+// We Can Log Document from the Window
+console.log(window.document);
+// Use dir to check Properties & Methods of the Document
+// No Need to Use window, since it's the top level object
+console.dir(document);
+
+// Different Portions of the Document Can Be Targeted
+console.log(document.body);
+console.log(document.body.innerHTML);
+console.log(document.body.innerText);
+console.log(document.links);
+
+// Replace Everything in the innerHTMl with The Following
+// document.body.innerHTML = "<h1>Hello World!</h1>";
+
+// Inserts as the next element in the Document
+// document.write("Hello from JS!");
+
+// Selecting Using a Specific ID
+console.log(document.getElementById("main"));
+const main = document.getElementById("main");
+// main.innerHTML = "<h1>Hello from main!</h1>";
+
+// Using a Query Selector
+document.querySelector("#main h1").innerText = "Hello DOM!";
+```
+</details>
+
 ### [B. Examining Document Object Properties](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/06-document-object-model/02-examining-document-object-properties)
 
 ### [C. DOM Selectors for Single Elements](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/06-document-object-model/03-dom-selectors-single-elements)
