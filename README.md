@@ -4100,6 +4100,321 @@ header h1 {
 
 ### [D. DOM Selectors for Multiple Elements](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/06-document-object-model/04-dom-selectors-multiple-elements)
 
+![DOM Selectors for Multiple Elements - Site Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/06-document-object-model/04-dom-selectors-multiple-elements/04-dom-selectors-multiple-elements-site.png)
+
+![DOM Selectors for Multiple Elements - Console Output Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/06-document-object-model/04-dom-selectors-multiple-elements/04-dom-selectors-multiple-elements-console.png)
+
+### DOM Selectors for Multiple Elements
+
+In this JavaScript exercise, the focus was on using different methods to select and manipulate multiple elements within the DOM.
+
+#### Key Concepts in JavaScript (`script.js`)
+
+1. **Selecting Multiple Elements Using `querySelectorAll`**
+   - `document.querySelectorAll()` returns a NodeList, which can be directly used with methods like `forEach`.
+   - This method was used to select all elements with the class `.item` and apply styles and content changes.
+
+2. **Manipulating NodeList Items**
+   - Applied styles to each item in the NodeList.
+   - Demonstrated how to remove an element and change HTML content within selected elements.
+
+3. **Selecting Elements by Class Name with `getElementsByClassName`**
+   - `document.getElementsByClassName()` returns an HTMLCollection, which requires conversion to an array to use array methods.
+   - Showcased how to convert this collection into an array and then iterate over it.
+
+4. **Selecting Elements by Tag Name**
+   - `document.getElementsByTagName()` was used to select all `<li>` elements, returning an HTMLCollection.
+   - Accessed and modified content of specific list items.
+
+#### Implementing the Code
+The exercise provided practical insights into:
+- The differences between NodeList and HTMLCollection, and how to interact with each.
+- The versatility of `querySelectorAll` for selecting multiple elements with a specific pattern.
+- The importance of converting HTMLCollections to arrays for broader functionality.
+
+#### Practical Application
+This exercise is crucial for understanding DOM manipulation in web development, particularly when dealing with multiple elements. It teaches how to select, access, and modify multiple elements efficiently, which is a fundamental skill in creating dynamic and interactive web pages.
+
+<details>
+<summary>View HTML Code - index.html - D - DOM Selectors for Multiple Elements</summary>
+<br>
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=HTML5&logoColor=white)
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Shopping List</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <img src="images/note.png" alt="" />
+        <h1 id="app-title">Shopping List</h1>
+      </header>
+      <form id="item-form">
+        <div class="form-control">
+          <input
+            type="text"
+            class="form-input"
+            id="item-input"
+            name="item"
+            placeholder="Enter Item"
+          />
+        </div>
+        <div class="form-control">
+          <button type="submit" class="btn">
+            <i class="fa-solid fa-plus"></i> Add Item
+          </button>
+        </div>
+      </form>
+
+      <div class="filter">
+        <input
+          type="text"
+          class="form-input-filter"
+          id="filter"
+          placeholder="Filter Items"
+        />
+      </div>
+
+      <ul id="item-list" class="items">
+        <li class="item">
+          Apples
+          <button class="remove-item btn-link text-red">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </li>
+        <li class="item">
+          Orange Juice
+          <button class="remove-item btn-link text-red">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </li>
+        <li class="item">
+          Oreos
+          <button class="remove-item btn-link text-red">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </li>
+        <li class="item">
+          Milk
+          <button class="remove-item btn-link text-red">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </li>
+      </ul>
+
+      <button id="clear" class="btn-clear">Clear All</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+```
+</details>
+
+<details>
+<summary>View JS Code - script.js - D - DOM Selectors for Multiple Elements</summary>
+<br>
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
+
+```javascript
+// Query Selector for All Elements
+// document.querySelectorAll()
+
+// Returns a NodeList of Items
+const listItems = document.querySelectorAll(".item");
+console.log(listItems);
+console.log(listItems[1]);
+console.log(listItems[1].innerText);
+
+// Use a forEach to Loop Through NodeList to Style Each Item
+// listItems.forEach((item, index) => {
+//   item.style.color = "red";
+
+//   if (index === 1) {
+//     item.remove();
+//   }
+//   if (index === 0) {
+//     item.innerHTML = `
+//         Pomegranates
+//         <button class="remove-item btn-link text-red">
+//         <i class="fa-solid fa-xmark"></i>
+//         </button>
+//     `;
+//   }
+// });
+
+// Get Elements by Class Name
+// Returns an HTMLCollection instead of a NodeList
+// No Need for . for class
+const listItems2 = document.getElementsByClassName("item");
+console.log(listItems2);
+
+// Must Convert to An Array Before Using forEach
+const listItemsArray = Array.from(listItems2);
+
+listItemsArray.forEach((item) => {
+  console.log(item.innerText);
+});
+
+// Get Elements by Tag Name
+// Returns HTML Collection
+const listItems3 = document.getElementsByTagName("li");
+console.log(listItems3[0].innerText);
+```
+</details>
+
+<details>
+<summary>View CSS Code - style.css - D - DOM Selectors for Multiple Elements</summary>
+<br>
+
+![CSS3](https://img.shields.io/badge/CSS3-1572B6.svg?style=for-the-badge&logo=CSS3&logoColor=white)
+
+```css
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #f5f5f5;
+}
+
+header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-weight: 300;
+  margin-left: 10px;
+}
+
+.container {
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+/* Form & Input */
+.form-input {
+  width: 100%;
+  font-size: 18px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.form-input-filter {
+  margin-top: 20px;
+  width: 100%;
+  font-size: 18px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  background: transparent;
+  outline: none;
+}
+
+/* Buttons */
+.btn {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #444;
+}
+
+.btn-link {
+  font-size: 16px;
+  background-color: transparent;
+  color: #333;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.btn-clear {
+  margin-top: 20px;
+  width: 100%;
+  font-size: 16px;
+  background-color: transparent;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.btn-clear:hover {
+  background-color: #f1f1f1;
+}
+
+.text-red {
+  color: red;
+}
+
+/* Items */
+
+.items {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.items li {
+  display: flex;
+  justify-content: space-between;
+  width: 45%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin: 0 5px 20px;
+  font-weight: 700;
+}
+
+@media (max-width: 500px) {
+  .items li {
+    width: 100%;
+  }
+}
+```
+</details>
+
 ### [E. Traversing the DOM - Elements](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/06-document-object-model/05-traversing-the-dom-elements)
 
 ### [F. Traversing the DOM - Nodes](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/06-document-object-model/06-traversing-the-dom-nodes)
