@@ -3389,6 +3389,33 @@ Lastly, I practiced selecting HTML elements using their ID with `document.getEle
 This introduction to the DOM was a fundamental step in understanding how JavaScript interacts with web pages, forming the basis for dynamic and interactive web development.
 
 <details>
+<summary>View HTML Code - index.html - A - Document Object Model Introduction</summary>
+<br>
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=HTML5&logoColor=white)
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM Intro</title>
+  </head>
+  <body>
+    <div id="main">
+      <h1>DOM Intro</h1>
+      <a href="https://google.com">Google</a>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+```
+</details>
+
+<details>
 <summary>View JS Code - script.js - A - Document Object Model Introduction</summary>
 <br>
 
