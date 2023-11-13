@@ -5039,6 +5039,317 @@ header h1 {
 
 ### [H. List Item - innerHTML vs createElement](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/06-document-object-model/08-list-item-innerHTML-vs-createElement)
 
+![List Item - innerHTML vs createElement - Site Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/06-document-object-model/08-list-item-innerHTML-vs-createElement/08-list-item-innerHTML-vs-createElement-site.png)
+
+![List Item - innerHTML vs createElement - Console Output Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/06-document-object-model/08-list-item-innerHTML-vs-createElement/08-list-item-innerHTML-vs-createElement-console.png)
+
+### Creating List Items: innerHTML vs createElement
+
+In this JavaScript exercise, two different methods were explored for creating and appending list items to the DOM, each with its own characteristics and use cases.
+
+- **innerHTML** is quick and convenient for static or less dynamic content, where performance is not the key concern.
+- **createElement** and **appendChild** are more suitable for dynamic content manipulation, where performance and security are critical.
+
+#### Quick & Dirty Method: Using innerHTML (`createListItem` function)
+
+1. **Approach**
+   - This method creates a new `li` element and sets its `innerHTML` directly.
+   - The HTML content, including a text node and a button with an icon, is assigned in one go as a template literal.
+
+2. **Pros and Cons**
+   - **Pros**: Simple and quick to write, especially for complex HTML structures.
+   - **Cons**: Less performant for repetitive tasks, potentially insecure if not properly sanitized (risk of XSS attacks).
+
+3. **Use Case**
+   - Best for scenarios where the HTML structure is complex but does not change often.
+
+#### Performant & Clean Method: Using createElement (`createNewItem` function)
+
+1. **Approach**
+   - This method builds the `li` element piece by piece using `createElement` and `appendChild`.
+   - Each part of the list item (text node, button, icon) is created separately and appended to the parent element.
+
+2. **Pros and Cons**
+   - **Pros**: More performant, especially in scenarios with repetitive tasks or dynamic content changes. It's also safer against XSS attacks.
+   - **Cons**: More verbose and complex, especially for intricate HTML structures.
+
+3. **Use Case**
+   - Ideal for situations where content is dynamically generated or updated frequently.
+
+This exercise also highlights the importance of choosing the right approach based on the specific needs of the application, balancing between ease of development, performance, and security.
+
+<details>
+<summary>View HTML Code - index.html - H - List Item - innerHTML vs createElement</summary>
+<br>
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=HTML5&logoColor=white)
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Shopping List</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <img src="images/note.png" alt="" />
+        <h1>Shopping List</h1>
+      </header>
+      <form id="item-form">
+        <div class="form-control">
+          <input
+            type="text"
+            class="form-input"
+            id="item-input"
+            name="item"
+            placeholder="Enter Item"
+          />
+        </div>
+        <div class="form-control">
+          <button type="submit" class="btn">
+            <i class="fa-solid fa-plus"></i> Add Item
+          </button>
+        </div>
+      </form>
+
+      <div class="filter">
+        <input
+          type="text"
+          class="form-input-filter"
+          id="filter"
+          placeholder="Filter Items"
+        />
+      </div>
+
+      <ul id="item-list" class="items">
+        <li>
+          Apples
+          <button class="remove-item btn-link text-red">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </li>
+        <li>
+          Orange Juice
+          <button class="remove-item btn-link text-red">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </li>
+        <li>
+          Oreos
+          <button class="remove-item btn-link text-red">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </li>
+        <li>
+          Milk
+          <button class="remove-item btn-link text-red">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </li>
+      </ul>
+
+      <button id="clear" class="btn-clear">Clear All</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+```
+</details>
+
+<details>
+<summary>View JS Code - script.js - H - List Item - innerHTML vs createElement</summary>
+<br>
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
+
+```javascript
+// Quick & Dirty
+function createListItem(item) {
+  const li = document.createElement("li");
+  li.innerHTML = `
+${item}
+<button class="remove-item btn-link text-red">
+  <i class="fa-solid fa-xmark"></i>
+</button>
+`;
+  document.querySelector("ul").appendChild(li);
+}
+
+createListItem("Eggs");
+
+// Performant & Clean
+function createNewItem(item) {
+  const li = document.createElement("li");
+  li.appendChild(document.createTextNode(item));
+
+  const button = document.createElement("button");
+  button.className = "remove-item btn-link text-red";
+
+  const icon = document.createElement("i");
+  icon.className = "fa-solid fa-xmark";
+
+  button.appendChild(icon);
+
+  li.appendChild(button);
+
+  console.log(li.innerHTML);
+
+  document.querySelector("ul").appendChild(li);
+}
+
+createNewItem("Cheese");
+```
+</details>
+
+<details>
+<summary>View CSS Code - style.css - H - List Item - innerHTML vs createElement</summary>
+<br>
+
+![CSS3](https://img.shields.io/badge/CSS3-1572B6.svg?style=for-the-badge&logo=CSS3&logoColor=white)
+
+```css
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #f5f5f5;
+}
+
+header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-weight: 300;
+  margin-left: 10px;
+}
+
+.container {
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+/* Form & Input */
+.form-input {
+  width: 100%;
+  font-size: 18px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.form-input-filter {
+  margin-top: 20px;
+  width: 100%;
+  font-size: 18px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  background: transparent;
+  outline: none;
+}
+
+/* Buttons */
+.btn {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #444;
+}
+
+.btn-link {
+  font-size: 16px;
+  background-color: transparent;
+  color: #333;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.btn-clear {
+  margin-top: 20px;
+  width: 100%;
+  font-size: 16px;
+  background-color: transparent;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.btn-clear:hover {
+  background-color: #f1f1f1;
+}
+
+.text-red {
+  color: red;
+}
+
+/* Items */
+
+.items {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.items li {
+  display: flex;
+  justify-content: space-between;
+  width: 45%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin: 0 5px 20px;
+  font-weight: 700;
+}
+
+@media (max-width: 500px) {
+  .items li {
+    width: 100%;
+  }
+}
+```
+</details>
+
 ### [I. Refactor to Multiple Functions](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/06-document-object-model/09-refactor-to-multiple-functions)
 
 ### [J. Insert Elements](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/06-document-object-model/10-insert-elements)
