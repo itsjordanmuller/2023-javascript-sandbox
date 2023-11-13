@@ -3452,6 +3452,331 @@ document.querySelector("#main h1").innerText = "Hello DOM!";
 
 ### [B. Examining Document Object Properties](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/06-document-object-model/02-examining-document-object-properties)
 
+![Examining Document Object Properties - Site Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/06-document-object-model/02-examining-document-object-properties/02-examining-document-object-properties-site.png)
+
+![Examining Document Object Properties - Console Output Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/06-document-object-model/02-examining-document-object-properties/02-examining-document-object-properties-console.png)
+
+### Shopping List Exercise
+
+In this exercise, I built a simple shopping list application using HTML, CSS, and JavaScript, focusing on DOM manipulation and basic styling.
+
+#### HTML Structure (`index.html`)
+The HTML file establishes the structure of the shopping list application:
+- A header displaying the title 'Shopping List'.
+- A form for adding new items, including an input field and an 'Add Item' button.
+- A filter input to search through the list items.
+- A pre-populated list of items (Apples, Orange Juice, Oreos, Milk) each with a delete button.
+- A 'Clear All' button to remove all items from the list.
+- External links to Font Awesome for icons and a separate CSS stylesheet.
+
+#### JavaScript Functionality (`script.js`)
+The JavaScript file explores different methods to interact with the DOM:
+- Accessing and manipulating various document properties like `documentElement`, `head`, `body`, `doctype`, `domain`, `URL`, `characterSet`, `contentType`.
+- Experimenting with forms, links, and images within the document.
+- Converting HTML collections to arrays to use array methods like `forEach`.
+
+#### CSS Styling (`style.css`)
+The CSS file provides styling to enhance the visual appeal:
+- Basic resets and global styles using the Poppins font.
+- Styling for the form, input fields, buttons, and the list of items.
+- Responsive design adjustments for smaller screens.
+
+Overall, this exercise demonstrates fundamental web development skills, including HTML structure creation, applying CSS for styling, and using JavaScript for basic DOM interactions and manipulations.
+
+<details>
+<summary>View HTML Code - index.html - B - Examining Document Object Properties</summary>
+<br>
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=HTML5&logoColor=white)
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Shopping List</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <img src="images/note.png" alt="" />
+        <h1>Shopping List</h1>
+      </header>
+      <form id="item-form">
+        <div class="form-control">
+          <input
+            type="text"
+            class="form-input"
+            id="item-input"
+            name="item"
+            placeholder="Enter Item"
+          />
+        </div>
+        <div class="form-control">
+          <button type="submit" class="btn">
+            <i class="fa-solid fa-plus"></i> Add Item
+          </button>
+        </div>
+      </form>
+
+      <div class="filter">
+        <input
+          type="text"
+          class="form-input-filter"
+          id="filter"
+          placeholder="Filter Items"
+        />
+      </div>
+
+      <ul id="item-list" class="items">
+        <li>
+          Apples
+          <button class="remove-item btn-link text-red">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </li>
+        <li>
+          Orange Juice
+          <button class="remove-item btn-link text-red">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </li>
+        <li>
+          Oreos
+          <button class="remove-item btn-link text-red">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </li>
+        <li>
+          Milk
+          <button class="remove-item btn-link text-red">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </li>
+      </ul>
+
+      <button id="clear" class="btn-clear">Clear All</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+```
+</details>
+
+<details>
+<summary>View JS Code - script.js - B - Examining Document Object Properties</summary>
+<br>
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
+
+```javascript
+let output;
+
+// Deprecated Method
+// output = document.all;
+// output = document.all[10];
+// output = document.all.length;
+
+// Everything In the HTML
+output = document.documentElement;
+
+// Just Head
+output = document.head;
+// Just Body
+output = document.body;
+
+// Children in Collections
+output = document.head.children;
+output = document.body.children;
+
+// Various Misc. Methods
+output = document.doctype;
+output = document.domain;
+output = document.URL;
+output = document.characterSet;
+output = document.contentType;
+
+// Forms
+// output = document.forms;
+// output = document.forms[0];
+// output = document.forms[0].id;
+// output = document.forms[0].method;
+
+// Set an ID on an Element
+// document.forms[0].id = "new-id";
+
+// Links
+// output = document.links;
+// output = document.links[0];
+// output = document.links[0].href;
+// output = document.links[0].href = "www.google.com";
+// output = document.links[0].id = "google-link";
+// output = document.links[0].className = "google-class";
+// output = document.links[0].classList;
+// output = document.links[0].classList.add("google-class");
+// output = document.links[0].classList.remove("google-class");
+
+// Images
+output = document.images;
+output = document.images[0];
+output = document.images[0].src;
+
+// Can't Use for Each without Creating an Array
+const forms = Array.from(document.forms);
+// document.forms.forEach((form) => console.log(form));
+forms.forEach((form) => console.log(form));
+
+console.log(output);
+```
+</details>
+
+<details>
+<summary>View CSS Code - style.css - B - Examining Document Object Properties</summary>
+<br>
+
+![CSS3](https://img.shields.io/badge/CSS3-1572B6.svg?style=for-the-badge&logo=CSS3&logoColor=white)
+
+```css
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #f5f5f5;
+}
+
+header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-weight: 300;
+  margin-left: 10px;
+}
+
+.container {
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+/* Form & Input */
+.form-input {
+  width: 100%;
+  font-size: 18px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.form-input-filter {
+  margin-top: 20px;
+  width: 100%;
+  font-size: 18px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  background: transparent;
+  outline: none;
+}
+
+/* Buttons */
+.btn {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #444;
+}
+
+.btn-link {
+  font-size: 16px;
+  background-color: transparent;
+  color: #333;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.btn-clear {
+  margin-top: 20px;
+  width: 100%;
+  font-size: 16px;
+  background-color: transparent;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.btn-clear:hover {
+  background-color: #f1f1f1;
+}
+
+.text-red {
+  color: red;
+}
+
+/* Items */
+
+.items {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.items li {
+  display: flex;
+  justify-content: space-between;
+  width: 45%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin: 0 5px 20px;
+  font-weight: 700;
+}
+
+@media (max-width: 500px) {
+  .items li {
+    width: 100%;
+  }
+}
+```
+</details>
+
 ### [C. DOM Selectors for Single Elements](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/06-document-object-model/03-dom-selectors-single-elements)
 
 ### [D. DOM Selectors for Multiple Elements](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/06-document-object-model/04-dom-selectors-multiple-elements)
