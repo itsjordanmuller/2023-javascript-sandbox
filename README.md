@@ -4590,6 +4590,176 @@ h1 {
 
 ### [F. Traversing the DOM - Nodes](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/06-document-object-model/06-traversing-the-dom-nodes)
 
+![Traversing the DOM - Nodes - Site Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/06-document-object-model/06-traversing-the-dom-nodes/06-traversing-the-dom-nodes-site.png)
+
+![Traversing the DOM - Nodes - Console Output Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/06-document-object-model/06-traversing-the-dom-nodes/06-traversing-the-dom-nodes-console.png)
+
+### Traversing the DOM - Nodes
+
+This JavaScript exercise focused on traversing the DOM using node properties, allowing for a deeper understanding of the DOM's structure and how nodes can be manipulated.
+
+#### Key JavaScript Concepts and Implementations (`script.js`)
+
+1. **Child Nodes Traversal**
+   - Explored `parent.childNodes` to access all child nodes, including text nodes (whitespace, line breaks) and element nodes.
+   - Accessed and manipulated specific nodes using indices, such as `parent.childNodes[3].textContent` and `parent.childNodes[5].style.color`.
+
+2. **Understanding Node Properties**
+   - Worked with properties like `textContent`, `nodeName`, `innerHTML`, `outerHTML`, and `innerText` to understand different aspects of nodes.
+   - Demonstrated the difference between element nodes and text nodes in the child nodes list.
+
+3. **First and Last Child Nodes**
+   - Used `parent.firstChild` and `parent.lastChild` to access the first and last child nodes of a parent element.
+   - Modified the content of the last child node.
+
+4. **Parent Node Selection**
+   - Compared `child.parentNode` and `child.parentElement` to understand their similarities.
+   - Styled the parent node to visually demonstrate node traversal.
+
+5. **Sibling Node Navigation**
+   - Navigated between sibling nodes using `nextSibling` and `previousSibling`.
+   - Highlighted the difference between sibling elements and sibling nodes.
+
+#### Practical Application
+This exercise is crucial in understanding how to:
+- Navigate and manipulate a more comprehensive range of nodes within the DOM.
+- Distinguish between different types of nodes (element, text) and their properties.
+- Apply dynamic changes to a webpage's structure, encompassing not just elements but also text nodes and other node types.
+
+#### Understanding Node Types in the DOM
+This section provides insight into the complexity of the DOM structure beyond just elements, including text and other node types.
+
+<details>
+<summary>View HTML Code - index.html - F - Traversing the DOM - Nodes</summary>
+<br>
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=HTML5&logoColor=white)
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Traversing The DOM</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Traversing The DOM</h1>
+      <div class="parent">
+        <!-- Children -->
+        <div class="child">Child 1</div>
+        <div class="child">Child 2</div>
+        <div class="child">Child 3</div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+```
+</details>
+
+<details>
+<summary>View JS Code - script.js - F - Traversing the DOM - Nodes</summary>
+<br>
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
+
+```javascript
+let output;
+
+// Working with All Child Nodes
+const parent = document.querySelector(".parent");
+output = parent.childNodes;
+output = parent.childNodes[0].textContent;
+output = parent.childNodes[0].nodeName;
+output = parent.childNodes[3].nodeName;
+output = parent.childNodes[3].textContent;
+output = parent.childNodes[3].innerHTML;
+output = parent.childNodes[3].outerHTML;
+
+output = parent.childNodes[3].innerText = "Child One";
+output = parent.childNodes[5].style.color = "red";
+
+// First Child
+output = parent.firstChild;
+// Last Child
+output = parent.lastChild;
+output = parent.lastChild.textContent = "Hello";
+
+// Parent Node
+const child = document.querySelector(".child");
+
+output = child.parentNode;
+output = child.parentElement;
+child.parentNode.style.backgroundColor = "#ccc";
+
+// Siblings
+const secondItem = document.querySelector(".child:nth-child(2)");
+
+output = secondItem;
+// Next Sibling
+output = secondItem.nextSibling;
+// Previous Sibling
+output = secondItem.previousSibling;
+
+console.log(output);
+```
+</details>
+
+<details>
+<summary>View CSS Code - style.css - F - Traversing the DOM - Nodes</summary>
+<br>
+
+![CSS3](https://img.shields.io/badge/CSS3-1572B6.svg?style=for-the-badge&logo=CSS3&logoColor=white)
+
+```css
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #f5f5f5;
+}
+
+header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.container {
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+.parent div {
+  list-style: none;
+  margin-bottom: 10px;
+}
+```
+</details>
+
 ### [G. Create Elements](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/06-document-object-model/07-create-elements)
 
 ### [H. List Item - innerHTML vs createElement](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/06-document-object-model/08-list-item-innerHTML-vs-createElement)
