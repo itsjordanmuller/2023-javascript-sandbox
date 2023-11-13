@@ -6840,6 +6840,150 @@ header h1 {
 
 ### [N. Styles & Classes](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/06-document-object-model/14-styles-classes)
 
+![Styles & Classes - Site Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/06-document-object-model/14-styles-classes/14-styles-classes-site.png)
+
+This exercise demonstrates how to manipulate styles and classes in the Document Object Model (DOM) using JavaScript. It covers essential techniques for dynamically changing the appearance and behavior of web page elements. The `script.js` file contains a function `run()` that illustrates various ways to add, remove, and toggle classes, as well as change inline styles.
+
+#### Summary of `index.html`
+
+The `index.html` file provides the structure for a web page focused on demonstrating adding and removing styles and classes using JavaScript. It includes a standard HTML5 document structure with a linked CSS stylesheet (`style.css`). The body of the document contains a heading (`<h1>`), a paragraph (`<p>`) with the class "card", an unordered list (`<ul>`) with class "item-list items" consisting of five list items (`<li>`), and a button to trigger the JavaScript function. The script `script.js` is linked at the end of the body to enable interaction.
+
+#### Key JavaScript Concepts (`script.js`)
+
+1. **Working with `className` and `classList`**
+   - The exercise explores the use of `className` to get and set the class attribute of an element.
+   - It introduces `classList`, a more versatile property that provides methods like `add`, `remove`, `toggle`, and `replace` for class manipulation.
+   - These methods allow for adding new classes, removing existing ones, toggling classes on and off, and replacing one class with another.
+
+2. **Changing Inline Styles**
+   - Demonstrates how to directly modify the inline styles of elements using JavaScript.
+   - In this example, the color of list items is changed dynamically, with a specific color assigned based on the index of the item.
+
+#### Summary of `style.css`
+
+The `style.css` file contains styling rules for the web page. It sets the font family for the body to 'Arial' and a line-height of 1.3 for better readability. The CSS also defines styles for two classes: `.hidden`, which hides elements by setting `display` to none, and `.card`, which styles elements with a light gray background, border, and padding. The `.dark` class alters the background to dark gray and the text color to white, providing a contrasting theme. These styles are integral to the demonstration of class manipulation in the associated JavaScript file.
+
+#### Practical Application
+
+Manipulating styles and classes is a fundamental aspect of creating interactive and dynamic web pages. It allows developers to respond to user interactions by changing the visual aspects of the page, such as highlighting, hiding, or emphasizing certain elements. This exercise provides a practical understanding of how to:
+- Dynamically update the styling of elements to reflect changes in the application state or user interaction.
+- Use class manipulation methods to add or remove features from elements, making the page more interactive and responsive.
+
+#### Example Usage
+
+In this exercise, when the 'Run' button is clicked, the JavaScript function `run()` is executed. This function can change the appearance of paragraphs and list items on the page, demonstrating real-time DOM manipulation commonly used in web applications. For instance, it can be used to highlight active menu items, show or hide elements based on user actions, or apply theme changes across the website.
+
+<details>
+<summary>View HTML Code - index.html - N - Styles & Classes</summary>
+<br>
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=HTML5&logoColor=white)
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Adding & Removing Styles & Classes</title>
+  </head>
+  <body>
+    <h1>Adding & Removing Styles & Classes</h1>
+
+    <p class="card">
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos
+      quasi odio dicta nisi voluptate tempora corporis reprehenderit optio qui
+      eos officiis nostrum cupiditate delectus, accusamus adipisci non, amet
+      quis provident.
+    </p>
+
+    <ul class="item-list items">
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+      <li>Item 4</li>
+      <li>Item 5</li>
+    </ul>
+
+    <button>Run</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+```
+</details>
+
+<details>
+<summary>View JS Code - script.js - N - Styles & Classes</summary>
+<br>
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
+
+```javascript
+const text = document.querySelector("p");
+const itemList = document.querySelector(".item-list");
+const items = itemList.querySelectorAll("li");
+
+function run() {
+  // className
+  //   console.log(itemList.className);
+  //   text.className = "card dark";
+  // classList
+  //   console.log(itemList.classList);
+  //   itemList.classList.forEach((c) => console.log(c));
+  //   text.classList.add("dark");
+  //   text.classList.remove("card");
+  //   text.classList.toggle("hidden");
+  //   text.classList.toggle("dark");
+  //   text.classList.replace("card", "dark");
+
+  // Change Style
+  //   itemList.style.lineHeight = "3";
+
+  items.forEach((item, index) => {
+    item.style.color = "red";
+
+    if (index === 2) {
+      item.style.color = "blue";
+    }
+  });
+}
+
+document.querySelector("button").onclick = run;
+```
+</details>
+
+<details>
+<summary>View CSS Code - style.css - N - Styles & Classes</summary>
+<br>
+
+![CSS3](https://img.shields.io/badge/CSS3-1572B6.svg?style=for-the-badge&logo=CSS3&logoColor=white)
+
+```css
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.3;
+}
+
+.hidden {
+  display: none;
+}
+
+.card {
+  background: #f4f4f4;
+  border: 1px #ccc solid;
+  padding: 15px;
+}
+
+.dark {
+  background: #333;
+  color: #fff;
+}
+```
+</details>
+
 ## [7. Events](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/07-events)
 
 ### [A. Event Listeners](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/07-events/01-event-listeners/shopping-list)
