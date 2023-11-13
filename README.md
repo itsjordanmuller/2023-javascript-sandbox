@@ -4417,6 +4417,177 @@ header h1 {
 
 ### [E. Traversing the DOM - Elements](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/06-document-object-model/05-traversing-the-dom-elements)
 
+![Traversing the DOM - Elements - Site Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/06-document-object-model/05-traversing-the-dom-elements/05-traversing-the-dom-elements-site.png)
+
+![Traversing the DOM - Elements - Console Output Image 1](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/06-document-object-model/05-traversing-the-dom-elements/05-traversing-the-dom-elements-1.png)
+
+![Traversing the DOM - Elements - Console Output Image 2](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/06-document-object-model/05-traversing-the-dom-elements/05-traversing-the-dom-elements-2.png)
+
+![Traversing the DOM - Elements - Console Output Image 3](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/06-document-object-model/05-traversing-the-dom-elements/05-traversing-the-dom-elements-3.png)
+
+![Traversing the DOM - Elements - Console Output Image 4](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/06-document-object-model/05-traversing-the-dom-elements/05-traversing-the-dom-elements-4.png)
+
+### Traversing the DOM Elements
+
+This exercise focused on learning how to traverse the Document Object Model (DOM) in JavaScript, which is a crucial skill for dynamically manipulating web pages.
+
+#### Key JavaScript Concepts and Implementations (`script.js`)
+
+1. **Accessing Child Elements**
+   - Used `parent.children` to access direct child elements of a parent node.
+   - Modified the text and style of specific children using indices, like `parent.children[1].innerText`.
+
+2. **Manipulating First and Last Child Elements**
+   - `parent.firstElementChild` and `parent.lastElementChild` were used to easily access and modify the first and last child elements of a parent.
+
+3. **Parent Element Selection**
+   - Demonstrated how to select a parent element from a child using `child.parentElement`.
+   - Applied styling to the parent element by accessing it through its child.
+
+4. **Sibling Element Navigation**
+   - Navigated to sibling elements using `nextElementSibling` and `previousElementSibling`.
+   - Adjusted styles of sibling elements to visually demonstrate the traversal.
+
+#### Practical Application
+This exercise is essential for understanding DOM manipulation in web development, particularly when dealing with nested elements. It teaches how to:
+- Navigate the DOM tree efficiently using parent and child relationships.
+- Select and manipulate elements relative to a known node (sibling, parent, child).
+- Apply dynamic changes to a webpage’s structure and appearance using JavaScript.
+
+#### Understanding the DOM Hierarchy
+DOM traversal is about understanding the hierarchical structure of HTML documents and manipulating elements based on their relationships. This exercise lays the foundation for creating interactive and dynamic content in web applications, where understanding and manipulating the structure of the DOM is crucial.
+
+<details>
+<summary>View HTML Code - index.html - D - Traversing the DOM - Elements</summary>
+<br>
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=HTML5&logoColor=white)
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Traversing The DOM</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Traversing The DOM</h1>
+      <div class="parent">
+        <!-- Children -->
+        <div class="child">Child 1</div>
+        <div class="child">Child 2</div>
+        <div class="child">Child 3</div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+```
+</details>
+
+<details>
+<summary>View JS Code - script.js - D - Traversing the DOM - Elements</summary>
+<br>
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
+
+```javascript
+let output;
+
+// Get Child Elements
+const parent = document.querySelector(".parent");
+output = parent.children;
+output = parent.children[1].innerText;
+output = parent.children[1].className;
+output = parent.children[1].nodeName;
+
+// Specific Children Element
+parent.children[1].innerText = "Child Two";
+parent.children[1].style.color = "red";
+
+// First Element Child
+parent.firstElementChild.innerText = "Child One";
+// Last Element Child
+parent.lastElementChild.innerText = "Child Three";
+
+// Get Parent Elements from a Child
+
+const child = document.querySelector(".child");
+
+output = child.parentElement;
+// Style the Parent by Selecting the Child and Traversing to Parent
+child.parentElement.style.border = "1px solid #ccc";
+child.parentElement.style.padding = "10px";
+
+// Sibling Elements
+const secondItem = document.querySelector(".child:nth-child(2)");
+output = secondItem;
+output = secondItem.nextElementSibling;
+
+// Select Next Sibling
+secondItem.nextElementSibling.style.color = "green";
+// Select Previous Sibling
+secondItem.previousElementSibling.style.color = "orange";
+
+console.log(output);
+```
+</details>
+
+<details>
+<summary>View CSS Code - style.css - D - Traversing the DOM - Elements</summary>
+<br>
+
+![CSS3](https://img.shields.io/badge/CSS3-1572B6.svg?style=for-the-badge&logo=CSS3&logoColor=white)
+
+```css
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #f5f5f5;
+}
+
+header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.container {
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+.parent div {
+  list-style: none;
+  margin-bottom: 10px;
+}
+```
+</details>
+
 ### [F. Traversing the DOM - Nodes](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/06-document-object-model/06-traversing-the-dom-nodes)
 
 ### [G. Create Elements](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/06-document-object-model/07-create-elements)
