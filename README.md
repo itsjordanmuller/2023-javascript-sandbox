@@ -1002,7 +1002,7 @@ console.log(x);
 
 ![Array Challenges Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/02-arrays-and-objects/04-array-challenges/04-array-challenges.png)
 
-### Challenge 1
+#### Challenge 1
 The first challenge involved a series of operations on an array `arr = [1, 2, 3, 4, 5]`. The task was to:
 1. Add `0` to the beginning of the array using `.unshift(0)`.
 2. Append `6` to the end of the array with `.push(6)`.
@@ -1010,7 +1010,7 @@ The first challenge involved a series of operations on an array `arr = [1, 2, 3,
 
 The expected result was `[6, 5, 4, 3, 2, 1, 0]`, and the exercise provided a clear demonstration of how combining these array methods can effectively transform an array's structure and content.
 
-### Challenge 2
+#### Challenge 2
 The second challenge required more complex operations involving two arrays, `arr1 = [1, 2, 3, 4, 5]` and `arr2 = [5, 6, 7, 8, 9, 10]`. The task was to:
 1. Create a new array by slicing the first four elements of `arr1`.
 2. Combine this sliced array with `arr2` to form a single array.
@@ -4421,8 +4421,6 @@ header h1 {
 
 ![Traversing the DOM - Elements - Console Output Image 4](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/06-document-object-model/05-traversing-the-dom-elements/05-traversing-the-dom-elements-console-4.png)
 
-### Traversing the DOM Elements
-
 This exercise focused on learning how to traverse the Document Object Model (DOM) in JavaScript, which is a crucial skill for dynamically manipulating web pages.
 
 #### Key JavaScript Concepts and Implementations (`script.js`)
@@ -4587,8 +4585,6 @@ h1 {
 ![Traversing the DOM - Nodes - Site Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/06-document-object-model/06-traversing-the-dom-nodes/06-traversing-the-dom-nodes-site.png)
 
 ![Traversing the DOM - Nodes - Console Output Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/06-document-object-model/06-traversing-the-dom-nodes/06-traversing-the-dom-nodes-console.png)
-
-### Traversing the DOM - Nodes
 
 This JavaScript exercise focused on traversing the DOM using node properties, allowing for a deeper understanding of the DOM's structure and how nodes can be manipulated.
 
@@ -5035,8 +5031,6 @@ header h1 {
 
 ![List Item - innerHTML vs createElement - Console Output Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/06-document-object-model/08-list-item-innerHTML-vs-createElement/08-list-item-innerHTML-vs-createElement-console.png)
 
-### Creating List Items: innerHTML vs createElement
-
 In this JavaScript exercise, two different methods were explored for creating and appending list items to the DOM, each with its own characteristics and use cases.
 
 - **innerHTML** is quick and convenient for static or less dynamic content, where performance is not the key concern.
@@ -5345,8 +5339,6 @@ header h1 {
 ### [I. Refactor to Multiple Functions](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/06-document-object-model/09-refactor-to-multiple-functions)
 
 ![Refactor to Multiple Functions - Site Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/06-document-object-model/09-refactor-to-multiple-functions/09-refactor-to-multiple-functions-site.png)
-
-### Refactoring JavaScript Code into Multiple Functions
 
 In this exercise, I refactored the shopping list application to create more organized and modular approach by breaking down the item creation process into separate, reusable functions. This approach enhances readability, maintainability, and scalability of the code.
 
