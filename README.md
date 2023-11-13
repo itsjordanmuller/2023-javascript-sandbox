@@ -6224,6 +6224,319 @@ header h1 {
 
 ### [L. Replacing Elements](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/06-document-object-model/12-replacing-elements)
 
+![Replacing Elements - Console Output Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/06-document-object-model/12-replacing-elements/12-replacing-elements-site.png)
+
+This exercise is designed to teach the intricacies of replacing elements in the DOM, a key concept in dynamic web development. Through various functions in the `script.js` file, the exercise explores different approaches to replace elements in an HTML document.
+
+#### Key JavaScript Implementations (`script.js`)
+
+1. **Replacing the First Item**
+   - Selects the first list item using `document.querySelector("li:first-child")`.
+   - Creates a new list item and replaces the first item using `replaceWith`.
+
+2. **Replacing the Second Item**
+   - Identifies the second list item with `document.querySelector("li:nth-child(2)")`.
+   - Uses `outerHTML` to replace the entire HTML of the second list item.
+
+3. **Replacing All List Items**
+   - Retrieves all list items into a NodeList using `document.querySelectorAll("li")`.
+   - Iterates over each item and replaces their content. The function uses a ternary operator to vary the replacement text based on the index.
+
+4. **Replacing a Child Element in the Header**
+   - Selects the header and the `<h1>` element within it.
+   - Creates a new `<h2>` element and replaces the `<h1>` element using `replaceChild`.
+
+This exercise provides a hands-on approach to learning how to replace elements in the DOM and enables me to update the UI dynamically in response to user interactions or data changes, covering a range of scenarios from replacing a single element to updating multiple elements simultaneously.
+
+<details>
+<summary>View HTML Code - index.html - -</summary>
+<br>
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=HTML5&logoColor=white)
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Shopping List</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <img src="images/note.png" alt="" />
+        <h1>Shopping List</h1>
+      </header>
+      <form id="item-form">
+        <div class="form-control">
+          <input
+            type="text"
+            class="form-input"
+            id="item-input"
+            name="item"
+            placeholder="Enter Item"
+          />
+        </div>
+        <div class="form-control">
+          <button type="submit" class="btn">
+            <i class="fa-solid fa-plus"></i> Add Item
+          </button>
+        </div>
+      </form>
+
+      <div class="filter">
+        <input
+          type="text"
+          class="form-input-filter"
+          id="filter"
+          placeholder="Filter Items"
+        />
+      </div>
+
+      <ul id="item-list" class="items">
+        <li>
+          Apples
+          <button class="remove-item btn-link text-red">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </li>
+        <li>
+          Orange Juice
+          <button class="remove-item btn-link text-red">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </li>
+        <li>
+          Oreos
+          <button class="remove-item btn-link text-red">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </li>
+        <li>
+          Milk
+          <button class="remove-item btn-link text-red">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </li>
+      </ul>
+
+      <button id="clear" class="btn-clear">Clear All</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+```
+</details>
+
+<details>
+<summary>View JS Code - script.js - -</summary>
+<br>
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
+
+```javascript
+// Replace First
+function replaceFirstItem() {
+  const firstItem = document.querySelector("li:first-child");
+
+  const li = document.createElement("li");
+  li.textContent = "Replaced First!";
+
+  firstItem.replaceWith(li);
+}
+
+replaceFirstItem();
+
+// Replace Second
+function replaceSecondItem() {
+  const secondItem = document.querySelector("li:nth-child(2)");
+
+  secondItem.outerHTML = "<li>Replaced Second!</li>";
+}
+
+replaceSecondItem();
+
+// Replace All
+function replaceAllItems() {
+  const items = document.querySelectorAll("li");
+
+  //   items.forEach((item, index) => {
+  //     item.outerHTML = "<li>Replaced All!</li>";
+  //   });
+
+  // Using a Ternary to Have Condition for Specific Index
+  items.forEach((item, index) =>
+    index === 1
+      ? (item.innerHTML = "Second Item!")
+      : (item.innerHTML = "Replaced All!")
+  );
+}
+
+replaceAllItems();
+
+// Replace Child from Parent
+function replaceChildHeading() {
+  const header = document.querySelector("header");
+  const h1 = document.querySelector("header h1");
+
+  const h2 = document.createElement("h2");
+  h2.id = "app-title";
+  h2.textContent = "Shopping List";
+
+  header.replaceChild(h2, h1);
+}
+
+replaceChildHeading();
+```
+</details>
+
+<details>
+<summary>View CSS Code - style.css - -</summary>
+<br>
+
+![CSS3](https://img.shields.io/badge/CSS3-1572B6.svg?style=for-the-badge&logo=CSS3&logoColor=white)
+
+```css
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #f5f5f5;
+}
+
+header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-weight: 300;
+  margin-left: 10px;
+}
+
+.container {
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+/* Form & Input */
+.form-input {
+  width: 100%;
+  font-size: 18px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.form-input-filter {
+  margin-top: 20px;
+  width: 100%;
+  font-size: 18px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  background: transparent;
+  outline: none;
+}
+
+/* Buttons */
+.btn {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #444;
+}
+
+.btn-link {
+  font-size: 16px;
+  background-color: transparent;
+  color: #333;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.btn-clear {
+  margin-top: 20px;
+  width: 100%;
+  font-size: 16px;
+  background-color: transparent;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.btn-clear:hover {
+  background-color: #f1f1f1;
+}
+
+.text-red {
+  color: red;
+}
+
+/* Items */
+
+.items {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.items li {
+  display: flex;
+  justify-content: space-between;
+  width: 45%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin: 0 5px 20px;
+  font-weight: 700;
+}
+
+@media (max-width: 500px) {
+  .items li {
+    width: 100%;
+  }
+}
+```
+</details>
+
 ### [M. Remove Elements](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/06-document-object-model/13-remove-elements)
 
 ### [N. Styles & Classes](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/06-document-object-model/14-styles-classes)
