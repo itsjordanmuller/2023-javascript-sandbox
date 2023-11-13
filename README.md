@@ -3222,16 +3222,16 @@ console.log(evenDouble);
 
 In this section, I learned about the `reduce` method in JavaScript, a powerful array function that simplifies an array to a single value. This method is particularly useful for aggregating array elements into a cumulative result.
 
-### Basic Summation with Reduce
+#### Basic Summation with Reduce
 I started by summing an array of numbers using `reduce`. The `reduce` function takes two parameters: a callback function and an initial value. In the full version, I defined the callback with a function keyword, which accumulates the sum of the array elements. The initial value is set to 0. 
 
-### Refactoring with Arrow Functions
+#### Refactoring with Arrow Functions
 To make the code more concise, I refactored the sum calculation using an arrow function. This shorter version accomplishes the same task with less syntax.
 
-### Alternative Approach: For Loop
+#### Alternative Approach: For Loop
 For comparison, I implemented the same summation using a traditional for loop, highlighting the efficiency and readability of the `reduce` method.
 
-### Practical Application: Calculating Total Price
+#### Practical Application: Calculating Total Price
 Finally, I applied `reduce` to a more practical example: calculating the total price of items in a shopping cart. Each item in the cart array has a `price` property, and `reduce` accumulates these values to find the total price.
 
 This exercise enhanced my understanding of the `reduce` method, illustrating its versatility in array manipulation and data aggregation in JavaScript.
@@ -3287,10 +3287,10 @@ console.log(total);
 
 In this exercise, I tackled two challenges that involved using different JavaScript array methods to manipulate and process data. These challenges helped me understand how to combine methods like `filter`, `map`, and `reduce` for more complex operations.
 
-### Challenge 1: Filtering and Mapping Data
+#### Challenge 1: Filtering and Mapping Data
 The first challenge involved processing an array of people objects. The task was to filter out individuals who are 25 years old or younger and then map their data into a new array. This new array only contains their full name and email address. By chaining `filter` and `map`, I efficiently processed the array in a single, readable statement. The `filter` method isolated the young individuals, and the `map` method transformed each selected object into the required format.
 
-### Challenge 2: Summing Positive Numbers
+#### Challenge 2: Summing Positive Numbers
 The second challenge focused on an array of numbers where the goal was to calculate the sum of all positive numbers. Here, I combined `filter` and `reduce`: first, `filter` was used to remove negative numbers, and then `reduce` aggregated the remaining positive numbers into their total sum. This exercise showcased how `reduce` can be effectively paired with `filter` to compute cumulative values based on conditional criteria.
 
 These challenges deepened my understanding of how array methods can be combined to effectively manipulate and analyze data in JavaScript.
@@ -3374,16 +3374,16 @@ console.log(sumPositive);
 
 In this introductory section, I explored the basics of the Document Object Model (DOM) in JavaScript, which is a crucial concept for web development. The DOM allows JavaScript to interact with and manipulate the HTML and CSS of a webpage, enabling dynamic content and user interactivity.
 
-### Understanding the `document` Object
+#### Understanding the `document` Object
 The exercise began with understanding the `document` object, a central part of the DOM that represents the entire HTML document. By logging `window.document` and using `console.dir(document)`, I examined the properties and methods available on the `document` object. This helped me understand how JavaScript can access and manipulate different parts of a web page.
 
-### Targeting Specific Elements
+#### Targeting Specific Elements
 I then moved on to targeting specific portions of the document, such as `document.body`, to access and manipulate the body of the HTML document. The `innerHTML` and `innerText` properties were used to check and manipulate the content of these elements. Additionally, I explored accessing links through `document.links`.
 
-### Manipulating HTML Content
+#### Manipulating HTML Content
 The exercise also covered how to replace or insert HTML content. I learned that `document.body.innerHTML` can change the entire HTML content of the body element, and `document.write` can insert new content into the document.
 
-### Element Selection Techniques
+#### Element Selection Techniques
 Lastly, I practiced selecting HTML elements using their ID with `document.getElementById` and the more versatile `document.querySelector`. These methods are fundamental for targeting and manipulating specific elements on a page.
 
 This introduction to the DOM was a fundamental step in understanding how JavaScript interacts with web pages, forming the basis for dynamic and interactive web development.
@@ -3455,8 +3455,6 @@ document.querySelector("#main h1").innerText = "Hello DOM!";
 ![Examining Document Object Properties - Site Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/06-document-object-model/02-examining-document-object-properties/02-examining-document-object-properties-site.png)
 
 ![Examining Document Object Properties - Console Output Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/06-document-object-model/02-examining-document-object-properties/02-examining-document-object-properties-console.png)
-
-### Shopping List Exercise
 
 In this exercise, I built a simple shopping list application using HTML, CSS, and JavaScript, focusing on DOM manipulation and basic styling.
 
@@ -3785,8 +3783,6 @@ header h1 {
 
 ![DOM Selectors for Single Elements - Console Output Image 2](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/06-document-object-model/03-dom-selectors-single-elements/03-dom-selectors-single-elements-console-2.png)
 
-### DOM Selectors: Single Elements
-
 In this exercise, I focused on understanding and using JavaScript DOM selectors to manipulate single elements within the document.
 
 #### Key JavaScript Concepts Explored (`script.js`)
@@ -4103,8 +4099,6 @@ header h1 {
 ![DOM Selectors for Multiple Elements - Site Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/06-document-object-model/04-dom-selectors-multiple-elements/04-dom-selectors-multiple-elements-site.png)
 
 ![DOM Selectors for Multiple Elements - Console Output Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/06-document-object-model/04-dom-selectors-multiple-elements/04-dom-selectors-multiple-elements-console.png)
-
-### DOM Selectors for Multiple Elements
 
 In this JavaScript exercise, the focus was on using different methods to select and manipulate multiple elements within the DOM.
 
@@ -4763,8 +4757,6 @@ h1 {
 ### [G. Create Elements](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/06-document-object-model/07-create-elements)
 
 ![Create Elements - Site Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/06-document-object-model/07-create-elements/07-create-elements-site.png)
-
-### Creating Elements in the DOM
 
 This JavaScript exercise demonstrates the process of creating and appending new elements to the DOM, a fundamental skill for dynamic web content manipulation.
 
@@ -5655,6 +5647,317 @@ header h1 {
 </details>
 
 ### [J. Insert Elements](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/06-document-object-model/10-insert-elements)
+
+![Insert Elements - Site Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/06-document-object-model/10-insert-elements/10-insert-elements-site.png)
+
+This exercise focuses on different techniques for inserting elements into the Document Object Model (DOM), an essential aspect of interactive web development. The main file, `script.js`, demonstrates four distinct methods for dynamically adding content to a webpage.
+
+#### Key JavaScript Techniques Demonstrated
+
+1. **Using `insertAdjacentElement`**
+   - A new `<h1>` element is created and inserted before a specified element using `insertAdjacentElement("beforebegin", element)`.
+   - This method is exemplified by adding a heading before the filter section in the HTML.
+
+2. **Applying `insertAdjacentText`**
+   - The `insertAdjacentText` method is used to insert plain text adjacent to an existing element.
+   - In the exercise, this is shown by adding text before the first list item.
+
+3. **Incorporating `insertAdjacentHTML`**
+   - This method allows for inserting HTML formatted text. 
+   - The script adds a `<h2>` heading after the 'Clear All' button using `insertAdjacentHTML("afterend", html)`.
+
+4. **Utilizing `insertBefore`**
+   - `insertBefore` is used to insert an element before another within a parent element.
+   - Demonstrated by adding a new list item before the third item in the list.
+
+Whether it's adding new interactive elements, updating text, or modifying the structure of the page, these techniques are fundamental for creating responsive and engaging web applications. The exercise effectively demonstrates the versatility and power of JavaScript in DOM manipulation.
+
+<details>
+<summary>View HTML Code - index.html - J - Insert Elements</summary>
+<br>
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=HTML5&logoColor=white)
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Shopping List</title>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <img src="images/note.png" alt="" />
+        <h1>Shopping List</h1>
+      </header>
+      <form id="item-form">
+        <div class="form-control">
+          <input
+            type="text"
+            class="form-input"
+            id="item-input"
+            name="item"
+            placeholder="Enter Item"
+          />
+        </div>
+        <div class="form-control">
+          <button type="submit" class="btn">
+            <i class="fa-solid fa-plus"></i> Add Item
+          </button>
+        </div>
+      </form>
+
+      <div class="filter">
+        <input
+          type="text"
+          class="form-input-filter"
+          id="filter"
+          placeholder="Filter Items"
+        />
+      </div>
+
+      <ul id="item-list" class="items">
+        <li>
+          Apples
+          <button class="remove-item btn-link text-red">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </li>
+        <li>
+          Orange Juice
+          <button class="remove-item btn-link text-red">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </li>
+        <li>
+          Oreos
+          <button class="remove-item btn-link text-red">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </li>
+        <li>
+          Milk
+          <button class="remove-item btn-link text-red">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+        </li>
+      </ul>
+
+      <button id="clear" class="btn-clear">Clear All</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
+```
+</details>
+
+<details>
+<summary>View JS Code - script.js - J - Insert Elements</summary>
+<br>
+
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
+
+```javascript
+// insertAdjacentElement Example
+function insertElement() {
+  const filter = document.querySelector(".filter");
+
+  const h1 = document.createElement("h1");
+  h1.textContent = "insertAdjacentElement";
+
+  filter.insertAdjacentElement("beforebegin", h1);
+}
+
+insertElement();
+
+// insertAdjacentText Example
+function insertText() {
+  const item = document.querySelector("li:first-child");
+  item.insertAdjacentText("beforebegin", "insertAdjacentText");
+}
+
+insertText();
+
+// insertAdjacentHTML example
+function insertHTML() {
+  const clearBtn = document.querySelector("#clear");
+  clearBtn.insertAdjacentHTML("afterend", "<h2>insertAdjacentHTML</h2>");
+}
+
+insertHTML();
+
+// insertBefore Example
+function insertBeforeItem() {
+  const ul = document.querySelector("ul");
+
+  const li = document.createElement("li");
+  li.textContent = "insertBefore";
+
+  const thirdItem = document.querySelector("li:nth-child(3)");
+  ul.insertBefore(li, thirdItem);
+}
+
+insertBeforeItem();
+
+/*
+<!-- beforebegin -->
+<p>
+  <!-- afterbegin -->
+  foo
+  <!-- beforeend -->
+</p>
+<!-- afterend -->
+*/
+```
+</details>
+
+<details>
+<summary>View CSS Code - style.css - J - Insert Elements</summary>
+<br>
+
+![CSS3](https://img.shields.io/badge/CSS3-1572B6.svg?style=for-the-badge&logo=CSS3&logoColor=white)
+
+```css
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #f5f5f5;
+}
+
+header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-weight: 300;
+  margin-left: 10px;
+}
+
+.container {
+  max-width: 500px;
+  margin: 30px auto;
+  padding: 20px;
+}
+
+/* Form & Input */
+.form-input {
+  width: 100%;
+  font-size: 18px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.form-input-filter {
+  margin-top: 20px;
+  width: 100%;
+  font-size: 18px;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  background: transparent;
+  outline: none;
+}
+
+/* Buttons */
+.btn {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #444;
+}
+
+.btn-link {
+  font-size: 16px;
+  background-color: transparent;
+  color: #333;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.btn-clear {
+  margin-top: 20px;
+  width: 100%;
+  font-size: 16px;
+  background-color: transparent;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.btn-clear:hover {
+  background-color: #f1f1f1;
+}
+
+.text-red {
+  color: red;
+}
+
+/* Items */
+
+.items {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.items li {
+  display: flex;
+  justify-content: space-between;
+  width: 45%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin: 0 5px 20px;
+  font-weight: 700;
+}
+
+@media (max-width: 500px) {
+  .items li {
+    width: 100%;
+  }
+}
+```
+</details>
 
 ### [K. Custom Insert After Function Challenge](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/06-document-object-model/11-custom-insertafter-challenge)
 
