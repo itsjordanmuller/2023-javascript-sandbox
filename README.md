@@ -7074,6 +7074,8 @@ body {
 
 ### [A. Geolocation API](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/12-web-browser-apis/01-geolocation)
 
+![Geolocation API - Site Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/12-web-browser-apis/01-geolocation/01-geolocation-site.png)
+
 ### [B. Maps API - Positions](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/12-web-browser-apis/02-map-position)
 
 ### [C. Canvas API](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/12-web-browser-apis/03-canvas)
