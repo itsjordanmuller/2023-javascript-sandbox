@@ -7086,6 +7086,12 @@ body {
 
 ### [D. Window requestAnimationFrame() Method](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/12-web-browser-apis/04-requestAnimationFrame)
 
+![Window requestAnimationFrame() Method - Site Image 1](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/12-web-browser-apis/04-requestAnimationFrame/04-requestAnimationFrame-site-1.png)
+
+![Window requestAnimationFrame() Method - Site Image 2](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/12-web-browser-apis/04-requestAnimationFrame/04-requestAnimationFrame-site-2.png)
+
+![Window requestAnimationFrame() Method - Site Image 3](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/12-web-browser-apis/04-requestAnimationFrame/04-requestAnimationFrame-site-3.png)
+
 #### [D1. Animated Clock Part 1](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/12-web-browser-apis/05-animated-clock-1/animated-clock)
 
 #### [D2. Animated Clock Part 2](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/12-web-browser-apis/06-animated-clock-2/animated-clock)
