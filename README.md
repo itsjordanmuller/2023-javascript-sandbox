@@ -7158,6 +7158,18 @@ body {
 
 ### [G. Web Animations API](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/12-web-browser-apis/12-web-animation-api)
 
+![Web Animations API - Site Image 1](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/12-web-browser-apis/12-web-animation-api/12-web-animation-api-site-1.png)
+
+![Web Animations API - Site Image 2](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/12-web-browser-apis/12-web-animation-api/12-web-animation-api-site-2.png)
+
+![Web Animations API - Site Image 3](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/12-web-browser-apis/12-web-animation-api/12-web-animation-api-site-3.png)
+
+![Web Animations API - Site Image 4](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/12-web-browser-apis/12-web-animation-api/12-web-animation-api-site-4.png)
+
+![Web Animations API - Site Image 5](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/12-web-browser-apis/12-web-animation-api/12-web-animation-api-site-5.png)
+
+![Web Animations API - Site Image 6](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/12-web-browser-apis/12-web-animation-api/12-web-animation-api-site-6.png)
+
 ### [H. Speech Recognition - Web Speech API](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/12-web-browser-apis/13-speech-recognition)
 
 ### [I. Speech Synthesis - Web Speech API](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/12-web-browser-apis/14-speech-synthesis)
