@@ -7142,7 +7142,19 @@ body {
 
 ### [F. Video API](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/12-web-browser-apis/10-video-api)
 
+![Video API - Site Image 1](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/12-web-browser-apis/10-video-api/10-video-api-site-1.png)
+
+![Video API - Site Image 2](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/12-web-browser-apis/10-video-api/10-video-api-site-2.png)
+
+![Video API - Site Image 3](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/12-web-browser-apis/10-video-api/10-video-api-site-3.png)
+
 #### [F1. Video Player](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/12-web-browser-apis/11-video-player-project/video-player)
+
+![Video Player - Site Image 1](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/12-web-browser-apis/11-video-player-project/11-video-player-site-1.png)
+
+![Video Player - Site Image 2](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/12-web-browser-apis/11-video-player-project/11-video-player-site-2.png)
+
+![Video Player - Site Image 3](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/12-web-browser-apis/11-video-player-project/11-video-player-site-3.png)
 
 ### [G. Web Animations API](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/12-web-browser-apis/12-web-animation-api)
 
