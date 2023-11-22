@@ -7282,6 +7282,32 @@ In summary, this exercise effectively illustrates the benefits of using Promises
 
 ### [K. Promise All](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/09-asynchronous-javascript/11-promise-all)
 
+![Promise All - Console Image 1](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/09-asynchronous-javascript/11-promise-all/11-promise-all-console-1.png)
+
+![Promise All - Console Image 2](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/09-asynchronous-javascript/11-promise-all/11-promise-all-console-2.png)
+
+This exercise demonstrates the use of `Promise.all()` in JavaScript, a method particularly useful for handling multiple independent promises simultaneously. The script makes several asynchronous data requests and waits for all of them to be resolved or rejected.
+
+#### The `getData` Function
+- The `getData` function remains the same as in previous examples. It creates a promise that wraps an XMLHttpRequest to fetch data from a given endpoint and resolves or rejects based on the success of the request.
+
+#### Multiple Promises
+- Separate promises are created for fetching data from `movies.json`, `actors.json`, and `directors.json`. Additionally, a `dummyPromise` is created, which immediately resolves with the string "Hello world!".
+- These promises are independent of each other, meaning their outcomes are not sequentially dependent.
+
+#### Using `Promise.all()`
+- `Promise.all()` takes an array of promises and returns a new promise that resolves when all of the input promises have resolved, or rejects if any of the promises are rejected.
+- In this script, `Promise.all()` is used to handle the array of promises: `[moviesPromise, actorsPromise, directorsPromise, dummyPromise]`.
+- When `Promise.all()` resolves, it returns an array of results corresponding to the input promise array. This is handled in the `.then()` method, where `data` contains the resolved values of all promises in the same order as they were passed to `Promise.all()`.
+- If any of the promises in the array are rejected, `Promise.all()` will immediately reject, and the error will be caught and logged in the `.catch()` method.
+
+#### Benefits of `Promise.all()`
+- **Efficiency**: It allows for concurrent execution of multiple promises, which can be more efficient than waiting for each promise to resolve sequentially.
+- **Simplicity**: It simplifies the handling of multiple promises, providing a single point to handle success or failure of all promises.
+- **Predictability**: The order of results in the resolved array corresponds to the order of the promises passed in, making it predictable and easy to associate results with their respective promises.
+
+This exercise effectively demonstrates how `Promise.all()` can be used to manage multiple asynchronous operations, making it a valuable tool for scenarios where multiple independent asynchronous tasks need to be coordinated.
+
 ## [10. Fetch & Async Await](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/10-fetch-and-async-await)
 
 ### [A. Fetch Basics](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/10-fetch-and-async-await/01-fetch-basics)
