@@ -7082,6 +7082,29 @@ In this exercise, I explored the concept of callbacks in JavaScript, a fundament
 
 ### [D. AJAX & XHR](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/09-asynchronous-javascript/04-ajax-xhr)
 
+![AJAX & XHR - Site Image 1](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/09-asynchronous-javascript/04-ajax-xhr/04-ajax-xhr-site-1.png)
+
+![AJAX & XHR - Site Image 2](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/09-asynchronous-javascript/04-ajax-xhr/04-ajax-xhr-site-2.png)
+
+![AJAX & XHR - Movies JSON Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/09-asynchronous-javascript/04-ajax-xhr/04-ajax-xhr-json.png)
+
+This exercise delves into the basics of AJAX (Asynchronous JavaScript and XML) using the XMLHttpRequest (XHR) object in JavaScript. The focus is on fetching data from a remote source and dynamically updating the web page content without reloading the page.
+
+#### XMLHttpRequest (XHR) Object
+- An instance of the `XMLHttpRequest` object is created to handle the data request. This object is a key component in AJAX, allowing for asynchronous communication between client and server.
+- The `xhr.open("GET", "https:api.github.com/users/itsjordanmuller/repos")` line initializes the request, specifying the HTTP method ('GET') and the URL of the data source. In this case, it is set to retrieve data from a GitHub API endpoint.
+
+#### Handling Response States
+- The `onreadystatechange` event listener is used to handle changes in the state of the request. The XHR object has different states (from 0 to 4), with 4 indicating that the request is completed and the response is ready.
+- Inside the event listener, a check is made to ensure that the `readyState` is 4 (request completed) and the `status` is 200 (successful HTTP response). If these conditions are met, the response is processed.
+
+#### Processing and Displaying Data
+- The received data is parsed from JSON format using `JSON.parse(this.responseText)`. This step converts the JSON response into a JavaScript object or array.
+- The parsed data (an array of repository information from GitHub) is then iteratively processed. For each repository, a new list item (`li`) is created, filled with the repository's name and description, and appended to the unordered list (`ul`) with the ID `results` in the HTML.
+
+#### Styling
+- CSS is used to style the web page, applying fonts from Google Fonts and basic styling for elements like the body, headings, buttons, and the list items.
+
 ### [E. Joke Generator Challenge](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/09-asynchronous-javascript/05-joke-generator-challenge/chuck-joke-generator-start)
 
 ### [F. Callback Hell](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/09-asynchronous-javascript/06-callback-hell)
