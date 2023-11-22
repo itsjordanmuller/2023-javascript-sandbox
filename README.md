@@ -7094,7 +7094,19 @@ body {
 
 #### [D1. Animated Clock Part 1](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/12-web-browser-apis/05-animated-clock-1/animated-clock)
 
+![Animated Clock Part 1 - Site Image 1](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/12-web-browser-apis/05-animated-clock-1/05-animated-clock-1-site-1.png)
+
+![Animated Clock Part 1 - Site Image 2](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/12-web-browser-apis/05-animated-clock-1/05-animated-clock-1-site-2.png)
+
 #### [D2. Animated Clock Part 2](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/12-web-browser-apis/06-animated-clock-2/animated-clock)
+
+![Animated Clock Part 2 - Site Image 1](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/12-web-browser-apis/06-animated-clock-2/06-animated-clock-2-site-1.png)
+
+![Animated Clock Part 2 - Site Image 2](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/12-web-browser-apis/06-animated-clock-2/06-animated-clock-2-site-2.png)
+
+![Animated Clock Part 2 - Site Image 3](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/12-web-browser-apis/06-animated-clock-2/06-animated-clock-2-site-3.png)
+
+![Animated Clock Part 2 - Site Image 4](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/12-web-browser-apis/06-animated-clock-2/06-animated-clock-2-site-4.png)
 
 ### [E. Audio API](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/12-web-browser-apis/07-audio-api)
 
