@@ -7165,6 +7165,35 @@ This exercise effectively demonstrates the problems associated with deep nesting
 
 ### [G. Promises](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/09-asynchronous-javascript/07-promises)
 
+![Promises - Console Image 1](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/09-asynchronous-javascript/07-promises/07-promises-console-1.png)
+
+![Promises - Console Image 2](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/09-asynchronous-javascript/07-promises/07-promises-console-2.png)
+
+![Promises - Console Image 3](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/09-asynchronous-javascript/07-promises/07-promises-console-3.png)
+
+![Promises - Console Image 4](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/09-asynchronous-javascript/07-promises/07-promises-console-4.png)
+
+This exercise provides a hands-on experience with JavaScript Promises, a powerful feature for handling asynchronous operations. Promises offer a more manageable and readable approach to asynchronous code compared to traditional callback patterns.
+
+#### Introduction to Promises
+- A `Promise` in JavaScript is an object representing the eventual completion or failure of an asynchronous operation. It allows you to write asynchronous code in a more synchronous fashion.
+- The exercise starts with creating a simple `Promise` that resolves after a 1-second delay, simulating an asynchronous task. This is achieved using `setTimeout`.
+
+#### Consuming Promises
+- The first promise (`promise`) demonstrates the basic structure but is commented out for the focus on a more complex example.
+- The `getUser` promise simulates fetching user data asynchronously. It randomly decides to either resolve (with user data) or reject (with an error message) after a 1-second delay.
+- The `then`, `catch`, and `finally` methods are chained to `getUser`. The `then` method is called if the promise is resolved, displaying the user data. The `catch` method handles any errors, and `finally` executes code after the promise is either resolved or rejected, indicating the completion of the promise's lifecycle.
+
+#### Asynchronous Nature of Promises
+- The `console.log("Hello from global scope!");` line demonstrates the non-blocking nature of JavaScript. This line runs immediately, not waiting for the promises to resolve or reject, highlighting the asynchronous execution model of JavaScript.
+
+#### Benefits of Using Promises
+- Promises provide a cleaner and more robust way of handling asynchronous operations compared to nested callbacks. They help in avoiding callback hell.
+- They make error handling more straightforward and readable with the `catch` method.
+- Promises support chaining, allowing for a sequence of asynchronous operations to be performed in a more readable and maintainable way.
+
+This exercise effectively introduces the basics of Promises, a key concept in modern JavaScript for managing asynchronous operations, making code more readable, maintainable, and less prone to errors.
+
 ### [H. Callback to Promise](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/09-asynchronous-javascript/08-callback-to-promise)
 
 ### [I. Promise Chaining](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/09-asynchronous-javascript/09-promise-chaining)
