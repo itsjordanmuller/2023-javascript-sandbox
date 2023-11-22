@@ -7031,6 +7031,31 @@ In this exercise, I explored the use of JavaScript's `setTimeout` and `clearTime
 
 ### [B. setInterval & clearInterval](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/09-asynchronous-javascript/02-setinterval-clearinterval)
 
+![setInterval & clearInterval - Site Image 1](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/09-asynchronous-javascript/02-setinterval-clearinterval/02-setinterval-clearinterval-site-1.png)
+
+![setInterval & clearInterval - Site Image 2](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/09-asynchronous-javascript/02-setinterval-clearinterval/02-setinterval-clearinterval-site-2.png)
+
+![setInterval & clearInterval - Site Image 3](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/09-asynchronous-javascript/02-setinterval-clearinterval/02-setinterval-clearinterval-site-3.png)
+
+![setInterval & clearInterval - Site Image 4](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/09-asynchronous-javascript/02-setinterval-clearinterval/02-setinterval-clearinterval-site-4.png)
+
+![setInterval & clearInterval - Site Image 5](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/09-asynchronous-javascript/02-setinterval-clearinterval/02-setinterval-clearinterval-site-5.png)
+
+This exercise focuses on using JavaScript's `setInterval` and `clearInterval` functions to create and control repeating actions on a web page. The HTML structure includes two buttons for starting and stopping a color change effect on the webpage's body.
+
+#### `setInterval` Function
+- `setInterval` is used to repeatedly call a function or execute a code snippet, with a fixed time delay between each call. This exercise initially includes a commented-out example that prints the current timestamp every second.
+- The `startChange` function, when activated, sets up an interval using `setInterval`. It calls `changeRandomColor` every 1000 milliseconds (1 second). This interval is only set up if it hasn't been already, as checked by the `intervalID` variable.
+- `changeRandomColor` generates a random color and applies it to the body's background. It uses `Math.random` to create a random hex color.
+
+#### `clearInterval` Function
+- `clearInterval` is demonstrated to stop the ongoing interval set by `setInterval`. The `stopChange` function, when invoked, uses `clearInterval` with `intervalID` to stop the color change.
+
+#### Event Listeners
+- Two event listeners are added to the "Start Color Change" and "Stop Color Change" buttons. Clicking these buttons triggers `startChange` and `stopChange` respectively, demonstrating real-time control over the interval.
+
+This exercise is a practical demonstration of how to create and control timed, repeating actions in JavaScript.
+
 ### [C. Callbacks](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/09-asynchronous-javascript/03-callbacks)
 
 ### [D. AJAX & XHR](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/09-asynchronous-javascript/04-ajax-xhr)
