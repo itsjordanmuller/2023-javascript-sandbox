@@ -7172,7 +7172,25 @@ body {
 
 ### [H. Speech Recognition - Web Speech API](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/12-web-browser-apis/13-speech-recognition)
 
+![Speech Recognition - Web Speech API - Site Image 1](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/12-web-browser-apis/13-speech-recognition/13-speech-recognition-site-1.png)
+
+![Speech Recognition - Web Speech API - Site Image 2](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/12-web-browser-apis/13-speech-recognition/13-speech-recognition-site-2.png)
+
+![Speech Recognition - Web Speech API - Site Image 3](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/12-web-browser-apis/13-speech-recognition/13-speech-recognition-site-3.png)
+
+![Speech Recognition - Web Speech API - Site Image 4](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/12-web-browser-apis/13-speech-recognition/13-speech-recognition-site-4.png)
+
+![Speech Recognition - Web Speech API - Site Image 5](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/12-web-browser-apis/13-speech-recognition/13-speech-recognition-site-5.png)
+
+![Speech Recognition - Web Speech API - Site Image 6](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/12-web-browser-apis/13-speech-recognition/13-speech-recognition-site-6.png)
+
+![Speech Recognition - Web Speech API - Site Image 7](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/12-web-browser-apis/13-speech-recognition/13-speech-recognition-site-7.png)
+
 ### [I. Speech Synthesis - Web Speech API](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/12-web-browser-apis/14-speech-synthesis)
+
+![Speech Synthesis - Web Speech API - Site Image 1](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/12-web-browser-apis/14-speech-synthesis/14-speech-synthesis-site-1.png)
+
+![Speech Synthesis - Web Speech API - Site Image 2](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/12-web-browser-apis/14-speech-synthesis/14-speech-synthesis-site-2.png)
 
 ## [13. Constructors & Prototypes - Object Oriented Programming](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/13-oop-constructors-prototypes)
 
