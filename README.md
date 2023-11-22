@@ -7219,6 +7219,30 @@ This exercise effectively shows the transition from a callback-based asynchronou
 
 ### [I. Promise Chaining](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/09-asynchronous-javascript/09-promise-chaining)
 
+![Promise Chaining - Console Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/09-asynchronous-javascript/09-promise-chaining/09-promise-chaining-console.png)
+
+This exercise provides an excellent demonstration of promise chaining in JavaScript, a technique that allows for sequential execution of asynchronous tasks in a clear and readable manner.
+
+#### Understanding Promise Chaining
+- Promise chaining is a method of executing a sequence of asynchronous tasks one after the other. Each `.then()` in the chain waits for the previous promise to be resolved or rejected before executing.
+
+#### The Promise Setup
+- The exercise begins with the creation of a new `Promise`. This promise is set up to either resolve with a user object (`{ name: "John", age: 30 }`) or reject with an error message after a delay of 1 second. In this case, the promise is configured to always reject due to `let error = true;`.
+
+#### Chaining `.then()` and `.catch()`
+- The first `.then()` block is designed to run if the promise resolves. It logs the user object and returns the user's name. However, due to the promise's configuration, this block will not execute in this scenario.
+- The second `.then()` receives the name returned from the first `.then()` and logs it. It then returns the length of the name.
+- The third `.then()` is set to receive the name length and log it.
+- The `.catch()` block catches any errors that occur in the promise chain. In this case, since the promise is set to reject, this block will execute, logging the error message.
+- Interestingly, after the `.catch()` block, another `.then()` is chained. This is a key feature of promise chaining, where a `.then()` can follow a `.catch()`. This block will execute regardless of whether the promise was resolved or rejected. Here, it logs a message along with a value (123 if the `.catch()` block executed, undefined otherwise).
+
+#### Error Handling and Flow Control
+- The exercise effectively illustrates how promise chaining can be used for both successful execution flows and error handling.
+- The `.catch()` block in the chain ensures that any errors are caught and handled, preventing the entire chain from breaking on failure.
+- The final `.then()` demonstrates that the chain can continue even after an error has been caught and handled.
+
+This example of promise chaining is a clear illustration of managing asynchronous operations in JavaScript. It shows how to handle success and error cases cleanly and how promises can be used to create a sequence of asynchronous tasks with straightforward error handling and flow control.
+
 ### [J. Promises vs Callback Hell](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/09-asynchronous-javascript/10-promises-vs-callback-hell)
 
 ### [K. Promise All](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/09-asynchronous-javascript/11-promise-all)
