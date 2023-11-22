@@ -7135,6 +7135,34 @@ This exercise effectively demonstrates the use of AJAX for real-time data fetchi
 
 ### [F. Callback Hell](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/09-asynchronous-javascript/06-callback-hell)
 
+![Callback Hell - Console Image 1](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/09-asynchronous-javascript/06-callback-hell/06-callback-hell-console-1.png)
+
+![Callback Hell - Console Image 2](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/09-asynchronous-javascript/06-callback-hell/06-callback-hell-console-2.png)
+
+![Callback Hell - Console Image 3](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/09-asynchronous-javascript/06-callback-hell/06-callback-hell-console-3.png)
+
+![Callback Hell - Console Image 4](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/09-asynchronous-javascript/06-callback-hell/06-callback-hell-console-4.png)
+
+![Callback Hell - Console Image 5](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/09-asynchronous-javascript/06-callback-hell/06-callback-hell-console-5.png)
+
+This exercise introduces the concept of "Callback Hell" in JavaScript, a common issue when dealing with multiple nested callbacks, particularly in asynchronous operations like AJAX requests.
+
+#### Callback Hell Demonstration
+- The JavaScript code in `script.js` defines a function `getData` that makes an AJAX request to a specified endpoint and executes a callback function when the data is successfully retrieved.
+- The AJAX requests are intentionally delayed by a random time (between 1 to 4 seconds) using `setTimeout` to simulate network latency and asynchronous behavior.
+- The concept of "Callback Hell" is demonstrated by nesting successive `getData` calls within each other's callbacks. The data from `movies.json`, `actors.json`, and `directors.json` are requested in sequence, with each subsequent request initiated only after the previous one completes.
+- This nesting results in deeply nested code structure, which is commonly referred to as "Callback Hell" or "The Pyramid of Doom" due to its triangular shape and the difficulty in reading and maintaining such code.
+
+#### Challenges of Callback Hell
+- This pattern makes the code hard to read and understand, especially as the number of nested callbacks increases.
+- Error handling becomes more complex, and the code is prone to issues like callback nesting and scope creep.
+- Debugging and maintenance of such code can be challenging.
+
+#### Alternative Approaches
+- In modern JavaScript development, alternatives like Promises and async/await are often used to avoid callback hell. These features provide cleaner and more readable syntax for handling asynchronous operations.
+
+This exercise effectively demonstrates the problems associated with deep nesting of callbacks, highlighting the need for better patterns and practices in managing asynchronous JavaScript code.
+
 ### [G. Promises](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/09-asynchronous-javascript/07-promises)
 
 ### [H. Callback to Promise](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/09-asynchronous-javascript/08-callback-to-promise)
