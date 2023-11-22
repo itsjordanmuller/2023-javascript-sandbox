@@ -7012,6 +7012,23 @@ body {
 
 ### [A. setTimeout & clearTimeout](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/09-asynchronous-javascript/01-settimeout-cleartimeout)
 
+![setTimeout & clearTimeout - Site Image 1](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/09-asynchronous-javascript/01-settimeout-cleartimeout/01-settimeout-cleartimeout-site-1.png)
+
+![setTimeout & clearTimeout - Site Image 2](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/09-asynchronous-javascript/01-settimeout-cleartimeout/01-settimeout-cleartimeout-site-2.png)
+
+![setTimeout & clearTimeout - Site Image 3](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/09-asynchronous-javascript/01-settimeout-cleartimeout/01-settimeout-cleartimeout-site-3.png)
+
+![setTimeout & clearTimeout - Console Image 1](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/09-asynchronous-javascript/01-settimeout-cleartimeout/01-settimeout-cleartimeout-console-1.png)
+
+In this exercise, I explored the use of JavaScript's `setTimeout` and `clearTimeout` functions, learning how to manage timed tasks and cancel them if needed. The HTML setup includes a simple button to interact with the JavaScript code.
+
+#### `setTimeout` Function
+- The `setTimeout` function is used to execute a function or a block of code after a specified delay. In this example, two `setTimeout` calls were initially commented out: one using an anonymous function and another calling the `changeText` function after a 2000-millisecond delay.
+- The `changeText` function, when invoked, changes the text content of the `<h1>` element to "Hello from callback". This function is later set to execute after 3000 milliseconds using `setTimeout`, and the timer ID is stored in the `timerId` constant.
+
+#### `clearTimeout` Function
+- The `clearTimeout` function is demonstrated to cancel a scheduled timeout set with `setTimeout`. This is tied to a button click event in the HTML. When the button with id "cancel" is clicked, the `clearTimeout` function is called with `timerId`, effectively cancelling the scheduled `changeText` function if it hasn't executed yet.
+
 ### [B. setInterval & clearInterval](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/09-asynchronous-javascript/02-setinterval-clearinterval)
 
 ### [C. Callbacks](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/09-asynchronous-javascript/03-callbacks)
