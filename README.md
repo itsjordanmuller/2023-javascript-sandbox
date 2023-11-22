@@ -7107,6 +7107,32 @@ This exercise delves into the basics of AJAX (Asynchronous JavaScript and XML) u
 
 ### [E. Joke Generator Challenge](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/09-asynchronous-javascript/05-joke-generator-challenge/chuck-joke-generator-start)
 
+![Joke Generator Challenge - Site Image 1](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/09-asynchronous-javascript/05-joke-generator-challenge/05-joke-generator-site-1.png)
+
+![Joke Generator Challenge - Site Image 2](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/09-asynchronous-javascript/05-joke-generator-challenge/05-joke-generator-site-2.png)
+
+![Joke Generator Challenge - Site Image 3](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/09-asynchronous-javascript/05-joke-generator-challenge/05-joke-generator-site-3.png)
+
+This exercise showcases how fetch data from an API and update the web page dynamically in JavaScript. The application is a simple Chuck Norris joke generator.
+
+#### Web Page Structure and Styling
+- The HTML structure includes a `div` container with a heading, a `div` for displaying the joke, and a button to trigger fetching a new joke.
+- CSS is used for styling, applying a modern, clean look with a color scheme, shadows, and typography using the 'Roboto' font from Google Fonts.
+
+#### Fetching Jokes using AJAX
+- The core functionality is built in the `script.js` file. It defines the `getJoke` function, which makes an AJAX request to the Chuck Norris Jokes API.
+- An `XMLHttpRequest` object is created and configured with `xhr.open("GET", "https://api.chucknorris.io/jokes/random")`, specifying a GET request to the API's endpoint.
+
+#### Handling the Response
+- The `onreadystatechange` event listener checks if the request is completed (`readyState === 4`) and successful (`status === 200`). Upon success, it parses the JSON response and updates the `jokeText` element's inner text with the new joke.
+- If the request fails (i.e., not reaching readyState 4 and status 200), it displays an error message in the joke text area.
+
+#### Interactivity
+- The `jokeBtn` button is set up with an event listener that calls `getJoke` upon a click, thus enabling the user to fetch a new joke every time the button is clicked.
+- The `getJoke` function is also called once when the script loads, ensuring that a joke is displayed as soon as the page loads.
+
+This exercise effectively demonstrates the use of AJAX for real-time data fetching and dynamic content update in web applications, a key technique for creating interactive and responsive web experiences.
+
 ### [F. Callback Hell](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/09-asynchronous-javascript/06-callback-hell)
 
 ### [G. Promises](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/09-asynchronous-javascript/07-promises)
