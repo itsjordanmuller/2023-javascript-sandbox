@@ -1,10 +1,10 @@
 // Toggle a Class on Button Using Callback
-// function toggle(e) {
-//   console.log("callback ran");
-//   e.target.classList.toggle("danger");
-// }
+function toggle(e) {
+  console.log("callback ran");
+  e.target.classList.toggle("danger");
+}
 
-// document.querySelector("button").addEventListener("click", toggle);
+document.querySelector("button").addEventListener("click", toggle);
 
 const posts = [
   { title: "Post 1", body: "This is post one" },
