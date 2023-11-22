@@ -7058,6 +7058,28 @@ This exercise is a practical demonstration of how to create and control timed, r
 
 ### [C. Callbacks](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/09-asynchronous-javascript/03-callbacks)
 
+![Callbacks - Site Image 1](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/09-asynchronous-javascript/03-callbacks/03-callbacks-site-1.png)
+
+![Callbacks - Site Image 2](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/09-asynchronous-javascript/03-callbacks/03-callbacks-site-2.png)
+
+![Callbacks - Site Image 3](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/09-asynchronous-javascript/03-callbacks/03-callbacks-site-3.png)
+
+![Callbacks - Site Image 4](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/09-asynchronous-javascript/03-callbacks/03-callbacks-site-4.png)
+
+In this exercise, I explored the concept of callbacks in JavaScript, a fundamental aspect of asynchronous programming. The exercise includes an HTML structure with a button and a div element for displaying posts, accompanied by CSS for styling.
+
+#### Callback Function for Button
+- The first part of the JavaScript code demonstrates a simple callback function. When the button is clicked, the `toggle` function is called as a callback. This function toggles the class "danger" on the button, changing its background color as defined in the CSS.
+- The `addEventListener` method is used to attach the `toggle` function to the button's click event, showcasing how callbacks are used in event handling.
+
+#### Asynchronous Callbacks with `setTimeout`
+- The next part of the script demonstrates asynchronous callbacks using `setTimeout`. The `createPost` function simulates a time-consuming task (like fetching data from a server) using `setTimeout`. After a delay, it adds a new post to the `posts` array and then calls a callback function.
+- The callback function here is `getPosts`, which also uses `setTimeout` to mimic a delay. It renders all posts in the `posts` array to the `#posts` div in the HTML. This function is passed as a callback to `createPost`, ensuring that posts are only rendered after the new post is added.
+
+#### Practical Application
+- This exercise illustrates how callbacks can manage asynchronous tasks such as API calls, database operations, or any operations that require waiting for a task to complete before proceeding.
+- The usage of `setTimeout` to mimic network requests or database operations is a common practice in learning and prototyping JavaScript applications.
+
 ### [D. AJAX & XHR](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/09-asynchronous-javascript/04-ajax-xhr)
 
 ### [E. Joke Generator Challenge](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/09-asynchronous-javascript/05-joke-generator-challenge/chuck-joke-generator-start)
