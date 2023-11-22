@@ -7196,6 +7196,27 @@ This exercise effectively introduces the basics of Promises, a key concept in mo
 
 ### [H. Callback to Promise](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/09-asynchronous-javascript/08-callback-to-promise)
 
+![Callback to Promise - Console Image 1](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/09-asynchronous-javascript/08-callback-to-promise/08-callback-to-promise-console-1.png)
+
+![Callback to Promise - Console Image 2](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/09-asynchronous-javascript/08-callback-to-promise/08-callback-to-promise-console-2.png)
+
+This exercise demonstrates refactoring asynchronous JavaScript code from using callbacks to Promises, a modern approach that enhances code readability and error handling.
+
+#### Refactoring to Use Promises
+- The `createPost` function is refactored to return a `Promise`. The promise resolves if a post is successfully added (simulated with a `setTimeout` and a conditional check) and rejects if there's an error.
+- The `getPosts` function remains the same, but its invocation changes. It's now called as a part of the promise chain, being executed after the promise from `createPost` resolves.
+- Error handling is improved by using a `catch` method, which calls the `showError` function to display an error message. This structure makes the error handling more centralized and straightforward.
+
+#### Promise Chain
+- The creation of a new post (`{ title: "Post Three", body: "This is post" }`) is followed by `.then(getPosts)`. This ensures that `getPosts` is called only after the post is successfully added.
+- `.catch(showError)` handles any errors that might occur during the post creation process. This chaining approach is more readable and maintainable compared to nested callbacks.
+
+#### Styling and HTML Structure
+- The HTML structure includes a `div` for displaying posts and a heading.
+- CSS styling is applied to give a clean and modern look to the posts display, using the 'Poppins' font and basic styling elements like background color and padding.
+
+This exercise effectively shows the transition from a callback-based asynchronous operation to a promise-based approach, highlighting the benefits of Promises in terms of code clarity, error handling, and maintainability in JavaScript applications.
+
 ### [I. Promise Chaining](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/09-asynchronous-javascript/09-promise-chaining)
 
 ### [J. Promises vs Callback Hell](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/09-asynchronous-javascript/10-promises-vs-callback-hell)
