@@ -7110,9 +7110,35 @@ body {
 
 ### [E. Audio API](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/12-web-browser-apis/07-audio-api)
 
+![Audio API - Site Image 1](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/12-web-browser-apis/07-audio-api/07-audio-api-site-1.png)
+
+![Audio API - Site Image 2](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/12-web-browser-apis/07-audio-api/07-audio-api-site-2.png)
+
+![Audio API - Site Image 3](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/12-web-browser-apis/07-audio-api/07-audio-api-site-3.png)
+
+![Audio API - Site Image 4](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/12-web-browser-apis/07-audio-api/07-audio-api-site-4.png)
+
+![Audio API - Site Image 5](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/12-web-browser-apis/07-audio-api/07-audio-api-site-5.png)
+
 #### [E1. Music Player](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/12-web-browser-apis/08-music-player-project/music-player)
 
+![Music Player - Site Image 1](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/12-web-browser-apis/08-music-player-project/08-music-player-site-1.png)
+
+![Music Player - Site Image 2](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/12-web-browser-apis/08-music-player-project/08-music-player-site-2.png)
+
+![Music Player - Site Image 3](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/12-web-browser-apis/08-music-player-project/08-music-player-site-3.png)
+
+![Music Player - Site Image 4](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/12-web-browser-apis/08-music-player-project/08-music-player-site-4.png)
+
+![Music Player - Site Image 5](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/12-web-browser-apis/08-music-player-project/08-music-player-site-5.png)
+
+![Music Player - Site Image 6](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/12-web-browser-apis/08-music-player-project/08-music-player-site-6.png)
+
+![Music Player - Site Image 7](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/12-web-browser-apis/08-music-player-project/08-music-player-site-7.png)
+
 #### [E2. Drum Machine](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/12-web-browser-apis/09-drum-machine-project/drum-machine)
+
+![Drum Machine - Site Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/12-web-browser-apis/09-drum-machine-project/09-drum-machine-site.png)
 
 ### [F. Video API](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/12-web-browser-apis/10-video-api)
 
