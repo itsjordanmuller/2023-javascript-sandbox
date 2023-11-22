@@ -7245,6 +7245,41 @@ This example of promise chaining is a clear illustration of managing asynchronou
 
 ### [J. Promises vs Callback Hell](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/09-asynchronous-javascript/10-promises-vs-callback-hell)
 
+![Promises vs Callback Hell - Console Image 1](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/09-asynchronous-javascript/10-promises-vs-callback-hell/10-promises-vs-callback-hell-console-1.png)
+
+![Promises vs Callback Hell - Console Image 2](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/09-asynchronous-javascript/10-promises-vs-callback-hell/10-promises-vs-callback-hell-console-2.png)
+
+![Promises vs Callback Hell - Console Image 3](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/09-asynchronous-javascript/10-promises-vs-callback-hell/10-promises-vs-callback-hell-console-3.png)
+
+![Promises vs Callback Hell - Console Image 4](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/09-asynchronous-javascript/10-promises-vs-callback-hell/10-promises-vs-callback-hell-console-4.png)
+
+![Promises vs Callback Hell - Console Image 5](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/09-asynchronous-javascript/10-promises-vs-callback-hell/10-promises-vs-callback-hell-console-5.png)
+
+This exercise demonstrates the advantage of using Promises over traditional callback-based approaches, often referred to as "Callback Hell," particularly in the context of making multiple dependent asynchronous requests.
+
+#### Refactoring from Callbacks to Promises
+- In a typical "Callback Hell" scenario, multiple nested callbacks would be used to handle the sequence of AJAX requests, leading to deeply nested and potentially confusing code.
+- This example, however, employs Promises to handle the same sequence of operations, resulting in more readable and maintainable code.
+
+#### The `getData` Function
+- `getData` is a function that returns a Promise. It uses the `XMLHttpRequest` (XHR) object to perform an AJAX request to the given endpoint.
+- The function encapsulates the asynchronous nature of the XHR request within a Promise. The Promise is resolved when the data is successfully retrieved and parsed as JSON, or rejected if an error occurs (e.g., if the status code is not 200).
+
+#### Promise Chaining
+- The script fetches data from three different JSON files (`movies.json`, `actors.json`, `directors.json`) in sequence. 
+- Each `.then()` handles the resolution of the previous Promise, logs the retrieved data, and initiates the next data request by returning another Promise from `getData`.
+- This linear chain of `.then()` calls provides a clear, sequential flow of asynchronous operations, avoiding the pitfalls of nested callbacks.
+
+#### Error Handling
+- The `.catch()` at the end of the chain catches any errors that might occur during any of the asynchronous operations. This centralized error handling is a significant advantage over nested callbacks, where each callback would need its error handling logic.
+
+#### Advantages of This Approach
+- **Readability and Maintenance**: The code is much more readable and easier to follow than nested callbacks. Each step in the sequence is clearly laid out, and the logic is not buried in multiple layers of nested functions.
+- **Error Handling**: Errors are easier to manage with Promises. A single `.catch()` can handle any error that occurs at any point in the promise chain.
+- **Scalability**: Adding more asynchronous steps to the sequence is as simple as adding another `.then()`, without increasing the complexity of the code.
+
+In summary, this exercise effectively illustrates the benefits of using Promises for handling sequences of asynchronous operations, offering a cleaner, more manageable alternative to callback-based approaches.
+
 ### [K. Promise All](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/09-asynchronous-javascript/11-promise-all)
 
 ## [10. Fetch & Async Await](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/10-fetch-and-async-await)
