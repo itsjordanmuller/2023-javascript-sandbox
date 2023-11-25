@@ -7705,6 +7705,35 @@ This exercise effectively illustrates how to manage errors in asynchronous JavaS
 
 ![Async Await - Multiple Promises - Movies JSON Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/10-fetch-and-async-await/09-multiple-promises-async-await/09-movies-json.png)
 
+This project demonstrates the use of `async/await` syntax in JavaScript to handle multiple promises efficiently. It contrasts different approaches for fetching and processing data from multiple sources, showcasing the advantages of using `async/await` over traditional promise handling methods.
+
+#### HTML Structure
+- The `index.html` file provides a basic setup with a title and a script tag that links to `script.js`. This structure is all that's needed for running the JavaScript code and displaying the results.
+
+#### JavaScript Functionality
+- `script.js` contains various functions to fetch data from three JSON files: `movies.json`, `actors.json`, and `directors.json`. Each function explores a different method of handling these asynchronous operations.
+
+##### Key Techniques:
+1. **Sequential Fetching with Async/Await**:
+   - Initially, `getAllData` function uses `await` to fetch data from each JSON file sequentially. This method ensures that each request completes before the next begins, which can be useful when the order of operations matters.
+
+2. **Simultaneous Fetching with Promise.all()**:
+   - `getAllDataPromiseAll` and `getAllDataPromiseAll2` functions utilize `Promise.all()` to fetch all data simultaneously. This is a more efficient approach when the order of fetching does not matter, as it reduces the total time needed to fetch all data.
+   - The first version of `Promise.all()` fetches the data and then processes the responses. The second version (`getAllDataPromiseAll2`) combines fetching and processing using `.then()` chained directly to each fetch call.
+
+3. **Fetch API vs Custom XMLHttpRequest**:
+   - The project initially uses a custom function (`getData`) that wraps an `XMLHttpRequest` in a promise. This approach is more verbose and less modern compared to the Fetch API.
+   - Later functions (`getAllDataWithFetch`, `getAllDataPromiseAll`, and `getAllDataPromiseAll2`) switch to the Fetch API, which is more concise and easier to use with `async/await`.
+
+#### Practical Application
+- This exercise is practical for understanding how to handle multiple asynchronous operations in JavaScript. It demonstrates the efficiency gains from running asynchronous tasks in parallel using `Promise.all()`.
+- It also highlights the versatility of `async/await` in making asynchronous code more readable and easier to manage, particularly in comparison to older techniques like XMLHttpRequests and nested `.then()` calls.
+
+#### JSON Data Files
+- The project uses three JSON files (`actors.json`, `directors.json`, `movies.json`) that contain mock data for actors, directors, and movies. These files serve as data sources for the fetch operations in the script.
+
+This exercise provides a comprehensive look at managing multiple asynchronous requests in JavaScript, showing the power of `async/await` and `Promise.all()` for efficient and readable code. It's an excellent demonstration of modern JavaScript practices for handling complex data-fetching scenarios.
+
 ## [11. Flixx App](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/11-flixx-app-project/flixx-app)
 
 ![Flixx App - Site Image 1](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/11-flixx-app-project/11-flixx-app-site-1.png)
