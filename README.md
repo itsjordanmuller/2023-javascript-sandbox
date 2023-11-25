@@ -7562,6 +7562,10 @@ This exercise effectively demonstrates how `Promise.all()` can be used to manage
 
 ### [H. Prototypical Inheritance Call](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/13-oop-constructors-prototypes/08-prototypical-inheritance-call)
 
+![Prototypical Inheritance Call - Console Image 1](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/13-oop-constructors-prototypes/08-prototypical-inheritance-call/08-prototypical-inheritance-call-console-1.png)
+
+![Prototypical Inheritance Call - Console Image 2](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/13-oop-constructors-prototypes/08-prototypical-inheritance-call/08-prototypical-inheritance-call-console-2.png)
+
 ## [14. Classes & Private Properties - Object Oriented Programming](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/14-oop-classes-private-properties)
 
 ### [A. Classes](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/14-oop-classes-private-properties/01-classes)
