@@ -7536,6 +7536,12 @@ This exercise effectively demonstrates how `Promise.all()` can be used to manage
 
 ### [D. Object Properties](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/13-oop-constructors-prototypes/04-object-properties)
 
+![Object Properties - Console Image 1](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/13-oop-constructors-prototypes/04-object-properties/04-object-properties-console-1.png)
+
+![Object Properties - Console Image 2](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/13-oop-constructors-prototypes/04-object-properties/04-object-properties-console-2.png)
+
+![Object Properties - Console Image 3](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/13-oop-constructors-prototypes/04-object-properties/04-object-properties-console-3.png)
+
 ### [E. Prototypes](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/13-oop-constructors-prototypes/05-prototypes)
 
 ### [F. Add Prototype Methods](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/13-oop-constructors-prototypes/06-add-prototype-methods)
