@@ -7330,6 +7330,18 @@ This exercise effectively demonstrates how `Promise.all()` can be used to manage
 
 ### [D. Typicode Todos Project](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/10-fetch-and-async-await/04-typicode-todos-mini-project/typicode-todos)
 
+![Typicode Todos Project - Site Image 1](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/10-fetch-and-async-await/04-typicode-todos-mini-project/04-typicode-todos-site-1.png)
+
+![Typicode Todos Project - Site Image 2](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/10-fetch-and-async-await/04-typicode-todos-mini-project/04-typicode-todos-site-2.png)
+
+![Typicode Todos Project - Site Image 3](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/10-fetch-and-async-await/04-typicode-todos-mini-project/04-typicode-todos-site-3.png)
+
+![Typicode Todos Project - Site Image 4](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/10-fetch-and-async-await/04-typicode-todos-mini-project/04-typicode-todos-site-4.png)
+
+![Typicode Todos Project - Site Image 5](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/10-fetch-and-async-await/04-typicode-todos-mini-project/04-typicode-todos-site-5.png)
+
+![Typicode Todos Project - Console Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/10-fetch-and-async-await/04-typicode-todos-mini-project/04-typicode-todos-console.png)
+
 ### [E. Fetch Error Handling](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/10-fetch-and-async-await/05-fetch-error-handling)
 
 ### [F. Async Await](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/10-fetch-and-async-await/06-async-await)
