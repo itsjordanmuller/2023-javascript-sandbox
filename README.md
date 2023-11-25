@@ -7410,6 +7410,27 @@ This exercise effectively demonstrates how `Promise.all()` can be used to manage
 
 ![Fetch Basics - Console Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/10-fetch-and-async-await/01-fetch-basics/01-fetch-basics-console.png)
 
+In this section, I explored the basics of using the Fetch API in JavaScript, a powerful tool for making network requests and handling responses. This exercise involved fetching data from various sources, including local files and external APIs, and integrating it with a simple HTML structure.
+
+#### HTML Setup
+- The HTML file contains a basic structure with a heading tag (`<h1>`) for displaying fetched data and a reference to the JavaScript file (`script.js`).
+
+#### JSON Data
+- A JSON file named `movies.json` lists movie titles and their release years. This file serves as a local data source for practicing fetch requests.
+
+#### JavaScript Fetch Operations
+- The `script.js` file includes examples of fetching data using different methods.
+  - **Fetching Local JSON File**: The script demonstrates how to fetch a local JSON file (`movies.json`) and parse it as JSON. This is done using `fetch("./movies.json").then(response => response.json()).then(data => console.log(data))`.
+  - **Fetching Local Text File**: A local text file (`test.txt`) is fetched to demonstrate retrieving and logging text content.
+  - **Fetching External API Data**: The script also fetches data from an external API (`https://api.github.com/users/itsjordanmuller`) and updates the `h1` element with fetched data.
+
+#### Key Concepts
+- **Fetch Syntax**: The exercise emphasizes the syntax and structure of fetch requests, chaining `.then()` for handling asynchronous operations.
+- **Response Methods**: It showcases the use of `.json()` and `.text()` methods for handling different types of responses.
+- **DOM Manipulation**: The example with the GitHub API demonstrates basic DOM manipulation by updating HTML content with fetched data.
+
+This exercise provides a fundamental understanding of how to make HTTP requests using the Fetch API in JavaScript, an essential skill for web development.
+
 ### [B. Random User Generator Project](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/10-fetch-and-async-await/02-random-user-project/random-user-generator)
 
 ![Random User Generator Project - Site Image 1](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/10-fetch-and-async-await/02-random-user-project/02-random-user-site-1.png)
