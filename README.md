@@ -7665,6 +7665,32 @@ This exercise provides a clear understanding of how to implement `try...catch` f
 
 ![Async Await - Error Handling - Console Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/10-fetch-and-async-await/08-async-await-error-handling/08-async-await-error-handling-console.png)
 
+This exercise demonstrates the integration of error handling with `async` and `await` in JavaScript, which is essential for managing errors in asynchronous operations such as network requests. It showcases how `try...catch` blocks and promise rejections can be used to handle exceptions in a clean and effective manner.
+
+#### HTML Structure
+- The `index.html` file sets up a basic webpage with a heading and a div (`#output`) for displaying potential output. The structure is completed with a script tag linking to `script.js`.
+
+#### JavaScript Error Handling Techniques
+- `script.js` includes two asynchronous functions, `getUsers` and `getPosts`, both of which are designed to fetch data from external sources using the Fetch API.
+
+##### Key Aspects:
+1. **Using Try...Catch in Async Functions**:
+   - The `getUsers` function demonstrates the use of a `try...catch` block within an `async` function. It attempts to fetch data from a URL that returns a 404 error (`https://httpstat.us/404`).
+   - If the response is not successful (`!response.ok`), an error is thrown. This error is then caught and logged within the `catch` block.
+
+2. **Handling Promise Rejections**:
+   - The `getPosts` function fetches data from a URL simulating a server error (`https://httpstat.us/500`).
+   - Instead of using a `try...catch` block within the function, this function relies on the `.catch()` method chained to the function call. This method catches and logs any errors that occur during the fetch operation.
+
+3. **Error Propagation**:
+   - In both functions, errors are either thrown (when the response is not ok) or caught (when the fetch operation fails). This demonstrates how `async` functions can propagate errors either internally (using `try...catch`) or externally (using `.catch()`).
+
+#### Practical Application
+- These examples provide a practical insight into handling asynchronous errors in JavaScript. Whether it's a network error, a server error, or any other kind of exception, proper error handling ensures that the application can respond gracefully.
+- The use of `try...catch` within `async` functions and the `.catch()` method for promise rejections are both crucial patterns for robust JavaScript applications, especially those that rely on external data sources or APIs.
+
+This exercise effectively illustrates how to manage errors in asynchronous JavaScript code, a vital skill for developing resilient and user-friendly web applications. It highlights the importance of anticipating and handling errors in a controlled manner to prevent crashes and provide better user experiences.
+
 ### [I. Async Await - Multiple Promises](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/10-fetch-and-async-await/09-multiple-promises-async-await)
 
 ![Async Await - Multiple Promises - Console Image 1](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/10-fetch-and-async-await/09-multiple-promises-async-await/09-multiple-promises-async-await-console-1.png)
