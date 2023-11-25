@@ -7036,6 +7036,18 @@ body {
 
 ### [G. Form Submissions](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/07-events/07-form-submission/shopping-list)
 
+![Form Submission - Site Image 1](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/07-events/07-form-submission/07-form-submission-site-1.png)
+
+![Form Submission - Site Image 2](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/07-events/07-form-submission/07-form-submission-site-2.png)
+
+![Form Submission - Site Image 3](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/07-events/07-form-submission/07-form-submission-site-3.png)
+
+![Form Submission - Console Image 1](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/07-events/07-form-submission/07-form-submission-console-1.png)
+
+![Form Submission - Console Image 2](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/07-events/07-form-submission/07-form-submission-console-2.png)
+
+![Form Submission - Console Image 3](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/07-events/07-form-submission/07-form-submission-console-3.png)
+
 ### [H. Event Bubbling](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/07-events/08-event-bubbling/shopping-list)
 
 ### [I. Event Delegation](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/07-events/09-event-delegation/shopping-list)
