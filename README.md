@@ -7312,6 +7312,8 @@ This exercise effectively demonstrates how `Promise.all()` can be used to manage
 
 ### [A. Fetch Basics](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/10-fetch-and-async-await/01-fetch-basics)
 
+![Fetch Basics - Console Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/10-fetch-and-async-await/01-fetch-basics/01-fetch-basics-console.png)
+
 ### [B. Random User Generator Project](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/10-fetch-and-async-await/02-random-user-project/random-user-generator)
 
 ### [C. Fetch Options](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/10-fetch-and-async-await/03-fetch-options)
