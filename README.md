@@ -7668,6 +7668,20 @@ This exercise effectively demonstrates how `Promise.all()` can be used to manage
 
 ### [G. Poll Project](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/17-iterators-data-structures/07-poll-project)
 
+![Poll Project - Site Image 1](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/17-iterators-data-structures/07-poll-project/07-poll-project-site-1.png)
+
+![Poll Project - Site Image 2](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/17-iterators-data-structures/07-poll-project/07-poll-project-site-2.png)
+
+![Poll Project - Site Image 3](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/17-iterators-data-structures/07-poll-project/07-poll-project-site-3.png)
+
+![Poll Project - Site Image 4](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/17-iterators-data-structures/07-poll-project/07-poll-project-site-4.png)
+
+![Poll Project - Site Image 5](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/17-iterators-data-structures/07-poll-project/07-poll-project-site-5.png)
+
+![Poll Project - Site Image 6](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/17-iterators-data-structures/07-poll-project/07-poll-project-site-6.png)
+
+![Poll Project - Site Image 7](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/17-iterators-data-structures/07-poll-project/07-poll-project-site-7.png)
+
 ### [H. Stacks](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/17-iterators-data-structures/08-stacks)
 
 ### [I. Queues](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/17-iterators-data-structures/09-queues)
