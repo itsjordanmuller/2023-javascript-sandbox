@@ -7596,6 +7596,10 @@ This exercise effectively demonstrates how `Promise.all()` can be used to manage
 
 ### [F. Private Properties Convention](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/14-oop-classes-private-properties/06-private-properties-convention)
 
+![Private Properties Convention - Console Image 1](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/14-oop-classes-private-properties/06-private-properties-convention/06-private-properties-convention-console-1.png)
+
+![Private Properties Convention - Console Image 2](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/14-oop-classes-private-properties/06-private-properties-convention/06-private-properties-convention-console-2.png)
+
 ### [G. Class Fields ES2022](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/14-oop-classes-private-properties/07-class-fields-ES2022)
 
 ### [H. Flags & Descriptors](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/14-oop-classes-private-properties/08-flags-descriptors)
