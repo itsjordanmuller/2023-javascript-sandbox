@@ -7441,6 +7441,32 @@ This exercise provides a fundamental understanding of how to make HTTP requests 
 
 ![Random User Generator Project - Site Image 4](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/10-fetch-and-async-await/02-random-user-project/02-random-user-site-4.png)
 
+This JavaScript project is a practical demonstration of using the Fetch API to dynamically retrieve and display user data from an external source. It incorporates modern web design with Tailwind CSS and interactive elements to create a user-friendly interface for generating random user profiles.
+
+#### HTML Structure
+- The `index.html` file establishes the webpage layout, including a title, a button to trigger user data generation, and a display area for the user's information.
+- Tailwind CSS is used for styling, ensuring a responsive and modern design.
+
+#### Fetching User Data
+- The `script.js` file contains the main functionality of the project.
+- A fetch request is made to the `randomuser.me` API, which returns random user data in JSON format.
+- The response includes various user details such as name, email, phone, location, date of birth, gender, and profile picture.
+
+#### Dynamic Content Update
+- Upon receiving the data, the script dynamically updates the content of the webpage to display the fetched user information, including their name, email, phone, location, and age.
+- The user's profile picture is also updated accordingly.
+- Additionally, the background color of the webpage changes based on the gender of the fetched user: steel blue for male, rebeccapurple for female, and default gray for other genders.
+
+#### Interactive Elements
+- A button labeled "Generate User" triggers the fetch request and subsequent display update.
+- A custom CSS spinner animation is included to enhance the interactive experience, providing visual feedback during data loading.
+
+#### Spinner CSS
+- `spinner.css` provides styling for the spinner animation, creating a visually appealing loading indicator.
+- The animation is achieved using keyframes and is triggered when the user data is being fetched.
+
+Overall, this project serves as an excellent example of combining HTML, CSS, and JavaScript to create a dynamic and interactive web application. It demonstrates key concepts such as API fetching, DOM manipulation, event handling, and modern web styling techniques.
+
 ### [C. Fetch Options](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/10-fetch-and-async-await/03-fetch-options)
 
 ![Fetch Options - Console Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/10-fetch-and-async-await/03-fetch-options/03-fetch-options-console.png)
