@@ -7582,6 +7582,8 @@ This exercise effectively demonstrates how `Promise.all()` can be used to manage
 
 ### [C. Static Methods](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/14-oop-classes-private-properties/03-static-methods)
 
+![Static Methods - Console Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/14-oop-classes-private-properties/03-static-methods/03-static-methods-console.png)
+
 ### [D. Getters & Setters with Classes](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/14-oop-classes-private-properties/04-getters-setters-classes)
 
 ### [E. Getters & Setters with Object.defineProperty()](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/14-oop-classes-private-properties/05-getters-setters-defineproperty)
