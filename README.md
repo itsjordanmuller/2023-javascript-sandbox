@@ -7576,6 +7576,10 @@ This exercise effectively demonstrates how `Promise.all()` can be used to manage
 
 ### [B. Class Inheritance](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/14-oop-classes-private-properties/02-class-inheritance)
 
+![Class Inheritance - Console Image 1](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/14-oop-classes-private-properties/02-class-inheritance/02-class-inheritance-console-1.png)
+
+![Class Inheritance - Console Image 2](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/14-oop-classes-private-properties/02-class-inheritance/02-class-inheritance-console-2.png)
+
 ### [C. Static Methods](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/14-oop-classes-private-properties/03-static-methods)
 
 ### [D. Getters & Setters with Classes](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/14-oop-classes-private-properties/04-getters-setters-classes)
