@@ -7060,6 +7060,24 @@ body {
 
 ### [I. Event Delegation](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/07-events/09-event-delegation/shopping-list)
 
+![Event Delegation - Site Image 1](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/07-events/09-event-delegation/09-event-delegation-site-1.png)
+
+![Event Delegation - Site Image 2](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/07-events/09-event-delegation/09-event-delegation-site-2.png)
+
+![Event Delegation - Site Image 3](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/07-events/09-event-delegation/09-event-delegation-site-3.png)
+
+![Event Delegation - Site Image 4](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/07-events/09-event-delegation/09-event-delegation-site-4.png)
+
+![Event Delegation - Site Image 5](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/07-events/09-event-delegation/09-event-delegation-site-5.png)
+
+![Event Delegation - Site Image 6](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/07-events/09-event-delegation/09-event-delegation-site-6.png)
+
+![Event Delegation - Site Image 7](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/07-events/09-event-delegation/09-event-delegation-site-7.png)
+
+![Event Delegation - Site Image 8](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/07-events/09-event-delegation/09-event-delegation-site-8.png)
+
+![Event Delegation - Site Image 9](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/07-events/09-event-delegation/09-event-delegation-site-9.png)
+
 ### [J. Window Events](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/07-events/10-window-events)
 
 ## [8. Shopping List Project](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/08-shopping-list-project/shopping-list)
