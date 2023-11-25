@@ -7556,6 +7556,10 @@ This exercise effectively demonstrates how `Promise.all()` can be used to manage
 
 ### [G. Object Create](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/13-oop-constructors-prototypes/07-object-create)
 
+![Object Create - Console Image 1](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/13-oop-constructors-prototypes/07-object-create/07-object-create-console-1.png)
+
+![Object Create - Console Image 2](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/13-oop-constructors-prototypes/07-object-create/07-object-create-console-2.png)
+
 ### [H. Prototypical Inheritance Call](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/13-oop-constructors-prototypes/08-prototypical-inheritance-call)
 
 ## [14. Classes & Private Properties - Object Oriented Programming](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/14-oop-classes-private-properties)
