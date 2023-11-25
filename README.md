@@ -6992,6 +6992,8 @@ body {
 
 ### [B. Mouse Events](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/07-events/02-mouse-events/shopping-list)
 
+![Mouse Events - Site Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/07-events/02-mouse-events/02-mouse-events-site.png)
+
 ### [C. Event Object](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/07-events/03-event-object/shopping-list)
 
 ### [D. Keyboard Events](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/07-events/04-keyboard-events/shopping-list)
