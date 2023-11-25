@@ -7344,6 +7344,12 @@ This exercise effectively demonstrates how `Promise.all()` can be used to manage
 
 ### [E. Fetch Error Handling](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/10-fetch-and-async-await/05-fetch-error-handling)
 
+![Fetch Error Handling - Console Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/10-fetch-and-async-await/05-fetch-error-handling/05-fetch-error-handling-console.png)
+
+![Random User Generator Project - Fetch Error Handling - Console Image 1](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/10-fetch-and-async-await/05-fetch-error-handling/05-random-user-error-handling-console-1.png)
+
+![Random User Generator Project - Fetch Error Handling - Console Image 2](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/10-fetch-and-async-await/05-fetch-error-handling/05-random-user-error-handling-console-2.png)
+
 ### [F. Async Await](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/10-fetch-and-async-await/06-async-await)
 
 ### [G. Try & Catch](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/10-fetch-and-async-await/07-try-catch)
