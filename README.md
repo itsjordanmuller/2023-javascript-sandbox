@@ -7316,6 +7316,14 @@ This exercise effectively demonstrates how `Promise.all()` can be used to manage
 
 ### [B. Random User Generator Project](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/10-fetch-and-async-await/02-random-user-project/random-user-generator)
 
+![Random User Generator Project - Site Image 1](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/10-fetch-and-async-await/02-random-user-project/02-random-user-site-1.png)
+
+![Random User Generator Project - Site Image 2](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/10-fetch-and-async-await/02-random-user-project/02-random-user-site-2.png)
+
+![Random User Generator Project - Site Image 3](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/10-fetch-and-async-await/02-random-user-project/02-random-user-site-3.png)
+
+![Random User Generator Project - Site Image 4](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/10-fetch-and-async-await/02-random-user-project/02-random-user-site-4.png)
+
 ### [C. Fetch Options](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/10-fetch-and-async-await/03-fetch-options)
 
 ### [D. Typicode Todos Project](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/10-fetch-and-async-await/04-typicode-todos-mini-project/typicode-todos)
