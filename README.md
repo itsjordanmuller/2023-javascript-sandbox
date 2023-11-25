@@ -7080,6 +7080,28 @@ body {
 
 ### [J. Window Events](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/07-events/10-window-events)
 
+![Window Events - Site Image 1](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/07-events/10-window-events/10-window-events-site-1.png)
+
+![Window Events - Site Image 2](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/07-events/10-window-events/10-window-events-site-2.png)
+
+![Window Events - Site Image 3](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/07-events/10-window-events/10-window-events-site-3.png)
+
+![Window Events - Site Image 4](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/07-events/10-window-events/10-window-events-site-4.png)
+
+![Window Events - Site Image 5](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/07-events/10-window-events/10-window-events-site-5.png)
+
+![Window Events - Site Image 6](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/07-events/10-window-events/10-window-events-site-6.png)
+
+![Window Events - Site Image 7](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/07-events/10-window-events/10-window-events-site-7.png)
+
+![Window Events - Site Image 8](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/07-events/10-window-events/10-window-events-site-8.png)
+
+![Window Events - Site Image 9](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/07-events/10-window-events/10-window-events-site-9.png)
+
+![Window Events - Console Image 1](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/07-events/10-window-events/10-window-events-console-1.png)
+
+![Window Events - Console Image 2](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/07-events/10-window-events/10-window-events-console-2.png)
+
 ## [8. Shopping List Project](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/08-shopping-list-project/shopping-list)
 
 ## [9. Asynchronous JavaScript](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/09-asynchronous-javascript)
