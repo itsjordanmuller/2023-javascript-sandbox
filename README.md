@@ -7471,6 +7471,31 @@ Overall, this project serves as an excellent example of combining HTML, CSS, and
 
 ![Fetch Options - Console Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/10-fetch-and-async-await/03-fetch-options/03-fetch-options-console.png)
 
+This exercise delves into the utilization of the Fetch API for making HTTP POST requests in JavaScript. It focuses on how to send data to a server and handle the response, demonstrating the use of various options in the fetch function.
+
+#### HTML Structure
+- The `index.html` file is simple, containing just a title and a script tag that links to the JavaScript file (`script.js`). This minimal setup is sufficient for running the JavaScript code that handles the fetch request.
+
+#### JavaScript Functionality
+- In `script.js`, the primary focus is on the `createPost` function. This function is designed to send a POST request to the specified URL (`https://jsonplaceholder.typicode.com/posts`), which is a placeholder service for testing and prototyping web applications.
+- The function accepts an object with `title` and `body` properties as its argument. This object represents the data to be sent to the server.
+
+#### Making a POST Request
+- The fetch function is used to send a POST request. The key elements in this operation are:
+  - **Method**: The method option is set to `"POST"`, indicating the type of HTTP request being made.
+  - **Body**: The body of the request is a stringified JSON object containing the `title` and `body` of the post. This is done using `JSON.stringify`.
+  - **Headers**: The headers option is used to set HTTP headers. In this example, `Content-Type` is set to `"application/json"` to inform the server that the request body is a JSON string. Additionally, custom headers like `hello: "World"` and `token: "abc123"` are included for demonstration purposes.
+
+#### Handling the Response
+- The response from the fetch request is processed with two `.then()` calls. The first one converts the response to JSON format (`res.json()`), and the second one logs the data to the console.
+- This approach demonstrates how to handle and parse the JSON response from the server.
+
+#### Practical Application
+- By creating and executing the `createPost` function with a sample post object, this exercise showcases a practical implementation of making POST requests in a web application.
+- It provides a foundational understanding of sending data to a server and managing responses, which is a critical aspect of web development, especially in creating interactive and data-driven applications.
+
+This exercise is valuable for learners to grasp the concepts of HTTP requests, specifically POST requests, and how they can be effectively utilized in JavaScript using the Fetch API.
+
 ### [D. Typicode Todos Project](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/10-fetch-and-async-await/04-typicode-todos-mini-project/typicode-todos)
 
 ![Typicode Todos Project - Site Image 1](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/10-fetch-and-async-await/04-typicode-todos-mini-project/04-typicode-todos-site-1.png)
