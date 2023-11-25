@@ -7634,6 +7634,8 @@ This exercise effectively demonstrates how `Promise.all()` can be used to manage
 
 ### [B. Iterators](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/17-iterators-data-structures/02-iterators)
 
+![Iterators - Console Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/17-iterators-data-structures/02-iterators/02-iterators-console.png)
+
 ### [C. Generators](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/17-iterators-data-structures/03-generators)
 
 ### [D. Profile Scroller Project](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/17-iterators-data-structures/04-profile-scroller-project/profile-scroller)
