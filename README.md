@@ -7684,6 +7684,10 @@ This exercise effectively demonstrates how `Promise.all()` can be used to manage
 
 ### [H. Stacks](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/17-iterators-data-structures/08-stacks)
 
+![Stacks - Console Image 1](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/17-iterators-data-structures/08-stacks/08-stacks-console-1.png)
+
+![Stacks - Console Image 2](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/17-iterators-data-structures/08-stacks/08-stacks-console-2.png)
+
 ### [I. Queues](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/17-iterators-data-structures/09-queues)
 
 ### [J. Linked Lists](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/17-iterators-data-structures/10-linked-lists)
