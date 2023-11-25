@@ -7586,6 +7586,10 @@ This exercise effectively demonstrates how `Promise.all()` can be used to manage
 
 ### [D. Getters & Setters with Classes](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/14-oop-classes-private-properties/04-getters-setters-classes)
 
+![Getters & Setters with Classes - Console Image 1](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/14-oop-classes-private-properties/04-getters-setters-classes/04-getters-setters-classes-console-1.png)
+
+![Getters & Setters with Classes - Console Image 2](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/14-oop-classes-private-properties/04-getters-setters-classes/04-getters-setters-classes-console-2.png)
+
 ### [E. Getters & Setters with Object.defineProperty()](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/14-oop-classes-private-properties/05-getters-setters-defineproperty)
 
 ### [F. Private Properties Convention](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/14-oop-classes-private-properties/06-private-properties-convention)
