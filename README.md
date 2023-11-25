@@ -7022,6 +7022,18 @@ body {
 
 ### [F. Input Events](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/07-events/06-input-events/shopping-list)
 
+![Input Events - Site Image - 1](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/07-events/06-input-events/06-input-events-site-1.png)
+
+![Input Events - Site Image - 2](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/07-events/06-input-events/06-input-events-site-2.png)
+
+![Input Events - Site Image - 3](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/07-events/06-input-events/06-input-events-site-3.png)
+
+![Input Events - Site Image - 4](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/07-events/06-input-events/06-input-events-site-4.png)
+
+![Input Events - Site Image - 5](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/07-events/06-input-events/06-input-events-site-5.png)
+
+![Input Events - Console Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/07-events/06-input-events/06-input-events-console-1.png)
+
 ### [G. Form Submissions](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/07-events/07-form-submission/shopping-list)
 
 ### [H. Event Bubbling](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/07-events/08-event-bubbling/shopping-list)
