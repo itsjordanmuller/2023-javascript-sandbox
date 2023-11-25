@@ -7626,6 +7626,12 @@ This exercise effectively demonstrates how `Promise.all()` can be used to manage
 
 ### [A. Symbols](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/17-iterators-data-structures/01-symbols)
 
+![Symbols - Console Image 1](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/17-iterators-data-structures/01-symbols/01-symbols-console-1.png)
+
+![Symbols - Console Image 2](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/17-iterators-data-structures/01-symbols/01-symbols-console-2.png)
+
+![Symbols - Console Image 3](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/17-iterators-data-structures/01-symbols/01-symbols-console-3.png)
+
 ### [B. Iterators](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/17-iterators-data-structures/02-iterators)
 
 ### [C. Generators](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/17-iterators-data-structures/03-generators)
