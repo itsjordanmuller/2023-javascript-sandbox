@@ -7550,6 +7550,10 @@ This exercise effectively demonstrates how `Promise.all()` can be used to manage
 
 ### [F. Add Prototype Methods](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/13-oop-constructors-prototypes/06-add-prototype-methods)
 
+![Add Prototype Methods - Console Image 1](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/13-oop-constructors-prototypes/06-add-prototype-methods/06-add-prototype-methods-console-1.png)
+
+![Add Prototype Methods - Console Image 2](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/13-oop-constructors-prototypes/06-add-prototype-methods/06-add-prototype-methods-console-2.png)
+
 ### [G. Object Create](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/13-oop-constructors-prototypes/07-object-create)
 
 ### [H. Prototypical Inheritance Call](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/13-oop-constructors-prototypes/08-prototypical-inheritance-call)
