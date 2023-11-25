@@ -7602,6 +7602,10 @@ This exercise effectively demonstrates how `Promise.all()` can be used to manage
 
 ### [G. Class Fields ES2022](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/14-oop-classes-private-properties/07-class-fields-ES2022)
 
+![Class Fields ES2022 - Console Image 1](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/14-oop-classes-private-properties/07-class-fields-ES2022/07-class-fields-ES2022-console-1.png)
+
+![Class Fields ES2022 - Console Image 2](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/14-oop-classes-private-properties/07-class-fields-ES2022/07-class-fields-ES2022-console-2.png)
+
 ### [H. Flags & Descriptors](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/14-oop-classes-private-properties/08-flags-descriptors)
 
 ### [I. Freezing & Sealing Properties](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/14-oop-classes-private-properties/09-freezing-sealing-properties)
