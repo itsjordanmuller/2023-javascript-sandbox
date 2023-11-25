@@ -7644,6 +7644,14 @@ This exercise effectively demonstrates how `Promise.all()` can be used to manage
 
 ### [D. Profile Scroller Project](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/17-iterators-data-structures/04-profile-scroller-project/profile-scroller)
 
+![Profile Scroller Project - Console Image 1](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/17-iterators-data-structures/04-profile-scroller-project/04-profile-scroller-site-1.png)
+
+![Profile Scroller Project - Console Image 2](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/17-iterators-data-structures/04-profile-scroller-project/04-profile-scroller-site-2.png)
+
+![Profile Scroller Project - Console Image 3](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/17-iterators-data-structures/04-profile-scroller-project/04-profile-scroller-site-3.png)
+
+![Profile Scroller Project - Console Image 4](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/17-iterators-data-structures/04-profile-scroller-project/04-profile-scroller-site-4.png)
+
 ### [E. Sets](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/17-iterators-data-structures/05-sets)
 
 ### [F. Maps](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/17-iterators-data-structures/06-maps)
