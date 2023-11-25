@@ -7608,6 +7608,10 @@ This exercise effectively demonstrates how `Promise.all()` can be used to manage
 
 ### [H. Flags & Descriptors](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/14-oop-classes-private-properties/08-flags-descriptors)
 
+![Flags & Descriptors - Console Image 1](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/14-oop-classes-private-properties/08-flags-descriptors/08-flags-descriptors-console-1.png)
+
+![Flags & Descriptors - Console Image 2](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/14-oop-classes-private-properties/08-flags-descriptors/08-flags-descriptors-console-2.png)
+
 ### [I. Freezing & Sealing Properties](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/14-oop-classes-private-properties/09-freezing-sealing-properties)
 
 ## [15. Tracalorie Project](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/15-tracalorie-project/tracalorie)
