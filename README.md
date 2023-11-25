@@ -7002,7 +7002,23 @@ body {
 
 ![Keyboard Events - Site Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/07-events/04-keyboard-events/04-keyboard-events-site.png)
 
-### [E. Event Key Codes Project](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/07-events/05-event-keycode-project/event-keycodes)
+### [E. Event Keycodes Project](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/07-events/05-event-keycode-project/event-keycodes)
+
+![Event Keycodes Project - Site Image 1](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/07-events/05-event-keycode-project/05-event-keycodes-site-1.png)
+
+![Event Keycodes Project - Site Image 2](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/07-events/05-event-keycode-project/05-event-keycodes-site-2.png)
+
+![Event Keycodes Project - Site Image 3](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/07-events/05-event-keycode-project/05-event-keycodes-site-3.png)
+
+![Event Keycodes Project - Site Image 4](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/07-events/05-event-keycode-project/05-event-keycodes-site-4.png)
+
+![Event Keycodes Project - Site Image 5](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/07-events/05-event-keycode-project/05-event-keycodes-site-5.png)
+
+![Event Keycodes Project - Site Image 6](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/07-events/05-event-keycode-project/05-event-keycodes-site-6.png)
+
+![Event Keycodes Project - Site Image 7](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/07-events/05-event-keycode-project/05-event-keycodes-site-7.png)
+
+![Event Keycodes Project - Site Image 8](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/07-events/05-event-keycode-project/05-event-keycodes-site-8.png)
 
 ### [F. Input Events](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/07-events/06-input-events/shopping-list)
 
