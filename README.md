@@ -6988,6 +6988,8 @@ body {
 
 ### [A. Event Listeners](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/07-events/01-event-listeners/shopping-list)
 
+![Event Listeners - Site Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/07-events/01-event-listeners/01-event-listeners-site.png)
+
 ### [B. Mouse Events](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/07-events/02-mouse-events/shopping-list)
 
 ### [C. Event Object](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/07-events/03-event-object/shopping-list)
