@@ -7050,6 +7050,14 @@ body {
 
 ### [H. Event Bubbling](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/07-events/08-event-bubbling/shopping-list)
 
+![Event Bubbling - Site Image 1](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/07-events/08-event-bubbling/08-event-bubbling-site-1.png)
+
+![Event Bubbling - Site Image 2](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/07-events/08-event-bubbling/08-event-bubbling-site-2.png)
+
+![Event Bubbling - Site Image 3](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/07-events/08-event-bubbling/08-event-bubbling-site-3.png)
+
+![Event Bubbling - Site Image 4](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/07-events/08-event-bubbling/08-event-bubbling-site-4.png)
+
 ### [I. Event Delegation](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/07-events/09-event-delegation/shopping-list)
 
 ### [J. Window Events](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/07-events/10-window-events)
