@@ -7510,6 +7510,32 @@ This exercise is valuable for learners to grasp the concepts of HTTP requests, s
 
 ![Typicode Todos Project - Console Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/10-fetch-and-async-await/04-typicode-todos-mini-project/04-typicode-todos-console.png)
 
+This project demonstrates the creation of a simple Todo application using HTML, CSS, and JavaScript, integrating with the JSONPlaceholder API for handling Todos. It provides a practical example of CRUD (Create, Read, Update, Delete) operations in web development.
+
+#### HTML Structure
+- The `index.html` file sets up the basic structure of the Todo application, including a header, a form for adding new todos, and a div (`#todo-list`) where the todo items will be displayed.
+- The application is styled using an external stylesheet (`style.css`) and Google Fonts.
+
+#### JavaScript Functionality
+- `script.js` contains the logic for the application. It interacts with the JSONPlaceholder API to perform various actions on the todos.
+
+##### Key Functions:
+1. **getTodos**: Fetches the initial list of todos from the API and displays them on the page. Each todo is added to the DOM with `addTodoToDOM`.
+2. **addTodoToDOM**: Takes a todo object and appends it to the todo list in the DOM. It also applies the 'done' class to completed todos.
+3. **createTodo**: Handles the creation of new todos. It sends a POST request to the API with the new todo data and adds the returned todo to the DOM.
+4. **toggleCompleted**: Toggles the completion status of a todo item when clicked. It updates the todo's status on the API using `updateTodo`.
+5. **updateTodo**: Sends a PUT request to the API to update the completion status of a todo.
+6. **deleteTodo**: Handles deleting a todo. It sends a DELETE request to the API and removes the todo from the DOM.
+
+#### Event Listeners
+- The application sets up event listeners for loading todos on DOMContentLoaded, submitting the form to create new todos, clicking on a todo to mark it as complete, and double-clicking to delete a todo.
+
+#### CSS Styling
+- `style.css` provides the visual styling for the application. It uses the Poppins font from Google Fonts and applies basic styling for layout, input fields, buttons, and todo items.
+- The `.done` class changes the background of completed todos to differentiate them visually.
+
+This mini project is a great example of how to build a functional web application that interacts with an external API for data management. It covers essential web development concepts, including asynchronous JavaScript for API requests, DOM manipulation, and event handling, along with fundamental CSS styling.
+
 ### [E. Fetch Error Handling](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/10-fetch-and-async-await/05-fetch-error-handling)
 
 ![Fetch Error Handling - Console Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/10-fetch-and-async-await/05-fetch-error-handling/05-fetch-error-handling-console.png)
