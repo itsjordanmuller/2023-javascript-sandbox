@@ -7000,6 +7000,8 @@ body {
 
 ### [D. Keyboard Events](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/07-events/04-keyboard-events/shopping-list)
 
+![Keyboard Events - Site Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/07-events/04-keyboard-events/04-keyboard-events-site.png)
+
 ### [E. Event Key Codes Project](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/07-events/05-event-keycode-project/event-keycodes)
 
 ### [F. Input Events](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/07-events/06-input-events/shopping-list)
