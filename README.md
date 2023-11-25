@@ -7605,6 +7605,31 @@ This project is an excellent example of implementing error handling in web appli
 
 ![Async Await - Console Image 2](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/10-fetch-and-async-await/06-async-await/06-async-await-console-2.png)
 
+This project focuses on demonstrating the use of `async` and `await` in JavaScript, a syntactical feature that simplifies working with asynchronous operations like API requests or timer functions. The goal is to show how these keywords make code that deals with promises more readable and easier to write.
+
+#### HTML Structure
+- The `index.html` file sets up a basic webpage with a title and a script tag linking to `script.js`. This structure is all that's needed to run and showcase the JavaScript functionality.
+
+#### JavaScript Exploration
+- `script.js` contains multiple functions illustrating different ways to handle asynchronous code, comparing traditional promise-based approaches with `async` and `await`.
+
+##### Key Elements:
+1. **Promise Example**: The script begins with a simple promise that resolves with user data after a 1-second delay. This demonstrates the basic setup of a promise in JavaScript.
+
+2. **Using Async and Await**:
+   - **getPromise Function**: This function uses `async` and `await` to wait for the promise to resolve before logging the response. It's a basic demonstration of turning a promise-based operation into synchronous-looking code.
+   - **getUsers Function**: A more complex example where an asynchronous fetch request is made to retrieve user data from an external API. `async` and `await` are used to wait for the response and then wait for the response to be converted to JSON.
+   - **getPosts Function**: This is an arrow function version of using `async` and `await`, showcasing how these keywords can be integrated into different function syntaxes.
+
+3. **Comparing with Traditional Promise Handling**:
+   - The script includes commented-out versions of the `getUsers` function, showing the traditional `.then()` method for handling promises. This comparison highlights the syntactical simplicity and readability that `async` and `await` bring to asynchronous JavaScript code.
+
+#### Practical Application
+- The `async` and `await` keywords are used in real-world scenarios where handling asynchronous operations in a more synchronous, linear manner can greatly simplify code logic and improve readability.
+- This approach is particularly useful in scenarios involving multiple asynchronous operations that need to be performed in sequence.
+
+This exercise provides a clear and practical understanding of how `async` and `await` can be used to handle promises in JavaScript. It shows the evolution of asynchronous JavaScript, from callback functions and promises to the more modern and readable `async` and `await` syntax.
+
 ### [G. Try & Catch](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/10-fetch-and-async-await/07-try-catch)
 
 ![Try & Catch - Console Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/10-fetch-and-async-await/07-try-catch/07-try-catch-console.png)
