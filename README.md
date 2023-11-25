@@ -7366,6 +7366,18 @@ This exercise effectively demonstrates how `Promise.all()` can be used to manage
 
 ### [I. Async Await - Multiple Promises](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/10-fetch-and-async-await/09-multiple-promises-async-await)
 
+![Async Await - Multiple Promises - Console Image 1](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/10-fetch-and-async-await/09-multiple-promises-async-await/09-multiple-promises-async-await-console-1.png)
+
+![Async Await - Multiple Promises - Console Image 2](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/10-fetch-and-async-await/09-multiple-promises-async-await/09-multiple-promises-async-await-console-2.png)
+
+![Async Await - Multiple Promises - Console Image 3](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/10-fetch-and-async-await/09-multiple-promises-async-await/09-multiple-promises-async-await-console-3.png)
+
+![Async Await - Multiple Promises - Actor JSON Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/10-fetch-and-async-await/09-multiple-promises-async-await/09-actors-json.png)
+
+![Async Await - Multiple Promises - Directors JSON Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/10-fetch-and-async-await/09-multiple-promises-async-await/09-directors-json.png)
+
+![Async Await - Multiple Promises - Movies JSON Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/10-fetch-and-async-await/09-multiple-promises-async-await/09-movies-json.png)
+
 ## [11. Flixx App](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/11-flixx-app-project/flixx-app)
 
 ![Flixx App - Site Image 1](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/11-flixx-app-project/11-flixx-app-site-1.png)
