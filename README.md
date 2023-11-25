@@ -7614,6 +7614,10 @@ This exercise effectively demonstrates how `Promise.all()` can be used to manage
 
 ### [I. Freezing & Sealing Properties](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/14-oop-classes-private-properties/09-freezing-sealing-properties)
 
+![Freezing & Sealing Properties - Console Image 1](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/14-oop-classes-private-properties/09-freezing-sealing-properties/09-freezing-sealing-properties-console-1.png)
+
+![Freezing & Sealing Properties - Console Image 2](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/14-oop-classes-private-properties/09-freezing-sealing-properties/09-freezing-sealing-properties-console-2.png)
+
 ## [15. Tracalorie Project](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/15-tracalorie-project/tracalorie)
 
 ## [16. Modules & Tooling](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/16-modules-and-tooling)
