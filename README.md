@@ -6996,6 +6996,8 @@ body {
 
 ### [C. Event Object](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/07-events/03-event-object/shopping-list)
 
+![Event Object - Site Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/07-events/03-event-object/03-event-object-site.png)
+
 ### [D. Keyboard Events](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/07-events/04-keyboard-events/shopping-list)
 
 ### [E. Event Key Codes Project](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/07-events/05-event-keycode-project/event-keycodes)
