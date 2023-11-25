@@ -7634,6 +7634,33 @@ This exercise provides a clear and practical understanding of how `async` and `a
 
 ![Try & Catch - Console Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/10-fetch-and-async-await/07-try-catch/07-try-catch-console.png)
 
+This project is focused on demonstrating the usage and importance of `try...catch` blocks in JavaScript, especially in conjunction with `async` and `await`. These structures are crucial for robust error handling in both synchronous and asynchronous code.
+
+#### HTML Structure
+- The `index.html` file provides a simple setup with a title and a script tag that includes the `script.js` file. This basic structure is adequate for running the JavaScript examples.
+
+#### JavaScript Error Handling
+- `script.js` explores different scenarios where `try...catch` blocks are used to gracefully handle errors that may occur during code execution.
+
+##### Key Concepts:
+1. **Basic Try...Catch Usage**:
+   - Initially, there's a commented-out example demonstrating a `try...catch` block to catch a ReferenceError (attempting to log an undefined variable `x`).
+
+2. **Error Handling in Functions**:
+   - The `double` function is designed to demonstrate error handling within a function. It throws an error if the input is not a number.
+   - The `try` block attempts to call `double` with a non-numeric argument, which triggers an error.
+   - The `catch` block catches this error and logs a custom error message.
+
+3. **Importance of Try...Catch**:
+   - The examples illustrate the importance of `try...catch` in preventing the entire script from crashing when an error occurs. Instead, the error is caught, and the script can continue running.
+   - This approach is particularly useful when dealing with operations that might fail due to reasons beyond the control of the programmer (e.g., invalid user input, failed network requests).
+
+#### Practical Application
+- `try...catch` is essential in JavaScript for handling exceptions gracefully. It allows developers to control the flow of error handling and provide more informative feedback to the user or logs.
+- When used with `async` and `await`, `try...catch` becomes an elegant solution to handle promise rejections and other asynchronous errors without breaking the application flow.
+
+This exercise provides a clear understanding of how to implement `try...catch` for effective error handling in JavaScript. It highlights the significance of managing errors properly to create reliable and user-friendly applications.
+
 ### [H. Async Await - Error Handling](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/10-fetch-and-async-await/08-async-await-error-handling)
 
 ![Async Await - Error Handling - Console Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/10-fetch-and-async-await/08-async-await-error-handling/08-async-await-error-handling-console.png)
