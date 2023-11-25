@@ -7526,6 +7526,8 @@ This exercise effectively demonstrates how `Promise.all()` can be used to manage
 
 ### [B. Constructor Functions](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/13-oop-constructors-prototypes/02-constructor-functions)
 
+![Constructor Functions - Console Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/13-oop-constructors-prototypes/02-constructor-functions/02-constructor-functions-console.png)
+
 ### [C. Literals vs. Constructors](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/13-oop-constructors-prototypes/03-literals-vs-constructors)
 
 ### [D. Object Properties](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/13-oop-constructors-prototypes/04-object-properties)
