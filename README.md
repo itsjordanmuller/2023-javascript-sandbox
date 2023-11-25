@@ -7530,6 +7530,10 @@ This exercise effectively demonstrates how `Promise.all()` can be used to manage
 
 ### [C. Literals vs. Constructors](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/13-oop-constructors-prototypes/03-literals-vs-constructors)
 
+![Literals vs. Constructors - Console Image 1](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/13-oop-constructors-prototypes/03-literals-vs-constructors/03-literals-vs-constructors-console-1.png)
+
+![Literals vs. Constructors - Console Image 2](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/13-oop-constructors-prototypes/03-literals-vs-constructors/03-literals-vs-constructors-console-2.png)
+
 ### [D. Object Properties](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/13-oop-constructors-prototypes/04-object-properties)
 
 ### [E. Prototypes](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/13-oop-constructors-prototypes/05-prototypes)
