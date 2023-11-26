@@ -411,6 +411,54 @@ Self-Paced Learning Sandbox for JavaScript with Node.js, Jest, Webpack, JSON, HT
 
 ### [4. Logic & Control Flow](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/04-logic-control-flow)
 
+#### [A. If Statements](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/04-logic-control-flow/01-if-statements)
+
+##### Mastering Basic `if` Statements
+
+> Provides a comprehensive introduction to `if` statements in JavaScript. Covers the use of true and false conditions, relational operators for variable comparison, and demonstrates how to execute code blocks based on specific conditions. Also introduces shorthand syntax for `if` statements.
+
+#### [B. Else If Nesting](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/04-logic-control-flow/02-else-if-nesting)
+
+##### Nested `else if` Statements and Complex Conditional Flows
+
+> Discusses the implementation of `else if` and nested `if` statements for creating complex conditional flows. Uses examples such as time-based greetings and incorporates logical operators (`&&`, `||`) to handle multiple conditions.
+
+#### [C. Switches](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/04-logic-control-flow/03-switches)
+
+##### Utilizing `switch` Statements in JavaScript
+
+> Focuses on `switch` statements as an efficient alternative to multiple `if` statements. Demonstrates their application with different variable types and boolean expressions for dynamic condition checking.
+
+#### [D. Calculator Challenge](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/04-logic-control-flow/04-calculator-challenge)
+
+##### Building a Simple Calculator with `switch` Statement
+
+> Implements a basic calculator function using a `switch` statement. Showcases handling different arithmetic operations based on the provided operator, demonstrating the versatility and necessity of error handling in programming.
+
+#### [E. Truthy & Falsy Values](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/04-logic-control-flow/05-truthy-falsy)
+
+##### Exploring Truthy and Falsy Values in JavaScript
+
+> Explores the concepts of truthy and falsy values in JavaScript, including special cases and differences between loose and strict equality. Highlights their significant impact on conditional logic.
+
+#### [F. Logical Operators](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/04-logic-control-flow/06-logical-operators)
+
+##### Understanding Logical Operators in JavaScript
+
+> Delves into `AND`, `OR`, and `Nullish Coalescing` operators, explaining their behavior in various contexts. Demonstrates their practical applications in conditional rendering and value assignment.
+
+#### [G. Logical Assignment](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/04-logic-control-flow/07-logical-assignment)
+
+##### Logical Assignment Operators in JavaScript
+
+> Covers the logical assignment operators (`||=`, `&&=`, `??=`), providing a concise way of writing conditional assignments. Compares these operators with traditional methods to highlight their efficiency and use cases.
+
+#### [H. Ternary Operator](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/04-logic-control-flow/08-ternary-operator)
+
+##### Using the Ternary Operator for Conditional Logic
+
+> Explores the ternary operator for streamlined conditional operations. Compares it with traditional `if-else` statements and demonstrates its use in various scenarios, including variable assignment, executing multiple statements, and browser interactions with `alert()`.
+
 ### [5. Iteration & Array Methods](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/05-iteration-array-methods)
 
 ### [6. Document Object Model](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/06-document-object-model)
