@@ -343,6 +343,72 @@ Self-Paced Learning Sandbox for JavaScript with Node.js, Jest, Webpack, JSON, HT
 
 ### [3. Functions & Scope](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/03-functions-scope)
 
+#### [A. Function Basics](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/03-functions-scope/01-function-basics)
+
+##### Introduction to JavaScript Functions
+
+> Introduces the basics of function creation and invocation, including the use of parameters and return values. Demonstrates the syntax of functions and how to store returned values in variables for further use.
+
+#### [B. Parameters & Arguments](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/03-functions-scope/02-params-arguments)
+
+##### Deep Dive into Function Parameters and Arguments
+
+> Explores the intricacies of function parameters and arguments, such as default and rest parameters. Discusses the use of objects and arrays as arguments and emphasizes the concept of function scope.
+
+#### [C. Global Scope](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/03-functions-scope/03-global-scope)
+
+##### Global Scope Interaction with Functions
+
+> Focuses on the concept of global scope in JavaScript, including variable shadowing and the behavior of the `window` object. Examines the interaction between global variables and function/block scopes.
+
+#### [D. Block Scope](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/03-functions-scope/04-block-scope)
+
+##### Understanding Block Scope in JavaScript
+
+> Delves into block scope, particularly how `const`, `let`, and `var` are scoped differently within blocks and functions, highlighting key differences in their behaviors.
+
+#### [E. Nested Scope](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/03-functions-scope/05-nested-scope)
+
+##### Nested Scopes in Functions and Blocks
+
+> Explores the concept of nested scopes within functions and block statements, explaining how inner scope variables can access outer scope variables but not the other way around.
+
+#### [F. Declaration vs. Expression](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/03-functions-scope/06-declaration-vs-expression)
+
+##### Function Declarations vs. Expressions
+
+> Clarifies the distinction between function declarations and expressions, focusing on the concept of hoisting in declarations and the temporal dead zone in expressions.
+
+#### [G. Arrow Functions](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/03-functions-scope/07-arrow-functions)
+
+##### Introduction to ES6 Arrow Functions
+
+> Covers the syntax of arrow functions, including single-parameter functions, implicit returns, and returning object literals. Demonstrates the application of arrow functions in array methods for more concise coding.
+
+#### [H. IIFE - Immediately Invoked Function Expression](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/03-functions-scope/08-iife)
+
+##### Using Immediately Invoked Function Expressions (IIFEs)
+
+> Discusses the concept and practical application of IIFEs in JavaScript, focusing on their use for scope management and immediate function execution, including passing arguments to IIFEs.
+
+#### [I. Function Challenges](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/03-functions-scope/09-function-challenges)
+
+##### Practical Function Challenges for Applied Learning
+
+> Presents practical challenges that incorporate various function concepts, including temperature conversion, finding minimum and maximum values in arrays, and an IIFE challenge for calculating rectangle area.
+
+#### [J. Execution Context in Action](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/03-functions-scope/10-execution-context-in-action)
+
+##### Exploring Execution Context in JavaScript
+
+> Demonstrates the concept of execution context through examples involving variable declarations and function calls, showing how different contexts interact within the JavaScript engine.
+
+#### [K. Call Stack](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/03-functions-scope/11-call-stack)
+
+##### Understanding the JavaScript Call Stack
+
+> Investigates the workings of the JavaScript call stack, illustrating the Last In, First Out (LIFO) principle through examples of nested function calls and their execution order.
+
 ### [4. Logic & Control Flow](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/04-logic-control-flow)
 
 ### [5. Iteration & Array Methods](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/05-iteration-array-methods)
