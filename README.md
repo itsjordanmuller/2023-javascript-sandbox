@@ -40,7 +40,7 @@ Self-Paced Learning Sandbox for JavaScript with Node.js, Jest, Webpack, JSON, HT
 
 ## Table of Contents
 <details open>
-<summary>Close/Open - Table of Contents</summary>
+<summary>(Hide/Show) - Table of Contents</summary>
 
 1. [Variables & Data Types](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/01-variables-data-types)
    - [A. Console](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/01-variables-data-types/01-console)
