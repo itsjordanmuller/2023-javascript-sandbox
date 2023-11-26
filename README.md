@@ -287,6 +287,60 @@ Self-Paced Learning Sandbox for JavaScript with Node.js, Jest, Webpack, JSON, HT
 
 ### [2. Arrays & Objects](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/02-arrays-and-objects)
 
+#### [A. Array Basics](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/02-arrays-and-objects/01-array-basics)
+
+##### Introduction to Arrays in JavaScript
+
+> Guides through the basics of array creation using both literals and constructor methods. Discusses how to access and modify array elements, showcasing fundamental operations like adding, removing, or altering elements within arrays.
+
+#### [B. Array Methods](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/02-arrays-and-objects/02-array-methods)
+
+##### Mastering Array Manipulation Techniques
+
+> Delves into various array methods, including adding, removing, and reversing elements. Explains the concepts of array slicing and splicing, and techniques for checking the presence of values within arrays.
+
+#### [C. Array Nesting, Concatenation & Spread](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/02-arrays-and-objects/03-array-nesting-concat-spread)
+
+##### Advanced Techniques in Array Handling
+
+> Focuses on more complex array manipulation, such as nesting arrays within each other, using `.concat()` and the spread operator for concatenation, and employing `.flat()` for array flattening.
+
+#### [D. Array Challenges](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/02-arrays-and-objects/04-array-challenge)
+
+##### Practical Challenges to Reinforce Array Concepts
+
+> Presents two engaging challenges that apply various array manipulation methods, including `unshift`, `push`, `reverse`, as well as slicing and flattening, for hands-on learning.
+
+#### [E. Object Literals](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/02-arrays-and-objects/05-object-literals)
+
+##### Exploring Object Literals
+
+> Introduces the concept of object literals in JavaScript, covering how to create, access, modify, and delete object properties. Includes using functions as properties and handling unconventional property names.
+
+#### [F. Object Spread Methods](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/02-arrays-and-objects/06-object-spread-methods)
+
+##### Advanced Object Handling and Spread Syntax
+
+> Explores advanced concepts in object handling, including creating objects, accessing nested properties, merging objects using the spread syntax, and techniques involving `Object.keys` and `Object.entries`.
+
+#### [G. Destructuring & Naming](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/02-arrays-and-objects/07-destructuring-naming)
+
+##### Destructuring and Renaming Techniques in ES6
+
+> Highlights modern JavaScript techniques such as property shorthand in objects, destructuring in both objects and arrays, and renaming variables during the destructuring process.
+
+#### [H. JSON Introduction](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/02-arrays-and-objects/08-json-intro)
+
+##### Understanding JSON in JavaScript
+
+> Discusses the integration of JavaScript objects with JSON, including converting objects to JSON strings and parsing JSON. Provides examples with arrays and handling external JSON data.
+
+#### [I. Object Challenge](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/02-arrays-and-objects/09-object-challenge)
+
+##### Object Manipulation and JSON Conversion Challenge
+
+> Presents a practical challenge involving the manipulation of object properties, use of destructuring, and the conversion of an array of objects into JSON format, for applied learning in a real-world context.
+
 ### [3. Functions & Scope](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/03-functions-scope)
 
 ### [4. Logic & Control Flow](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/04-logic-control-flow)
