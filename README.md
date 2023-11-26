@@ -1,4 +1,9 @@
+<div align="center">
+
+<img src="https://custom-icon-badges.demolab.com/badge/JavaScript%20Sandbox-dfe6e9.svg?style=for-the-badge&logo=package&logoColor=000000" width="100%"/>
+
 # JavaScript Sandbox
+
 Self-Paced Learning Sandbox for JavaScript with Node.js, Jest, Webpack, JSON, HTML & CSS
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)
@@ -11,26 +16,27 @@ Self-Paced Learning Sandbox for JavaScript with Node.js, Jest, Webpack, JSON, HT
 
 ## Main Sections & Projects
 
-![Variables & Data Types](https://custom-icon-badges.demolab.com/badge/Variables%20&%20Data%20Types-F5A3A3.svg?logo=bookmark&logoColor=000000)
-![Arrays & Objects](https://custom-icon-badges.demolab.com/badge/Arrays%20&%20Objects-F5BAA3.svg?logo=bookmark&logoColor=000000)
-![Functions & Scope](https://custom-icon-badges.demolab.com/badge/Functions%20&%20Scope-F5D3A3.svg?logo=bookmark&logoColor=000000)
-![Logic & Control Flow](https://custom-icon-badges.demolab.com/badge/Logic%20&%20Control%20Flow-F5EBA3.svg?logo=bookmark&logoColor=000000)
-![Iteration & Array Methods](https://custom-icon-badges.demolab.com/badge/Iteration%20&%20Array%20Methods-E6F5A3.svg?logo=bookmark&logoColor=000000)
-![Document Object Model](https://custom-icon-badges.demolab.com/badge/Document%20Object%20Model-CDF5A3.svg?logo=bookmark&logoColor=000000)
-![Events in JavaScript](https://custom-icon-badges.demolab.com/badge/Events%20in%20JavaScript-B5F5A3.svg?logo=bookmark&logoColor=000000)
-![Shopping List Project](https://custom-icon-badges.demolab.com/badge/Shopping%20List%20Project-A3F5AA.svg?logo=star&logoColor=000000)
-![Asynchronous JavaScript](https://custom-icon-badges.demolab.com/badge/Asynchronous%20JavaScript-A3F5C2.svg?logo=bookmark&logoColor=000000)
-![Fetch & Async Await](https://custom-icon-badges.demolab.com/badge/Fetch%20&%20Async%20Await-A3F5DB.svg?logo=bookmark&logoColor=000000)
-![Flixx App Project](https://custom-icon-badges.demolab.com/badge/Flixx%20App%20Project-A3F5E7.svg?logo=star&logoColor=000000)
-![Web Browser APIs](https://custom-icon-badges.demolab.com/badge/Web%20Browser%20APIs-A3EAF5.svg?logo=bookmark&logoColor=000000)
-![Constructors & Prototypes (OOP)](https://custom-icon-badges.demolab.com/badge/Constructors%20&%20Prototypes%20(OOP)-A3D1F5.svg?logo=bookmark&logoColor=000000)
-![Classes & Private Properties (OOP)](https://custom-icon-badges.demolab.com/badge/Classes%20&%20Private%20Properties%20(OOP)-A3B9F5.svg?logo=bookmark&logoColor=000000)
-![Tracalorie Project](https://custom-icon-badges.demolab.com/badge/Tracalorie%20Project-B7B5F7.svg?logo=star&logoColor=000000)
-![Modules & Tooling](https://custom-icon-badges.demolab.com/badge/Modules%20&%20Tooling-BEA3F5.svg?logo=bookmark&logoColor=000000)
-![Iterators & Data Structures](https://custom-icon-badges.demolab.com/badge/Iterators%20&%20Data%20Structures-D7A3F5.svg?logo=bookmark&logoColor=000000)
-![Unit Testing Algorithms](https://custom-icon-badges.demolab.com/badge/Unit%20Testing%20Algorithms-EFA3F5.svg?logo=bookmark&logoColor=000000)
-![Node.js Core Modules](https://custom-icon-badges.demolab.com/badge/Node.js%20Core%20Modules-F5A3E2.svg?logo=bookmark&logoColor=000000)
-![Random Ideas Project](https://custom-icon-badges.demolab.com/badge/Random%20Ideas%20Project-F5A3C9.svg?logo=star&logoColor=000000)
+<img src="https://custom-icon-badges.demolab.com/badge/Variables%20&%20Data%20Types-F5A3A3.svg?logo=bookmark&logoColor=000000" alt="Variables & Data Types" />
+<img src="https://custom-icon-badges.demolab.com/badge/Arrays%20&%20Objects-F5BAA3.svg?logo=bookmark&logoColor=000000" alt="Arrays & Objects" />
+<img src="https://custom-icon-badges.demolab.com/badge/Functions%20&%20Scope-F5D3A3.svg?logo=bookmark&logoColor=000000" alt="Functions & Scope" />
+<img src="https://custom-icon-badges.demolab.com/badge/Logic%20&%20Control%20Flow-F5EBA3.svg?logo=bookmark&logoColor=000000" alt="Logic & Control Flow" />
+<img src="https://custom-icon-badges.demolab.com/badge/Iteration%20&%20Array%20Methods-E6F5A3.svg?logo=bookmark&logoColor=000000" alt="Iteration & Array Methods" />
+<img src="https://custom-icon-badges.demolab.com/badge/Document%20Object%20Model-CDF5A3.svg?logo=bookmark&logoColor=000000" alt="Document Object Model" />
+<img src="https://custom-icon-badges.demolab.com/badge/Events%20in%20JavaScript-B5F5A3.svg?logo=bookmark&logoColor=000000" alt="Events in JavaScript" />
+<img src="https://custom-icon-badges.demolab.com/badge/Shopping%20List%20Project-A3F5AA.svg?logo=star&logoColor=000000" alt="Shopping List Project" />
+<img src="https://custom-icon-badges.demolab.com/badge/Asynchronous%20JavaScript-A3F5C2.svg?logo=bookmark&logoColor=000000" alt="Asynchronous JavaScript" />
+<img src="https://custom-icon-badges.demolab.com/badge/Fetch%20&%20Async%20Await-A3F5DB.svg?logo=bookmark&logoColor=000000" alt="Fetch & Async Await" />
+<img src="https://custom-icon-badges.demolab.com/badge/Flixx%20App%20Project-A3F5E7.svg?logo=star&logoColor=000000" alt="Flixx App Project" />
+<img src="https://custom-icon-badges.demolab.com/badge/Web%20Browser%20APIs-A3EAF5.svg?logo=bookmark&logoColor=000000" alt="Web Browser APIs" />
+<img src="https://custom-icon-badges.demolab.com/badge/Constructors%20&%20Prototypes-A3D1F5.svg?logo=bookmark&logoColor=000000" alt="Constructors & Prototypes" />
+<img src="https://custom-icon-badges.demolab.com/badge/Classes%20&%20Private%20Properties-A3B9F5.svg?logo=bookmark&logoColor=000000" alt="Classes & Private Properties" />
+<img src="https://custom-icon-badges.demolab.com/badge/Tracalorie%20Project-B7B5F7.svg?logo=star&logoColor=000000" alt="Tracalorie Project" />
+<img src="https://custom-icon-badges.demolab.com/badge/Modules%20&%20Tooling-BEA3F5.svg?logo=bookmark&logoColor=000000" alt="Modules & Tooling" />
+<img src="https://custom-icon-badges.demolab.com/badge/Iterators%20&%20Data%20Structures-D7A3F5.svg?logo=bookmark&logoColor=000000" alt="Iterators & Data Structures" />
+<img src="https://custom-icon-badges.demolab.com/badge/Unit%20Testing%20Algorithms-EFA3F5.svg?logo=bookmark&logoColor=000000" alt="Unit Testing Algorithms" />
+<img src="https://custom-icon-badges.demolab.com/badge/Node.js%20Core%20Modules-F5A3E2.svg?logo=bookmark&logoColor=000000" alt="Node.js Core Modules" />
+<img src="https://custom-icon-badges.demolab.com/badge/Random%20Ideas%20Project-F5A3C9.svg?logo=star&logoColor=000000" alt="Random Ideas Project" />
+</div>
 
 ## Table of Contents
 <details open>
