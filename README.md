@@ -562,5 +562,16 @@ Self-Paced Learning Sandbox for JavaScript with Node.js, Jest, Webpack, JSON, HT
 
 <img src="https://custom-icon-badges.demolab.com/badge/Random%20Ideas%20Project-F5A3C9.svg?logo=star&style=for-the-badge&logoColor=000000" width="100%">
 
-## Sources & Credits
-Guided Exercises by [Brad Traversy](https://github.com/bradtraversy)
+## Acknowledgements, Sources & Credits
+
+### Course Details
+
+[Modern JavaScript From the Beginning 2.0 - 2023 Revamp](https://www.udemy.com/course/modern-javascript-from-the-beginning/) course by [Brad Traversy](https://www.udemy.com/user/brad-traversy/) on [Udemy](https://www.udemy.com/)
+
+## License Information
+
+The content within this repository was created as part of a personal educational project, following the [Modern JavaScript From the Beginning 2.0 - 2023 Revamp](https://www.udemy.com/course/modern-javascript-from-the-beginning/) course by [Brad Traversy](https://www.udemy.com/user/brad-traversy/) on [Udemy](https://www.udemy.com/). This repository is intended for personal use only and serves as a record of my learning progress. This repository & the content within it are not intended for commercial use, distribution, or replication. All rights to the original course content and methodologies belong to the respective copyright holders.
+
+THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+
+Copyright © 2023 Jordan Muller. All Rights Reserved.
