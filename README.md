@@ -196,7 +196,7 @@ Self-Paced Learning Sandbox for JavaScript with Node.js, Jest, Webpack, JSON, HT
 
 ### [1. Variables & Data Types](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/01-variables-data-types)
 
-<img src="https://custom-icon-badges.demolab.com/badge/Variables%20and%20Data%20Types-ff9999.svg?logo=bookmark&logoSource=feather&style=for-the-badge&logoColor=000000" width="100%">
+<img src="https://custom-icon-badges.demolab.com/badge/Variables%20and%20Data%20Types-F5A3A3.svg?logo=bookmark&logoSource=feather&style=for-the-badge&logoColor=000000" width="100%">
 
 #### [A. Console](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/01-variables-data-types/01-console)
 
@@ -291,7 +291,7 @@ Self-Paced Learning Sandbox for JavaScript with Node.js, Jest, Webpack, JSON, HT
 
 ### [2. Arrays & Objects](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/02-arrays-and-objects)
 
-<img src="https://custom-icon-badges.demolab.com/badge/Arrays%20and%20Objects-ffaa99.svg?logo=bookmark&logoSource=feather&style=for-the-badge&logoColor=000000" width="100%">
+<img src="https://custom-icon-badges.demolab.com/badge/Arrays%20and%20Objects-F5BAA3.svg?logo=bookmark&logoSource=feather&style=for-the-badge&logoColor=000000" width="100%">
 
 #### [A. Array Basics](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/02-arrays-and-objects/01-array-basics)
 
@@ -351,7 +351,7 @@ Self-Paced Learning Sandbox for JavaScript with Node.js, Jest, Webpack, JSON, HT
 
 ### [3. Functions & Scope](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/03-functions-scope)
 
-<img src="https://custom-icon-badges.demolab.com/badge/Functions%20and%20Scope-ffbb99.svg?logo=bookmark&logoSource=feather&style=for-the-badge&logoColor=000000" width="100%">
+<img src="https://custom-icon-badges.demolab.com/badge/Functions%20and%20Scope-F5D3A3.svg?logo=bookmark&logoSource=feather&style=for-the-badge&logoColor=000000" width="100%">
 
 #### [A. Function Basics](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/03-functions-scope/01-function-basics)
 
@@ -423,7 +423,7 @@ Self-Paced Learning Sandbox for JavaScript with Node.js, Jest, Webpack, JSON, HT
 
 ### [4. Logic & Control Flow](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/04-logic-control-flow)
 
-<img src="https://custom-icon-badges.demolab.com/badge/Logic%20and%20Control%20Flow-ffcc99.svg?logo=bookmark&logoSource=feather&style=for-the-badge&logoColor=000000" width="100%">
+<img src="https://custom-icon-badges.demolab.com/badge/Logic%20and%20Control%20Flow-F5EBA3.svg?logo=bookmark&logoSource=feather&style=for-the-badge&logoColor=000000" width="100%">
 
 #### [A. If Statements](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/04-logic-control-flow/01-if-statements)
 
@@ -477,37 +477,67 @@ Self-Paced Learning Sandbox for JavaScript with Node.js, Jest, Webpack, JSON, HT
 
 ### [5. Iteration & Array Methods](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/05-iteration-array-methods)
 
-<img src="https://custom-icon-badges.demolab.com/badge/Iteration%20and%20Array%20Methods-ffdd99.svg?logo=bookmark&logoSource=feather&style=for-the-badge&logoColor=000000" width="100%">
+<img src="https://custom-icon-badges.demolab.com/badge/Iteration%20and%20Array%20Methods-E6F5A3.svg?logo=bookmark&logoSource=feather&style=for-the-badge&logoColor=000000" width="100%">
 
 ### [6. Document Object Model](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/06-document-object-model)
 
+<img src="https://custom-icon-badges.demolab.com/badge/Document%20Object%20Model-CDF5A3.svg?logo=bookmark&logoSource=feather&style=for-the-badge&logoColor=000000" width="100%">
+
 ### [7. Events](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/07-events)
+
+<img src="https://custom-icon-badges.demolab.com/badge/Events%20in%20JavaScript-B5F5A3.svg?logo=bookmark&logoSource=feather&style=for-the-badge&logoColor=000000" width="100%">
 
 ### [8. Shopping List Project](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/08-shopping-list-project/shopping-list)
 
+<img src="https://custom-icon-badges.demolab.com/badge/Shopping%20List%20Project-A3F5AA.svg?logo=bookmark&logoSource=feather&style=for-the-badge&logoColor=000000" width="100%">
+
 ### [9. Asynchronous JavaScript](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/09-asynchronous-javascript)
+
+<img src="https://custom-icon-badges.demolab.com/badge/Asynchronous%20JavaScript-A3F5C2.svg?logo=bookmark&logoSource=feather&style=for-the-badge&logoColor=000000" width="100%">
 
 ### [10. Fetch & Async Await](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/10-fetch-and-async-await)
 
+<img src="https://custom-icon-badges.demolab.com/badge/Fetch%20and%20Async%20Await-A3F5DB.svg?logo=bookmark&logoSource=feather&style=for-the-badge&logoColor=000000" width="100%">
+
 ### [11. Flixx App](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/11-flixx-app-project/flixx-app)
+
+<img src="https://custom-icon-badges.demolab.com/badge/Flixx%20App%20Project-A3F5E7.svg?logo=bookmark&logoSource=feather&style=for-the-badge&logoColor=000000" width="100%">
 
 ### [12. Web Browser APIs](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/12-web-browser-apis)
 
+<img src="https://custom-icon-badges.demolab.com/badge/Web%20Browser%20APIs-A3EAF5.svg?logo=bookmark&logoSource=feather&style=for-the-badge&logoColor=000000" width="100%">
+
 ### [13. Constructors & Prototypes - Object Oriented Programming](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/13-oop-constructors-prototypes)
+
+<img src="https://custom-icon-badges.demolab.com/badge/Constructors%20and%20Prototypes%20(OOP)-A3D1F5.svg?logo=bookmark&logoSource=feather&style=for-the-badge&logoColor=000000" width="100%">
 
 ### [14. Classes & Private Properties - Object Oriented Programming](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/14-oop-classes-private-properties)
 
+<img src="https://custom-icon-badges.demolab.com/badge/Classes%20and%20Private%20Properties%20(OOP)-A3B9F5.svg?logo=bookmark&logoSource=feather&style=for-the-badge&logoColor=000000" width="100%">
+
 ### [15. Tracalorie Project](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/15-tracalorie-project/tracalorie)
+
+<img src="https://custom-icon-badges.demolab.com/badge/Tracalorie%20Project-B7B5F7.svg?logo=bookmark&logoSource=feather&style=for-the-badge&logoColor=000000" width="100%">
 
 ### [16. Modules & Tooling](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/16-modules-and-tooling)
 
+<img src="https://custom-icon-badges.demolab.com/badge/Modules%20and%20Tooling-BEA3F5.svg?logo=bookmark&logoSource=feather&style=for-the-badge&logoColor=000000" width="100%">
+
 ### [17. Iterators & Data Structures](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/17-iterators-data-structures)
+
+<img src="https://custom-icon-badges.demolab.com/badge/Iterators%20and%20Data%20Structures-D7A3F5.svg?logo=bookmark&logoSource=feather&style=for-the-badge&logoColor=000000" width="100%">
 
 ### [18. Unit Testing Algorithms](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/18-unit-testing-algorithms/algo-testing)
 
+<img src="https://custom-icon-badges.demolab.com/badge/Unit%20Testing%20Algorithms-EFA3F5.svg?logo=bookmark&logoSource=feather&style=for-the-badge&logoColor=000000" width="100%">
+
 ### [19. Node.js Core Modules](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/19-nodejs-modules/node-core-modules)
 
+<img src="https://custom-icon-badges.demolab.com/badge/Node.js%20Core%20Modules-F5A3E2.svg?logo=bookmark&logoSource=feather&style=for-the-badge&logoColor=000000" width="100%">
+
 ### [20. Random Ideas Project](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/20-randomideas-app/randomideas-app)
+
+<img src="https://custom-icon-badges.demolab.com/badge/Random%20Ideas%20Project-F5A3C9.svg?logo=bookmark&logoSource=feather&style=for-the-badge&logoColor=000000" width="100%">
 
 ## Sources & Credits
 Guided Exercises by [Brad Traversy](https://github.com/bradtraversy)
