@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="https://custom-icon-badges.demolab.com/badge/JavaScript%20Sandbox-dfe6e9.svg?style=for-the-badge&logo=package&logoColor=000000" width="100%"/>
-
 # JavaScript Sandbox
+
+<img src="https://custom-icon-badges.demolab.com/badge/JavaScript%20Sandbox-282A36.svg?style=for-the-badge&logo=javascript&logoColor=E8D44D" width="100%"/>
 
 Self-Paced Learning Sandbox for JavaScript with Node.js, Jest, Webpack, JSON, HTML & CSS
 
