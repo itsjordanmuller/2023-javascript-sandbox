@@ -194,9 +194,9 @@ Self-Paced Learning Sandbox for JavaScript with Node.js, Jest, Webpack, JSON, HT
 
 ## Section Overviews
 
-<img src="https://custom-icon-badges.demolab.com/badge/Variables%20and%20Data%20Types-ff9999.svg?logo=bookmark&logoSource=feather&style=for-the-badge&logoColor=000000" width="100%">
-
 ### [1. Variables & Data Types](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/01-variables-data-types)
+
+<img src="https://custom-icon-badges.demolab.com/badge/Variables%20and%20Data%20Types-ff9999.svg?logo=bookmark&logoSource=feather&style=for-the-badge&logoColor=000000" width="100%">
 
 #### [A. Console](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/01-variables-data-types/01-console)
 
@@ -289,9 +289,9 @@ Self-Paced Learning Sandbox for JavaScript with Node.js, Jest, Webpack, JSON, HT
 
 ---
 
-<img src="https://custom-icon-badges.demolab.com/badge/Arrays%20and%20Objects-ffaa99.svg?logo=bookmark&logoSource=feather&style=for-the-badge&logoColor=000000" width="100%">
-
 ### [2. Arrays & Objects](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/02-arrays-and-objects)
+
+<img src="https://custom-icon-badges.demolab.com/badge/Arrays%20and%20Objects-ffaa99.svg?logo=bookmark&logoSource=feather&style=for-the-badge&logoColor=000000" width="100%">
 
 #### [A. Array Basics](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/02-arrays-and-objects/01-array-basics)
 
@@ -349,9 +349,9 @@ Self-Paced Learning Sandbox for JavaScript with Node.js, Jest, Webpack, JSON, HT
 
 ---
 
-<img src="https://custom-icon-badges.demolab.com/badge/Functions%20and%20Scope-ffbb99.svg?logo=bookmark&logoSource=feather&style=for-the-badge&logoColor=000000" width="100%">
-
 ### [3. Functions & Scope](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/03-functions-scope)
+
+<img src="https://custom-icon-badges.demolab.com/badge/Functions%20and%20Scope-ffbb99.svg?logo=bookmark&logoSource=feather&style=for-the-badge&logoColor=000000" width="100%">
 
 #### [A. Function Basics](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/03-functions-scope/01-function-basics)
 
@@ -421,9 +421,9 @@ Self-Paced Learning Sandbox for JavaScript with Node.js, Jest, Webpack, JSON, HT
 
 ---
 
-<img src="https://custom-icon-badges.demolab.com/badge/Logic%20and%20Control%20Flow-ffcc99.svg?logo=bookmark&logoSource=feather&style=for-the-badge&logoColor=000000" width="100%">
-
 ### [4. Logic & Control Flow](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/04-logic-control-flow)
+
+<img src="https://custom-icon-badges.demolab.com/badge/Logic%20and%20Control%20Flow-ffcc99.svg?logo=bookmark&logoSource=feather&style=for-the-badge&logoColor=000000" width="100%">
 
 #### [A. If Statements](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/04-logic-control-flow/01-if-statements)
 
@@ -475,9 +475,9 @@ Self-Paced Learning Sandbox for JavaScript with Node.js, Jest, Webpack, JSON, HT
 
 ---
 
-<img src="https://custom-icon-badges.demolab.com/badge/Iteration%20and%20Array%20Methods-ffdd99.svg?logo=bookmark&logoSource=feather&style=for-the-badge&logoColor=000000" width="100%">
-
 ### [5. Iteration & Array Methods](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/05-iteration-array-methods)
+
+<img src="https://custom-icon-badges.demolab.com/badge/Iteration%20and%20Array%20Methods-ffdd99.svg?logo=bookmark&logoSource=feather&style=for-the-badge&logoColor=000000" width="100%">
 
 ### [6. Document Object Model](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/06-document-object-model)
 
