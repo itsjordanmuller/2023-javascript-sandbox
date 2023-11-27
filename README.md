@@ -14,6 +14,27 @@ Self-Paced Learning Sandbox for JavaScript with Node.js, Jest, Webpack, JSON, HT
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=HTML5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6.svg?style=for-the-badge&logo=CSS3&logoColor=white)
 
+<details>
+<summary>(Show/Hide) - Overview of Tools & Tech 💻</summary>
+
+<div align="left">
+
+## Overview of Technologies
+
+| Technology | Overview | Release Year |
+| :--------: | -------- | :----------: |
+| [HTML5](https://www.w3.org/html/) | The standard language for creating web pages and applications. It provides the structure for web content, defining elements like headings, paragraphs, links, and images. | [1991](https://en.wikipedia.org/wiki/HTML) |
+| [JavaScript](https://tc39.es/ecma262/2023/) | A high-level, versatile programming language that enables interactive and dynamic content on web pages. It's a core technology of the World Wide Web, alongside HTML and CSS. | [1995](https://en.wikipedia.org/wiki/JavaScript) |
+| [CSS3](https://www.w3.org/Style/CSS/Overview.en.html) | A stylesheet language used to describe the presentation of documents written in HTML. CSS enables the separation of content from design, allowing for flexibility in layout, colors, and fonts. | [1996](https://en.wikipedia.org/wiki/CSS) |
+| [JSON](https://www.json.org/json-en.html) | A lightweight data-interchange format that's easy for humans to read and write and easy for machines to parse and generate. JSON is completely language independent but uses conventions familiar to programmers of the C-family of languages, including C, C++, C#, Java, JavaScript, Python, etc. | [2001](https://en.wikipedia.org/wiki/JSON) |
+| [Node.js](https://nodejs.org/en) | An open-source, cross-platform JavaScript runtime environment that executes JavaScript code outside a web browser. Node.js lets developers use JavaScript to write command-line tools and for server-side scripting, running scripts server-side to produce dynamic web page content. | [2009](https://en.wikipedia.org/wiki/Node.js) |
+| [Webpack](https://webpack.js.org/) | An open-source JavaScript module bundler. Webpack takes modules with dependencies and generates static assets representing those modules. Primarily used to bundle JavaScript files for usage in a browser, also capable of transforming, bundling, or packaging just about any resource or asset. | [2014](https://en.wikipedia.org/wiki/Webpack) |
+| [Jest](https://jestjs.io/) | A JavaScript Testing Framework with a focus on simplicity. It works with projects using Babel, TypeScript, Node.js, React, Angular, Vue.js, and more. It aims to work out of the box, config free, on most JavaScript projects. | [2019](https://github.com/jestjs/jest/releases/tag/v0.5.0) |
+
+</div>
+
+</details>
+
 ## Main Sections & Projects
 
 <img src="https://custom-icon-badges.demolab.com/badge/Sections-f8f8f2.svg?logo=bookmark&logoColor=000000" alt="Sections" width="112px" />
