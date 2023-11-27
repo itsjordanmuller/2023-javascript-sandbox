@@ -16,6 +16,9 @@ Self-Paced Learning Sandbox for JavaScript with Node.js, Jest, Webpack, JSON, HT
 
 ## Main Sections & Projects
 
+<img src="https://custom-icon-badges.demolab.com/badge/Sections-f8f8f2.svg?logo=bookmark&logoColor=000000" alt="Sections" width="112px" />
+<img src="https://custom-icon-badges.demolab.com/badge/Projects-f8f8f2.svg?logo=star-fill&logoColor=000000" alt="Projects" width="112px" /><br/><br/>
+
 <img src="https://custom-icon-badges.demolab.com/badge/Variables%20&%20Data%20Types-ffb2b2.svg?logo=bookmark&logoColor=000000" alt="Variables & Data Types" />
 <img src="https://custom-icon-badges.demolab.com/badge/Arrays%20&%20Objects-ffc9b2.svg?logo=bookmark&logoColor=000000" alt="Arrays & Objects" />
 <img src="https://custom-icon-badges.demolab.com/badge/Functions%20&%20Scope-ffe0b2.svg?logo=bookmark&logoColor=000000" alt="Functions & Scope" />
