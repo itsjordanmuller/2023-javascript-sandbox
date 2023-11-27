@@ -570,7 +570,7 @@ Self-Paced Learning Sandbox for JavaScript with Node.js, Jest, Webpack, JSON, HT
 
 </details>
 
-## Acknowledgements, Sources & Credits
+## Sources, Credits & Acknowledgments
 
 ### Course Details
 
