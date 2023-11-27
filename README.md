@@ -43,7 +43,7 @@ Self-Paced Learning Sandbox for JavaScript with Node.js, Jest, Webpack, JSON, HT
 
 ## Table of Contents
 <details open>
-<summary>(Hide/Show) - Table of Contents</summary>
+<summary>(Hide/Show) - Table of Contents 🗃️</summary>
 
 1. [Variables & Data Types](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/01-variables-data-types)
    - [A. Console](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/01-variables-data-types/01-console)
@@ -219,6 +219,9 @@ Self-Paced Learning Sandbox for JavaScript with Node.js, Jest, Webpack, JSON, HT
 </details>
 
 ## Section Overviews
+
+<details open>
+<summary>(Hide/Show) - Section Overviews 📑</summary>
 
 ### [1. Variables & Data Types](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/01-variables-data-types)
 
@@ -564,6 +567,8 @@ Self-Paced Learning Sandbox for JavaScript with Node.js, Jest, Webpack, JSON, HT
 ### [20. Random Ideas Project](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/20-randomideas-app/randomideas-app)
 
 <img src="https://custom-icon-badges.demolab.com/badge/Random%20Ideas%20Project-ffb2c9.svg?logo=star-fill&style=for-the-badge&logoColor=000000" width="100%">
+
+</details>
 
 ## Acknowledgements, Sources & Credits
 
