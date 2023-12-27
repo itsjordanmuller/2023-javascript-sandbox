@@ -2,6 +2,8 @@
 
 ## [2. Arrays & Objects](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/02-arrays-and-objects)
 
+<a href="https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/02-arrays-and-objects"><img src="https://custom-icon-badges.demolab.com/badge/Arrays%20&%20Objects-ffc9b2.svg?logo=bookmark&logoSource=feather&style=for-the-badge&logoColor=000000" width="100%"></a>
+
 ### [A. Array Basics](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/02-arrays-and-objects/01-array-basics)
 
 ![Array Basics Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/02-arrays-and-objects/01-array-basics/01-array-basics.png)

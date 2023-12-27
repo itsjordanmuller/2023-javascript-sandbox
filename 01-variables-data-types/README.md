@@ -2,6 +2,8 @@
 
 ## [1. Variables & Data Types](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/01-variables-data-types)
 
+<a href="https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/01-variables-data-types"><img src="https://custom-icon-badges.demolab.com/badge/Variables%20&%20Data%20Types-ffb2b2.svg?logo=bookmark&logoSource=feather&style=for-the-badge&logoColor=000000" width="100%"></a>
+
 ### [A. Console](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/01-variables-data-types/01-console)
 
 ![Console Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/01-variables-data-types/01-console/01-console.png)

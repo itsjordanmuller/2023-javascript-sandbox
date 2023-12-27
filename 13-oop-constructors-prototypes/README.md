@@ -2,6 +2,8 @@
 
 ## [13. Constructors & Prototypes - Object Oriented Programming](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/13-oop-constructors-prototypes)
 
+<a href="https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/13-oop-constructors-prototypes"><img src="https://custom-icon-badges.demolab.com/badge/Constructors%20&%20Prototypes%20(OOP)-b2d1ff.svg?logo=bookmark&logoSource=feather&style=for-the-badge&logoColor=000000" width="100%"></a>
+
 ### [A. Object Literals & This](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/13-oop-constructors-prototypes/01-object-literals-this)
 
 ![Object Literals & This - Console Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/13-oop-constructors-prototypes/01-object-literals-this/01-object-literals-this-console.png)

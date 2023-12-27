@@ -2,6 +2,8 @@
 
 ## [7. Events](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/07-events)
 
+<a href="https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/07-events"><img src="https://custom-icon-badges.demolab.com/badge/Events%20in%20JavaScript-c1ffb2.svg?logo=bookmark&logoSource=feather&style=for-the-badge&logoColor=000000" width="100%"></a>
+
 ### [A. Event Listeners](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/07-events/01-event-listeners/shopping-list)
 
 ![Event Listeners - Site Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/07-events/01-event-listeners/01-event-listeners-site.png)

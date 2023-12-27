@@ -2,6 +2,8 @@
 
 ## [18. Unit Testing Algorithms](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/18-unit-testing-algorithms/algo-testing)
 
+<a href="https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/18-unit-testing-algorithms/algo-testing"><img src="https://custom-icon-badges.demolab.com/badge/Unit%20Testing%20Algorithms-ffb2f7.svg?logo=bookmark&logoSource=feather&style=for-the-badge&logoColor=000000" width="100%"></a>
+
 ![Unit Testing Algorithms - Terminal Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/18-unit-testing-algorithms/18-unit-testing-algorithms-terminal-9.png)
 
 ### [A. Sum](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/18-unit-testing-algorithms/algo-testing/01-sum)

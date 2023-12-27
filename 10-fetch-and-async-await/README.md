@@ -2,6 +2,8 @@
 
 ## [10. Fetch & Async Await](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/10-fetch-and-async-await)
 
+<a href="https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/10-fetch-and-async-await"><img src="https://custom-icon-badges.demolab.com/badge/Fetch%20&%20Async%20Await-b2ffe8.svg?logo=bookmark&logoSource=feather&style=for-the-badge&logoColor=000000" width="100%"></a>
+
 ### [A. Fetch Basics](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/10-fetch-and-async-await/01-fetch-basics)
 
 ![Fetch Basics - Console Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/10-fetch-and-async-await/01-fetch-basics/01-fetch-basics-console.png)

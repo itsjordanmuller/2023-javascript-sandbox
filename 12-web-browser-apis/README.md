@@ -2,6 +2,8 @@
 
 ## [12. Web Browser APIs](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/12-web-browser-apis)
 
+<a href="https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/12-web-browser-apis"><img src="https://custom-icon-badges.demolab.com/badge/Web%20Browser%20APIs-b2e8ff.svg?logo=bookmark&logoSource=feather&style=for-the-badge&logoColor=000000" width="100%"></a>
+
 ### [A. Geolocation API](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/12-web-browser-apis/01-geolocation)
 
 ![Geolocation API - Site Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/12-web-browser-apis/01-geolocation/01-geolocation-site.png)

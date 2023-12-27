@@ -2,6 +2,8 @@
 
 ## [4. Logic & Control Flow](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/04-logic-control-flow)
 
+<a href="https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/04-logic-control-flow"><img src="https://custom-icon-badges.demolab.com/badge/Logic%20&%20Control%20Flow-fff7b2.svg?logo=bookmark&logoSource=feather&style=for-the-badge&logoColor=000000" width="100%"></a>
+
 ### [A. If Statements](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/04-logic-control-flow/01-if-statements)
 
 <img src="https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/04-logic-control-flow/01-if-statements/comparison-operators.png" width="600px" height="auto" alt="Comparison Operators Chart"/>

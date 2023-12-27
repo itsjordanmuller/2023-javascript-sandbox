@@ -2,6 +2,8 @@
 
 ## [19. Node.js Core Modules](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/19-nodejs-modules/node-core-modules)
 
+<a href="https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/19-nodejs-modules/node-core-modules"><img src="https://custom-icon-badges.demolab.com/badge/Node.js%20Core%20Modules-ffb2e0.svg?logo=bookmark&logoSource=feather&style=for-the-badge&logoColor=000000" width="100%"></a>
+
 ### [A. File System (fs) - Core Module](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/19-nodejs-modules/node-core-modules/fs.js)
 
 ![File System (fs) - Core Module - Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/19-nodejs-modules/19-fs.png)

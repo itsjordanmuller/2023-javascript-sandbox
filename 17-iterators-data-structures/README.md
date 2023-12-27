@@ -2,6 +2,8 @@
 
 ## [17. Iterators & Data Structures](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/17-iterators-data-structures)
 
+<a href="https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/17-iterators-data-structures"><img src="https://custom-icon-badges.demolab.com/badge/Iterators%20&%20Data%20Structures-efb2ff.svg?logo=bookmark&logoSource=feather&style=for-the-badge&logoColor=000000" width="100%"></a>
+
 ### [A. Symbols](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/17-iterators-data-structures/01-symbols)
 
 ![Symbols - Console Image 1](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/17-iterators-data-structures/01-symbols/01-symbols-console-1.png)

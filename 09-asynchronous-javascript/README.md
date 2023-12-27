@@ -2,6 +2,8 @@
 
 ## [9. Asynchronous JavaScript](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/09-asynchronous-javascript)
 
+<a href="https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/09-asynchronous-javascript"><img src="https://custom-icon-badges.demolab.com/badge/Asynchronous%20JavaScript-b2ffd1.svg?logo=bookmark&logoSource=feather&style=for-the-badge&logoColor=000000" width="100%"></a>
+
 ### [A. setTimeout & clearTimeout](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/09-asynchronous-javascript/01-settimeout-cleartimeout)
 
 ![setTimeout & clearTimeout - Site Image 1](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/09-asynchronous-javascript/01-settimeout-cleartimeout/01-settimeout-cleartimeout-site-1.png)

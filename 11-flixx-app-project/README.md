@@ -2,6 +2,8 @@
 
 ## [11. Flixx App](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/11-flixx-app-project/flixx-app)
 
+<a href="https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/11-flixx-app-project/flixx-app"><img src="https://custom-icon-badges.demolab.com/badge/Flixx%20App%20Project-b2ffff.svg?logo=star-fill&style=for-the-badge&logoColor=000000" width="100%"></a>
+
 ![Flixx App - Site Image 1](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/11-flixx-app-project/11-flixx-app-site-1.png)
 
 ![Flixx App - Site Image 2](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/11-flixx-app-project/11-flixx-app-site-2.png)

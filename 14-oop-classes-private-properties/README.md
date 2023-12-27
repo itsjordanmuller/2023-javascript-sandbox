@@ -2,6 +2,8 @@
 
 ## [14. Classes & Private Properties - Object Oriented Programming](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/14-oop-classes-private-properties)
 
+<a href="https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/14-oop-classes-private-properties"><img src="https://custom-icon-badges.demolab.com/badge/Classes%20&%20Private%20Properties%20(OOP)-b2baff.svg?logo=bookmark&logoSource=feather&style=for-the-badge&logoColor=000000" width="100%"></a>
+
 ### [A. Classes](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/14-oop-classes-private-properties/01-classes)
 
 ![Classes - Console Image 1](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/14-oop-classes-private-properties/01-classes/01-classes-console-1.png)

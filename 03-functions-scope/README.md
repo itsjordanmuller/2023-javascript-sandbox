@@ -2,6 +2,8 @@
 
 ## [3. Functions & Scope](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/03-functions-scope)
 
+<a href="https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/03-functions-scope"><img src="https://custom-icon-badges.demolab.com/badge/Functions%20&%20Scope-ffe0b2.svg?logo=bookmark&logoSource=feather&style=for-the-badge&logoColor=000000" width="100%"></a>
+
 ### [A. Function Basics](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/03-functions-scope/01-function-basics)
 
 ![Function Basics Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/03-functions-scope/01-function-basics/01-function-basics.png)

@@ -2,6 +2,8 @@
 
 ## [6. Document Object Model](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/06-document-object-model)
 
+<a href="https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/06-document-object-model"><img src="https://custom-icon-badges.demolab.com/badge/Document%20Object%20Model-d8ffb2.svg?logo=bookmark&logoSource=feather&style=for-the-badge&logoColor=000000" width="100%"></a>
+
 ### [A. DOM (Document Object Model) Introduction](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/06-document-object-model/01-dom-intro)
 
 ![DOM (Document Object Model) Introduction - Console Output Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/06-document-object-model/01-dom-intro/01-dom-intro-console.png)

@@ -2,6 +2,8 @@
 
 ## [5. Iteration & Array Methods](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/05-iteration-array-methods)
 
+<a href="https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/05-iteration-array-methods"><img src="https://custom-icon-badges.demolab.com/badge/Iteration%20&%20Array%20Methods-efffb2.svg?logo=bookmark&logoSource=feather&style=for-the-badge&logoColor=000000" width="100%"></a>
+
 ### [A. For Loops](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/05-iteration-array-methods/01-for-loop)
 
 ![For Loops - Console Output Image](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/05-iteration-array-methods/01-for-loop/01-for-loop.png)
