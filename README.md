@@ -37,36 +37,37 @@ Self-Paced Learning Sandbox for JavaScript with Node.js, Jest, Webpack, JSON, HT
 
 ## Main Sections & Projects
 
-<img src="https://custom-icon-badges.demolab.com/badge/Sections-f8f8f2.svg?logo=bookmark&logoColor=000000" alt="Sections" width="112px" />
-<img src="https://custom-icon-badges.demolab.com/badge/Projects-f8f8f2.svg?logo=star-fill&logoColor=000000" alt="Projects" width="112px" /><br/><br/>
+<a href="https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/SECTIONS.md"><img src="https://custom-icon-badges.demolab.com/badge/Sections-f8f8f2.svg?logo=bookmark&logoColor=000000" alt="Sections" width="30%" />
+<a href="https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/PROJECTS.md"><img src="https://custom-icon-badges.demolab.com/badge/Projects-f8f8f2.svg?logo=star-fill&logoColor=000000" alt="Projects" width="30%" /></a><br/><br/>
 
-<img src="https://custom-icon-badges.demolab.com/badge/Variables%20&%20Data%20Types-ffb2b2.svg?logo=bookmark&logoColor=000000" alt="Variables & Data Types" />
-<img src="https://custom-icon-badges.demolab.com/badge/Arrays%20&%20Objects-ffc9b2.svg?logo=bookmark&logoColor=000000" alt="Arrays & Objects" />
-<img src="https://custom-icon-badges.demolab.com/badge/Functions%20&%20Scope-ffe0b2.svg?logo=bookmark&logoColor=000000" alt="Functions & Scope" />
-<img src="https://custom-icon-badges.demolab.com/badge/Logic%20&%20Control%20Flow-fff7b2.svg?logo=bookmark&logoColor=000000" alt="Logic & Control Flow" />
-<img src="https://custom-icon-badges.demolab.com/badge/Iteration%20&%20Array%20Methods-efffb2.svg?logo=bookmark&logoColor=000000" alt="Iteration & Array Methods" />
-<img src="https://custom-icon-badges.demolab.com/badge/Document%20Object%20Model-d8ffb2.svg?logo=bookmark&logoColor=000000" alt="Document Object Model" />
-<img src="https://custom-icon-badges.demolab.com/badge/Events%20in%20JavaScript-c1ffb2.svg?logo=bookmark&logoColor=000000" alt="Events in JavaScript" />
-<img src="https://custom-icon-badges.demolab.com/badge/Shopping%20List%20Project-b2ffba.svg?logo=star-fill&logoColor=000000" alt="Shopping List Project" />
-<img src="https://custom-icon-badges.demolab.com/badge/Asynchronous%20JavaScript-b2ffd1.svg?logo=bookmark&logoColor=000000" alt="Asynchronous JavaScript" />
-<img src="https://custom-icon-badges.demolab.com/badge/Fetch%20&%20Async%20Await-b2ffe8.svg?logo=bookmark&logoColor=000000" alt="Fetch & Async Await" />
-<img src="https://custom-icon-badges.demolab.com/badge/Flixx%20App%20Project-b2ffff.svg?logo=star-fill&logoColor=000000" alt="Flixx App Project" />
-<img src="https://custom-icon-badges.demolab.com/badge/Web%20Browser%20APIs-b2e8ff.svg?logo=bookmark&logoColor=000000" alt="Web Browser APIs" />
-<img src="https://custom-icon-badges.demolab.com/badge/Constructors%20&%20Prototypes-b2d1ff.svg?logo=bookmark&logoColor=000000" alt="Constructors & Prototypes" />
-<img src="https://custom-icon-badges.demolab.com/badge/Classes%20&%20Private%20Properties-b2baff.svg?logo=bookmark&logoColor=000000" alt="Classes & Private Properties" />
-<img src="https://custom-icon-badges.demolab.com/badge/Tracalorie%20Project-c1b2ff.svg?logo=star-fill&logoColor=000000" alt="Tracalorie Project" />
-<img src="https://custom-icon-badges.demolab.com/badge/Modules%20&%20Tooling-d8b2ff.svg?logo=bookmark&logoColor=000000" alt="Modules & Tooling" />
-<img src="https://custom-icon-badges.demolab.com/badge/Iterators%20&%20Data%20Structures-efb2ff.svg?logo=bookmark&logoColor=000000" alt="Iterators & Data Structures" />
-<img src="https://custom-icon-badges.demolab.com/badge/Unit%20Testing%20Algorithms-ffb2f7.svg?logo=bookmark&logoColor=000000" alt="Unit Testing Algorithms" />
-<img src="https://custom-icon-badges.demolab.com/badge/Node.js%20Core%20Modules-ffb2e0.svg?logo=bookmark&logoColor=000000" alt="Node.js Core Modules" />
-<img src="https://custom-icon-badges.demolab.com/badge/Random%20Ideas%20Project-ffb2c9.svg?logo=star-fill&logoColor=000000" alt="Random Ideas Project" />
+[![Variables & Data Types](https://custom-icon-badges.demolab.com/badge/Variables%20&%20Data%20Types-ffb2b2.svg?logo=bookmark&logoColor=000000)](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/01-variables-data-types)
+[![Arrays & Objects](https://custom-icon-badges.demolab.com/badge/Arrays%20&%20Objects-ffc9b2.svg?logo=bookmark&logoColor=000000)](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/02-arrays-and-objects)
+[![Functions & Scope](https://custom-icon-badges.demolab.com/badge/Functions%20&%20Scope-ffe0b2.svg?logo=bookmark&logoColor=000000)](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/03-functions-scope)
+[![Logic & Control Flow](https://custom-icon-badges.demolab.com/badge/Logic%20&%20Control%20Flow-fff7b2.svg?logo=bookmark&logoColor=000000)](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/04-logic-control-flow)
+[![Iteration & Array Methods](https://custom-icon-badges.demolab.com/badge/Iteration%20&%20Array%20Methods-efffb2.svg?logo=bookmark&logoColor=000000)](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/05-iteration-array-methods)
+[![Document Object Model](https://custom-icon-badges.demolab.com/badge/Document%20Object%20Model-d8ffb2.svg?logo=bookmark&logoColor=000000)](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/06-document-object-model)
+[![Events in JavaScript](https://custom-icon-badges.demolab.com/badge/Events%20in%20JavaScript-c1ffb2.svg?logo=bookmark&logoColor=000000)](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/07-events)
+[![Shopping List Project](https://custom-icon-badges.demolab.com/badge/Shopping%20List%20Project-b2ffba.svg?logo=star-fill&logoColor=000000)](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/08-shopping-list-project)
+[![Asynchronous JavaScript](https://custom-icon-badges.demolab.com/badge/Asynchronous%20JavaScript-b2ffd1.svg?logo=bookmark&logoColor=000000)](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/09-asynchronous-javascript)
+[![Fetch & Async Await](https://custom-icon-badges.demolab.com/badge/Fetch%20&%20Async%20Await-b2ffe8.svg?logo=bookmark&logoColor=000000)](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/10-fetch-and-async-await)
+[![Flixx App Project](https://custom-icon-badges.demolab.com/badge/Flixx%20App%20Project-b2ffff.svg?logo=star-fill&logoColor=000000)](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/11-flixx-app-project)
+[![Web Browser APIs](https://custom-icon-badges.demolab.com/badge/Web%20Browser%20APIs-b2e8ff.svg?logo=bookmark&logoColor=000000)](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/12-web-browser-apis)
+[![Constructors & Prototypes](https://custom-icon-badges.demolab.com/badge/Constructors%20&%20Prototypes-b2d1ff.svg?logo=bookmark&logoColor=000000)](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/13-oop-constructors-prototypes)
+[![Classes & Private Properties](https://custom-icon-badges.demolab.com/badge/Classes%20&%20Private%20Properties-b2baff.svg?logo=bookmark&logoColor=000000)](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/14-oop-classes-private-properties)
+[![Tracalorie Project](https://custom-icon-badges.demolab.com/badge/Tracalorie%20Project-c1b2ff.svg?logo=star-fill&logoColor=000000)](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/15-tracalorie-project)
+[![Modules & Tooling](https://custom-icon-badges.demolab.com/badge/Modules%20&%20Tooling-d8b2ff.svg?logo=bookmark&logoColor=000000)](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/16-modules-and-tooling)
+[![Iterators & Data Structures](https://custom-icon-badges.demolab.com/badge/Iterators%20&%20Data%20Structures-efb2ff.svg?logo=bookmark&logoColor=000000)](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/17-iterators-data-structures)
+[![Unit Testing Algorithms](https://custom-icon-badges.demolab.com/badge/Unit%20Testing%20Algorithms-ffb2f7.svg?logo=bookmark&logoColor=000000)](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/18-unit-testing-algorithms)
+[![Node.js Core Modules](https://custom-icon-badges.demolab.com/badge/Node.js%20Core%20Modules-ffb2e0.svg?logo=bookmark&logoColor=000000)](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/19-nodejs-modules)
+[![Random Ideas Project](https://custom-icon-badges.demolab.com/badge/Random%20Ideas%20Project-ffb2c9.svg?logo=star-fill&logoColor=000000)](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/20-randomideas-app)
+
 </div>
 
 ## Table of Contents
 <details open>
 <summary>(Hide/Show) - Table of Contents 🗃️</summary>
 
-* [1.Variables & Data Types](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/01-variables-data-types)
+* [1. Variables & Data Types](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/01-variables-data-types)
    - [A. Console](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/01-variables-data-types/01-console)
    - [B. Comments & Shortcuts](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/01-variables-data-types/02-comments-shortcuts)
    - [C. Variables](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/01-variables-data-types/03-variables)
@@ -162,7 +163,7 @@ Self-Paced Learning Sandbox for JavaScript with Node.js, Jest, Webpack, JSON, HT
    - [I. Promise Chaining](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/09-asynchronous-javascript/09-promise-chaining)
    - [J. Promises vs Callback Hell](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/09-asynchronous-javascript/10-promises-vs-callback-hell)
    - [K. Promise All](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/09-asynchronous-javascript/11-promise-all)
-*  [10. Fetch & Async Await](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/10-fetch-and-async-await)
+* [10. Fetch & Async Await](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/10-fetch-and-async-await)
     - [A. Fetch Basics](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/10-fetch-and-async-await/01-fetch-basics)
     - [B. Random User Generator Project](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/10-fetch-and-async-await/02-random-user-project/random-user-generator)
     - [C. Fetch Options](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/10-fetch-and-async-await/03-fetch-options)
@@ -172,8 +173,8 @@ Self-Paced Learning Sandbox for JavaScript with Node.js, Jest, Webpack, JSON, HT
     - [G. Try & Catch](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/10-fetch-and-async-await/07-try-catch)
     - [H. Async Await - Error Handling](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/10-fetch-and-async-await/08-async-await-error-handling)
     - [I. Async Await - Multiple Promises](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/10-fetch-and-async-await/09-multiple-promises-async-await)
-*  [11. Flixx App](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/11-flixx-app-project/flixx-app)
-*  [12. Web Browser APIs](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/12-web-browser-apis)
+* [11. Flixx App](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/11-flixx-app-project/flixx-app)
+* [12. Web Browser APIs](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/12-web-browser-apis)
     - [A. Geolocation API](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/12-web-browser-apis/01-geolocation)
     - [B. Maps API - Positions](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/12-web-browser-apis/02-map-position)
     - [C. Canvas API](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/12-web-browser-apis/03-canvas)
