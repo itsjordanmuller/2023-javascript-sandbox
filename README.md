@@ -37,8 +37,8 @@ Self-Paced Learning Sandbox for JavaScript with Node.js, Jest, Webpack, JSON, HT
 
 ## Main Sections & Projects
 
-<a href="https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/SECTIONS.md"><img src="https://custom-icon-badges.demolab.com/badge/Sections-f8f8f2.svg?logo=bookmark&logoColor=000000" alt="Sections" width="30%" />
-<a href="https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/PROJECTS.md"><img src="https://custom-icon-badges.demolab.com/badge/Projects-f8f8f2.svg?logo=star-fill&logoColor=000000" alt="Projects" width="30%" /></a><br/><br/>
+<a href="https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/SECTIONS.md"><img src="https://custom-icon-badges.demolab.com/badge/Sections-f8f8f2.svg?logo=bookmark&logoColor=000000" alt="Sections" width="30%" /></a> 
+<a href="https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/PROJECTS.md"><img src="https://custom-icon-badges.demolab.com/badge/Projects-f8f8f2.svg?logo=star-fill&logoColor=000000" alt="Projects" width="30%" /></a><br/>
 
 [![Variables & Data Types](https://custom-icon-badges.demolab.com/badge/Variables%20&%20Data%20Types-ffb2b2.svg?logo=bookmark&logoColor=000000)](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/01-variables-data-types)
 [![Arrays & Objects](https://custom-icon-badges.demolab.com/badge/Arrays%20&%20Objects-ffc9b2.svg?logo=bookmark&logoColor=000000)](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/02-arrays-and-objects)
