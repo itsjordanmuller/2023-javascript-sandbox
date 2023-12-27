@@ -6,7 +6,7 @@
 
 ## Main Sections of JavaScript Sandbox
 
-<a href="https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/SECTIONS.md"><img src="https://custom-icon-badges.demolab.com/badge/Sections-f8f8f2.svg?logo=bookmark&logoColor=000000" alt="Sections" width="55%" /></a><br>
+<a href="https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/SECTIONS.md"><img src="https://custom-icon-badges.demolab.com/badge/Sections-f8f8f2.svg?logo=bookmark&logoColor=000000" alt="Sections" width="45%" /></a><br>
 
 [![Variables & Data Types](https://custom-icon-badges.demolab.com/badge/Variables%20&%20Data%20Types-ffb2b2.svg?logo=bookmark&logoColor=000000)](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/01-variables-data-types)
 [![Arrays & Objects](https://custom-icon-badges.demolab.com/badge/Arrays%20&%20Objects-ffc9b2.svg?logo=bookmark&logoColor=000000)](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/02-arrays-and-objects)
@@ -25,7 +25,7 @@
 [![Unit Testing Algorithms](https://custom-icon-badges.demolab.com/badge/Unit%20Testing%20Algorithms-ffb2f7.svg?logo=bookmark&logoColor=000000)](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/18-unit-testing-algorithms)
 [![Node.js Core Modules](https://custom-icon-badges.demolab.com/badge/Node.js%20Core%20Modules-ffb2e0.svg?logo=bookmark&logoColor=000000)](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/19-nodejs-modules)
 
-<a href="https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/PROJECTS.md"><img src="https://custom-icon-badges.demolab.com/badge/View%20Projects%20Only-f8f8f2.svg?logo=star-fill&logoColor=000000" alt="View Projects" width="65%" /></a>
+<a href="https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/PROJECTS.md"><img src="https://custom-icon-badges.demolab.com/badge/View%20Projects%20Only-f8f8f2.svg?logo=star-fill&logoColor=000000" alt="View Projects" width="40%" /></a>
 
 ---
 
