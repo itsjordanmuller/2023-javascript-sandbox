@@ -19,7 +19,6 @@ Self-Paced Learning Sandbox for JavaScript with Node.js, Jest, Webpack, JSON, HT
 [![Mongoose](https://img.shields.io/badge/Mongoose-880000.svg?style=for-the-badge&logo=Mongoose&logoColor=white)](https://jordanmuller.com/portfolio/tags/mongoose/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4.svg?style=for-the-badge&logo=Tailwind-CSS&logoColor=white)](https://jordanmuller.com/portfolio/tags/tailwind-css/)
 [![Webpack](https://img.shields.io/badge/Webpack-8DD6F9.svg?style=for-the-badge&logo=Webpack&logoColor=black)](https://jordanmuller.com/portfolio/tags/webpack/)
-[![JSON](https://img.shields.io/badge/JSON-000000.svg?style=for-the-badge&logo=JSON&logoColor=white)](https://jordanmuller.com/portfolio/tags/json/)
 
 <details>
 <summary>More Technologies 📀</summary>
@@ -29,6 +28,7 @@ Self-Paced Learning Sandbox for JavaScript with Node.js, Jest, Webpack, JSON, HT
 [![Bash](https://img.shields.io/badge/Bash-4EAA25.svg?style=for-the-badge&logo=GNU-Bash&logoColor=white)](https://jordanmuller.com/portfolio/tags/bash/)
 [![CORS](https://img.shields.io/badge/cors-000000.svg?style=for-the-badge)](https://jordanmuller.com/portfolio/tags/cors/)
 [![ESLint](https://img.shields.io/badge/ESLint-4B32C3.svg?style=for-the-badge&logo=ESLint&logoColor=white)](https://jordanmuller.com/portfolio/tags/es-lint/)
+[![JSON](https://img.shields.io/badge/JSON-000000.svg?style=for-the-badge&logo=JSON&logoColor=white)](https://jordanmuller.com/portfolio/tags/json/)
 [![Nodemon](https://img.shields.io/badge/Nodemon-76D04B.svg?style=for-the-badge&logo=Nodemon&logoColor=white)](https://jordanmuller.com/portfolio/tags/nodemon/)
 [![Prettier](https://img.shields.io/badge/Prettier-F7B93E.svg?style=for-the-badge&logo=Prettier&logoColor=black)](https://jordanmuller.com/portfolio/tags/prettier/)
 [![Swiper.js](https://img.shields.io/badge/Swiper.js-6332F6.svg?style=for-the-badge&logo=Swiper&logoColor=white)](https://jordanmuller.com/portfolio/tags/swiper-js/)
