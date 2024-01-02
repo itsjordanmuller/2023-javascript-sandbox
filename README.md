@@ -23,7 +23,7 @@
 [![.env](https://img.shields.io/badge/.ENV-ECD53F.svg?style=for-the-badge&logo=dotenv&logoColor=black)](https://jordanmuller.com/portfolio/tags/dotenv/)
 
 <details>
-<summary>More Technologies 📀</summary>
+<summary>More Technologies 📀</summary><br>
 
 [![Babel](https://img.shields.io/badge/Babel-F9DC3E.svg?style=for-the-badge&logo=Babel&logoColor=black)](https://jordanmuller.com/portfolio/tags/babel/)
 [![Bash](https://img.shields.io/badge/Bash-8edf6a.svg?style=for-the-badge&logo=GNU-Bash&logoColor=black)](https://jordanmuller.com/portfolio/tags/bash/)
@@ -747,7 +747,7 @@
 
 <blockquote>
 <img src="https://github.com/itsjordanmuller.png" width="160px"/><br>
-<em>If you have questions/feedback, I would love to hear from you. Thanks for stopping by! - <strong>Jordan Muller</strong></em>
+<em>If you have questions/feedback, I would love to hear from you. Thanks for stopping by!<br>- <strong>Jordan Muller</strong></em>
 
 </blockquote>
 
