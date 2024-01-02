@@ -1,10 +1,11 @@
+<a id="top"></a>
 <div align="center">
 
-# JavaScript Sandbox
+<h1>JavaScript Sandbox</h1>
 
 <a href="https://jordanmuller.com/portfolio/javascript-sandbox/"><img src="https://custom-icon-badges.demolab.com/badge/JavaScript%20Sandbox-282A36.svg?style=for-the-badge&logo=javascript&logoColor=E8D44D" width="100%"/></a>
 
-Self-Paced Learning Sandbox for JavaScript with Node.js, Jest, Webpack, JSON, HTML & CSS
+<p>Self-Paced Learning Sandbox for JavaScript with Node.js, Jest, Webpack, JSON, HTML & CSS</p>
 
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black)](https://jordanmuller.com/portfolio/tags/javascript/)
 [![HTML](https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=HTML5&logoColor=white)](https://jordanmuller.com/portfolio/tags/html/)
@@ -50,7 +51,7 @@ Self-Paced Learning Sandbox for JavaScript with Node.js, Jest, Webpack, JSON, HT
 
 <div align="left">
 
-## Overview of Technologies
+<h2>Overview of Technologies</h2>
 
 | **Technology** | **Overview** | **Release Year** |
 |:---:|:---:|:---:|
@@ -92,7 +93,9 @@ Self-Paced Learning Sandbox for JavaScript with Node.js, Jest, Webpack, JSON, HT
 
 </details>
 
-## Main Sections & Projects
+<hr>
+
+<h2>Main Sections & Projects</h2>
 
 <a href="https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/SECTIONS.md"><img src="https://custom-icon-badges.demolab.com/badge/Sections-f8f8f2.svg?logo=bookmark&logoColor=000000" alt="Sections" width="30%" /></a> 
 <a href="https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/PROJECTS.md"><img src="https://custom-icon-badges.demolab.com/badge/Projects-f8f8f2.svg?logo=star-fill&logoColor=000000" alt="Projects" width="30%" /></a><br/>
@@ -120,9 +123,17 @@ Self-Paced Learning Sandbox for JavaScript with Node.js, Jest, Webpack, JSON, HT
 
 </div>
 
-## Table of Contents
-<details open>
-<summary>(Hide/Show) - Table of Contents 🗃️</summary>
+<details open><summary><h2>Table of Contents 🗃️</h2></summary><blockquote>
+
+📖 <a href="#about-section"><strong>About The Project</strong></h3></a>
+
+🖼️ <a href="#gallery-section"><strong>Image Gallery</strong></a>
+
+🛠️ <a href="#setup-section"><strong>Setup Instructions</strong></a>
+
+💡 <a href="#usage-section"><strong>Usage, Tips & Notes</strong></a>
+
+<details open><summary>🔍 <a href="#overview-section"><strong>Pages & Sections</strong></a></summary><blockquote>
 
 * [1. Variables & Data Types](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/01-variables-data-types)
    - [A. Console](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/01-variables-data-types/01-console)
@@ -293,14 +304,65 @@ Self-Paced Learning Sandbox for JavaScript with Node.js, Jest, Webpack, JSON, HT
     - [C. Operating System (os) - Core Module](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/19-nodejs-modules/node-core-modules/os.js)
     - [D. Paths & Directories (path) - Core Module](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/19-nodejs-modules/node-core-modules/path.js)
     - [E. URL (url) & URL Query String (urlqs) - Core Modules](https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/19-nodejs-modules/node-core-modules/urlqs.js)
-* [20. Random Ideas Project](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/20-randomideas-app/randomideas-app)
+* [20. Random Ideas Project](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/20-randomideas-app/randomideas-app) 
 
+</blockquote>
 </details>
 
-## Section Overviews
-
 <details open>
-<summary>(Hide/Show) - Section Overviews 📑</summary>
+<summary>🌟 <a href="#acknowledgements-section"><strong>Acknowledgements</strong></a></summary>
+<blockquote>
+
+- 💌 <a href="#special-thanks">Special Thanks</a>
+
+</blockquote>
+</details>
+
+📬 <a href="#contact-section"><strong>Contact Information</strong></a>
+
+📜 <a href="#license-section"><strong>License Information</strong></a>
+
+🔗 <a href="#resources-section"><strong>Resources & Citations</strong></a>
+
+</blockquote></details>
+
+<hr>
+
+<a id="about-section"></a>
+<details open>
+<summary><h2>📖 About The Project</h2></summary>
+</details>
+
+<div align="right"><a href="#top">(back to top)</a></div>
+<hr>
+
+<a id="gallery-section"></a>
+<details open>
+<summary><h2>🖼️ Image Gallery</h2></summary>
+</details>
+
+<div align="right"><a href="#top">(back to top)</a></div>
+<hr>
+
+<a id="setup-section"></a>
+<details>
+<summary><h2>🛠️ Setup Instructions</h2></summary>
+</details>
+
+<div align="right"><a href="#top">(back to top)</a></div>
+<hr>
+
+<a id="usage-section"></a>
+<details>
+<summary><h2>💡 Usage, Tips & Notes</h2></summary>
+</details>
+
+<div align="right"><a href="#top">(back to top)</a></div>
+<hr>
+
+<a id="overview-section"></a>
+<details open>
+<summary><h2>🔍 Sections & Projects</h2></summary>
 
 ### [1. Variables & Data Types](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/01-variables-data-types)
 
@@ -649,26 +711,84 @@ Self-Paced Learning Sandbox for JavaScript with Node.js, Jest, Webpack, JSON, HT
 
 </details>
 
-## Sources, Credits & Acknowledgments
+<div align="right"><a href="#top">(back to top)</a></div>
+<hr>
 
-### Course Details
+<a id="acknowledgements-section"></a>
+<details open>
+<summary><h2>🌟 Acknowledgements</h2></summary>
 
-[Modern JavaScript From the Beginning 2.0 - 2023 Revamp](https://www.udemy.com/course/modern-javascript-from-the-beginning/) course by [Brad Traversy](https://www.udemy.com/user/brad-traversy/) on [Udemy](https://www.udemy.com/)
+<a id="special-thanks"></a>
 
-## Contact Information
+<div align="left">
 
-Please feel free to reach out if you have any suggestions or run into any issues with viewing this project. I'm always looking for feedback from other people! I'd be more than happy to answer any questions you may have as well as assist with getting the project working on your machine.<br/>
+<h3>💌 Special Thanks</h3>
 
-Be sure to view the setup guide in the README, as well as any specific README files for that specific project as they contain more details and may already have the answer to your question(s)!
+<blockquote>
+<p>Dear Brad Traversy,</p>
+<p>I want to express my deep gratitude for your comprehensive and enlightening course, "Modern JavaScript From the Beginning 2.0 - 2023 Revamp." Your detailed overview of modern JavaScript has been incredibly valuable to my learning journey. The depth of knowledge you shared, combined with your clear and engaging teaching style, made complex concepts accessible and easy to understand.</p>
+<p>This course has significantly enhanced my understanding of JavaScript, providing me with the skills and confidence to tackle more advanced programming challenges. Your dedication to covering every aspect of modern JavaScript is evident, and your passion for teaching shines through in every lesson.</p>
+<p>Thank you for your commitment to educating and empowering aspiring developers like myself. Your work has had a profound impact on my development skills, and I am truly grateful for the knowledge and expertise you've shared.</p>
+<p>Sincerely,<br><strong><em>Jordan Muller</em></strong></p>
+</blockquote>
 
-[![Email Address](https://custom-icon-badges.demolab.com/badge/e--mail%20me-itsjordanmuller@gmail.com-red?style=for-the-badge&logo=mention&logoColor=white)](mailto:itsjordanmuller@gmail.com)<br/>
-[![LinkedIn](https://img.shields.io/badge/connect%20on%20linkedin-@itsjordanmuller-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/itsjordanmuller)<br/>
-[![My Website](https://custom-icon-badges.demolab.com/badge/My%20Website-www.jordanmuller.com-210157?style=for-the-badge&logoColor=white&logo=globe)](https://www.linkedin.com/in/itsjordanmuller)
+</div>
 
-## License Information
+</details>
+
+<div align="right"><a href="#top">(back to top)</a></div>
+<hr>
+
+<a id="contact-section"></a>
+<details open>
+<summary><h2>📬 Contact Information</h2></summary>
+
+<div align="center">
+
+<blockquote>
+<img src="https://github.com/itsjordanmuller.png" width="160px"/><br>
+<em>If you have questions/feedback, I would love to hear from you. Thanks for stopping by! - <strong>Jordan Muller</strong></em>
+
+</blockquote>
+
+[![LinkedIn](https://img.shields.io/badge/connect%20on%20linkedin-@itsjordanmuller-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/itsjordanmuller)
+[![Email Address](https://custom-icon-badges.demolab.com/badge/e--mail%20me-itsjordanmuller@gmail.com-red?style=for-the-badge&logo=mention&logoColor=white)](mailto:itsjordanmuller@gmail.com)
+[![Portfolio Website](https://custom-icon-badges.demolab.com/badge/Portfolio%20Website-www.jordanmuller.com-a61168?style=for-the-badge&logoColor=white&logo=globe)](https://jordanmuller.com/)
+
+</div>
+
+Please feel free to reach out if you have any suggestions or run into any issues with viewing this project.<br>
+
+I am always looking for feedback from other people! I'd be more than happy to answer any questions you may have as well as assist with getting the project working on your machine.<br>
+
+Be sure to view the <a href="#setup-section"><strong><em>Setup Instructions</em></strong></a> in the README, as well as any specific README files for that specific project as they contain more details and may already have the answer to your question(s)!
+
+</details>
+
+<div align="right"><a href="#top">(back to top)</a></div>
+<hr>
+
+<a id="license-section"></a>
+<details open>
+<summary><h2>📜 License Information</h2></summary>
 
 The content within this repository was created as part of a personal educational project, following the [Modern JavaScript From the Beginning 2.0 - 2023 Revamp](https://www.udemy.com/course/modern-javascript-from-the-beginning/) course by [Brad Traversy](https://www.udemy.com/user/brad-traversy/) on [Udemy](https://www.udemy.com/). This repository is intended for personal use only and serves as a record of my learning progress. This repository & the content within it are not intended for commercial use, distribution, or replication. All rights to the original course content and methodologies belong to the respective copyright holders.
 
 THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
 
-Copyright © 2023 Jordan Muller. All Rights Reserved.
+Copyright © 2024 Jordan Muller. All Rights Reserved.
+
+</details>
+
+<div align="right"><a href="#top">(back to top)</a></div>
+<hr>
+
+<a id="resources-section"></a>
+<details open>
+<summary><h2>🔗 Resources & Citations</h2></summary>
+
+[Modern JavaScript From the Beginning 2.0 - 2023 Revamp](https://www.udemy.com/course/modern-javascript-from-the-beginning/) course by [Brad Traversy](https://www.udemy.com/user/brad-traversy/) on [Udemy](https://www.udemy.com/)
+
+</details>
+
+<div align="right"><a href="#top">(back to top)</a></div>
