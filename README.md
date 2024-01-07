@@ -320,7 +320,7 @@
 
 📬 <a href="#contact-section"><strong>Contact Information</strong></a>
 
-📜 <a href="#license-section"><strong>License Information</strong></a>
+📜 <a href="#license-section"><strong>License Details</strong></a>
 
 🔗 <a href="#resources-section"><strong>Resources & Citations</strong></a>
 
@@ -714,31 +714,6 @@
 
 </details>
 
-<a id="acknowledgements-section"></a>
-<details open>
-<summary><h2>🌟 Acknowledgements</h2></summary>
-
-<a id="special-thanks"></a>
-
-<div align="left">
-
-<h3>💌 Special Thanks</h3>
-
-<blockquote>
-<p>Dear Brad Traversy,</p>
-<p>I want to express my deep gratitude for your comprehensive and enlightening course, "Modern JavaScript From the Beginning 2.0 - 2023 Revamp." Your detailed overview of modern JavaScript has been incredibly valuable to my learning journey. The depth of knowledge you shared, combined with your clear and engaging teaching style, made complex concepts accessible and easy to understand.</p>
-<p>This course has significantly enhanced my understanding of JavaScript, providing me with the skills and confidence to tackle more advanced programming challenges. Your dedication to covering every aspect of modern JavaScript is evident, and your passion for teaching shines through in every lesson.</p>
-<p>Thank you for your commitment to educating and empowering aspiring developers like myself. Your work has had a profound impact on my development skills, and I am truly grateful for the knowledge and expertise you've shared.</p>
-<p>Sincerely,<br><strong><em>Jordan Muller</em></strong></p>
-</blockquote>
-
-</div>
-
-<div align="right"><a href="#top">(back to top)</a></div>
-<hr>
-
-</details>
-
 <a id="contact-section"></a>
 <details open>
 <summary><h2>📬 Contact Information</h2></summary>
@@ -768,15 +743,25 @@ Be sure to view the <a href="#setup-section"><strong><em>Setup Instructions</em>
 
 </details>
 
-<a id="license-section"></a>
+<a id="acknowledgements-section"></a>
 <details open>
-<summary><h2>📜 License Information</h2></summary>
+<summary><h2>🌟 Acknowledgements</h2></summary>
 
-The content within this repository was created as part of a personal educational project, following the [Modern JavaScript From the Beginning 2.0 - 2023 Revamp](https://www.udemy.com/course/modern-javascript-from-the-beginning/) course by [Brad Traversy](https://www.udemy.com/user/brad-traversy/) on [Udemy](https://www.udemy.com/). This repository is intended for personal use only and serves as a record of my learning progress. This repository & the content within it are not intended for commercial use, distribution, or replication. All rights to the original course content and methodologies belong to the respective copyright holders.
+<a id="special-thanks"></a>
 
-THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+<div align="left">
 
-Copyright © 2024 <a href="https://jordanmuller.com/">Jordan Muller</a>. All Rights Reserved.
+<h3>💌 Special Thanks</h3>
+
+<blockquote>
+<p>Dear Brad Traversy,</p>
+<p>I want to express my deep gratitude for your comprehensive and enlightening course, "Modern JavaScript From the Beginning 2.0 - 2023 Revamp." Your detailed overview of modern JavaScript has been incredibly valuable to my learning journey. The depth of knowledge you shared, combined with your clear and engaging teaching style, made complex concepts accessible and easy to understand.</p>
+<p>This course has significantly enhanced my understanding of JavaScript, providing me with the skills and confidence to tackle more advanced programming challenges. Your dedication to covering every aspect of modern JavaScript is evident, and your passion for teaching shines through in every lesson.</p>
+<p>Thank you for your commitment to educating and empowering aspiring developers like myself. Your work has had a profound impact on my development skills, and I am truly grateful for the knowledge and expertise you've shared.</p>
+<p>Sincerely,<br><strong><em>Jordan Muller</em></strong></p>
+</blockquote>
+
+</div>
 
 <div align="right"><a href="#top">(back to top)</a></div>
 <hr>
@@ -789,6 +774,36 @@ Copyright © 2024 <a href="https://jordanmuller.com/">Jordan Muller</a>. All Rig
 
 [Modern JavaScript From the Beginning 2.0 - 2023 Revamp](https://www.udemy.com/course/modern-javascript-from-the-beginning/) course by [Brad Traversy](https://www.udemy.com/user/brad-traversy/) on [Udemy](https://www.udemy.com/)
 
+<hr>
+
 </details>
 
+<a id="license-section"></a>
+<details open>
+<summary align="center"><h2>📜 License Details</h2></summary>
+
+<table>
+  <thead>
+    <tr>
+      <th>
+        <a href="https://github.com/itsjordanmuller/2023-javascript-sandbox/blob/main/LICENSE.md">LICENSE.md</a>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <blockquote>
+          <p>The content within this repository was created as part of a personal educational project, following the <a href="https://www.udemy.com/course/modern-javascript-from-the-beginning/">Modern JavaScript From the Beginning 2.0 - 2023 Revamp</a> course by <a href="https://www.udemy.com/user/brad-traversy/">Brad Traversy</a> on <a href="https://www.udemy.com/">Udemy</a>. This repository is intended for personal use only and serves as a record of my learning progress. This repository & the content within it are not intended for commercial use, distribution, or replication. All rights to the original course content and methodologies belong to the respective copyright holders.</p>
+          <p>THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.</p>
+          <p>Copyright © 2024 <a href="https://jordanmuller.com/">Jordan Muller</a>. All Rights Reserved.</p>
+        </blockquote>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 <div align="right"><a href="#top">(back to top)</a></div>
+<hr>
+
+</details>
