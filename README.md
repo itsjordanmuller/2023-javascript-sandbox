@@ -328,15 +328,15 @@
 
 <a id="about-section"></a>
 <details open>
-<summary><h2>📖 About The Project</h2></summary>
+<summary align="center"><h2>📖 About The Project</h2></summary>
 <div align="right"><a href="#top">(back to top)</a></div>
 <hr>
 
 </details>
 
 <a id="usage-section"></a>
-<details>
-<summary><h2>💡 Usage Guide</h2></summary>
+<details open>
+<summary align="center"><h2>💡 Usage Guide</h2></summary>
 <div align="right"><a href="#top">(back to top)</a></div>
 <hr>
 
@@ -580,7 +580,7 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 
 <a id="overview-section"></a>
 <details open>
-<summary><h2>🔍 Sections & Projects</h2></summary>
+<summary align="center"><h2>🔍 Sections & Projects</h2></summary>
 
 ### [1. Variables & Data Types](https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/01-variables-data-types)
 
@@ -934,7 +934,7 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 
 <a id="acknowledgements-section"></a>
 <details open>
-<summary><h2>🌟 Acknowledgements</h2></summary>
+<summary align="center"><h2>🌟 Acknowledgements</h2></summary>
 
 <a id="special-thanks"></a>
 
@@ -959,7 +959,7 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 
 <a id="contact-section"></a>
 <details open>
-<summary><h2>📬 Contact Information</h2></summary>
+<summary align="center"><h2>📬 Contact Information</h2></summary>
 
 <div align="center">
 
@@ -988,9 +988,53 @@ Be sure to view the <a href="#setup-section"><strong><em>Setup Instructions</em>
 
 <a id="resources-section"></a>
 <details open>
-<summary><h2>🔗 Links & Citations</h2></summary>
+<summary align="center"><h2>🔗 Links & Citations</h2></summary>
 
-[Modern JavaScript From the Beginning 2.0 - 2023 Revamp](https://www.udemy.com/course/modern-javascript-from-the-beginning/) course by [Brad Traversy](https://www.udemy.com/user/brad-traversy/) on [Udemy](https://www.udemy.com/)
+<h3>📓 Course & Instructor Details</h3>
+<table>
+  <thead>
+    <tr>
+      <th colspan="2">
+        <h4>Course - Modern JavaScript From the Beginning 2.0 - 2023 Revamp</h4>
+      </th>
+    </tr>
+  </thead>
+  <tbody align="center">
+    <tr>
+      <td colspan="2">
+        <img src="https://github.com/itsjordanmuller/portfolio-website/blob/main/src/assets/images/projects/javascript-sandbox/javascript-sandbox-course.png" alt="Modern JavaScript From the Beginning 2.0 Course Cover" width="525px"/>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.udemy.com/course/modern-javascript-from-the-beginning/">udemy.com/course/modern-javascript-from-the-beginning/</a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <a href="https://www.udemy.com/course/modern-javascript-from-the-beginning/"><img src="https://img.shields.io/badge/View%20Course%20on%20Udemy-A435F0.svg?style=for-the-badge&logo=Udemy&logoColor=white" width="80%" alt="Udemy Badge"/></a>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<blockquote>
+  <h4>Instructor Information 👥</h4>
+  <table width=100%>
+    <thead>
+      <tr>
+        <th>Instructor Name</th>
+        <th>Profile Link</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th><strong><em>Brad Traversy</em></strong></th>
+        <td align="center"><a href="https://www.udemy.com/user/brad-traversy/">Brad's Udemy Profile</a></td>
+      </tr>
+    </tbody>
+  </table>
+</blockquote>
 
 <hr>
 
