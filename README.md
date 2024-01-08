@@ -947,7 +947,7 @@ Note: The GitHub CLI streamlines various GitHub operations and is particularly u
 <p>I want to express my deep gratitude for your comprehensive and enlightening course, "Modern JavaScript From the Beginning 2.0 - 2023 Revamp." Your detailed overview of modern JavaScript has been incredibly valuable to my learning journey. The depth of knowledge you shared, combined with your clear and engaging teaching style, made complex concepts accessible and easy to understand.</p>
 <p>This course has significantly enhanced my understanding of JavaScript, providing me with the skills and confidence to tackle more advanced programming challenges. Your dedication to covering every aspect of modern JavaScript is evident, and your passion for teaching shines through in every lesson.</p>
 <p>Thank you for your commitment to educating and empowering aspiring developers like myself. Your work has had a profound impact on my development skills, and I am truly grateful for the knowledge and expertise you've shared.</p>
-<p>Sincerely,<br><strong><em>Jordan Muller</em></strong></p>
+<p>Sincerely,<br><strong><em>- Jordan Muller</em></strong></p>
 </blockquote>
 
 </div>
