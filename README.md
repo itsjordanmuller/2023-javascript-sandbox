@@ -442,7 +442,7 @@ Feel free to use whichever option you are most comfortable & familiar with. You 
 3. **Open Terminal or Command Prompt**: Open your terminal or command prompt. Navigate to the directory where you want the cloned repository to be placed.
 4. **Run Clone Command**: Type `git clone` followed by the copied SSH URL. For this project, that's:
    ```
-   git clone git@github.com:itsjordanmuller/50-in-50-html-css-javascript.git
+   git clone git@github.com:itsjordanmuller/2023-javascript-sandbox.git
    ```
 5. **Access Cloned Repository**: Once the cloning process is complete, you will have a local copy of the repository. Navigate into the newly created directory to access the repository files.
 
@@ -472,7 +472,7 @@ Note: Downloading a ZIP file is a great way to get a copy of the repository with
 2. **Open Terminal or Command Prompt**: Access your terminal (Linux/Mac) or command prompt (Windows). Navigate to the directory where you want the repository to be cloned.
 3. **Execute Clone Command**: Type `git clone` followed by the copied HTTPS URL. In this case:
    ```
-   git clone https://github.com/itsjordanmuller/50-in-50-html-css-javascript.git
+   git clone https://github.com/itsjordanmuller/2023-javascript-sandbox.git
    ```
 4. **Enter GitHub Credentials**: If prompted, enter your GitHub username and password. This step is usually required the first time you use HTTPS to clone a repository.
 5. **Access Cloned Repository**: After the cloning process completes, a local copy of the repository will be created. Navigate into the directory that was just created to start working with the files.
@@ -484,7 +484,7 @@ Note: HTTPS cloning is straightforward but may require you to enter your GitHub 
 <details>
 <summary><em>Clone with GitHub CLI</em></summary><blockquote>
 
-The GitHub CLI (`gh`) provides a convenient way to interact with GitHub from your command line. Here’s how to use `gh` to clone the repository `itsjordanmuller/50-in-50-html-css-javascript`:
+The GitHub CLI (`gh`) provides a convenient way to interact with GitHub from your command line. Here’s how to use `gh` to clone the repository `itsjordanmuller/2023-javascript-sandbox`:
 
 1. **Install GitHub CLI**: If you haven't already, you need to install the GitHub CLI. You can find installation instructions on the [official GitHub CLI page](https://cli.github.com/).
 
@@ -492,13 +492,13 @@ The GitHub CLI (`gh`) provides a convenient way to interact with GitHub from you
 
 3. **Clone the Repository**: To clone this repository, use the following command:
    ```
-   gh repo clone itsjordanmuller/50-in-50-html-css-javascript
+   gh repo clone itsjordanmuller/2023-javascript-sandbox
    ```
-   This command will clone the repository into a new directory named `50-in-50-html-css-javascript` in your current working directory.
+   This command will clone the repository into a new directory named `2023-javascript-sandbox` in your current working directory.
 
 4. **Navigate to the Repository**: Once the cloning process is complete, navigate into the repository directory with:
    ```
-   cd 50-in-50-html-css-javascript
+   cd 2023-javascript-sandbox
    ```
 
 5. **Start Working**: You now have a local copy of the repository and can begin working on it.
