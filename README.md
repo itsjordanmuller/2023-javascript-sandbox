@@ -329,6 +329,21 @@
 <a id="about-section"></a>
 <details open>
 <summary align="center"><h2>📖 About The Project</h2></summary>
+<h3>📂 Project Introduction</h3>
+<blockquote>
+<p>I recently completed the <a href="https://www.udemy.com/course/modern-javascript-from-the-beginning/"><strong>Modern JavaScript From The Beginning 2.0 - 2023 Revamp</strong></a> course. This program was all about diving deep into JavaScript without relying on frameworks or libraries. It was a practical, project-based journey to solidify my JavaScript skills, covering everything from the basics to more advanced topics like asynchronous programming and API integration. The course was designed to build a strong foundation in JavaScript, essential for any aspiring web developer.</p>
+</blockquote>
+
+<h3>⛳ Learning Objectives & Goals</h3>
+<blockquote>
+<p>My goal with this course was to get a firm grip on JavaScript in its pure form. I wanted to understand how JavaScript works under the hood, how to manipulate the DOM, handle events, and work with web APIs. The course also focused on newer ES6+ features, which are crucial for writing cleaner and more efficient code. I aimed to move beyond just syntax and learn how to solve real-world problems with JavaScript, preparing myself for advanced front-end development and beyond.</p>
+</blockquote>
+
+<h3>🗓️ Project Timeline</h3>
+<blockquote>
+<p>I kicked off this course on October 2nd, 2023, and followed a structured path that took me from basic concepts to complex JavaScript applications. The early phases were about grasping the fundamentals - variables, functions, conditionals, and loops. As the weeks progressed, I delved into more complex topics like object-oriented programming, asynchronous JavaScript, and working with APIs. The course's layout allowed me to steadily build my skills, culminating in a comprehensive understanding of JavaScript by the end of the program.</p>
+</blockquote>
+
 <div align="right"><a href="#top">(back to top)</a></div>
 <hr>
 
