@@ -351,26 +351,26 @@
     <thead align="center">
       <tr>
         <td>
-        <a href="https://github.com/itsjordanmuller/2023-react-sandbox/tree/main/01-fundamentals/react-fundamentals"><img src="https://custom-icon-badges.demolab.com/badge/Directory-F6E481.svg?style=for-the-badge&logo=file-submodule&logoColor=black"/></a>
+        <a href="https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/01-variables-data-types"><img src="https://custom-icon-badges.demolab.com/badge/Directory-F6E481.svg?style=for-the-badge&logo=file-submodule&logoColor=black"/></a>
         </td>
         <td>
-        <a href="https://github.com/itsjordanmuller/2023-react-sandbox/tree/main"><img src="https://custom-icon-badges.demolab.com/badge/Live%20Demo-FF3333.svg?style=for-the-badge&logoSource=feather&logo=browser&logoColor=white"/></a>
+        <a href="https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main"><img src="https://custom-icon-badges.demolab.com/badge/Live%20Demo-FF3333.svg?style=for-the-badge&logoSource=feather&logo=browser&logoColor=white"/></a>
         </td>
         <td>
-        <a href="https://jordanmuller.com/portfolio/50-projects-50-days-html-css-js/"><img src="https://custom-icon-badges.demolab.com/badge/Portfolio-a61168.svg?style=for-the-badge&logo=briefcase&logoColor=white"/></a>
+        <a href="https://jordanmuller.com/portfolio/javascript-sandbox/"><img src="https://custom-icon-badges.demolab.com/badge/Portfolio-a61168.svg?style=for-the-badge&logo=briefcase&logoColor=white"/></a>
         </td>
       </tr>
     </thead>
     <tbody align="center">
       <tr>
         <td>
-          <a href="https://github.com/itsjordanmuller/2023-react-sandbox/tree/main/01-fundamentals/react-fundamentals">Go to Directory</a>
+          <a href="https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main/01-variables-data-types">Go to Directory</a>
         </td>
         <td>
-          <a href="https://github.com/itsjordanmuller/2023-react-sandbox/tree/main">Live Demo</a>
+          <a href="https://github.com/itsjordanmuller/2023-javascript-sandbox/tree/main">Live Demo</a>
         </td>
         <td>
-          <a href="https://jordanmuller.com/portfolio/50-projects-50-days-html-css-js/">Open on Portfolio</a>
+          <a href="https://jordanmuller.com/portfolio/javascript-sandbox/">Open on Portfolio</a>
         </td>
       </tr>
     </tbody>
