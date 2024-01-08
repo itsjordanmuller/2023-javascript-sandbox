@@ -1118,7 +1118,7 @@ Be sure to view the <a href="#setup-section"><strong><em>Setup Instructions</em>
     </tr>
     <tr>
       <td>
-        <a href="https://www.udemy.com/course/modern-javascript-from-the-beginning/"><img src="https://img.shields.io/badge/View%20Course%20on%20Udemy-A435F0.svg?style=for-the-badge&logo=Udemy&logoColor=white" width="80%" alt="Udemy Badge"/></a>
+        <a href="https://www.udemy.com/course/modern-javascript-from-the-beginning/"><img src="https://img.shields.io/badge/View%20Course%20on%20Udemy-A435F0.svg?style=for-the-badge&logo=Udemy&logoColor=white" width="80%" alt="View Course on Udemy - Udemy Badge"/></a>
       </td>
     </tr>
   </tbody>
