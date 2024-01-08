@@ -1038,6 +1038,1650 @@ Be sure to view the <a href="#setup-section"><strong><em>Setup Instructions</em>
 
 <hr>
 
+<h3>📀 Core Technologies</h3>
+
+<h4>Languages 🔠</h4>
+<table>
+  <thead>
+    <tr>
+      <th><em>HTML</em><br><a href="https://en.wikipedia.org/wiki/HTML">1993</a></th>
+      <th align="left"><a href="https://jordanmuller.com/portfolio/tags/html/"><img src="https://img.shields.io/badge/HTML5-E34F26.svg?style=for-the-badge&logo=HTML5&logoColor=white" height="47px" alt="HTML Badge"/></a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2">
+        <img src="https://github.com/itsjordanmuller/portfolio-website/blob/main/src/assets/images/external/html-github-topic.png" width="525px" alt="HTML GitHub Topic"/>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">Home</td>
+      <td><a href="https://html.spec.whatwg.org/">html.spec.whatwg.org/</a></td>
+    </tr>
+    <tr>
+      <td align="center">Topic</td>
+      <td>
+        <ul>
+          <li><a href="https://github.com/topics/html">github.com/topics/html</a></li>
+          <li><a href="https://github.com/topics/html">github.com/topics/html5</a></li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+      <br>
+        <blockquote>
+        <details>
+          <summary>View HTML Resources & Information</summary>
+          <br>
+          <table>
+            <tbody>
+              <tr>
+                <td>
+                  <strong>MDN Guides</strong>
+                  <ul>
+                    <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML">developer.mozilla.org/en-US/docs/Web/HTML</a></li>
+                    <li><a href="https://developer.mozilla.org/en-US/docs/Learn/HTML">developer.mozilla.org/en-US/docs/Learn/HTML</a></li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <strong>Wikipedia Article</strong><br>
+                  <a href="https://en.wikipedia.org/wiki/HTML">en.wikipedia.org/wiki/HTML</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <hr>
+        </details>
+        <details>
+          <summary>View HTML Support & Communities</summary>
+          <br>
+          <table>
+            <tbody>
+              <tr>
+                <td>
+                  <strong>Forums & Discussion Boards</strong><br>
+                  <ul>
+                    <li><a href="https://www.reddit.com/r/HTML/">reddit.com/r/HTML/</a></li>
+                    <li><a href="https://www.reddit.com/r/html5/">reddit.com/r/html5/</a></li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <strong>Stack Overflow Help</strong><br>
+                  <a href="https://stackoverflow.com/questions/tagged/html">stackoverflow.com/questions/tagged/html</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </details>
+        </blockquote>
+        <hr>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th><em>CSS</em><br><a href="https://en.wikipedia.org/wiki/CSS">1996</a></th>
+      <th align="left"><a href="https://jordanmuller.com/portfolio/tags/css/"><img src="https://img.shields.io/badge/CSS3-1572B6.svg?style=for-the-badge&logo=CSS3&logoColor=white" height="47px" alt="CSS Badge"/></a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2">
+        <img src="https://github.com/itsjordanmuller/portfolio-website/blob/main/src/assets/images/external/css-github-topic.png" width="525px" alt="CSS GitHub Topic"/>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">Home</td>
+      <td><a href="https://www.w3.org/TR/CSS/#css">w3.org/TR/CSS/#css</a></td>
+    </tr>
+    <tr>
+      <td align="center">Topic</td>
+      <td>
+        <ul>
+          <li><a href="https://github.com/topics/css">github.com/topics/css</a></li>
+          <li><a href="https://github.com/topics/css3">github.com/topics/css3</a></li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <br>
+        <blockquote>
+          <details>
+            <summary>View CSS Resources & Information</summary>
+            <br>
+            <table>
+              <tbody>
+                <tr>
+                  <td>
+                    <strong>MDN Guides</strong>
+                    <ul>
+                      <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS">developer.mozilla.org/en-US/docs/Web/CSS</a></li>
+                      <li><a href="https://developer.mozilla.org/en-US/docs/Learn/CSS">developer.mozilla.org/en-US/docs/Learn/CSS</a></li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <strong>Interactive Learning Games</strong>
+                    <ul>
+                      <li>Flexbox</li>
+                      <ul>
+                        <li><a href="https://flexboxfroggy.com/">Flexbox Froggy</a></li>
+                        <li><a href="http://www.flexboxdefense.com/">Flexbox Defense</a></li>
+                        <li><a href="https://flexboxzombies.com/">Flexbox Zombies</a></li>
+                      </ul>
+                      <hr>
+                      <li>Grid</li>
+                      <ul>
+                        <li><a href="https://cssgridgarden.com/">CSS Grid Garden</a></li>
+                        <li><a href="https://www.gridcritters.com/">Grid Critters</a></li>
+                      </ul>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <strong>Wikipedia Article</strong><br>
+                    <a href="https://en.wikipedia.org/wiki/CSS">en.wikipedia.org/wiki/CSS</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <hr>
+          </details>
+          <details>
+            <summary>View CSS Support & Communities</summary>
+            <br>
+            <table>
+              <tbody>
+                <tr>
+                  <td>
+                    <strong>Forums & Discussion Boards</strong><br>
+                    <ul>
+                      <li><a href="https://www.reddit.com/r/css/">reddit.com/r/css/</a></li>
+                      <li><a href="https://www.reddit.com/r/csshelp/">reddit.com/r/csshelp/</a></li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <strong>Stack Overflow Help</strong><br>
+                    <a href="https://stackoverflow.com/questions/tagged/css">stackoverflow.com/questions/tagged/css</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </details>
+        </blockquote>
+        <hr>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th><em>JavaScript</em><br><a href="https://en.wikipedia.org/wiki/JavaScript">1995</a></th>
+      <th align="left"><a href="https://jordanmuller.com/portfolio/tags/javascript/"><img src="https://img.shields.io/badge/JavaScript-F7DF1E.svg?style=for-the-badge&logo=JavaScript&logoColor=black" height="47px" alt="JavaScript Badge"/></a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2">
+        <img src="https://github.com/itsjordanmuller/portfolio-website/blob/main/src/assets/images/external/javascript-github-topic.png" width="525px" alt="JavaScript GitHub Topic"/>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">Home</td>
+      <td><a href="https://ecma-international.org/publications-and-standards/standards/ecma-262/">ecma-international.org/</a></td>
+    </tr>
+    <tr>
+      <td align="center">Topic</td>
+      <td>
+        <ul>
+          <li><a href="https://github.com/topics/javascript">github.com/topics/javascript</a></li>
+          <li><a href="https://github.com/topics/es6">github.com/topics/es6</a></li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <br>
+        <blockquote>
+          <details>
+            <summary>View JavaScript Resources & Information</summary>
+            <br>
+            <table>
+              <tbody>
+                <tr>
+                  <td>
+                    <strong>MDN Guides</strong>
+                    <ul>
+                      <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript">developer.mozilla.org/en-US/docs/Web/JavaScript</a></li>
+                      <li><a href="https://developer.mozilla.org/en-US/docs/Learn/JavaScript">developer.mozilla.org/en-US/docs/Learn/JavaScript</a></li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <strong>Simplified JavaScript Jargon Guide</strong><br>
+                    <a href="http://jargon.js.org/">jargon.js.org/</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <strong>Wikipedia Article</strong><br>
+                    <a href="https://en.wikipedia.org/wiki/JavaScript">en.wikipedia.org/wiki/JavaScript</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <hr>
+          </details>
+          <details>
+            <summary>View JavaScript Support & Communities</summary>
+            <br>
+            <table>
+              <tbody>
+                <tr>
+                  <td>
+                    <strong>Forums & Discussion Boards</strong><br>
+                    <ul>
+                      <li><a href="https://www.reddit.com/r/javascript/">reddit.com/r/javascript/</a></li>
+                      <li><a href="https://www.reddit.com/r/learnjavascript/">reddit.com/r/learnjavascript/</a></li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <strong>Stack Overflow Help</strong><br>
+                    <a href="https://stackoverflow.com/questions/tagged/javascript">stackoverflow.com/questions/tagged/javascript</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </details>
+        </blockquote>
+        <hr>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th><em>Markdown</em><br><a href="https://en.wikipedia.org/wiki/Markdown">2004</a></th>
+      <th align="left"><a href="https://jordanmuller.com/portfolio/tags/markdown/"><img src="https://img.shields.io/badge/Markdown-000000.svg?style=for-the-badge&logo=Markdown&logoColor=white" height="47px" alt="Markdown Badge"/></a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2">
+        <img src="https://github.com/itsjordanmuller/portfolio-website/blob/main/src/assets/images/external/markdown-github-topic.png" width="525px" alt="Markdown GitHub Topic"/>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">Home</td>
+      <td><a href="https://daringfireball.net/projects/markdown/">daringfireball.net/projects/markdown/</a></td>
+    </tr>
+    <tr>
+      <td align="center">Topic</td>
+      <td><a href="https://github.com/topics/markdown">github.com/topics/markdown</a></td>
+    </tr>
+    <tr>
+      <td colspan="2">
+      <br>
+        <blockquote>
+        <details>
+          <summary>View Markdown Resources & Information</summary>
+          <br>
+          <table>
+            <tbody>
+              <tr>
+                  <td>
+                    <strong>Additional Guides</strong>
+                    <ul>
+                      <li><a href="https://www.markdownguide.org/getting-started/">markdownguide.org/getting-started/</a></li>
+                      <li><a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet">github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet</a></li>
+                    </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <strong>GitHub Flavored Markdown</strong><br>
+                  <a href="https://github.github.com/gfm/">github.github.com/gfm/</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <strong>Wikipedia Article</strong><br>
+                  <a href="https://en.wikipedia.org/wiki/Markdown">en.wikipedia.org/wiki/Markdown</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <hr>
+        </details>
+        <details>
+          <summary>View Markdown Support & Communities</summary>
+          <br>
+          <table>
+              <tbody>
+              <tr>
+                <td>
+                  <strong>Forums & Discussion Boards</strong><br>
+                  <a href="https://www.reddit.com/r/Markdown/">reddit.com/r/Markdown/</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <strong>Stack Overflow Help</strong><br>
+                  <a href="https://stackoverflow.com/questions/tagged/markdown">stackoverflow.com/questions/tagged/markdown</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </details>
+        </blockquote>
+        <hr>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<div align="right"><a href="#top">(back to top)</a></div>
+<hr>
+
+<h4>Frameworks 🏗️</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th><em>Tailwind CSS</em><br><a href="https://en.wikipedia.org/wiki/Tailwind_CSS">2017</a></th>
+      <th align="left"><a href="https://jordanmuller.com/portfolio/tags/tailwind-css/"><img src="https://img.shields.io/badge/Tailwind%20CSS-06B6D4.svg?style=for-the-badge&logo=Tailwind-CSS&logoColor=white" height="47px" alt="Tailwind CSS Badge"/></a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2">
+        <img src="https://github.com/itsjordanmuller/portfolio-website/blob/main/src/assets/images/external/tailwind-css-home.png" width="525px" alt="Tailwind CSS Home Page"/>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">Home</td>
+      <td><a href="https://tailwindcss.com/">tailwindcss.com</a></td>
+    </tr>
+    <tr>
+      <td align="center">Docs</td>
+      <td><a href="https://tailwindcss.com/docs/installation">tailwindcss.com/docs/installation</a></td>
+    </tr>
+    <tr>
+      <td align="center">Repo</td>
+      <td><a href="https://github.com/tailwindlabs/tailwindcss">github.com/tailwindlabs/tailwindcss</a></td>
+    </tr>
+    <tr>
+      <td align="center">Topic</td>
+      <td><a href="https://github.com/topics/tailwind">github.com/topics/tailwind</a></td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <br>
+        <blockquote>
+          <details>
+            <summary>View Tailwind CSS Resources & Information</summary>
+            <br>
+            <table>
+              <tbody>
+                <tr>
+                  <td>
+                    <strong>Tailwind CSS Blog</strong><br>
+                    <a href="https://tailwindcss.com/blog">tailwindcss.com/blog</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <strong>Wikipedia Article</strong><br>
+                    <a href="https://en.wikipedia.org/wiki/Tailwind_CSS">en.wikipedia.org/wiki/Tailwind_CSS</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <hr>
+          </details>
+          <details>
+          <summary>View Tailwind CSS Support & Communities</summary>
+          <br>
+          <table>
+              <tbody>
+              <tr>
+                <td>
+                  <strong>Forums & Discussion Boards</strong><br>
+                  <a href="https://www.reddit.com/r/tailwindcss/">reddit.com/r/tailwindcss/</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <strong>Stack Overflow Help</strong><br>
+                  <a href="https://stackoverflow.com/questions/tagged/tailwind-css">stackoverflow.com/questions/tagged/tailwind-css</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </details>
+        </blockquote>
+        <hr>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<div align="right"><a href="#top">(back to top)</a></div>
+<hr>
+
+<h4>Libraries 📙</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th><em>Axios</em><br><a href="https://github.com/axios/axios/releases">2016</a></th>
+      <th align="left"><a href="https://jordanmuller.com/portfolio/tags/axios/"><img src="https://img.shields.io/badge/Axios-5A29E4.svg?style=for-the-badge&logo=Axios&logoColor=white" height="47px" alt="Axios Badge"/></a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2">
+        <img src="https://github.com/itsjordanmuller/portfolio-website/blob/main/src/assets/images/external/axios-home.png" width="525px" alt="Axios Home Page"/>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">Home</td>
+      <td><a href="https://axios-http.com/">axios-http.com</a></td>
+    </tr>
+    <tr>
+      <td align="center">Docs</td>
+      <td><a href="https://axios-http.com/docs/intro">axios-http.com/docs/intro</a></td>
+    </tr>
+    <tr>
+      <td align="center">Repo</td>
+      <td><a href="https://github.com/axios/axios">github.com/axios/axios</a></td>
+    </tr>
+    <tr>
+    <tr>
+      <td align="center">Topic</td>
+      <td><a href="https://github.com/topics/axios">github.com/topics/axios</a></td>
+    </tr>
+      <td colspan="2">
+        <br>
+        <blockquote>
+          <details>
+            <summary>View Axios Resources & Information</summary>
+            <br>
+            <table>
+              <tbody>
+                <tr>
+                  <td>
+                    <strong>Axios API Reference</strong><br>
+                    <a href="https://axios-http.com/docs/api_intro">axios-http.com/docs/api_intro</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <strong>Axios Code of Conduct</strong><br>
+                    <a href="https://github.com/axios/axios/blob/master/CODE_OF_CONDUCT.md">github.com/axios/axios/blob/master/CODE_OF_CONDUCT.md</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <hr>
+          </details>
+          <details>
+            <summary>View Axios Support & Communities</summary>
+            <br>
+            <table>
+              <tbody>
+                <tr>
+                  <td>
+                    <strong>Axios Issues on GitHub</strong><br>
+                    <a href="https://github.com/axios/axios/issues">github.com/axios/axios/issues</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <strong>Stack Overflow Help</strong><br>
+                    <a href="https://stackoverflow.com/questions/tagged/axios">stackoverflow.com/questions/tagged/axios</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </details>
+        </blockquote>
+        <hr>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<div align="right"><a href="#top">(back to top)</a></div>
+<hr>
+
+<h3>🧰 Developer Tools</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th><em>Git</em><br><a href="https://en.wikipedia.org/wiki/Git">2005</a></th>
+      <th align="left"><a href="https://jordanmuller.com/portfolio/tags/git/"><img src="https://img.shields.io/badge/Git-F05032.svg?style=for-the-badge&logo=Git&logoColor=white" height="47px" alt="Git Badge"/></a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2">
+        <img src="https://github.com/itsjordanmuller/portfolio-website/blob/main/src/assets/images/external/git-home.png" width="525px" alt="Git Home Page"/>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">Home</td>
+      <td><a href="https://git-scm.com/">git-scm.com/</a></td>
+    </tr>
+    <tr>
+      <td align="center">Docs</td>
+      <td><a href="https://git-scm.com/doc">git-scm.com/doc</a></td>
+    </tr>
+    <tr>
+      <td align="center">Repo</td>
+      <td><a href="https://github.com/git/git">github.com/git/git</a></td>
+    </tr>
+    <tr>
+      <td align="center">Topic</td>
+      <td><a href="https://github.com/topics/git">github.com/topics/git</a></td>
+    </tr>
+    <tr>
+      <td colspan="2">
+      <br>
+        <blockquote>
+        <details>
+          <summary>View Git Resources & Information</summary>
+          <br>
+          <table>
+            <tbody>
+              <tr>
+                  <td>
+                    <strong>Visual Git Cheatsheet</strong><br>
+                    <a href="https://ndpsoftware.com/git-cheatsheet.html">ndpsoftware.com/git-cheatsheet.html</a>
+                  </td>
+                </tr>
+              <tr>
+                  <td>
+                    <strong>Videos</strong><br>
+                    <a href="https://www.youtube.com/watch?v=tRZGeaHPoaw">Git and GitHub Tutorial for Beginners by Kevin Stratvert</a>
+                  </td>
+                </tr>
+              <tr>
+                <td>
+                  <strong>Wikipedia Article</strong><br>
+                  <a href="https://en.wikipedia.org/wiki/Git">en.wikipedia.org/wiki/Git</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <hr>
+        </details>
+        <details>
+          <summary>View Git Support & Communities</summary>
+          <br>
+          <table>
+            <tbody>
+              <tr>
+                <td>
+                  <strong>Community Links</strong><br>
+                  <ul>
+                    <li><a href="https://git-scm.com/community">git-scm.com/community</a></li>
+                    <li><a href="https://discord.gg/GRFVkzgxRd">discord.gg/GRFVkzgxRd</a></li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <strong>Forums & Discussion Boards</strong><br>
+                  <a href="https://www.reddit.com/r/git/">reddit.com/r/git/</a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <strong>Stack Overflow Help</strong><br>
+                  <a href="https://stackoverflow.com/questions/tagged/git">stackoverflow.com/questions/tagged/git</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </details>
+        </blockquote>
+        <hr>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th><em>GitHub</em><br><a href="https://en.wikipedia.org/wiki/GitHub">2008</a></th>
+      <th align="left"><a href="https://jordanmuller.com/portfolio/tags/github/"><img src="https://img.shields.io/badge/GitHub-181717.svg?style=for-the-badge&logo=GitHub&logoColor=white" height="47px" alt="GitHub Badge"/></a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2">
+        <img src="https://github.com/itsjordanmuller/portfolio-website/blob/main/src/assets/images/external/github-home.png" width="525px" alt="GitHub Home Page"/>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">Home</td>
+      <td><a href="https://github.com/">github.com/</a></td>
+    </tr>
+    <tr>
+      <td align="center">My Profile</td>
+      <td><a href="https://github.com/itsjordanmuller">github.com/itsjordanmuller</a></td>
+    </tr>
+    <tr>
+      <td align="center">Topic</td>
+      <td><a href="https://github.com/topics/github">github.com/topics/github</a></td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <br>
+        <blockquote>
+          <details>
+            <summary>View GitHub Resources & Information</summary>
+            <br>
+            <table>
+              <tbody>
+                <tr>
+                  <td>
+                    <strong>Guides</strong><br>
+                    <a href="https://docs.github.com/en/get-started/quickstart/hello-world">docs.github.com/en/get-started/quickstart/hello-world</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <strong>Videos</strong><br>
+                    <a href="https://www.youtube.com/watch?v=tRZGeaHPoaw">Git and GitHub Tutorial for Beginners by Kevin Stratvert</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <strong>Wikipedia Article</strong><br>
+                    <a href="https://en.wikipedia.org/wiki/GitHub">en.wikipedia.org/wiki/GitHub</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <hr>
+          </details>
+          <details>
+            <summary>View GitHub Support & Communities</summary>
+            <br>
+            <table>
+              <tbody>
+                <tr>
+                  <td>
+                    <strong>GitHub Support</strong><br>
+                    <a href="https://support.github.com/">support.github.com/</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <strong>Forums & Discussion Boards</strong><br>
+                    <a href="https://www.reddit.com/r/github/">reddit.com/r/github/</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <strong>Stack Overflow Help</strong><br>
+                    <a href="https://stackoverflow.com/questions/tagged/github">stackoverflow.com/questions/tagged/github</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </details>
+        </blockquote>
+        <hr>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th><em>VS Code</em><br><a href="https://en.wikipedia.org/wiki/Visual_Studio_Code">2015</a></th>
+      <th align="left"><a href="https://jordanmuller.com/portfolio/tags/vs-code/"><img src="https://img.shields.io/badge/VS%20Code-007ACC.svg?style=for-the-badge&logo=Visual-Studio-Code&logoColor=white" height="47px" alt="VS Code Badge"/></a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2">
+        <img src="https://github.com/itsjordanmuller/portfolio-website/blob/main/src/assets/images/external/vs-code-home.png" width="525px" alt="Visual Studio Code Home Page"/>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">Home</td>
+      <td><a href="https://code.visualstudio.com/">code.visualstudio.com/</a></td>
+    </tr>
+    <tr>
+      <td align="center">Repo</td>
+      <td><a href="https://github.com/microsoft/vscode">github.com/microsoft/vscode</a></td>
+    </tr>
+    <tr>
+      <td align="center">Topic</td>
+      <td><a href="https://github.com/topics/vscode">github.com/topics/vscode</a></td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <br>
+        <blockquote>
+          <details>
+            <summary>View VS Code Resources & Information</summary>
+            <br>
+            <table>
+              <tbody>
+                <tr>
+                  <td>
+                    <strong>VS Code Blog</strong><br>
+                    <a href="https://code.visualstudio.com/blogs">code.visualstudio.com/blogs</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <strong>Wikipedia Article</strong><br>
+                    <a href="https://en.wikipedia.org/wiki/Visual_Studio_Code">en.wikipedia.org/wiki/Visual_Studio_Code</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <hr>
+          </details>
+          <details>
+            <summary>View VS Code Support & Communities</summary>
+            <br>
+            <table>
+              <tbody>
+                <tr>
+                  <td>
+                    <strong>Forums & Discussion Boards</strong><br>
+                    <a href="https://www.reddit.com/r/vscode/">reddit.com/r/vscode/</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <strong>Stack Overflow Help</strong><br>
+                    <a href="https://stackoverflow.com/questions/tagged/visual-studio-code">stackoverflow.com/questions/tagged/visual-studio-code</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </details>
+        </blockquote>
+        <hr>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th><em>Bash</em><br><a href="https://en.wikipedia.org/wiki/Bash_(Unix_shell)">1989</a></th>
+      <th align="left"><a href="https://jordanmuller.com/portfolio/tags/bash/"><img src="https://img.shields.io/badge/Bash-8edf6a.svg?style=for-the-badge&logo=GNU-Bash&logoColor=black" height="47px" alt="Bash Badge"/></a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2">
+        <img src="https://github.com/itsjordanmuller/portfolio-website/blob/main/src/assets/images/external/bash-home.png" width="525px" alt="Bash Home Page"/>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">Home</td>
+      <td><a href="https://www.gnu.org/software/bash/">gnu.org/software/bash/</a></td>
+    </tr>
+    <tr>
+      <td align="center">Topic</td>
+      <td>
+        <ul>
+          <li><a href="https://github.com/topics/bash">github.com/topics/bash</a></li>
+          <li><a href="https://github.com/topics/bash-script">github.com/topics/bash-script</a></li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <br>
+        <blockquote>
+          <details>
+            <summary>View Bash Resources & Information</summary>
+            <br>
+            <table>
+              <tbody>
+                <tr>
+                  <td>
+                    <strong>About GNU</strong><br>
+                    <a href="https://www.gnu.org/gnu/gnu.html">www.gnu.org/gnu/gnu.html</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <strong>Wikipedia Article</strong><br>
+                    <a href="https://en.wikipedia.org/wiki/Bash_(Unix_shell)">en.wikipedia.org/wiki/Bash_(Unix_shell)</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <hr>
+          </details>
+          <details>
+            <summary>View Bash Support & Communities</summary>
+            <br>
+            <table>
+              <tbody>
+                <tr>
+                  <td>
+                    <strong>Forums & Discussion Boards</strong><br>
+                    <a href="https://www.reddit.com/r/bash/">reddit.com/r/bash/</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <strong>Stack Overflow Help</strong><br>
+                    <a href="https://stackoverflow.com/questions/tagged/bash">stackoverflow.com/questions/tagged/bash</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </details>
+        </blockquote>
+        <hr>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th><em>Prettier</em><br><a href="https://github.com/prettier/prettier/releases">2017</a></th>
+      <th align="left"><a href="https://jordanmuller.com/portfolio/tags/prettier/"><img src="https://img.shields.io/badge/Prettier-F7B93E.svg?style=for-the-badge&logo=Prettier&logoColor=black" height="47px" alt="Prettier Badge"/></a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2">
+        <img src="https://github.com/itsjordanmuller/portfolio-website/blob/main/src/assets/images/external/prettier-home.png" width="525px" alt="Prettier Home Page"/>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">Home</td>
+      <td><a href="https://prettier.io/">prettier.io</a></td>
+    </tr>
+    <tr>
+      <td align="center">Docs</td>
+      <td><a href="https://prettier.io/docs/en/">prettier.io/docs/en</a></td>
+    </tr>
+    <tr>
+      <td align="center">Repo</td>
+      <td><a href="https://github.com/prettier/prettier">github.com/prettier/prettier</a></td>
+    </tr>
+    <tr>
+      <td align="center">Topic</td>
+      <td><a href="https://github.com/topics/prettier">github.com/topics/prettier</a></td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <br>
+        <blockquote>
+            <details>
+            <summary>View Prettier Resources & Information</summary>
+            <br>
+            <table>
+              <tbody>
+                <tr>
+                  <td>
+                    <strong>Prettier Playground</strong><br>
+                    <a href="https://prettier.io/playground/">prettier.io/playground</a>
+                  </td>
+                </tr>
+                <tr>
+                <tr>
+                  <td>
+                    <strong>Prettier Blog</strong><br>
+                    <a href="https://prettier.io/blog/">prettier.io/blog</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <hr>
+          </details>
+          <details>
+            <summary>View Prettier Support & Communities</summary>
+            <br>
+            <table>
+              <tbody>
+                <tr>
+                  <td>
+                    <strong>Stack Overflow Help</strong><br>
+                    <a href="https://stackoverflow.com/questions/tagged/prettier">stackoverflow.com/questions/tagged/prettier</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </details>
+        </blockquote>
+        <hr>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th><em>ESLint</em><br><a href="https://en.wikipedia.org/wiki/ESLint">2013</a></th>
+      <th align="left"><a href="https://jordanmuller.com/portfolio/tags/es-lint/"><img src="https://img.shields.io/badge/ESLint-4B32C3.svg?style=for-the-badge&logo=ESLint&logoColor=white" height="47px" alt="ESLint Badge"/></a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2">
+        <img src="https://github.com/itsjordanmuller/portfolio-website/blob/main/src/assets/images/external/es-lint-home.png" width="525px" alt="ESLint Home Page"/>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">Home</td>
+      <td><a href="https://eslint.org/">eslint.org</a></td>
+    </tr>
+    <tr>
+      <td align="center">Docs</td>
+      <td><a href="https://eslint.org/docs/latest/">eslint.org/docs/latest</a></td>
+    </tr>
+    <tr>
+      <td align="center">Repo</td>
+      <td><a href="https://github.com/eslint/eslint">github.com/eslint/eslint</a></td>
+    </tr>
+    <tr>
+      <td align="center">Topic</td>
+      <td><a href="https://github.com/topics/eslint">github.com/topics/eslint</a></td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <br>
+        <blockquote>
+          <details>
+            <summary>View ESLint Resources & Information</summary>
+            <br>
+            <table>
+              <tbody>
+                <tr>
+                  <td>
+                    <strong>Playground</strong><br>
+                    <a href="https://eslint.org/play/">eslint.org/play</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <strong>Blog</strong><br>
+                    <a href="https://eslint.org/blog/">eslint.org/blog</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <hr>
+          </details>
+          <details>
+            <summary>View ESLint Support & Communities</summary>
+            <br>
+            <table>
+              <tbody>
+                <tr>
+                  <td>
+                    <strong>Stack Overflow Help</strong><br>
+                    <a href="https://stackoverflow.com/questions/tagged/eslint">stackoverflow.com/questions/tagged/eslint</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </details>
+        </blockquote>
+        <hr>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th><em>Kubuntu</em><br><a href="https://en.wikipedia.org/wiki/Kubuntu">2006</a></th>
+      <th align="left"><a href="https://jordanmuller.com/portfolio/tags/kubuntu/"><img src="https://img.shields.io/badge/Kubuntu-0079C1.svg?style=for-the-badge&logo=Kubuntu&logoColor=white" height="47px" alt="Kubuntu Badge"/></a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2">
+        <img src="https://github.com/itsjordanmuller/portfolio-website/blob/main/src/assets/images/external/kubuntu-home.png" width="525px" alt="Kubuntu Home Page"/>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">Home</td>
+      <td><a href="https://kubuntu.org/">kubuntu.org/</a></td>
+    </tr>
+    <tr>
+      <td align="center">Topic</td>
+      <td><a href="https://github.com/topics/kubuntu">github.com/topics/kubuntu</a></td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <br>
+        <blockquote>
+          <details>
+            <summary>View Kubuntu Resources & Information</summary>
+            <br>
+            <table>
+              <tbody>
+                <tr>
+                  <td>
+                    <strong>Features</strong><br>
+                    <a href="https://kubuntu.org/feature-tour/">kubuntu.org/feature-tour/</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <strong>About Kubuntu</strong><br>
+                    <a href="https://kubuntu.org/about-us/">kubuntu.org/about-us/</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <strong>Wikipedia Article</strong><br>
+                    <a href="https://en.wikipedia.org/wiki/Kubuntu">en.wikipedia.org/wiki/Kubuntu</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <hr>
+          </details>
+          <details>
+            <summary>View Kubuntu Support & Communities</summary>
+            <br>
+            <table>
+              <tbody>
+                <tr>
+                  <td>
+                    <strong>Kubuntu Community</strong><br>
+                    <a href="https://kubuntu.org/community/">kubuntu.org/community/</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <strong>Forums & Discussion Boards</strong><br>
+                    <a href="https://www.reddit.com/r/kubuntu/">reddit.com/r/kubuntu/</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <strong>Stack Overflow Help</strong><br>
+                    <a href="https://unix.stackexchange.com/questions/tagged/kubuntu">unix.stackexchange.com/questions/tagged/kubuntu</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </details>
+        </blockquote>
+        <hr>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th><em>KDE</em><br><a href="https://en.wikipedia.org/wiki/KDE">1996</a></th>
+      <th align="left"><a href="https://jordanmuller.com/portfolio/tags/kde/"><img src="https://img.shields.io/badge/KDE-1D99F3.svg?style=for-the-badge&logo=KDE&logoColor=white" height="47px" alt="KDE Badge"/></a></th>
+    </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td colspan="2">
+      <img src="https://github.com/itsjordanmuller/portfolio-website/blob/main/src/assets/images/external/kde-home.png" width="525px" alt="KDE Home Page"/>
+    </td>
+  </tr>
+    <tr>
+      <td align="center">Home</td>
+      <td><a href="https://kde.org/">kde.org/</a></td>
+    </tr>
+    <tr>
+      <td align="center">Topic</td>
+      <td><a href="https://github.com/topics/kde">github.com/topics/kde</a></td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <br>
+        <blockquote>
+          <details>
+            <summary>View KDE Resources & Information</summary>
+            <br>
+            <table>
+              <tbody>
+                <tr>
+                  <td>
+                    <strong>What is KDE?</strong><br>
+                    <a href="https://kde.org/community/whatiskde/">kde.org/community/whatiskde/</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <strong>KDE Apps</strong><br>
+                    <a href="https://apps.kde.org">apps.kde.org</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <strong>Wikipedia Article</strong><br>
+                    <a href="https://en.wikipedia.org/wiki/KDE">en.wikipedia.org/wiki/KDE</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <hr>
+          </details>
+          <details>
+            <summary>View KDE Support & Communities</summary>
+            <br>
+            <table>
+              <tbody>
+                <tr>
+                  <td>
+                    <strong>Forums & Discussion Boards</strong><br>
+                    <a href="https://www.reddit.com/r/kde/">reddit.com/r/kde/</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <strong>Stack Overflow Help</strong><br>
+                    <a href="https://unix.stackexchange.com/questions/tagged/kde">unix.stackexchange.com/questions/tagged/kde</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </details>
+        </blockquote>
+        <hr>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th><em>Ubuntu</em><br><a href="https://en.wikipedia.org/wiki/Ubuntu">2004</a></th>
+      <th align="left"><a href="https://jordanmuller.com/portfolio/tags/ubuntu/"><img src="https://img.shields.io/badge/Ubuntu-E95420.svg?style=for-the-badge&logo=Ubuntu&logoColor=white" height="47px" alt="Ubuntu Badge"/></a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2">
+        <img src="https://github.com/itsjordanmuller/portfolio-website/blob/main/src/assets/images/external/ubuntu-home.png" width="525px" alt="Ubuntu Home Page"/>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">Home</td>
+      <td><a href="https://ubuntu.com/">ubuntu.com/</a></td>
+    </tr>
+    <tr>
+      <td align="center">Topic</td>
+      <td><a href="https://github.com/topics/ubuntu">github.com/topics/ubuntu</a></td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <br>
+        <blockquote>
+          <details>
+            <summary>View Ubuntu Resources & Information</summary>
+            <br>
+            <table>
+              <tbody>
+                <tr>
+                  <td>
+                    <strong>Ubuntu Blog</strong><br>
+                    <a href="https://ubuntu.com/blog">ubuntu.com/blog</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <strong>Ubuntu Resources</strong><br>
+                    <a href="https://ubuntu.com/engage">ubuntu.com/engage</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <strong>Wikipedia Article</strong><br>
+                    <a href="https://en.wikipedia.org/wiki/Ubuntu">en.wikipedia.org/wiki/Ubuntu</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <hr>
+          </details>
+          <details>
+            <summary>View Ubuntu Support & Communities</summary>
+            <br>
+            <table>
+              <tbody>
+                <tr>
+                  <td>
+                    <strong>Ubuntu Community</strong><br>
+                    <a href="https://ubuntu.com/#community">ubuntu.com/#community</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <strong>Forums & Discussion Boards</strong><br>
+                    <a href="https://www.reddit.com/r/Ubuntu/">reddit.com/r/Ubuntu/</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <strong>Stack Overflow Help</strong><br>
+                    <a href="https://stackoverflow.com/questions/tagged/ubuntu">stackoverflow.com/questions/tagged/ubuntu</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </details>
+        </blockquote>
+        <hr>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th><em>Debian</em><br><a href="https://en.wikipedia.org/wiki/Debian">1993</a></th>
+      <th align="left"><a href="https://jordanmuller.com/portfolio/tags/debian/"><img src="https://img.shields.io/badge/Debian-A81D33.svg?style=for-the-badge&logo=Debian&logoColor=white" height="47px" alt="Debian Badge"/></a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2">
+        <img src="https://github.com/itsjordanmuller/portfolio-website/blob/main/src/assets/images/external/debian-home.png" width="525px" alt="Debian Home Page"/>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">Home</td>
+      <td><a href="https://www.debian.org/">debian.org</a></td>
+    </tr>
+    <tr>
+      <td align="center">Topic</td>
+      <td><a href="https://github.com/topics/debian">github.com/topics/debian</a></td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <br>
+        <blockquote>
+          <details>
+            <summary>View Debian Resources & Information</summary>
+            <br>
+            <table>
+              <tbody>
+                <tr>
+                  <td>
+                    <strong>Debian Blog</strong><br>
+                    <a href="https://bits.debian.org">bits.debian.org</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <strong>Wikipedia Article</strong><br>
+                    <a href="https://en.wikipedia.org/wiki/Debian">en.wikipedia.org/wiki/Debian</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <hr>
+          </details>
+          <details>
+            <summary>View Debian Support & Communities</summary>
+            <br>
+            <table>
+              <tbody>
+                <tr>
+                  <td>
+                    <strong>Debian Support</strong><br>
+                    <a href="https://www.debian.org/support">debian.org/support</a>
+                  </td>
+                </tr>
+                <tr>
+                <tr>
+                  <td>
+                    <strong>Forums & Discussion Boards</strong><br>
+                    <a href="https://www.reddit.com/r/debian/">reddit.com/r/debian/</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <strong>Stack Overflow Help</strong><br>
+                    <a href="https://stackoverflow.com/questions/tagged/Debian">stackoverflow.com/questions/tagged/Debian</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </details>
+        </blockquote>
+        <hr>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th><em>Linux</em><br><a href="https://en.wikipedia.org/wiki/Linux">1991</a></th>
+      <th align="left"><a href="https://jordanmuller.com/portfolio/tags/linux/"><img src="https://img.shields.io/badge/Linux-FCC624.svg?style=for-the-badge&logo=Linux&logoColor=black" height="47px" alt="Linux Badge"/></a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2">
+        <img src="https://github.com/itsjordanmuller/portfolio-website/blob/main/src/assets/images/external/linux-home.png" width="525px" alt="Linux Home Page"/>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">Home</td>
+      <td><a href="https://kernel.org/">kernel.org</a></td>
+    </tr>
+    <tr>
+      <td align="center">Topic</td>
+      <td><a href="https://github.com/topics/linux">github.com/topics/linux</a></td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <br>
+        <blockquote>
+          <details>
+            <summary>View Linux Resources & Information</summary>
+            <br>
+            <table>
+              <tbody>
+                <tr>
+                  <td>
+                    <strong>About Linux</strong><br>
+                    <a href="https://kernel.org/category/about.html">kernel.org/category/about.html</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <strong>Frequently Asked Questions</strong><br>
+                    <a href="https://kernel.org/category/faq.html">kernel.org/category/faq.html</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <strong>Wikipedia Article</strong><br>
+                    <a href="https://en.wikipedia.org/wiki/Linux">en.wikipedia.org/wiki/Linux</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <hr>
+          </details>
+          <details>
+            <summary>View Linux Support & Communities</summary>
+            <br>
+            <table>
+              <tbody>
+                <tr>
+                  <td>
+                    <strong>Linux Support</strong><br>
+                    <a href="https://kernel.org/category/contact-us.html">kernel.org/category/contact-us.html</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <strong>Forums & Discussion Boards</strong><br>
+                    <a href="https://www.reddit.com/r/linux/">reddit.com/r/linux/</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <strong>Stack Overflow Help</strong><br>
+                    <a href="https://stackoverflow.com/questions/tagged/linux">stackoverflow.com/questions/tagged/linux</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </details>
+        </blockquote>
+        <hr>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<br>
+<div align="right"><a href="#top">(back to top)</a></div>
+<hr>
+
+<h3>🗂️ Additional & External Resources</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th><em>Font Awesome</em><br><a href="https://en.wikipedia.org/wiki/Font_Awesome">2012</a></th>
+      <th align="left"><a href="https://jordanmuller.com/portfolio/tags/font-awesome/"><img src="https://img.shields.io/badge/Font%20Awesome-528DD7.svg?style=for-the-badge&logo=Font-Awesome&logoColor=white" height="47px" alt="Font Awesome Badge"/></a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2">
+        <img src="https://github.com/itsjordanmuller/portfolio-website/blob/5df4ef75d87c9ff26c459aa15b3aae5955b637dc/src/assets/images/external/font-awesome-home.png" width="525px" alt="Font Awesome Home Page"/>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">Home</td>
+      <td><a href="https://fontawesome.com/">fontawesome.com</a></td>
+    </tr>
+    <tr>
+      <td align="center">Docs</td>
+      <td><a href="https://fontawesome.com/docs">fontawesome.com/docs</a></td>
+    </tr>
+    <tr>
+      <td align="center">Repo</td>
+      <td><a href="https://github.com/FortAwesome/Font-Awesome">github.com/FortAwesome/Font-Awesome</a></td>
+    </tr>
+    <tr>
+      <td align="center">Topic</td>
+      <td><a href="https://github.com/topics/font-awesome">github.com/topics/font-awesome</a></td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <br>
+        <blockquote>
+          <details>
+            <summary>View Font Awesome Resources & Information</summary>
+            <br>
+            <table>
+              <tbody>
+                <tr>
+                  <td>
+                    <strong>Icons</strong><br>
+                    <a href="https://fontawesome.com/icons">fontawesome.com/icons</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <hr>
+          </details>
+          <details>
+            <summary>View Font Awesome Support & Community</summary>
+            <br>
+            <table>
+              <tbody>
+                <tr>
+                  <td>
+                    <strong>Stack Overflow Help</strong><br>
+                    <a href="https://stackoverflow.com/questions/tagged/font-awesome">stackoverflow.com/questions/tagged/font-awesome</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <strong>Support</strong><br>
+                    <a href="https://fontawesome.com/support">fontawesome.com/support</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </details>
+        </blockquote>
+        <hr>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<table>
+  <thead>
+    <tr>
+      <th><em>Unsplash</em><br><a href="https://en.wikipedia.org/wiki/Unsplash">2013</a></th>
+      <th align="left"><a href="https://jordanmuller.com/portfolio/tags/unsplash/"><img src="https://img.shields.io/badge/Unsplash-000000.svg?style=for-the-badge&logo=Unsplash&logoColor=white" height="47px" alt="Unsplash Badge"/></a></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td colspan="2">
+        <img src="https://github.com/itsjordanmuller/portfolio-website/blob/5df4ef75d87c9ff26c459aa15b3aae5955b637dc/src/assets/images/external/unsplash-home.png" width="525px" alt="Unsplash Home Page"/>
+      </td>
+    </tr>
+    <tr>
+      <td align="center">Home</td>
+      <td><a href="https://unsplash.com/">unsplash.com</a></td>
+    </tr>
+    <tr>
+      <td align="center">Docs</td>
+      <td><a href="https://unsplash.com/documentation">unsplash.com/documentation</a></td>
+    </tr>
+    <tr>
+      <td align="center">Repo</td>
+      <td><a href="https://github.com/unsplash/datasets">github.com/unsplash/datasets</a></td>
+    </tr>
+    <tr>
+      <td align="center">Topic</td>
+      <td><a href="https://github.com/topics/unsplash">github.com/topics/unsplash</a></td>
+    </tr>
+    <tr>
+      <td colspan="2">
+        <br>
+        <blockquote>
+          <details>
+            <summary>View Unsplash Resources & Information</summary>
+            <br>
+            <table>
+              <tbody>
+                <tr>
+                  <td>
+                    <strong>Developer Portal</strong><br>
+                    <a href="https://unsplash.com/developers">unsplash.com/developers</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <strong>Unsplash Dataset</strong><br>
+                    <a href="https://unsplash.com/data">unsplash.com/data</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <strong>Unsplash Blog</strong><br>
+                    <a href="https://unsplash.com/blog/">unsplash.com/blog/</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <strong>GitHub Organization</strong><br>
+                    <a href="https://github.com/unsplash">github.com/unsplash</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <hr>
+          </details>
+          <details>
+            <summary>View Unsplash Support & Community</summary>
+            <br>
+            <table>
+              <tbody>
+                <tr>
+                  <td>
+                    <strong>Unsplash Support</strong><br>
+                    <a href="https://unsplash.com/community">unsplash.com/community</a>
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <strong>Unsplash Community</strong><br>
+                    <a href="https://help.unsplash.com/en/">help.unsplash.com/en/</a>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </details>
+        </blockquote>
+        <hr>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<div align="right"><a href="#top">(back to top)</a></div>
+<hr>
+
+<h3>🖇️ Additional Resources & Learning Materials</h3>
+<table>
+  <tr>
+    <th nowrap align="left">Resource Title</th>
+    <th nowrap align="left">Resource Description</th>
+    <th align="left">Link Type</th>
+    <th align="left">Link to Resource</th>
+  </tr>
+  <tr>
+    <td>Git and GitHub Tutorial for Beginners</td>
+    <td>Beginner's Introduction to Git and GitHub by <a href="https://www.youtube.com/@KevinStratvert">Kevin Stratvert</a> on <a href="https://www.youtube.com/">YouTube</a></td>
+    <td>Video</td>
+    <td>https://youtu.be/tRZGeaHPoaw?si=RnK9nCUEVb-aWjDb</td>
+  </tr>
+  <tr>
+    <td>Git for Everybody: How to Clone a Repository from GitHub</td>
+    <td>Example on How to Clone a GitHub Repository by <a href="https://www.youtube.com/@CodingForEverybody">Coding For Everybody</a> on <a href="https://www.youtube.com/">YouTube</a></td>
+    <td>Video</td>
+    <td>https://www.youtube.com/watch?v=CKcqniGu3tA&feature=youtu.be</td>
+  </tr>
+</table>
+
+<hr>
+
 </details>
 
 <a id="license-section"></a>
