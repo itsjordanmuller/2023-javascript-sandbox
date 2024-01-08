@@ -337,6 +337,112 @@
 <a id="usage-section"></a>
 <details open>
 <summary align="center"><h2>💡 Usage Guide</h2></summary>
+
+<details open>
+<summary><h3>🚀 Getting Started</h3></summary>
+
+<h4>Looking for Live Demos? 🌐</h4>
+
+<blockquote>
+  <p>If you're eager to simply see the results of this project, most, if not all of the projects have a Live Demo associated with them. I have linked them all in the overview for each specific project/section. To view these live demos, simply follow the links provided with each project. You'll see them alongside buttons that look like this:</p>
+
+<div align="center">
+  <table >
+    <thead align="center">
+      <tr>
+        <td>
+        <a href="https://github.com/itsjordanmuller/2023-react-sandbox/tree/main/01-fundamentals/react-fundamentals"><img src="https://custom-icon-badges.demolab.com/badge/Directory-F6E481.svg?style=for-the-badge&logo=file-submodule&logoColor=black"/></a>
+        </td>
+        <td>
+        <a href="https://github.com/itsjordanmuller/2023-react-sandbox/tree/main"><img src="https://custom-icon-badges.demolab.com/badge/Live%20Demo-FF3333.svg?style=for-the-badge&logoSource=feather&logo=browser&logoColor=white"/></a>
+        </td>
+        <td>
+        <a href="https://jordanmuller.com/portfolio/50-projects-50-days-html-css-js/"><img src="https://custom-icon-badges.demolab.com/badge/Portfolio-a61168.svg?style=for-the-badge&logo=briefcase&logoColor=white"/></a>
+        </td>
+      </tr>
+    </thead>
+    <tbody align="center">
+      <tr>
+        <td>
+          <a href="https://github.com/itsjordanmuller/2023-react-sandbox/tree/main/01-fundamentals/react-fundamentals">Go to Directory</a>
+        </td>
+        <td>
+          <a href="https://github.com/itsjordanmuller/2023-react-sandbox/tree/main">Live Demo</a>
+        </td>
+        <td>
+          <a href="https://jordanmuller.com/portfolio/50-projects-50-days-html-css-js/">Open on Portfolio</a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+  <p>Click the button/link and you should be taken to the Live Demo for that specific project. Please note that some projects don't have a Live Demo, and if that's the case there will not be a button/link. I'm hoping to get all of the projects on the internet at some point in the near future, so check back soon and you might find a link!</p>
+</blockquote>
+
+<h4>Want to View the Projects on Your Local Machine? 💻</h4>
+
+<blockquote>
+  <p>I have provided detailed instructions for how to clone/download this repository to your local machine in the Setup Instructions section. In that section, you should find everything you need to be able to get these projects running and working on your own machine. Please note that a few of the projects use external APIs that include verification, so you will need to setup your own accounts/API keys for those services.</p>
+  <p>If you plan on running the code on your local machine, be sure to check the specific project you're trying to run to see if it needs any additional information or setup for the connections to the API to work. In most cases, I will try to include a `.env.example` file. You will need to open this file, and read the instructions inside to obtain your own API key. Once that's done, you'll need to make sure you've renamed the file from `.env.example` to `.env` only.</p>
+  <p>If you want to avoid setting up environment variables, check to see if the project has a Live Demo associated with it. For all of the projects that I have hosted on the internet, you'll be able to use them without any API configuration required. This is often a simpler way of viewing more complicated projects, since everything will already be running for you to view, use & explore.</p>
+</blockquote>
+<hr>
+<table>
+  <thead>
+    <tr>
+      <th>
+        <h4>Just Hoping to Learn More About Programming? 📚</h4>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>
+        <blockquote>
+          <p>I have provided a variety of resources and guides throughout this README for new developers. From the absolute basics, to specific videos and guides that helped me get unstuck in certain situations, I tried to include every single resource I ended up utilizing over the course of my journey.</p>
+          <p>We are so lucky to live in a time where almost all of this information is available for free on the internet. The only thing I paid for was the course itself, which can be purchased for about $20 on sale at <a href="https://www.udemy.com/">Udemy</a>. Besides that, I was able to complete the project with a low-spec <a href="https://www.amazon.com/dp/B0842X4BNF">Lenovo Thinkpad T480</a> I purchased for just under $300. It's proven to be a perfect machine for development & running <a href="https://kubuntu.org/">Kubuntu Linux</a>.</p>
+        </blockquote>
+        <br>
+        <strong><em>A full list of tech, tools, and other links & resources can be found towards the bottom of this README in the <a href="#resources-section">Links & Citations</a> section.</em></strong>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+</details>
+
+<!-- <details open>
+<summary><h3>✴️ Features</h3></summary><blockquote>
+a
+b
+c
+
+<details open>
+<summary><h4>Building Features ✳️</h4></summary><blockquote>
+a
+b
+c
+</blockquote>
+</details>
+
+</blockquote>
+</details> -->
+
+<!-- <details open>
+<summary><h3>🎛️ Configuration Options</h3></summary><blockquote>
+a
+b
+c
+</blockquote>
+</details> -->
+
+<details open>
+<summary><h3>💾 Installation</h3></summary><blockquote>
+For detailed installation instructions, please refer to the <a href="#setup-section">Setup Instructions</a> section below.
+</blockquote>
+</details>
+
 <div align="right"><a href="#top">(back to top)</a></div>
 <hr>
 
